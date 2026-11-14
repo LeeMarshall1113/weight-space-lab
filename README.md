@@ -1,5 +1,7 @@
 # Weight-space lab
 
+Personal work. Views are my own.
+
 Private pre-release copy (not published). Owner handle: `LeeMarshall1113`. Display name:
 [placeholder, to be filled in by the owner].
 

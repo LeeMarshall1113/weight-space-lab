@@ -1,5 +1,7 @@
 # proofs/: kernel-checked transformers: proofs, checker and data
 
+Personal work. Views are my own.
+
 Status: private pre-release copy, flagship folder of the weight-space lab repository. Not yet published. Nothing here has been peer reviewed. All commands below run inside this folder (`proofs/`).
 
 This repository holds the Lean 4 proofs, the checker, the specification pools, the
