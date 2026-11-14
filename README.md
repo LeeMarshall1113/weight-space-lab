@@ -2,8 +2,7 @@
 
 Personal work. Views are my own.
 
-Private pre-release copy (not published). Owner handle: `LeeMarshall1113`. Display name:
-[placeholder, to be filled in by the owner].
+Private pre-release copy (not yet public). Maintainer: `LeeMarshall1113`.
 
 This is a living, correctable lab notebook, not a finished publication. **Please try to
 break it** (see `CONTRIBUTING.md`). Corrections are logged in `CHANGELOG.md` with credit,
@@ -75,12 +74,11 @@ CONTRIBUTING.md, CHANGELOG.md, .github/ISSUE_TEMPLATE/   (how to report; correct
 
 ## Licence
 
-Code, Lean files and scripts: Apache-2.0 (`LICENSE`, `NOTICE`). **Proposed, for the owner to
-confirm:** the text and documents (READMEs, `docs/`, any write-up) under CC-BY-4.0. Until the
-owner confirms, treat documents as all rights reserved. Third-party models and datasets
+Code, Lean files and scripts: Apache-2.0 (`LICENSE`, `NOTICE`). Text and documents
+(READMEs, `docs/`, any write-up): CC-BY-4.0. Third-party models and datasets
 are not redistributed here; each folder will say what it needs and under what licence.
 
 ## Status of this copy
 
-Nothing has been pushed anywhere; there is no remote. A DOI will be assigned when the
-repository is archived (placeholder in `CITATION.cff`).
+This repository is private while the write-up is being checked. A DOI will be assigned
+when it is archived (placeholder in `CITATION.cff`).

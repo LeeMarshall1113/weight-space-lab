@@ -2,9 +2,8 @@ cff-version: 1.2.0
 message: "If you use this work, please cite it as below. Fields in [brackets] are placeholders."
 title: "Weight-space lab: kernel-checked proofs and results"
 authors:
-  - name: "[DISPLAY NAME: placeholder]"
-    alias: "LeeMarshall1113"
-repository-code: "https://github.com/LeeMarshall1113/[REPOSITORY NAME]"
+  - name: "LeeMarshall1113"
+repository-code: "https://github.com/LeeMarshall1113/weight-space-lab"
 doi: "[DOI: assigned at archiving]"
 license: Apache-2.0
 version: "[version]"

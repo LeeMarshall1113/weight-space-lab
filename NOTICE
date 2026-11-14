@@ -1,9 +1,9 @@
 Weight-space lab: proofs and results
-Copyright 2026 LeeMarshall1113 [DISPLAY NAME: placeholder for the owner to fill in]
+Copyright 2026 LeeMarshall1113
 
 Licensed under the Apache License, Version 2.0 (see LICENSE) for code, Lean files and
-scripts. Text and documents (README files, docs/, write-ups) are proposed to be
-licensed CC-BY-4.0, pending the owner's confirmation; see README.md.
+scripts. Text and documents (README files, docs/, write-ups) are licensed
+CC-BY-4.0; see README.md.
 
 This repository does not contain or redistribute Lean, Mathlib or their dependencies.
 Building the Lean proofs fetches Lean 4 and Mathlib (both Apache-2.0) at the revisions
