@@ -79,7 +79,7 @@ runs/rungN-test|dev/{net,prog,twin}/<id>/
                        case.json, Spec.lean, Final.lean, Solution.lean, TASK.md,
                        attempts/NN.json + NN.lean (every submission with the checker's verdict),
                        net.json (exported network), r3_checks.json / r4_checks.json
-results/               per-case result JSONs (the sources of the paper's tables)
+results/               per-case result JSONs (the sources of the write-up's tables)
 docs/                  PREREG*.md (pre-registrations, with dated amendments), RESULTS*.md, NOVELTY.md
 smoke/                 negative controls (wrong weight, sorry, native_decide, banned token) for the checker
 VERIFY.md              what was re-run from this folder, with times

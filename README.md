@@ -5,11 +5,42 @@ Personal work. Views are my own.
 Private pre-release copy (not published). Owner handle: `LeeMarshall1113`. Display name:
 [placeholder, to be filled in by the owner].
 
+This is a living, correctable lab notebook, not a finished publication. **Please try to
+break it** (see `CONTRIBUTING.md`). Corrections are logged in `CHANGELOG.md` with credit,
+and claims that do not survive are downgraded in the table below, not quietly edited.
+
 A lab-style repository of experiments on **LLMs writing, reading and editing neural-network
 weights**, with pre-registrations, negative results kept, and where possible machine-checked
 proofs. Each result lives in its own folder with its own README, pre-registration and
 instructions to check it. Only `proofs/` is included so far; the other folders are slots
 that will be filled as results are cleared for release.
+
+## Known weaknesses (read first)
+
+These are the weak points we know of; each is repeated, with detail, in `proofs/README.md`
+("Limits"). If you find another, that is exactly what we want to hear.
+
+1. **The headline contrast is not like-for-like.** The fragility numbers use an absolute
+   weight change (zeros included); the rung-4 ball is relative with zeros held fixed. The
+   rung-2 networks have not been tested under the relative ball, so "exact proofs are
+   fragile, ours are not" is not established; only that exact-tie constructions break under
+   additive noise.
+2. **The theorem is about a tailored model.** Hard attention with ties averaged (not
+   softmax), hand-written weights, width at most 15, and a *rounding model* (not IEEE:
+   no overflow, underflow, subnormals, fused multiply-add or reordered sums), valid only up
+   to 65,535 tokens. We have not shown a Lean witness that the rounding hypothesis is
+   satisfiable for a positive unit roundoff.
+3. **Counting tasks are excluded** (parity, Dyck, sort), where a ball must shrink like 1/n.
+4. **No practical advantage over a plain verified program:** the control arm solved every
+   task with proofs about a tenth as long. The two arms prove different statements.
+5. **Tasks were chosen knowing which mechanism works**, with a lemma kit and a worked
+   example supplied; the result is about proof automation as much as about transformers.
+6. **The statements are only as good as `Spec.lean`, `Final.lean` and `Lane4/RSeq.lean`**,
+   which we wrote; the kernel checks proofs against them, not against intent.
+7. **Novelty is a search over abstracts**, not a literature review; "not found" is weaker
+   than "does not exist".
+8. **Small samples:** 11 of 12, 12 of 12, 10 of 10; one model family; the one miss is an
+   agent crash, counted as a failure.
 
 ## Index of results
 
@@ -39,12 +70,13 @@ proofs/            Lean proofs, checker, pools, pre-registrations, per-case resu
 injection/ detection/ reading/ self-improvement/ typed-decisions/ harness/             (empty slots)
 LICENSE            Apache-2.0 (code, Lean files, scripts)
 NOTICE, CITATION.cff
+CONTRIBUTING.md, CHANGELOG.md, .github/ISSUE_TEMPLATE/   (how to report; corrections log)
 ```
 
 ## Licence
 
 Code, Lean files and scripts: Apache-2.0 (`LICENSE`, `NOTICE`). **Proposed, for the owner to
-confirm:** the text and documents (READMEs, `docs/`, any paper) under CC-BY-4.0. Until the
+confirm:** the text and documents (READMEs, `docs/`, any write-up) under CC-BY-4.0. Until the
 owner confirms, treat documents as all rights reserved. Third-party models and datasets
 are not redistributed here; each folder will say what it needs and under what licence.
 

@@ -32,7 +32,7 @@ exercised here. The test used a copy of this tree; the verdict does not depend o
    | rung 4 | 11 / 11, 242 s | 12 / 12, 124 s |
 
    The rung-4 net arm has 12 cases but 11 have a `Solution.lean`: `i03` has none (the
-   agent crashed before submitting; counted as a fail in the paper).
+   agent crashed before submitting; counted as a fail in the write-up).
 2. **Final-layout re-run (after moving into `proofs/`, `build/` deleted, oleans rebuilt):**
    a sample, **19 of 19 passed** in 333 s: rung 2 net and prog `a00`, `p05`, `s01`;
    rung 3 net and prog `p001`, `p119`, `p281`; rung 4 net `c14`, `f24`, `i09` and prog
@@ -51,7 +51,7 @@ exercised here. The test used a copy of this tree; the verdict does not depend o
 ## What this does not show
 
 - It re-checks that the recorded solutions are accepted by the Lean kernel against the
-  recorded statements. It does not check that the statements say what the paper says;
+  recorded statements. It does not check that the statements say what the write-up says;
   that is for a reader (README, "Reproduction").
 - Times here are shorter than those recorded in the original attempt logs (for example
   134 s for rung-4 `c07` there, at most 29 s here); the logs were taken on a busier machine.
