@@ -1,0 +1,17 @@
+{
+ "case": "i03",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-13 05:47:11",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.7,
+ "peak_rss_gb": 1.72,
+ "peak_commit_gb": 3.9,
+ "lean_output": "<repo>\\runs\\rung4-test\\prog\\i03\\_Full.lean:73:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung4-test\\prog\\i03\\_Full.lean:78:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n<repo>\\runs\\rung4-test\\prog\\i03\\_Full.lean:140:6: error: `dsimp` made no progress\n<repo>\\runs\\rung4-test\\prog\\i03\\_Full.lean:203:23: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  (l ++ [t]).length\nin the target expression\n  (if p = t then h t else h (nx t)) =\n    match pv (l ++ [t]) (tokAt (l ++ [t]) (l.length + 1)) (l.length + 1) with\n    | some j => h (tokAt (l ++ [t]) (j + 1))\n    | none => 0\n\ncase neg\nl : List \u2115\nt : \u2115\nih :\n  (\u2200 t \u2208 l, 1 \u2264 t) \u2192\n    (List.foldl step (0, fun x => 0, []) l).1 = tokAt l l.length \u2227\n      (\u2200 (c : \u2115), 1 \u2264 c \u2192 (List.foldl step (0, fun x => 0, []) l).2.1 c = nxv l c) \u2227\n        (List.foldl step (0, fun x => 0, []) l).2.2.length = l.length \u2227\n          \u2200 (i : \u2115), 1 \u2264 i \u2192 i \u2264 l.length \u2192 (List.foldl step (0, fun x => 0, []) l).2.2.getD (i - 1) 0 = target l i\nhl : \u2200 t_1 \u2208 l ++ [t], 1 \u2264 t_1\nht : 1 \u2264 t\np : \u2115\nnx : \u2115 \u2192 \u2115\nout : List \u2115\nhp : p = tokAt l l.length\nhn : \u2200 (c : \u2115), 1 \u2264 c \u2192 nx c = nxv l c\nhlen : out.length = l.length\nho : \u2200 (i : \u2115), 1 \u2264 i \u2192 i \u2264 l.length \u2192 out.getD (i - 1) 0 = target l i\nhm : (l ++ [t]).length = l.length + 1\nhpv : \u2200 (c : \u2115), pv (l ++ [t]) c (l.length + 1) = pv l c (l.length + 1)\nhi1 : 1 \u2264 l.length + 1\nhi2 : l.length + 1 \u2264 l.length + 1\nhi : \u00acl.length + 1 \u2264 l.length\nhidx : l.length + 1 - 1 = out.length\n\u22a2 (if p = t then h t else h (nx t)) =\n    match pv (l ++ [t]) (tokAt (l ++ [t]) (l.length + 1)) (l.length + 1) with\n    | some j => h (tokAt (l ++ [t]) (j + 1))\n    | none => 0\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

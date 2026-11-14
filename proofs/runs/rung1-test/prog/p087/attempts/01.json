@@ -1,0 +1,17 @@
+{
+ "case": "p087",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-11 13:30:57",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.6,
+ "peak_rss_gb": 1.69,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung1-test\\prog\\p087\\_Full.lean:28:27: error: No goals to be solved\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

@@ -1,0 +1,17 @@
+{
+ "case": "p297",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-11 13:30:34",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.2,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung1-test\\prog\\p297\\_Full.lean:26:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung1-test\\prog\\p297\\_Full.lean:28:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung1-test\\prog\\p297\\_Full.lean:29:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n<repo>\\runs\\rung1-test\\prog\\p297\\_Full.lean:30:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n<repo>\\runs\\rung1-test\\prog\\p297\\_Full.lean:32:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung1-test\\prog\\p297\\_Full.lean:32:4: error: unsolved goals\ncase pos\nx0 : \u211d\na\u271d\u00b9 : -1 \u2264 x0\na\u271d : x0 \u2264 4\nh1 : \u00acx0 \u2264 -3 / 8\nh2 : x0 \u2264 1 / 2\n\u22a2 -x0 + 1 / 2 = -1 * x0 + 1 / 2\n<repo>\\runs\\rung1-test\\prog\\p297\\_Full.lean:33:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

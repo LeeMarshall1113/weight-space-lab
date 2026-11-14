@@ -1,0 +1,17 @@
+{
+ "case": "s00",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-12 02:08:54",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.6,
+ "peak_rss_gb": 1.71,
+ "peak_commit_gb": 3.9,
+ "lean_output": "<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:42:12: warning: This simp argument is unused:\n  List.countP_cons\n\nHint: Omit it from the simp argument list.\n  [apply] simp [h, h']\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:42:30: warning: This simp argument is unused:\n  h\n\nHint: Omit it from the simp argument list.\n  [apply] simp [List.countP_cons, h']\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:47:12: warning: This simp argument is unused:\n  List.countP_cons\n\nHint: Omit it from the simp argument list.\n  [apply] simp [h, h']\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:47:30: warning: This simp argument is unused:\n  h\n\nHint: Omit it from the simp argument list.\n  [apply] simp [List.countP_cons, h']\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:82:4: error: Type mismatch: After simplification, term\n  this\n has type\n  w.length = List.countP (fun s => decide (s \u2264 1)) w + List.countP (fun a => decide (1 < a)) w\nbut is expected to have type\n  w.length = List.countP (fun s => decide (s \u2264 1)) w + List.countP (fun s => !decide (s \u2264 1)) w\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:102:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:105:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 3,
+ "attempts_left": 9
+}

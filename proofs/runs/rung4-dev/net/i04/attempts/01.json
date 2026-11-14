@@ -1,0 +1,22 @@
+{
+ "case": "i04",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-13 02:07:06",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 21.2,
+ "peak_rss_gb": 1.91,
+ "peak_commit_gb": 4.12,
+ "lean_output": "<repo>\\runs\\rung4-dev\\net\\i04\\_Full.lean:345:14: warning: This simp argument is unused:\n  List.find?_cons\n\nHint: Omit it from the simp argument list.\n  [apply] simp [hp]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung4-dev\\net\\i04\\_Full.lean:352:16: warning: This simp argument is unused:\n  List.find?_cons\n\nHint: Omit it from the simp argument list.\n  [apply] simp [hpf, h1]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung4-dev\\net\\i04\\_Full.lean:359:16: warning: This simp argument is unused:\n  List.find?_cons\n\nHint: Omit it from the simp argument list.\n  [apply] simp [hpf, h1]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung4-dev\\net\\i04\\_Full.lean:476:16: warning: This simp argument is unused:\n  fl_sw hr\n\nHint: Omit it from the simp argument list.\n  [apply] simp [Block.apply, blk1_heads, blk1_W1, blk1_b1, blk1_W2, blk1_b2, z14, headsApply, Head.attn, hs, hd1_V,\n    hd1V, attnRows, ravg, rsum, radd, raffine, rdot, init_eq hr p w hw, X1, st, pcv, sw_zero hr, hr.zero, hr.idem,\n    hr.one, fl_Hv hr, fl_Fv hr]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung4-dev\\net\\i04\\_Full.lean:483:16: warning: This simp argument is unused:\n  fl_sw hr\n\nHint: Omit it from the simp argument list.\n  [apply] simp [Block.apply, blk1_heads, blk1_W1, blk1_b1, blk1_W2, blk1_b2, z14, headsApply, Head.attn, hs, hd1_V,\n    hd1V, attnRows, ravg_singleton hr, radd, raffine, rdot, init_eq hr p w hw, X1, st, pcv, sw_zero hr, hr.zero,\n    hr.idem, hr.one, fl_Hv hr, fl_Fv hr]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung4-dev\\net\\i04\\_Full.lean:516:5: warning: Variable name `hw` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _hw\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<repo>\\runs\\rung4-dev\\net\\i04\\_Full.lean:560:12: warning: Unused tactic linter: `linarith [h1, hn, hu0, hu1, hs1a]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung4-dev\\net\\i04\\_Full.lean:560:12: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n<repo>\\runs\\rung4-dev\\net\\i04\\_Full.lean:617:15: warning: This simp argument is unused:\n  fl_sw hr\n\nHint: Omit it from the simp argument list.\n  [apply] simp [blk2_heads, headsApply, Head.attn, hselA, hselB, hselC, hdA_V, hdAV, hdB_V, hdBV, hdC_V, hdCV, z14,\n    attnRows, ravg_singleton hr, hx1 i hi, hx1 mA hA, hx1 mB hB, hx1 mC hC, X1, radd, st, rdot, Sv, sw_zero hr, hr.zero,\n    hr.idem, hr.one, fl_Hv hr, fl_Fv hr, fl_pcv hr]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung4-dev\\net\\i04\\_Full.lean:641:76: warning: This simp argument is unused:\n  fl_sw hr\n\nHint: Omit it from the simp argument list.\n  [apply] simp [net_outW, netOutW, net_outB, blk2_W1, blk2W1, blk2_b1, blk2_W2, blk2W2, blk2_b2, z14, st, radd, raffine,\n    rdot, PRE, Yv, sw_zero hr, hr.zero, hr.idem, hr.one]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung4-dev\\net\\i04\\_Full.lean:844:6: warning: Unused tactic linter: `simp [runFrom]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung4-dev\\net\\i04\\_Full.lean:844:6: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 1,
+ "attempts_left": 11
+}

@@ -1,0 +1,17 @@
+{
+ "case": "p063",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-11 13:13:35",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.6,
+ "peak_rss_gb": 1.71,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung1-test\\net\\p063\\_Full.lean:44:2: error: linarith failed to find a contradiction\ncase h1\nx0 x1 : \u211d\na\u271d\u2074 : -2 \u2264 x0\na\u271d\u00b3 : x0 \u2264 4\na\u271d\u00b2 : -8 \u2264 x1\na\u271d\u00b9 : x1 \u2264 4\nh1 : relu (1 / 2 * x0 + -1 / 2) - relu (-(1 / 2 * x0 + -1 / 2)) = 1 / 2 * x0 + -1 / 2\nh2 :\n  1 / 2 * x0 + -1 / 2 + relu (3 * x0 + 3 * x1 + 1 - (1 / 2 * x0 + -1 / 2)) =\n    max (1 / 2 * x0 + -1 / 2) (3 * x0 + 3 * x1 + 1)\nhm :\n  relu (5 / 2 * x0 + 3 * x1 + 3 / 2) + relu (1 / 2 * x0 + 0 * x1 + -1 / 2) - relu (-1 / 2 * x0 + 0 * x1 + 1 / 2) =\n    max (3 * x0 + 3 * x1 + 1) (1 / 2 * x0 + -1 / 2)\nk1 :\n  \u2200 (m : \u211d),\n    relu\n        (1 * relu (5 / 2 * x0 + 3 * x1 + 3 / 2) + 1 * relu (1 / 2 * x0 + 0 * x1 + -1 / 2) +\n            -1 * relu (-1 / 2 * x0 + 0 * x1 + 1 / 2) +\n          0) =\n      relu\n        (relu (5 / 2 * x0 + 3 * x1 + 3 / 2) + relu (1 / 2 * x0 + 0 * x1 + -1 / 2) - relu (-1 / 2 * x0 + 0 * x1 + 1 / 2))\nh3 :\n  relu (relu (3 / 2 + x0 * (5 / 2) + x1 * 3) + relu (-1 / 2 + x0 * (1 / 2)) - relu (1 / 2 + x0 * (-1 / 2))) +\n      relu (-relu (3 / 2 + x0 * (5 / 2) + x1 * 3) - relu (-1 / 2 + x0 * (1 / 2)) + relu (1 / 2 + x0 * (-1 / 2))) =\n    |relu (3 / 2 + x0 * (5 / 2) + x1 * 3) + relu (-1 / 2 + x0 * (1 / 2)) - relu (1 / 2 + x0 * (-1 / 2))|\na\u271d :\n  relu (relu (3 / 2 + x0 * (5 / 2) + x1 * 3) + relu (-1 / 2 + x0 * (1 / 2)) - relu (1 / 2 + x0 * (-1 / 2))) +\n      relu (-relu (3 / 2 + x0 * (5 / 2) + x1 * 3) - relu (-1 / 2 + x0 * (1 / 2)) + relu (1 / 2 + x0 * (-1 / 2))) <\n    |max (1 + x0 * 3 + x1 * 3) (-1 / 2 + x0 * (1 / 2))|\n\u22a2 False\nfailed\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

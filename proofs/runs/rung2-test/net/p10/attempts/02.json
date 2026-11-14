@@ -1,0 +1,22 @@
+{
+ "case": "p10",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-12 01:42:30",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.1,
+ "peak_rss_gb": 1.74,
+ "peak_commit_gb": 3.92,
+ "lean_output": "<repo>\\runs\\rung2-test\\net\\p10\\_Full.lean:151:28: warning: Variable name `hw` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _hw\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 2,
+ "attempts_left": 10
+}

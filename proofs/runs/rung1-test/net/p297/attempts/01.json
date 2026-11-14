@@ -1,0 +1,17 @@
+{
+ "case": "p297",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-11 13:05:59",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.4,
+ "peak_rss_gb": 1.71,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung1-test\\net\\p297\\_Full.lean:40:2: error: linarith failed to find a contradiction\ncase h1\nx0 : \u211d\na\u271d\u00b2 : -1 \u2264 x0\na\u271d\u00b9 : x0 \u2264 4\ne5 e4 : True\ne3 : relu (-relu (2 + x0 * 3) + relu (-2 - x0 * 3) + relu (3 / 2 + x0 * 4)) = relu (-min (2 + x0 * 3) (1 / 2 - x0))\nhm : relu (2 + x0 * 3) - relu (-2 - x0 * 3) - relu (3 / 2 + x0 * 4) = min (2 + x0 * 3) (1 / 2 - x0)\ne2 e1 : True\nh3 : relu (min (2 + x0 * 3) (1 / 2 - x0)) + relu (-min (2 + x0 * 3) (1 / 2 - x0)) = |min (2 + x0 * 3) (1 / 2 - x0)|\nh2 : 2 + x0 * 3 - relu (3 / 2 + x0 * 4) = min (2 + x0 * 3) (1 / 2 - x0)\nh1 : relu (2 + x0 * 3) - relu (-2 - x0 * 3) = 2 + x0 * 3\na\u271d :\n  relu (relu (2 + x0 * 3) - relu (-2 - x0 * 3) - relu (3 / 2 + x0 * 4)) +\n      relu (-relu (2 + x0 * 3) + relu (-2 - x0 * 3) + relu (3 / 2 + x0 * 4)) <\n    |min (2 + x0 * 3) (1 / 2 - x0)|\n\u22a2 False\nfailed\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

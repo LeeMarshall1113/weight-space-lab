@@ -1,0 +1,17 @@
+{
+ "case": "p069",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-11 13:06:37",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.0,
+ "peak_rss_gb": 1.71,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung1-test\\net\\p069\\_Full.lean:44:2: error: unsolved goals\nx0 x1 x2 : \u211d\na\u271d\u2075 : -1 \u2264 x0\na\u271d\u2074 : x0 \u2264 1\na\u271d\u00b3 : -8 \u2264 x1\na\u271d\u00b2 : x1 \u2264 4\na\u271d\u00b9 : -8 \u2264 x2\na\u271d : x2 \u2264 2\ne1 : relu (-2 * x0 + 1 / 2 * x2 + 1 / 2) - relu (-(-2 * x0 + 1 / 2 * x2 + 1 / 2)) = -2 * x0 + 1 / 2 * x2 + 1 / 2\nm : \u211d := max (-2 * x0 + 1 / 2 * x2 + 1 / 2) (-2 * x2 + 2)\ne2 : -2 * x0 + 1 / 2 * x2 + 1 / 2 + relu (-2 * x2 + 2 - (-2 * x0 + 1 / 2 * x2 + 1 / 2)) = m\nhm :\n  relu (-2 * x0 + 1 / 2 * x2 + 1 / 2) - relu (-(-2 * x0 + 1 / 2 * x2 + 1 / 2)) +\n      relu (-2 * x2 + 2 - (-2 * x0 + 1 / 2 * x2 + 1 / 2)) =\n    m\nhmdef : m = max (-2 * x0 + 1 / 2 * x2 + 1 / 2) (-2 * x2 + 2)\nc : \u211d := -2 * x1 + -1 / 2 * x2 + -3 / 2\ne3 : relu c - relu (-c) = c\nhc : relu c - relu (-c) = c\nhcdef : c = -2 * x1 + -1 / 2 * x2 + -3 / 2\ne4 : relu m - relu (-m) = m\ne5 : m - relu (m - c) = min m c\n\u22a2 1 *\n          relu\n            (1 * relu (-2 * x0 + (0 * x1 + (1 / 2 * x2 + 0)) + 1 / 2) +\n                (-1 * relu (2 * x0 + (0 * x1 + (-1 / 2 * x2 + 0)) + -1 / 2) +\n                  (1 * relu (2 * x0 + (0 * x1 + (-5 / 2 * x2 + 0)) + 3 / 2) +\n                    (0 * relu (0 * x0 + (-2 * x1 + (-1 / 2 * x2 + 0)) + -3 / 2) +\n                      (0 * relu (0 * x0 + (2 * x1 + (1 / 2 * x2 + 0)) + 3 / 2) + 0)))) +\n              0) +\n        (-1 *\n            relu\n              (-1 * relu (-2 * x0 + (0 * x1 + (1 / 2 * x2 + 0)) + 1 / 2) +\n                  (1 * relu (2 * x0 + (0 * x1 + (-1 / 2 * x2 + 0)) + -1 / 2) +\n                    (-1 * relu (2 * x0 + (0 * x1 + (-5 / 2 * x2 + 0)) + 3 / 2) +\n                      (0 * relu (0 * x0 + (-2 * x1 + (-1 / 2 * x2 + 0)) + -3 / 2) +\n                        (0 * relu (0 * x0 + (2 * x1 + (1 / 2 * x2 + 0)) + 3 / 2) + 0)))) +\n                0) +\n          (-1 *\n              relu\n                (1 * relu (-2 * x0 + (0 * x1 + (1 / 2 * x2 + 0)) + 1 / 2) +\n                    (-1 * relu (2 * x0 + (0 * x1 + (-1 / 2 * x2 + 0)) + -1 / 2) +\n                      (1 * relu (2 * x0 + (0 * x1 + (-5 / 2 * x2 + 0)) + 3 / 2) +\n                        (-1 * relu (0 * x0 + (-2 * x1 + (-1 / 2 * x2 + 0)) + -3 / 2) +\n                          (1 * relu (0 * x0 + (2 * x1 + (1 / 2 * x2 + 0)) + 3 / 2) + 0)))) +\n                  0) +\n            0)) +\n      0 =\n    min (max (-2 * x0 + 1 / 2 * x2 + 1 / 2) (-2 * x2 + 2)) (-2 * x1 + -1 / 2 * x2 + -3 / 2)\n'Lane4.Case.Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4.Case.Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

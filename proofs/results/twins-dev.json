@@ -1,0 +1,116 @@
+{
+ "p054": {
+  "widths": [
+   4
+  ],
+  "arch_source": "net-arm solution",
+  "seeds": {
+   "0": {
+    "max_exact_err": 1.23046875,
+    "max_exact_err_q": "315/256",
+    "points_exactly_equal": 0,
+    "points": 20000
+   },
+   "1": {
+    "max_exact_err": 1.179001808166504,
+    "max_exact_err_q": "1236273/1048576",
+    "points_exactly_equal": 0,
+    "points": 20000
+   },
+   "2": {
+    "max_exact_err": 0.0012967288494110107,
+    "max_exact_err_q": "43511/33554432",
+    "points_exactly_equal": 0,
+    "points": 20000
+   }
+  },
+  "eps": "493/100"
+ },
+ "p248": {
+  "widths": [
+   5,
+   6,
+   5,
+   3
+  ],
+  "arch_source": "net-arm solution",
+  "seeds": {
+   "0": {
+    "max_exact_err": 3.3291015625,
+    "max_exact_err_q": "3409/1024",
+    "points_exactly_equal": 0,
+    "points": 20000
+   },
+   "1": {
+    "max_exact_err": 0.6784043682320384,
+    "max_exact_err_q": "24442093279810601/36028797018963968",
+    "points_exactly_equal": 0,
+    "points": 20000
+   },
+   "2": {
+    "max_exact_err": 0.2335434732807138,
+    "max_exact_err_q": "525893149620917/2251799813685248",
+    "points_exactly_equal": 0,
+    "points": 20000
+   }
+  },
+  "eps": "333/25"
+ },
+ "p128": {
+  "widths": [
+   7,
+   5
+  ],
+  "arch_source": "net-arm solution",
+  "seeds": {
+   "0": {
+    "max_exact_err": 1.6619025254040025,
+    "max_exact_err_q": "28551267983/17179869184",
+    "points_exactly_equal": 0,
+    "points": 20000
+   },
+   "1": {
+    "max_exact_err": 2.1923828125,
+    "max_exact_err_q": "2245/1024",
+    "points_exactly_equal": 0,
+    "points": 20000
+   },
+   "2": {
+    "max_exact_err": 1.2325132483092602,
+    "max_exact_err_q": "42348832747/34359738368",
+    "points_exactly_equal": 0,
+    "points": 20000
+   }
+  },
+  "eps": "133/20"
+ },
+ "p000": {
+  "widths": [
+   3,
+   5,
+   3
+  ],
+  "arch_source": "net-arm solution",
+  "seeds": {
+   "0": {
+    "max_exact_err": 0.9003751928436259,
+    "max_exact_err_q": "7919783951141/8796093022208",
+    "points_exactly_equal": 0,
+    "points": 20000
+   },
+   "1": {
+    "max_exact_err": 0.865198625684485,
+    "max_exact_err_q": "30441470376829/35184372088832",
+    "points_exactly_equal": 0,
+    "points": 20000
+   },
+   "2": {
+    "max_exact_err": 1.1796875,
+    "max_exact_err_q": "151/128",
+    "points_exactly_equal": 0,
+    "points": 20000
+   }
+  },
+  "eps": "361/100"
+ }
+}

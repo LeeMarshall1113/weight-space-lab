@@ -1,0 +1,22 @@
+{
+ "case": "f08",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-13 03:47:52",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 16.4,
+ "peak_rss_gb": 1.89,
+ "peak_commit_gb": 4.08,
+ "lean_output": "<repo>\\runs\\rung4-test\\net\\f08\\_Full.lean:457:10: warning: `List.take_succ` has been deprecated: Use `List.take_add_one` instead\n\nHint: Replace the deprecated name:\n  List.take_s\u0335u\u0335c\u0335c\u0335a\u0332d\u0332d\u0332_\u0332o\u0332n\u0332e\u0332\n<repo>\\runs\\rung4-test\\net\\f08\\_Full.lean:466:25: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung4-test\\net\\f08\\_Full.lean:477:25: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung4-test\\net\\f08\\_Full.lean:482:17: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n<repo>\\runs\\rung4-test\\net\\f08\\_Full.lean:576:20: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 2,
+ "attempts_left": 10
+}

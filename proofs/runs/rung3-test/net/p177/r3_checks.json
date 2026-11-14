@@ -1,0 +1,75 @@
+{
+ "id": "p177",
+ "tau": 0.001,
+ "delta": 0.3,
+ "hidden_widths": [
+  5,
+  4,
+  2
+ ],
+ "max_abs_weight": 4.0,
+ "written_net_max_dev": 0.0833333333333357,
+ "inside_ball_max_dev": {
+  "uniform": 0.13743750752780848,
+  "sign": 0.15705079133333089,
+  "adversarial": 0.1718466988333317
+ },
+ "inside_ball_ok": true,
+ "outside": {
+  "2": 0.2608872573333312,
+  "4": 0.4405527253333328
+ },
+ "smallest_violating_multiple": 4,
+ "float32_max_dev_from_spec": 0.08333444595336914,
+ "finetune": {
+  "0": {
+   "mse_written_net": 0.007764506223581839,
+   "mse_spec_program": 0.000891778834775535,
+   "mse_finetuned": 0.0028506519843662518,
+   "max_weight_move": 0.0010000000000012221,
+   "max_dev_from_spec": 0.073327287656899,
+   "inside_ball": true,
+   "within_delta": true,
+   "gain_vs_program": -2.196590761299885,
+   "unconstrained": {
+    "mse_finetuned": 9.243770740773342e-05,
+    "max_weight_move": 0.08756502615549133,
+    "max_dev_from_spec": 0.20435070248989362,
+    "leaves_delta": false
+   }
+  },
+  "1": {
+   "mse_written_net": 0.007888571007209013,
+   "mse_spec_program": 0.0009412295022140551,
+   "mse_finetuned": 0.0021048719241219876,
+   "max_weight_move": 0.0010000000000012221,
+   "max_dev_from_spec": 0.07322423313195947,
+   "inside_ball": true,
+   "within_delta": true,
+   "gain_vs_program": -1.236300412567493,
+   "unconstrained": {
+    "mse_finetuned": 6.972071717088541e-05,
+    "max_weight_move": 0.07964278646240272,
+    "max_dev_from_spec": 0.08220223675554267,
+    "leaves_delta": false
+   }
+  },
+  "2": {
+   "mse_written_net": 0.007815035999526725,
+   "mse_spec_program": 0.0008052264740219531,
+   "mse_finetuned": 0.0027526827535846355,
+   "max_weight_move": 0.0010000000000012221,
+   "max_dev_from_spec": 0.07683129589124293,
+   "inside_ball": true,
+   "within_delta": true,
+   "gain_vs_program": -2.4185199349389355,
+   "unconstrained": {
+    "mse_finetuned": 6.817664865662783e-05,
+    "max_weight_move": 0.09426949743943606,
+    "max_dev_from_spec": 0.14430722260814388,
+    "leaves_delta": false
+   }
+  }
+ },
+ "finetune_median_gain": -2.196590761299885
+}

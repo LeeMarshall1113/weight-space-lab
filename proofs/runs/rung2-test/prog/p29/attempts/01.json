@@ -1,0 +1,21 @@
+{
+ "case": "p29",
+ "arm": "prog",
+ "pass": true,
+ "time": "2026-11-12 01:55:40",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 9.6,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung2-test\\prog\\p29\\_Full.lean:33:30: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335t\u0335r\u0335u\u0335e\u0335i\u0332t\u0332e\u0332_\u0332t\u0332r\u0332u\u0332e\u0332\n<repo>\\runs\\rung2-test\\prog\\p29\\_Full.lean:37:51: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335f\u0335a\u0335l\u0335s\u0335e\u0335i\u0332t\u0332e\u0332_\u0332f\u0332a\u0332l\u0332s\u0332e\u0332\n'Lane4Final.final' depends on axioms: [propext, Quot.sound]\n",
+ "axioms": [
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 1,
+ "attempts_left": 11
+}

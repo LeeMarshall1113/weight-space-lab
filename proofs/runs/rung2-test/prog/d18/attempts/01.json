@@ -1,0 +1,17 @@
+{
+ "case": "d18",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-12 01:54:11",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.8,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung2-test\\prog\\d18\\_Full.lean:46:10: error: No goals to be solved\n<repo>\\runs\\rung2-test\\prog\\d18\\_Full.lean:62:24: error: Application type mismatch: The argument\n  h1\nhas type\n  ok = true\nbut is expected to have type\n  \u2200 k \u2264 r.length, 0 < k \u2192 0 \u2264 b + wt t + (List.map wt (List.take k r)).sum\nin the application\n  \u27e8\u27e8h1, ?m.178\u27e9, h1\u27e9\n<repo>\\runs\\rung2-test\\prog\\d18\\_Full.lean:65:6: error: No goals to be solved\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

@@ -1,0 +1,17 @@
+{
+ "case": "f24",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-13 04:29:30",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 28.0,
+ "peak_rss_gb": 1.91,
+ "peak_commit_gb": 4.1,
+ "lean_output": "<repo>\\runs\\rung4-test\\net\\f24\\_Full.lean:80:69: error: unsolved goals\nl : List \u2115\nt : \u2115\n\u22a2 (if List.foldl (fun s t => if s = 0 then code t else s) 0 l = 0 then code t\n    else List.foldl (fun s t => if s = 0 then code t else s) 0 l) =\n    if List.foldl (fun s t => if s = 0 then code t else s) 0 l = 0 then code t\n    else List.foldl (fun s t => if s = 0 then code t else s) 0 l\n<repo>\\runs\\rung4-test\\net\\f24\\_Full.lean:85:6: warning: `List.take_succ` has been deprecated: Use `List.take_add_one` instead\n\nHint: Replace the deprecated name:\n  List.take_s\u0335u\u0335c\u0335c\u0335a\u0332d\u0332d\u0332_\u0332o\u0332n\u0332e\u0332\n<repo>\\runs\\rung4-test\\net\\f24\\_Full.lean:109:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung4-test\\net\\f24\\_Full.lean:126:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n<repo>\\runs\\rung4-test\\net\\f24\\_Full.lean:418:43: warning: This simp argument is unused:\n  hr.idem\n\nHint: Omit it from the simp argument list.\n  [apply] simp [av, ha, sw_zero hr, hr.zero]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung4-test\\net\\f24\\_Full.lean:619:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung4-test\\net\\f24\\_Full.lean:625:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

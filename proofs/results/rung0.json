@@ -1,0 +1,50 @@
+[
+ {
+  "id": "b22",
+  "arm": "net",
+  "submissions": 1,
+  "pass": true,
+  "lean_secs": 9.5,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "max_peak_commit_gb": 3.91,
+  "pass_at": 1,
+  "solution_lines": 11,
+  "hidden_layers": 1,
+  "hidden_units": 7,
+  "nonzero_weights": 39
+ },
+ {
+  "id": "b28",
+  "arm": "net",
+  "submissions": 1,
+  "pass": true,
+  "lean_secs": 9.6,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "max_peak_commit_gb": 3.91,
+  "pass_at": 1,
+  "solution_lines": 9,
+  "hidden_layers": 1,
+  "hidden_units": 6,
+  "nonzero_weights": 34
+ },
+ {
+  "id": "b44",
+  "arm": "net",
+  "submissions": 1,
+  "pass": true,
+  "lean_secs": 10.0,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "max_peak_commit_gb": 3.93,
+  "pass_at": 1,
+  "solution_lines": 8,
+  "hidden_layers": 1,
+  "hidden_units": 9,
+  "nonzero_weights": 52
+ }
+]

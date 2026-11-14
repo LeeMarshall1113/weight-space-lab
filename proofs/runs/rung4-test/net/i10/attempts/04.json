@@ -1,0 +1,22 @@
+{
+ "case": "i10",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-13 05:29:14",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 24.2,
+ "peak_rss_gb": 1.99,
+ "peak_commit_gb": 4.17,
+ "lean_output": "<repo>\\runs\\rung4-test\\net\\i10\\_Full.lean:757:8: warning: Unused tactic linter: `simp [TNet.run, net, runFrom, x1f]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung4-test\\net\\i10\\_Full.lean:757:8: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 4,
+ "attempts_left": 8
+}

@@ -1,0 +1,17 @@
+{
+ "case": "p232",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-11 13:13:04",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 9.8,
+ "peak_rss_gb": 1.72,
+ "peak_commit_gb": 3.89,
+ "lean_output": "<repo>\\runs\\rung1-test\\net\\p232\\_Full.lean:49:2: error: linarith failed to find a contradiction\ncase h1\nx0 x1 : \u211d\na\u271d\u2074 : -4 \u2264 x0\na\u271d\u00b3 : x0 \u2264 1\na\u271d\u00b2 : -4 \u2264 x1\na\u271d\u00b9 : x1 \u2264 2\nrr : \u2200 (a : \u211d), relu (relu a) = relu a\ne1 : -1 * x0 + 2 * x1 + 5 / 2 - (x1 + 1) = -1 * x0 + 1 * x1 + 3 / 2\ne2 :\n  -2 * x0 + -1 / 2 * x1 + -1 - (-1 * x0 + 2 * x1 + 5 / 2 - relu (-1 * x0 + 1 * x1 + 3 / 2)) =\n    -1 * x0 + -5 / 2 * x1 + -7 / 2 + relu (-1 * x0 + 1 * x1 + 3 / 2) - 0\ne3 :\n  -1 * x0 + -5 / 2 * x1 + -7 / 2 + relu (-1 * x0 + 1 * x1 + 3 / 2) =\n    relu (-1 * x0 + -5 / 2 * x1 + -7 / 2) - relu (-(-1 * x0 + -5 / 2 * x1 + -7 / 2)) + relu (-1 * x0 + 1 * x1 + 3 / 2)\nhA : max (5 / 2 - x0 + x1 * 2) 0 - max (-5 / 2 + x0 - x1 * 2) 0 = 5 / 2 - x0 + x1 * 2\nhq : max (-7 / 2 - x0 + x1 * (-5 / 2)) 0 - max (7 / 2 + x0 + x1 * (5 / 2)) 0 = -7 / 2 - x0 + x1 * (-5 / 2)\nhs :\n  5 / 2 - x0 + x1 * 2 - max (3 / 2 - x0 + x1) 0 +\n      max (max (-7 / 2 - x0 + x1 * (-5 / 2)) 0 - max (7 / 2 + x0 + x1 * (5 / 2)) 0 + max (3 / 2 - x0 + x1) 0) 0 =\n    max (5 / 2 - x0 + x1 * 2 - max (3 / 2 - x0 + x1) 0) (-1 - x0 * 2 + x1 * (-1 / 2))\nhm : 5 / 2 - x0 + x1 * 2 - max (3 / 2 - x0 + x1) 0 = min (5 / 2 - x0 + x1 * 2) (1 + x1)\na\u271d :\n  max (max (-7 / 2 - x0 + x1 * (-5 / 2)) 0 - max (7 / 2 + x0 + x1 * (5 / 2)) 0 + max (3 / 2 - x0 + x1) 0) 0 * (1 / 2) +\n            max (1 + x1) 0 +\n          max (3 / 2 - x0 + x1) 0 * (-1 / 2) +\n        max (5 / 2 - x0 + x1 * 2) 0 * (1 / 2) +\n      max (-5 / 2 + x0 - x1 * 2) 0 * (-1 / 2) <\n    max (1 + x1) 0 + max (min (5 / 2 - x0 + x1 * 2) (1 + x1)) (-1 - x0 * 2 + x1 * (-1 / 2)) * (1 / 2)\n\u22a2 False\nfailed\n<repo>\\runs\\rung1-test\\net\\p232\\_Full.lean:43:60: warning: This simp argument is unused:\n  rr\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [net, Net.eval, Layer.apply, dot, spec, List.foldl, List.map, List.zipWith, List.sum_cons,\n    List.sum_nil, List.cons.injEq, and_true]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 4,
+ "attempts_left": 8
+}

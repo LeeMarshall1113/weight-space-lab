@@ -1,0 +1,44 @@
+{
+ "id": "i10",
+ "family": "induct",
+ "tau": 0.005,
+ "blocks": 2,
+ "heads": [
+  1,
+  3
+ ],
+ "width": 15,
+ "mlp_hidden": [
+  0,
+  3
+ ],
+ "written_exact_max_dev": 0.0,
+ "inside_ball_max_dev": {
+  "uniform": 0.05171133583731491,
+  "sign": 0.0960293831312482
+ },
+ "inside_ball_ok": true,
+ "outside": {
+  "2": 0.185934870200001,
+  "4": 0.39668208639999936
+ },
+ "smallest_violating_multiple": 4,
+ "float32": {
+  "1000": {
+   "written": 0.0,
+   "perturbed_at_tau": 0.07482349872589111,
+   "in_theorem_range": true
+  },
+  "16000": {
+   "written": 0.0,
+   "perturbed_at_tau": 0.07562637329101562,
+   "in_theorem_range": true
+  },
+  "65534": {
+   "written": 0.0,
+   "perturbed_at_tau": 0.06427860260009766,
+   "in_theorem_range": true
+  }
+ },
+ "float32_ok_in_range": true
+}

@@ -1,0 +1,22 @@
+{
+ "case": "f05",
+ "arm": "prog",
+ "pass": true,
+ "time": "2026-11-13 05:42:23",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.9,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.88,
+ "lean_output": "'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 2,
+ "attempts_left": 10
+}

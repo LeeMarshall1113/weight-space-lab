@@ -1,0 +1,15 @@
+{
+ "id": "p119",
+ "arm": "prog",
+ "rung": 3,
+ "split": "test",
+ "max_attempts": 12,
+ "lean_timeout": 600,
+ "tau": "1/1000",
+ "delta": "18/25",
+ "spec_min": "3337/19999",
+ "spec_max": "29/2",
+ "final_theorems": [
+  "Lane4Final.final"
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "f24",
+ "family": "first",
+ "tau": 0.005,
+ "blocks": 1,
+ "heads": [
+  1
+ ],
+ "width": 8,
+ "mlp_hidden": [
+  2
+ ],
+ "written_exact_max_dev": 0.0,
+ "inside_ball_max_dev": {
+  "uniform": 0.013317908017715263,
+  "sign": 0.025200250003124702
+ },
+ "inside_ball_ok": true,
+ "outside": {
+  "2": 0.05121004009999994,
+  "4": 0.08243215999999998,
+  "8": 0.21985034240000012,
+  "16": 0.3604889600000003
+ },
+ "smallest_violating_multiple": 16,
+ "float32": {
+  "1000": {
+   "written": 0.0,
+   "perturbed_at_tau": 0.02480022981762886,
+   "in_theorem_range": true
+  },
+  "16000": {
+   "written": 0.0,
+   "perturbed_at_tau": 0.02480022981762886,
+   "in_theorem_range": true
+  },
+  "65534": {
+   "written": 0.0,
+   "perturbed_at_tau": 0.020150423049926758,
+   "in_theorem_range": true
+  },
+  "200000": {
+   "written": 0.0,
+   "perturbed_at_tau": null,
+   "in_theorem_range": false
+  },
+  "2000000": {
+   "written": 0.0,
+   "perturbed_at_tau": null,
+   "in_theorem_range": false
+  }
+ },
+ "float32_ok_in_range": true
+}

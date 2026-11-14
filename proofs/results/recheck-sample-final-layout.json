@@ -1,0 +1,287 @@
+[
+ {
+  "rung": "rung2-test",
+  "arm": "net",
+  "id": "a00",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 12.5,
+  "peak_rss_gb": 1.75,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung2-test",
+  "arm": "net",
+  "id": "p05",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.5,
+  "peak_rss_gb": 1.75,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung2-test",
+  "arm": "net",
+  "id": "s01",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.4,
+  "peak_rss_gb": 1.77,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung2-test",
+  "arm": "prog",
+  "id": "a00",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.5,
+  "peak_rss_gb": 1.71,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung2-test",
+  "arm": "prog",
+  "id": "p05",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.5,
+  "peak_rss_gb": 1.7,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung2-test",
+  "arm": "prog",
+  "id": "s01",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.2,
+  "peak_rss_gb": 1.74,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung3-test",
+  "arm": "net",
+  "id": "p001",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 19.0,
+  "peak_rss_gb": 1.79,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung3-test",
+  "arm": "net",
+  "id": "p119",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 24.4,
+  "peak_rss_gb": 1.84,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung3-test",
+  "arm": "net",
+  "id": "p281",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 27.3,
+  "peak_rss_gb": 2.06,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung3-test",
+  "arm": "prog",
+  "id": "p001",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 12.2,
+  "peak_rss_gb": 1.69,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung3-test",
+  "arm": "prog",
+  "id": "p119",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 12.3,
+  "peak_rss_gb": 1.72,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung3-test",
+  "arm": "prog",
+  "id": "p281",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 12.5,
+  "peak_rss_gb": 1.72,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung4-test",
+  "arm": "net",
+  "id": "c14",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 23.7,
+  "peak_rss_gb": 1.98,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung4-test",
+  "arm": "net",
+  "id": "f24",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 24.1,
+  "peak_rss_gb": 1.9,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung4-test",
+  "arm": "net",
+  "id": "i09",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 19.8,
+  "peak_rss_gb": 2.02,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung4-test",
+  "arm": "prog",
+  "id": "c14",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.9,
+  "peak_rss_gb": 1.7,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung4-test",
+  "arm": "prog",
+  "id": "f24",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.2,
+  "peak_rss_gb": 1.7,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung4-test",
+  "arm": "prog",
+  "id": "i03",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.7,
+  "peak_rss_gb": 1.73,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "rung": "rung4-test",
+  "arm": "prog",
+  "id": "i09",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.3,
+  "peak_rss_gb": 1.71,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ }
+]

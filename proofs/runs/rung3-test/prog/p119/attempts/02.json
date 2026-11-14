@@ -1,0 +1,17 @@
+{
+ "case": "p119",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-12 10:46:11",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 24.1,
+ "peak_rss_gb": 1.78,
+ "peak_commit_gb": 3.95,
+ "lean_output": "<repo>\\runs\\rung3-test\\prog\\p119\\_Full.lean:26:0: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.\n<repo>\\runs\\rung3-test\\prog\\p119\\_Full.lean:39:8: error: (kernel) unknown constant 'Lane4.Case.prog_correct'\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Lane4Final.final, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

@@ -1,0 +1,17 @@
+{
+ "case": "l12",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-13 01:25:15",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 90.9,
+ "peak_rss_gb": 1.84,
+ "peak_commit_gb": 4.02,
+ "lean_output": "<repo>\\runs\\rung4-dev\\net\\l12\\_Full.lean:198:8: warning: Unused tactic linter: `(rw [List.take_succ]; simp [hj])` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung4-dev\\net\\l12\\_Full.lean:198:8: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n<repo>\\runs\\rung4-dev\\net\\l12\\_Full.lean:222:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung4-dev\\net\\l12\\_Full.lean:236:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n<repo>\\runs\\rung4-dev\\net\\l12\\_Full.lean:270:6: error: linarith failed to find a contradiction\nu : \u211d\nfl : \u211d \u2192 \u211d\nhr : Rounding u fl\nhu0 : 0 \u2264 u\nhu1 : u \u2264 1 / 16777216\np : Pert\nhp : Pert.Within (1 / 200) p\nw : List \u2115\nhw : \u2200 t \u2208 w, 1 \u2264 t \u2227 t \u2264 5\nhn : u * \u2191(w.length + 1) \u2264 1 / 256\ni : \u2115\nhi1 : 1 \u2264 i\nhi : i \u2264 w.length\nm : \u2115\nhm1 : 1 \u2264 m\nhmi : m \u2264 i\nhmv : val (tokAt w m) \u2260 0\nhlast : \u2200 (j : \u2115), m < j \u2192 j \u2264 i \u2192 val (tokAt w j) = 0\nk : \u2115\nhk : k \u2264 i\nhne : k \u2260 m\nhN2 : 2 \u2264 \u2191(w.length + 1)\nhS1 : 49 / 50 \u2264 sw fl 1 (p.A 0 0 3 4)\nhS2 : sw fl 1 (p.A 0 0 3 4) \u2264 51 / 50\nhT1 : sw fl (-4) (p.A 0 0 5 1) \u2264 -39 / 10\nhT2 : -41 / 10 \u2264 sw fl (-4) (p.A 0 0 5 1)\nhkp : 0 \u2264 fl \u2191k \u2227 fl \u2191k \u2264 \u2191(w.length + 1) + 1 / 256\nhmp : 0 \u2264 fl \u2191m \u2227 fl \u2191m \u2264 \u2191(w.length + 1) + 1 / 256\nhnn :\n  -(u * \u2191(w.length + 1)) \u2264 fl \u2191(w.length + 1) - \u2191(w.length + 1) \u2227\n    fl \u2191(w.length + 1) - \u2191(w.length + 1) \u2264 u * \u2191(w.length + 1)\nhq1 : \u2191(w.length + 1) - 1 / 256 \u2264 fl \u2191(w.length + 1)\nhq2 : fl \u2191(w.length + 1) \u2264 \u2191(w.length + 1) + 1 / 256\nh0 : fl \u21910 = 0\nthis : fl \u21910 + 127 / 128 \u2264 fl \u2191m\na\u271d : fl \u2191m < 127 / 128\n\u22a2 False\nfailed\n<repo>\\runs\\rung4-dev\\net\\l12\\_Full.lean:314:76: warning: This simp argument is unused:\n  fl_sw hr\n\nHint: Omit it from the simp argument list.\n  [apply] simp [z6, pos, rdot, radd, raffine, sw_zero hr, hr.zero, hr.idem, hr.one, ravg_zero hr, fl_ravg hr]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

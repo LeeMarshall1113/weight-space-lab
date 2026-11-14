@@ -1,0 +1,12 @@
+namespace Lane4.ExportNet
+
+def showQ (q : ℚ) : String := "\"" ++ toString q.num ++ "/" ++ toString q.den ++ "\""
+def showV (v : List ℚ) : String := "[" ++ ", ".intercalate (v.map showQ) ++ "]"
+def showM (m : List (List ℚ)) : String := "[" ++ ", ".intercalate (m.map showV) ++ "]"
+def showL (L : Lane4.Layer) : String := "{\"W\": " ++ showM L.W ++ ", \"b\": " ++ showV L.b ++ "}"
+def showN (n : Lane4.Net) : String :=
+  "{\"hidden\": [" ++ ", ".intercalate (n.hidden.map showL) ++ "], \"out\": " ++ showL n.out ++ "}"
+
+end Lane4.ExportNet
+
+#eval IO.println ("NETJSON " ++ Lane4.ExportNet.showN Lane4.Case.NETNAME)

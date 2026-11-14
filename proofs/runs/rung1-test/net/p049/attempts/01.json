@@ -1,0 +1,17 @@
+{
+ "case": "p049",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-11 12:57:29",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 22.4,
+ "peak_rss_gb": 1.84,
+ "peak_commit_gb": 4.01,
+ "lean_output": "<repo>\\runs\\rung1-test\\net\\p049\\_Full.lean:67:2: error: `ring_nf` made no progress on the goal\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

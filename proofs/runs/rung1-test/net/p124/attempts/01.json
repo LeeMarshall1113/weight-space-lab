@@ -1,0 +1,22 @@
+{
+ "case": "p124",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-11 13:10:57",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.8,
+ "peak_rss_gb": 1.77,
+ "peak_commit_gb": 3.95,
+ "lean_output": "'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 1,
+ "attempts_left": 11
+}

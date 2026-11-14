@@ -1,0 +1,22 @@
+{
+ "case": "p109",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-12 09:26:27",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 37.2,
+ "peak_rss_gb": 2.02,
+ "peak_commit_gb": 4.2,
+ "lean_output": "<repo>\\runs\\rung3-dev\\net\\p109\\_Full.lean:122:49: warning: Variable name `u1` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _u1\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<repo>\\runs\\rung3-dev\\net\\p109\\_Full.lean:262:63: warning: Unused tactic linter: `done` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung3-dev\\net\\p109\\_Full.lean:263:8: warning: Unused tactic linter: `((conv_lhs => simp [net, Net.evalP, hiddenP, rowsP, dotP]); ring_nf; done)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung3-dev\\net\\p109\\_Full.lean:264:8: warning: Unused tactic linter: `(simp only [net, Net.evalP, hiddenP, rowsP, dotP, List.map_cons, List.map_nil, List.length_cons,\n    List.length_nil];\n  push_cast; ring_nf; done)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung3-dev\\net\\p109\\_Full.lean:263:8: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n<repo>\\runs\\rung3-dev\\net\\p109\\_Full.lean:264:8: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 2,
+ "attempts_left": 10
+}

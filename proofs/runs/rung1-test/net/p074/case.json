@@ -1,0 +1,12 @@
+{
+ "id": "p074",
+ "arm": "net",
+ "rung": 1,
+ "split": "test",
+ "final_theorems": [
+  "Lane4Final.final",
+  "Lane4Final.shape"
+ ],
+ "max_attempts": 12,
+ "lean_timeout": 600
+}

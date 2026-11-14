@@ -1,0 +1,17 @@
+{
+ "case": "p233",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-12 09:24:08",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 19.0,
+ "peak_rss_gb": 1.86,
+ "peak_commit_gb": 4.04,
+ "lean_output": "<repo>\\runs\\rung3-dev\\net\\p233\\_Full.lean:170:52: error: (deterministic) timeout at `isDefEq`, maximum number of heartbeats (200000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.\n<repo>\\runs\\rung3-dev\\net\\p233\\_Full.lean:193:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  |relu ?m.397|\nin the target expression\n  |eS x0 x1| \u2264 32\n\ndW : \u2115 \u2192 \u2115 \u2192 \u2115 \u2192 \u211d\ndb : \u2115 \u2192 \u2115 \u2192 \u211d\nhw : \u2200 (l i j : \u2115), |dW l i j| \u2264 1 / 1000\nhb : \u2200 (l i : \u2115), |db l i| \u2264 1 / 1000\nx0 x1 : \u211d\nl0 : -1 \u2264 x0\nu0 : x0 \u2264 4\nl1 : -8 \u2264 x1\nu1 : x1 \u2264 2\nbx0 : |x0| \u2264 4\nbx1 : |x1| \u2264 8\nnR : 0 \u2264 eR1 x0 x1\nbR : |eR1 x0 x1| \u2264 2\nbQ : |eQ1 x0 x1| \u2264 16\nbW : |eW x0 x1| \u2264 10\nbD : |eDD x0 x1| \u2264 10\nbR' : -2 \u2264 eR1 x0 x1 \u2227 eR1 x0 x1 \u2264 2\nbQ' : -16 \u2264 eQ1 x0 x1 \u2227 eQ1 x0 x1 \u2264 16\nbW' : -10 \u2264 eW x0 x1 \u2227 eW x0 x1 \u2264 10\nbD' : -10 \u2264 eDD x0 x1 \u2227 eDD x0 x1 \u2264 10\nbT : |eT x0 x1| \u2264 30\nbQc : |eQc x0 x1| \u2264 32\nbRc : |eRc x0 x1| \u2264 4\nbDc : |eDc x0 x1| \u2264 20\nfQQ : eQQ x0 x1 \u2264 32\nfSS : eS x0 x1 \u2264 32\nhid : -1 / 4 * eS x0 x1 + 1 / 4 * eQQ x0 x1 + 0 = spec x0 x1\n\u22a2 |eS x0 x1| \u2264 32\n<repo>\\runs\\rung3-dev\\net\\p233\\_Full.lean:195:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  |relu ?m.413|\nin the target expression\n  |eQQ x0 x1| \u2264 32\n\ndW : \u2115 \u2192 \u2115 \u2192 \u2115 \u2192 \u211d\ndb : \u2115 \u2192 \u2115 \u2192 \u211d\nhw : \u2200 (l i j : \u2115), |dW l i j| \u2264 1 / 1000\nhb : \u2200 (l i : \u2115), |db l i| \u2264 1 / 1000\nx0 x1 : \u211d\nl0 : -1 \u2264 x0\nu0 : x0 \u2264 4\nl1 : -8 \u2264 x1\nu1 : x1 \u2264 2\nbx0 : |x0| \u2264 4\nbx1 : |x1| \u2264 8\nnR : 0 \u2264 eR1 x0 x1\nbR : |eR1 x0 x1| \u2264 2\nbQ : |eQ1 x0 x1| \u2264 16\nbW : |eW x0 x1| \u2264 10\nbD : |eDD x0 x1| \u2264 10\nbR' : -2 \u2264 eR1 x0 x1 \u2227 eR1 x0 x1 \u2264 2\nbQ' : -16 \u2264 eQ1 x0 x1 \u2227 eQ1 x0 x1 \u2264 16\nbW' : -10 \u2264 eW x0 x1 \u2227 eW x0 x1 \u2264 10\nbD' : -10 \u2264 eDD x0 x1 \u2227 eDD x0 x1 \u2264 10\nbT : |eT x0 x1| \u2264 30\nbQc : |eQc x0 x1| \u2264 32\nbRc : |eRc x0 x1| \u2264 4\nbDc : |eDc x0 x1| \u2264 20\nfQQ : eQQ x0 x1 \u2264 32\nfSS : eS x0 x1 \u2264 32\nhid : -1 / 4 * eS x0 x1 + 1 / 4 * eQQ x0 x1 + 0 = spec x0 x1\nbS : |eS x0 x1| \u2264 32\n\u22a2 |eQQ x0 x1| \u2264 32\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

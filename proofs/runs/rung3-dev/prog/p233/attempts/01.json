@@ -1,0 +1,17 @@
+{
+ "case": "p233",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-12 09:25:38",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 8.2,
+ "peak_rss_gb": 1.69,
+ "peak_commit_gb": 3.87,
+ "lean_output": "<repo>\\runs\\rung3-dev\\prog\\p233\\_Full.lean:30:2: error: No goals to be solved\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

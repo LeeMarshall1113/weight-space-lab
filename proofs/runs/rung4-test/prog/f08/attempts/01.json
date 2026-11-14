@@ -1,0 +1,17 @@
+{
+ "case": "f08",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-13 05:43:04",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.5,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung4-test\\prog\\f08\\_Full.lean:37:16: error: unsolved goals\ncase cons\nb : \u2115\nt : List \u2115\nih :\n  \u2200 (s : \u2115) (acc : List \u2115),\n    (List.foldl step (s, acc) t).2 =\n      acc ++\n        List.map\n          (fun j =>\n            ((if List.foldl (fun s t => if s = 0 then code t else s) s (List.take (j + 1) t) = 2 then 1 else 0) +\n                cbit (t.getD j 0)) %\n              2)\n          (List.range t.length)\ns : \u2115\nacc : List \u2115\n\u22a2 \u2200 a < t.length,\n    ((if\n              List.foldl (fun s t => if s = 0 then code t else s) (if s = 0 then code b else s) (List.take (a + 1) t) =\n                2 then\n            1\n          else 0) +\n          cbit (t[a]?.getD 0)) %\n        2 =\n      ((if\n              List.foldl (fun s t => if s = 0 then code t else s) (if s = 0 then code b else s) (List.take (a + 1) t) =\n                2 then\n            1\n          else 0) +\n          cbit (t[a]?.getD 0)) %\n        2\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

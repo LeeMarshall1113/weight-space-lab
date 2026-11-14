@@ -1,0 +1,51 @@
+{
+ "id": "c14",
+ "family": "carry",
+ "tau": 0.005,
+ "blocks": 1,
+ "heads": [
+  1
+ ],
+ "width": 6,
+ "mlp_hidden": [
+  1
+ ],
+ "written_exact_max_dev": 0.0,
+ "inside_ball_max_dev": {
+  "uniform": 0.06466406756731047,
+  "sign": 0.11117812311562414
+ },
+ "inside_ball_ok": true,
+ "outside": {
+  "2": 0.2533587903000009
+ },
+ "smallest_violating_multiple": 2,
+ "float32": {
+  "1000": {
+   "written": 0.0,
+   "perturbed_at_tau": 0.10017139464616776,
+   "in_theorem_range": true
+  },
+  "16000": {
+   "written": 0.0,
+   "perturbed_at_tau": 0.02989935874938965,
+   "in_theorem_range": true
+  },
+  "65534": {
+   "written": 0.0,
+   "perturbed_at_tau": 0.009975016117095947,
+   "in_theorem_range": true
+  },
+  "200000": {
+   "written": 0.0,
+   "perturbed_at_tau": null,
+   "in_theorem_range": false
+  },
+  "2000000": {
+   "written": 0.0,
+   "perturbed_at_tau": null,
+   "in_theorem_range": false
+  }
+ },
+ "float32_ok_in_range": true
+}

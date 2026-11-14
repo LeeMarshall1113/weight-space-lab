@@ -1,0 +1,22 @@
+{
+ "case": "p179",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-12 10:21:31",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 55.3,
+ "peak_rss_gb": 2.02,
+ "peak_commit_gb": 4.2,
+ "lean_output": "<repo>\\runs\\rung3-test\\net\\p179\\_Full.lean:71:30: warning: Unused tactic linter: `try ring_nf` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung3-test\\net\\p179\\_Full.lean:71:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n<repo>\\runs\\rung3-test\\net\\p179\\_Full.lean:77:41: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n<repo>\\runs\\rung3-test\\net\\p179\\_Full.lean:358:54: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 1,
+ "attempts_left": 11
+}

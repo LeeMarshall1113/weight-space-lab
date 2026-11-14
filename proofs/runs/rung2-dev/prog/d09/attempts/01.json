@@ -1,0 +1,17 @@
+{
+ "case": "d09",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-12 01:19:33",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.5,
+ "peak_rss_gb": 1.71,
+ "peak_commit_gb": 3.89,
+ "lean_output": "<repo>\\runs\\rung2-dev\\prog\\d09\\_Full.lean:42:4: error: linarith failed to find a contradiction\ncase mp\nt : \u2115\nr : List \u2115\nn : \u2124\nh : \u2200 k \u2264 (t :: r).length, 0 \u2264 n + (List.map wt (List.take k (t :: r))).sum\nk : \u2115\nhk : k \u2264 r.length\nthis : 0 \u2264 n + (wt t + (List.take k (List.map wt r)).sum)\na\u271d : n + wt t + (List.map wt (List.take k r)).sum < 0\n\u22a2 False\nfailed\n<repo>\\runs\\rung2-dev\\prog\\d09\\_Full.lean:49:6: error: linarith failed to find a contradiction\ncase mpr.succ\nt : \u2115\nr : List \u2115\nn : \u2124\nh0 : 0 \u2264 n\nh1 : \u2200 k \u2264 r.length, 0 \u2264 n + wt t + (List.map wt (List.take k r)).sum\nk : \u2115\nhk : k + 1 \u2264 (t :: r).length\nthis : 0 \u2264 n + wt t + (List.map wt (List.take k r)).sum\na\u271d : n + (wt t + (List.take k (List.map wt r)).sum) < 0\n\u22a2 False\nfailed\n<repo>\\runs\\rung2-dev\\prog\\d09\\_Full.lean:59:4: error: No goals to be solved\n<repo>\\runs\\rung2-dev\\prog\\d09\\_Full.lean:73:16: error: Function expected at\n  h\nbut this term has type\n  -1 + (List.map wt r).sum = \u2191m\n\nNote: Expected a function because this term is being applied to the argument\n  0\n<repo>\\runs\\rung2-dev\\prog\\d09\\_Full.lean:80:8: error: Tactic `constructor` failed: target is not an inductive datatype\n\ncase neg\nm : \u2115\nr : List \u2115\nih :\n  (\u2200 t \u2208 r, 1 \u2264 t \u2227 t \u2264 4) \u2192\n    \u2200 (n : \u2115),\n      List.foldl step (some n) r = some m \u2194\n        (\u2200 k \u2264 r.length, 0 \u2264 \u2191n + (List.map wt (List.take k r)).sum) \u2227 \u2191n + (List.map wt r).sum = \u2191m\nhv' : \u2200 s \u2208 r, 1 \u2264 s \u2227 s \u2264 4\nhv : \u2200 t \u2208 4 :: r, 1 \u2264 t \u2227 t \u2264 4\nht : 1 \u2264 4 \u2227 4 \u2264 4\nn' : \u2115\nhn : \u00acn' + 1 = 0\nthis : step (some (n' + 1)) 4 = some n'\n\u22a2 \u2191n' + (List.map wt r).sum = \u2191m \u2192 (\u2200 k \u2264 r.length, 0 \u2264 \u2191n' + (List.take k (List.map wt r)).sum) \u2192 0 \u2264 \u2191n' + 1\n<repo>\\runs\\rung2-dev\\prog\\d09\\_Full.lean:97:15: error: Insufficient number of fields for `\u27e8...\u27e9` constructor: Constructor `Eq.refl` does not have explicit fields, but 2 were provided\n<repo>\\runs\\rung2-dev\\prog\\d09\\_Full.lean:97:19: error: not a positivity goal\n<repo>\\runs\\rung2-dev\\prog\\d09\\_Full.lean:98:8: error: No goals to be solved\n<repo>\\runs\\rung2-dev\\prog\\d09\\_Full.lean:100:15: error: Tactic `cases` failed with a nested error:\nDependent elimination failed: Failed to solve equation\n  Int.ofNat m =\n    match \u2191n, (List.map wt (t :: r)).sum with\n    | Int.ofNat m, Int.ofNat n => Int.ofNat (m + n)\n    | Int.ofNat m, Int.negSucc n => Int.subNatNat m n.succ\n    | Int.negSucc m, Int.ofNat n => Int.subNatNat n m.succ\n    | Int.negSucc m, Int.negSucc n => Int.negSucc (m + n).succ\nat case `Eq.refl`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

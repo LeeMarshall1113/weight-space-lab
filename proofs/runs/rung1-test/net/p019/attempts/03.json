@@ -1,0 +1,22 @@
+{
+ "case": "p019",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-11 13:21:18",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 135.6,
+ "peak_rss_gb": 2.58,
+ "peak_commit_gb": 4.76,
+ "lean_output": "<repo>\\runs\\rung1-test\\net\\p019\\_Full.lean:24:30: warning: Variable name `h0` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _h0\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<repo>\\runs\\rung1-test\\net\\p019\\_Full.lean:24:47: warning: Variable name `h1` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _h1\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<repo>\\runs\\rung1-test\\net\\p019\\_Full.lean:24:78: warning: Variable name `h3` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _h3\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 3,
+ "attempts_left": 9
+}

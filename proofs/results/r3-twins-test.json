@@ -1,0 +1,280 @@
+{
+ "p281": {
+  "widths": [
+   5,
+   4,
+   4,
+   2
+  ],
+  "delta": "1/2",
+  "seeds": {
+   "0": {
+    "max_exact_err": 1.157035681097504,
+    "eligible": false
+   },
+   "1": {
+    "max_exact_err": 0.9408592481279059,
+    "eligible": false
+   },
+   "2": {
+    "max_exact_err": 1.0983736336728454,
+    "eligible": false
+   }
+  },
+  "eligible": false,
+  "doctor_case": false
+ },
+ "p001": {
+  "widths": [
+   3,
+   2
+  ],
+  "delta": "1/5",
+  "seeds": {
+   "0": {
+    "max_exact_err": 0.6469981673872098,
+    "eligible": false
+   },
+   "1": {
+    "max_exact_err": 0.5836127977818251,
+    "eligible": false
+   },
+   "2": {
+    "max_exact_err": 2.3134765625,
+    "eligible": false
+   }
+  },
+  "eligible": false,
+  "doctor_case": false
+ },
+ "p119": {
+  "widths": [
+   3
+  ],
+  "delta": "18/25",
+  "seeds": {
+   "0": {
+    "max_exact_err": 8.791015625,
+    "eligible": false
+   },
+   "1": {
+    "max_exact_err": 0.0087890625,
+    "eligible": true
+   },
+   "2": {
+    "max_exact_err": 1.5595703125,
+    "eligible": false
+   }
+  },
+  "eligible": false,
+  "doctor_case": false
+ },
+ "p249": {
+  "widths": [
+   6,
+   3
+  ],
+  "delta": "2/5",
+  "seeds": {
+   "0": {
+    "max_exact_err": 0.37031590682454407,
+    "eligible": false
+   },
+   "1": {
+    "max_exact_err": 0.23358154199377168,
+    "eligible": false
+   },
+   "2": {
+    "max_exact_err": 0.4630428737727925,
+    "eligible": false
+   }
+  },
+  "eligible": false,
+  "doctor_case": false
+ },
+ "p177": {
+  "widths": [
+   5,
+   4,
+   2
+  ],
+  "delta": "3/10",
+  "seeds": {
+   "0": {
+    "max_exact_err": 1.0138946887459355,
+    "eligible": false
+   },
+   "1": {
+    "max_exact_err": 3.634765625,
+    "eligible": false
+   },
+   "2": {
+    "max_exact_err": 0.7548828125,
+    "eligible": false
+   }
+  },
+  "eligible": false,
+  "doctor_case": false
+ },
+ "p196": {
+  "widths": [
+   5,
+   2
+  ],
+  "delta": "3/4",
+  "seeds": {
+   "0": {
+    "max_exact_err": 1.7287124745780602,
+    "eligible": false
+   },
+   "1": {
+    "max_exact_err": 0.7426915820688009,
+    "eligible": false
+   },
+   "2": {
+    "max_exact_err": 1.3189119141316041,
+    "eligible": false
+   }
+  },
+  "eligible": false,
+  "doctor_case": false
+ },
+ "p030": {
+  "widths": [
+   9,
+   5,
+   3
+  ],
+  "delta": "3/10",
+  "seeds": {
+   "0": {
+    "max_exact_err": 0.3916675568714538,
+    "eligible": false
+   },
+   "1": {
+    "max_exact_err": 0.5485055036403423,
+    "eligible": false
+   },
+   "2": {
+    "max_exact_err": 0.6577722268618231,
+    "eligible": false
+   }
+  },
+  "eligible": false,
+  "doctor_case": false
+ },
+ "p179": {
+  "widths": [
+   4,
+   4,
+   3
+  ],
+  "delta": "1/4",
+  "seeds": {
+   "0": {
+    "max_exact_err": 1.086731454743358,
+    "eligible": false
+   },
+   "1": {
+    "max_exact_err": 1.7867018377318118,
+    "eligible": false
+   },
+   "2": {
+    "max_exact_err": 0.3850399957964328,
+    "eligible": false
+   }
+  },
+  "eligible": false,
+  "doctor_case": false
+ },
+ "p134": {
+  "widths": [
+   4,
+   3
+  ],
+  "delta": "19/50",
+  "seeds": {
+   "0": {
+    "max_exact_err": 4.4111328125,
+    "eligible": false
+   },
+   "1": {
+    "max_exact_err": 0.013273332733660936,
+    "eligible": true
+   },
+   "2": {
+    "max_exact_err": 0.8597128561814316,
+    "eligible": false
+   }
+  },
+  "eligible": false,
+  "doctor_case": false
+ },
+ "p007": {
+  "widths": [
+   4,
+   2
+  ],
+  "delta": "1/5",
+  "seeds": {
+   "0": {
+    "max_exact_err": 0.309702972183004,
+    "eligible": false
+   },
+   "1": {
+    "max_exact_err": 0.31743288366124034,
+    "eligible": false
+   },
+   "2": {
+    "max_exact_err": 0.18703978977282532,
+    "eligible": false
+   }
+  },
+  "eligible": false,
+  "doctor_case": false
+ },
+ "p142": {
+  "widths": [
+   4
+  ],
+  "delta": "11/20",
+  "seeds": {
+   "0": {
+    "max_exact_err": 0.005644112825393677,
+    "eligible": true
+   },
+   "1": {
+    "max_exact_err": 0.0025998353958129883,
+    "eligible": true
+   },
+   "2": {
+    "max_exact_err": 0.00224420428276062,
+    "eligible": true
+   }
+  },
+  "eligible": true,
+  "doctor_case": true
+ },
+ "p244": {
+  "widths": [
+   5
+  ],
+  "delta": "1/5",
+  "seeds": {
+   "0": {
+    "max_exact_err": 0.2597684860229492,
+    "eligible": false
+   },
+   "1": {
+    "max_exact_err": 0.7150976657867432,
+    "eligible": false
+   },
+   "2": {
+    "max_exact_err": 0.7149772644042969,
+    "eligible": false
+   }
+  },
+  "eligible": false,
+  "doctor_case": false
+ }
+}

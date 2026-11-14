@@ -1,0 +1,22 @@
+{
+ "case": "p129",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-11 13:06:49",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.7,
+ "peak_rss_gb": 1.75,
+ "peak_commit_gb": 3.92,
+ "lean_output": "<repo>\\runs\\rung1-test\\net\\p129\\_Full.lean:51:49: warning: Unused tactic linter: `rfl` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung1-test\\net\\p129\\_Full.lean:51:49: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n<repo>\\runs\\rung1-test\\net\\p129\\_Full.lean:60:49: warning: Unused tactic linter: `rfl` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung1-test\\net\\p129\\_Full.lean:60:49: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n<repo>\\runs\\rung1-test\\net\\p129\\_Full.lean:68:49: warning: Unused tactic linter: `rfl` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung1-test\\net\\p129\\_Full.lean:68:49: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 2,
+ "attempts_left": 10
+}

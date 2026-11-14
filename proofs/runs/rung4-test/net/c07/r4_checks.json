@@ -1,0 +1,44 @@
+{
+ "id": "c07",
+ "family": "carry",
+ "tau": 0.005,
+ "blocks": 2,
+ "heads": [
+  1,
+  1
+ ],
+ "width": 8,
+ "mlp_hidden": [
+  0,
+  1
+ ],
+ "written_exact_max_dev": 0.0,
+ "inside_ball_max_dev": {
+  "uniform": 0.06535912256606125,
+  "sign": 0.13127812311562304
+ },
+ "inside_ball_ok": true,
+ "outside": {
+  "2": 0.18098087969999987,
+  "4": 0.3741854495999992
+ },
+ "smallest_violating_multiple": 4,
+ "float32": {
+  "1000": {
+   "written": 0.0,
+   "perturbed_at_tau": 0.09019780158996582,
+   "in_theorem_range": true
+  },
+  "16000": {
+   "written": 0.0,
+   "perturbed_at_tau": 0.1188279390335083,
+   "in_theorem_range": true
+  },
+  "65534": {
+   "written": 0.0,
+   "perturbed_at_tau": 0.10007226467132568,
+   "in_theorem_range": true
+  }
+ },
+ "float32_ok_in_range": true
+}

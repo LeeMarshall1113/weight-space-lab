@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "<repo>\tools\collect2.py", line 104, in <module>
+    assert out.dtype == np.float32
+           ^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

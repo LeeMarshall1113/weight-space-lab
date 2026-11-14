@@ -1,0 +1,655 @@
+[
+ {
+  "id": "c07",
+  "family": "carry",
+  "arm": "net",
+  "submissions": 3,
+  "pass": true,
+  "lean_secs": 134.0,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 856,
+  "blocks": 2,
+  "heads": [
+   1,
+   1
+  ],
+  "width": 8,
+  "mlp_hidden": [
+   0,
+   1
+  ],
+  "written_exact_max_dev": 0.0,
+  "inside_ball_max_dev": 0.13127812311562304,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 4,
+  "float32_in_range_max_dev": 0.1188279390335083,
+  "float32_ok_in_range": true,
+  "float32_beyond": {}
+ },
+ {
+  "id": "c14",
+  "family": "carry",
+  "arm": "net",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 122.4,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 394,
+  "blocks": 1,
+  "heads": [
+   1
+  ],
+  "width": 6,
+  "mlp_hidden": [
+   1
+  ],
+  "written_exact_max_dev": 0.0,
+  "inside_ball_max_dev": 0.11117812311562414,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 2,
+  "float32_in_range_max_dev": 0.10017139464616776,
+  "float32_ok_in_range": true,
+  "float32_beyond": {
+   "200000": 0.0,
+   "2000000": 0.0
+  }
+ },
+ {
+  "id": "c21",
+  "family": "carry",
+  "arm": "net",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 146.3,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 458,
+  "blocks": 1,
+  "heads": [
+   1
+  ],
+  "width": 8,
+  "mlp_hidden": [
+   1
+  ],
+  "written_exact_max_dev": 0.0,
+  "inside_ball_max_dev": 0.04504937249374796,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 8,
+  "float32_in_range_max_dev": 0.05484902858734131,
+  "float32_ok_in_range": true,
+  "float32_beyond": {
+   "200000": 0.0,
+   "2000000": 0.0
+  }
+ },
+ {
+  "id": "f05",
+  "family": "first",
+  "arm": "net",
+  "submissions": 5,
+  "pass": true,
+  "lean_secs": 117.0,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 5,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 969,
+  "blocks": 2,
+  "heads": [
+   1,
+   1
+  ],
+  "width": 10,
+  "mlp_hidden": [
+   1,
+   2
+  ],
+  "written_exact_max_dev": 0.0,
+  "inside_ball_max_dev": 0.07547587119042046,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 4,
+  "float32_in_range_max_dev": 0.0298001766204834,
+  "float32_ok_in_range": true,
+  "float32_beyond": {}
+ },
+ {
+  "id": "f08",
+  "family": "first",
+  "arm": "net",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 32.7,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 559,
+  "blocks": 1,
+  "heads": [
+   1
+  ],
+  "width": 7,
+  "mlp_hidden": [
+   1
+  ],
+  "written_exact_max_dev": 0.0,
+  "inside_ball_max_dev": 0.04484937999375005,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 8,
+  "float32_in_range_max_dev": 0.035048842430114746,
+  "float32_ok_in_range": true,
+  "float32_beyond": {
+   "200000": 0.0,
+   "2000000": 0.0
+  }
+ },
+ {
+  "id": "f24",
+  "family": "first",
+  "arm": "net",
+  "submissions": 3,
+  "pass": true,
+  "lean_secs": 183.8,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 611,
+  "blocks": 1,
+  "heads": [
+   1
+  ],
+  "width": 8,
+  "mlp_hidden": [
+   2
+  ],
+  "written_exact_max_dev": 0.0,
+  "inside_ball_max_dev": 0.025200250003124702,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 16,
+  "float32_in_range_max_dev": 0.02480022981762886,
+  "float32_ok_in_range": true,
+  "float32_beyond": {
+   "200000": 0.0,
+   "2000000": 0.0
+  }
+ },
+ {
+  "id": "i03",
+  "family": "induct",
+  "arm": "net",
+  "submissions": 0,
+  "pass": false,
+  "lean_secs": 0.0,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0
+ },
+ {
+  "id": "i09",
+  "family": "induct",
+  "arm": "net",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 119.0,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 965,
+  "blocks": 2,
+  "heads": [
+   1,
+   3
+  ],
+  "width": 15,
+  "mlp_hidden": [
+   0,
+   3
+  ],
+  "written_exact_max_dev": 0.0,
+  "inside_ball_max_dev": 0.0960293831312482,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 4,
+  "float32_in_range_max_dev": 0.07562637329101562,
+  "float32_ok_in_range": true,
+  "float32_beyond": {}
+ },
+ {
+  "id": "i10",
+  "family": "induct",
+  "arm": "net",
+  "submissions": 4,
+  "pass": true,
+  "lean_secs": 89.8,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 4,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 938,
+  "blocks": 2,
+  "heads": [
+   1,
+   3
+  ],
+  "width": 15,
+  "mlp_hidden": [
+   0,
+   3
+  ],
+  "written_exact_max_dev": 0.0,
+  "inside_ball_max_dev": 0.0960293831312482,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 4,
+  "float32_in_range_max_dev": 0.07562637329101562,
+  "float32_ok_in_range": true,
+  "float32_beyond": {}
+ },
+ {
+  "id": "l11",
+  "family": "last",
+  "arm": "net",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 36.8,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 389,
+  "blocks": 1,
+  "heads": [
+   1
+  ],
+  "width": 6,
+  "mlp_hidden": [
+   0
+  ],
+  "written_exact_max_dev": 0.0,
+  "inside_ball_max_dev": 0.0452253749999989,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 8,
+  "float32_in_range_max_dev": 0.04477548599243164,
+  "float32_ok_in_range": true,
+  "float32_beyond": {
+   "200000": 0.0,
+   "2000000": 0.0
+  }
+ },
+ {
+  "id": "l25",
+  "family": "last",
+  "arm": "net",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 131.9,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 416,
+  "blocks": 2,
+  "heads": [
+   0,
+   1
+  ],
+  "width": 6,
+  "mlp_hidden": [
+   1,
+   0
+  ],
+  "written_exact_max_dev": 0.0,
+  "inside_ball_max_dev": 0.0452253749999989,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 8,
+  "float32_in_range_max_dev": 0.04522538185119629,
+  "float32_ok_in_range": true,
+  "float32_beyond": {}
+ },
+ {
+  "id": "l38",
+  "family": "last",
+  "arm": "net",
+  "submissions": 1,
+  "pass": true,
+  "lean_secs": 28.1,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 1,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 458,
+  "blocks": 1,
+  "heads": [
+   1
+  ],
+  "width": 6,
+  "mlp_hidden": [
+   0
+  ],
+  "written_exact_max_dev": 0.0,
+  "inside_ball_max_dev": 0.0452253749999989,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 8,
+  "float32_in_range_max_dev": 0.04522538185119629,
+  "float32_ok_in_range": true,
+  "float32_beyond": {
+   "200000": 0.0,
+   "2000000": 0.0
+  }
+ },
+ {
+  "id": "i03",
+  "family": "induct",
+  "arm": "net-rerun",
+  "submissions": 0,
+  "pass": false,
+  "lean_secs": 0.0,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0
+ },
+ {
+  "id": "c07",
+  "family": "carry",
+  "arm": "prog",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 26.0,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 56
+ },
+ {
+  "id": "c14",
+  "family": "carry",
+  "arm": "prog",
+  "submissions": 1,
+  "pass": true,
+  "lean_secs": 13.0,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 1,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 53
+ },
+ {
+  "id": "c21",
+  "family": "carry",
+  "arm": "prog",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 26.6,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 42
+ },
+ {
+  "id": "f05",
+  "family": "first",
+  "arm": "prog",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 25.8,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 51
+ },
+ {
+  "id": "f08",
+  "family": "first",
+  "arm": "prog",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 26.4,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 35
+ },
+ {
+  "id": "f24",
+  "family": "first",
+  "arm": "prog",
+  "submissions": 3,
+  "pass": true,
+  "lean_secs": 39.5,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 54
+ },
+ {
+  "id": "i03",
+  "family": "induct",
+  "arm": "prog",
+  "submissions": 5,
+  "pass": true,
+  "lean_secs": 53.8,
+  "native_decide_attempts": 0,
+  "banned_rejections": 1,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 5,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 235
+ },
+ {
+  "id": "i09",
+  "family": "induct",
+  "arm": "prog",
+  "submissions": 3,
+  "pass": true,
+  "lean_secs": 26.3,
+  "native_decide_attempts": 0,
+  "banned_rejections": 1,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 128
+ },
+ {
+  "id": "i10",
+  "family": "induct",
+  "arm": "prog",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 27.5,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 114
+ },
+ {
+  "id": "l11",
+  "family": "last",
+  "arm": "prog",
+  "submissions": 1,
+  "pass": true,
+  "lean_secs": 12.7,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 1,
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 31
+ },
+ {
+  "id": "l25",
+  "family": "last",
+  "arm": "prog",
+  "submissions": 1,
+  "pass": true,
+  "lean_secs": 13.3,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 1,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 46
+ },
+ {
+  "id": "l38",
+  "family": "last",
+  "arm": "prog",
+  "submissions": 1,
+  "pass": true,
+  "lean_secs": 12.6,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 1,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 56
+ }
+]

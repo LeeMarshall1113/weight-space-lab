@@ -1,0 +1,17 @@
+{
+ "case": "s00",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-12 01:55:58",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 9.8,
+ "peak_rss_gb": 1.71,
+ "peak_commit_gb": 3.89,
+ "lean_output": "<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:42:6: error: omega could not prove the goal:\na possible counterexample may satisfy the constraints\n  d \u2265 2\n  c \u2265 0\n  b \u2265 0\n  0 \u2264 a \u2264 1\nwhere\n a := \u2191t\n b := \u2191x\n c := \u2191(List.countP (fun s => decide (s \u2264 1)) r)\n d := \u2191(if t \u2264 1 then 1 else 0)\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:46:6: error: omega could not prove the goal:\na possible counterexample may satisfy the constraints\n  d \u2265 2\n  c \u2265 0\n  b \u2265 0\n  a \u2265 2\nwhere\n a := \u2191t\n b := \u2191y\n c := \u2191(List.countP (fun s => !decide (s \u2264 1)) r)\n d := \u2191(if 1 < t then 1 else 0)\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:41:30: warning: This simp argument is unused:\n  h\n\nHint: Omit it from the simp argument list.\n  [apply] simp [List.countP_cons]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:45:30: warning: This simp argument is unused:\n  h\n\nHint: Omit it from the simp argument list.\n  [apply] simp [List.countP_cons]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:63:13: error: unsolved goals\ncase succ.succ\nb a : \u2115\nih : \u2200 k < a + b, (rep a 1 ++ rep b 2).getD k 0 = if k < a then 1 else 2\nk : \u2115\nhk : k + 1 < a + 1 + b\nthis : (rep a 1 ++ rep b 2).getD k 0 = if k < a then 1 else 2\n\u22a2 (rep a 1 ++ rep b 2)[k]?.getD 0 = if k < a then 1 else 2\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:65:17: warning: This simp argument is unused:\n  this\n\nHint: Omit it from the simp argument list.\n  [apply] simp [rep]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:72:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  List.foldl step (0, 0) w\nin the target expression\n  IsRank w i ((prog w).getD (i - 1) 0)\n\nw : List \u2115\ni : \u2115\nhi : 1 \u2264 i\nhil : i \u2264 w.length\nleft\u271d : w \u2260 []\nhr : \u2200 t \u2208 w, 1 \u2264 t \u2227 t \u2264 2\nhf :\n  List.foldl step (0, 0) w = (0 + List.countP (fun s => decide (s < 2)) w, 0 + List.countP (fun s => !decide (s < 2)) w)\n\u22a2 IsRank w i ((prog w).getD (i - 1) 0)\n'Lane4Final.final' depends on axioms: [propext, sorryAx]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

@@ -1,0 +1,482 @@
+[
+ {
+  "id": "a00",
+  "family": "add",
+  "weights": 538,
+  "single_weight_breaks_at_tau": 3,
+  "by_group": {
+   "attention score (A)": 1,
+   "MLP": 2
+  },
+  "smallest_breaking_size_tried": 0.0001,
+  "witness_tau": {
+   "param": "A0_0",
+   "index": [
+    8,
+    8
+   ],
+   "sign": 1,
+   "size": 0.001,
+   "exact_confirmed": true,
+   "input": [
+    4,
+    1,
+    1,
+    2,
+    3,
+    2,
+    4,
+    4,
+    2,
+    2,
+    3,
+    3,
+    2
+   ]
+  },
+  "witness_smallest": {
+   "param": "A0_0",
+   "index": [
+    8,
+    8
+   ],
+   "sign": -1,
+   "size": 0.0001,
+   "exact_confirmed": true,
+   "input": [
+    4,
+    3,
+    4,
+    3,
+    3,
+    3,
+    1,
+    3,
+    4,
+    3,
+    2,
+    1,
+    3,
+    1,
+    4,
+    1,
+    2,
+    1,
+    3,
+    1
+   ]
+  },
+  "secs": 0.8
+ },
+ {
+  "id": "a01",
+  "family": "add",
+  "weights": 469,
+  "single_weight_breaks_at_tau": 6,
+  "by_group": {
+   "attention score (A)": 2,
+   "attention value (V)": 2,
+   "MLP": 2
+  },
+  "smallest_breaking_size_tried": 0.0001,
+  "witness_tau": {
+   "param": "A0_0",
+   "index": [
+    7,
+    0
+   ],
+   "sign": 1,
+   "size": 0.001,
+   "exact_confirmed": true,
+   "input": [
+    1,
+    9,
+    4,
+    2,
+    2,
+    7,
+    4,
+    3,
+    5,
+    2,
+    2,
+    3,
+    9,
+    1,
+    5,
+    9,
+    5,
+    4,
+    6,
+    2
+   ]
+  },
+  "witness_smallest": {
+   "param": "A0_0",
+   "index": [
+    7,
+    7
+   ],
+   "sign": -1,
+   "size": 0.0001,
+   "exact_confirmed": true,
+   "input": [
+    9,
+    6,
+    9,
+    7,
+    6,
+    5,
+    2,
+    7,
+    8,
+    7,
+    4,
+    1,
+    7,
+    1,
+    8,
+    2,
+    3,
+    2,
+    5,
+    2
+   ]
+  },
+  "secs": 0.9
+ },
+ {
+  "id": "d10",
+  "family": "dyck",
+  "weights": 708,
+  "single_weight_breaks_at_tau": 67,
+  "by_group": {
+   "attention score (A)": 55,
+   "attention value (V)": 9,
+   "MLP": 2,
+   "read-out": 1
+  },
+  "smallest_breaking_size_tried": 1e-06,
+  "witness_tau": {
+   "param": "A0_0",
+   "index": [
+    0,
+    0
+   ],
+   "sign": 1,
+   "size": 0.001,
+   "exact_confirmed": true,
+   "input": [
+    2,
+    1
+   ]
+  },
+  "witness_smallest": {
+   "param": "A0_0",
+   "index": [
+    0,
+    0
+   ],
+   "sign": 1,
+   "size": 1e-06,
+   "exact_confirmed": true,
+   "input": [
+    2,
+    1
+   ]
+  },
+  "secs": 0.7
+ },
+ {
+  "id": "d15",
+  "family": "dyck",
+  "weights": 683,
+  "single_weight_breaks_at_tau": 69,
+  "by_group": {
+   "attention score (A)": 59,
+   "attention value (V)": 8,
+   "MLP": 1,
+   "read-out": 1
+  },
+  "smallest_breaking_size_tried": 1e-06,
+  "witness_tau": {
+   "param": "A0_0",
+   "index": [
+    0,
+    0
+   ],
+   "sign": 1,
+   "size": 0.001,
+   "exact_confirmed": true,
+   "input": [
+    2,
+    3
+   ]
+  },
+  "witness_smallest": {
+   "param": "A0_0",
+   "index": [
+    0,
+    0
+   ],
+   "sign": 1,
+   "size": 1e-06,
+   "exact_confirmed": true,
+   "input": [
+    2,
+    3
+   ]
+  },
+  "secs": 0.7
+ },
+ {
+  "id": "d18",
+  "family": "dyck",
+  "weights": 708,
+  "single_weight_breaks_at_tau": 75,
+  "by_group": {
+   "attention score (A)": 63,
+   "attention value (V)": 9,
+   "MLP": 2,
+   "read-out": 1
+  },
+  "smallest_breaking_size_tried": 1e-06,
+  "witness_tau": {
+   "param": "A0_0",
+   "index": [
+    0,
+    0
+   ],
+   "sign": 1,
+   "size": 0.001,
+   "exact_confirmed": true,
+   "input": [
+    1,
+    2
+   ]
+  },
+  "witness_smallest": {
+   "param": "A0_0",
+   "index": [
+    0,
+    0
+   ],
+   "sign": 1,
+   "size": 1e-06,
+   "exact_confirmed": true,
+   "input": [
+    1,
+    2
+   ]
+  },
+  "secs": 0.8
+ },
+ {
+  "id": "p05",
+  "family": "parity",
+  "weights": 579,
+  "single_weight_breaks_at_tau": 64,
+  "by_group": {
+   "attention score (A)": 60,
+   "attention value (V)": 4
+  },
+  "smallest_breaking_size_tried": 1e-06,
+  "witness_tau": {
+   "param": "A0_0",
+   "index": [
+    0,
+    0
+   ],
+   "sign": 1,
+   "size": 0.001,
+   "exact_confirmed": true,
+   "input": [
+    2,
+    3
+   ]
+  },
+  "witness_smallest": {
+   "param": "A0_0",
+   "index": [
+    0,
+    0
+   ],
+   "sign": 1,
+   "size": 1e-06,
+   "exact_confirmed": true,
+   "input": [
+    2,
+    3
+   ]
+  },
+  "secs": 0.6
+ },
+ {
+  "id": "p10",
+  "family": "parity",
+  "weights": 576,
+  "single_weight_breaks_at_tau": 71,
+  "by_group": {
+   "attention score (A)": 67,
+   "attention value (V)": 4
+  },
+  "smallest_breaking_size_tried": 1e-06,
+  "witness_tau": {
+   "param": "A0_0",
+   "index": [
+    0,
+    0
+   ],
+   "sign": 1,
+   "size": 0.001,
+   "exact_confirmed": true,
+   "input": [
+    3,
+    1
+   ]
+  },
+  "witness_smallest": {
+   "param": "A0_0",
+   "index": [
+    0,
+    0
+   ],
+   "sign": 1,
+   "size": 1e-06,
+   "exact_confirmed": true,
+   "input": [
+    3,
+    1
+   ]
+  },
+  "secs": 0.6
+ },
+ {
+  "id": "p29",
+  "family": "parity",
+  "weights": 579,
+  "single_weight_breaks_at_tau": 64,
+  "by_group": {
+   "attention score (A)": 60,
+   "attention value (V)": 4
+  },
+  "smallest_breaking_size_tried": 1e-06,
+  "witness_tau": {
+   "param": "A0_0",
+   "index": [
+    0,
+    0
+   ],
+   "sign": 1,
+   "size": 0.001,
+   "exact_confirmed": true,
+   "input": [
+    4,
+    1,
+    1,
+    2,
+    3
+   ]
+  },
+  "witness_smallest": {
+   "param": "A0_0",
+   "index": [
+    0,
+    0
+   ],
+   "sign": 1,
+   "size": 1e-06,
+   "exact_confirmed": true,
+   "input": [
+    4,
+    1,
+    1,
+    2,
+    3
+   ]
+  },
+  "secs": 0.8
+ },
+ {
+  "id": "s00",
+  "family": "sort",
+  "weights": 903,
+  "single_weight_breaks_at_tau": 184,
+  "by_group": {
+   "attention score (A)": 125,
+   "embedding": 7,
+   "attention value (V)": 40,
+   "MLP": 12
+  },
+  "smallest_breaking_size_tried": 1e-06,
+  "witness_tau": {
+   "param": "A0_0",
+   "index": [
+    1,
+    0
+   ],
+   "sign": 1,
+   "size": 0.001,
+   "exact_confirmed": true,
+   "input": [
+    1,
+    2
+   ]
+  },
+  "witness_smallest": {
+   "param": "A0_0",
+   "index": [
+    1,
+    0
+   ],
+   "sign": 1,
+   "size": 1e-06,
+   "exact_confirmed": true,
+   "input": [
+    1,
+    2
+   ]
+  },
+  "secs": 0.9
+ },
+ {
+  "id": "s01",
+  "family": "sort",
+  "weights": 1486,
+  "single_weight_breaks_at_tau": 127,
+  "by_group": {
+   "attention score (A)": 123,
+   "attention value (V)": 4
+  },
+  "smallest_breaking_size_tried": 1e-06,
+  "witness_tau": {
+   "param": "A0_0",
+   "index": [
+    0,
+    0
+   ],
+   "sign": 1,
+   "size": 0.001,
+   "exact_confirmed": true,
+   "input": [
+    2,
+    1
+   ]
+  },
+  "witness_smallest": {
+   "param": "A0_0",
+   "index": [
+    0,
+    0
+   ],
+   "sign": 1,
+   "size": 1e-06,
+   "exact_confirmed": true,
+   "input": [
+    2,
+    1
+   ]
+  },
+  "secs": 2.3
+ }
+]

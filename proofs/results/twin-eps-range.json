@@ -1,0 +1,162 @@
+[
+ {
+  "id": "p294",
+  "eps": 0.03,
+  "range_sampled": 9.0,
+  "eps_over_range": 0.0033,
+  "submissions": 4,
+  "pass": true
+ },
+ {
+  "id": "p266",
+  "eps": 1.46,
+  "range_sampled": 4.5,
+  "eps_over_range": 0.3244,
+  "submissions": 6,
+  "pass": false
+ },
+ {
+  "id": "p049",
+  "eps": 1.86,
+  "range_sampled": 8.5,
+  "eps_over_range": 0.2188,
+  "submissions": 11,
+  "pass": true
+ },
+ {
+  "id": "p057",
+  "eps": 5.3,
+  "range_sampled": 9.0,
+  "eps_over_range": 0.5889,
+  "submissions": 2,
+  "pass": true
+ },
+ {
+  "id": "p096",
+  "eps": 3.01,
+  "range_sampled": 14.75,
+  "eps_over_range": 0.2041,
+  "submissions": 4,
+  "pass": true
+ },
+ {
+  "id": "p129",
+  "eps": 1.95,
+  "range_sampled": 19.453125,
+  "eps_over_range": 0.1002,
+  "submissions": 12,
+  "pass": false
+ },
+ {
+  "id": "p297",
+  "eps": 8.56,
+  "range_sampled": 3.5,
+  "eps_over_range": 2.4457,
+  "submissions": 3,
+  "pass": true
+ },
+ {
+  "id": "p069",
+  "eps": 9.04,
+  "range_sampled": 28.5,
+  "eps_over_range": 0.3172,
+  "submissions": 2,
+  "pass": true
+ },
+ {
+  "id": "p166",
+  "eps": 2.86,
+  "range_sampled": 2.0,
+  "eps_over_range": 1.43,
+  "submissions": 11,
+  "pass": true
+ },
+ {
+  "id": "p087",
+  "eps": 0.1,
+  "range_sampled": 10.0,
+  "eps_over_range": 0.01,
+  "submissions": 11,
+  "pass": true
+ },
+ {
+  "id": "p122",
+  "eps": 2.21,
+  "range_sampled": 27.5,
+  "eps_over_range": 0.0804,
+  "submissions": 10,
+  "pass": true
+ },
+ {
+  "id": "p262",
+  "eps": 2.92,
+  "range_sampled": 18.0,
+  "eps_over_range": 0.1622,
+  "submissions": 12,
+  "pass": false
+ },
+ {
+  "id": "p124",
+  "eps": 32.36,
+  "range_sampled": 11.0,
+  "eps_over_range": 2.9418,
+  "submissions": 3,
+  "pass": true
+ },
+ {
+  "id": "p232",
+  "eps": 0.31,
+  "range_sampled": 7.02734375,
+  "eps_over_range": 0.0441,
+  "submissions": 8,
+  "pass": true
+ },
+ {
+  "id": "p031",
+  "eps": 4.59,
+  "range_sampled": 5.78125,
+  "eps_over_range": 0.7939,
+  "submissions": 9,
+  "pass": true
+ },
+ {
+  "id": "p063",
+  "eps": 79.97,
+  "range_sampled": 25.0,
+  "eps_over_range": 3.1988,
+  "submissions": 2,
+  "pass": true
+ },
+ {
+  "id": "p192",
+  "eps": 1.89,
+  "range_sampled": 0.5,
+  "eps_over_range": 3.78,
+  "submissions": 2,
+  "pass": true
+ },
+ {
+  "id": "p074",
+  "eps": 0.86,
+  "range_sampled": 19.0,
+  "eps_over_range": 0.0453,
+  "submissions": 8,
+  "pass": true
+ },
+ {
+  "id": "p175",
+  "eps": 0.09,
+  "range_sampled": 42.0,
+  "eps_over_range": 0.0021,
+  "submissions": 1,
+  "pass": true
+ },
+ {
+  "id": "p019",
+  "eps": 39.43,
+  "range_sampled": 14.0,
+  "eps_over_range": 2.8164,
+  "submissions": 2,
+  "pass": true
+ }
+]

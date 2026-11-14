@@ -1,0 +1,6 @@
+.lake/
+build/
+_Full.lean
+_Export.lean
+__pycache__/
+*.olean

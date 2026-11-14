@@ -1,0 +1,10 @@
+{
+ "case": "i03",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-13 05:47:01",
+ "native_decide_attempted": false,
+ "reason": "banned tokens: definition below the `-- PROOF` marker",
+ "attempt": 1,
+ "attempts_left": 11
+}

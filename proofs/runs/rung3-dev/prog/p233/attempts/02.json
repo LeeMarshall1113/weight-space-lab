@@ -1,0 +1,22 @@
+{
+ "case": "p233",
+ "arm": "prog",
+ "pass": true,
+ "time": "2026-11-12 09:26:07",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 8.1,
+ "peak_rss_gb": 1.69,
+ "peak_commit_gb": 3.87,
+ "lean_output": "<repo>\\runs\\rung3-dev\\prog\\p233\\_Full.lean:30:2: warning: Unused tactic linter: `all_goals (split_ifs)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung3-dev\\prog\\p233\\_Full.lean:31:2: warning: Unused tactic linter: `all_goals\n  (first\n    | done\n    | linarith)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung3-dev\\prog\\p233\\_Full.lean:30:12: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n<repo>\\runs\\rung3-dev\\prog\\p233\\_Full.lean:31:12: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 2,
+ "attempts_left": 10
+}

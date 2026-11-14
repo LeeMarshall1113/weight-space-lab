@@ -1,0 +1,17 @@
+{
+ "case": "p177",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-12 10:47:16",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.3,
+ "peak_rss_gb": 1.69,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung3-test\\prog\\p177\\_Full.lean:17:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.decidableLE', which is 'noncomputable'\n<repo>\\runs\\rung3-test\\prog\\p177\\_Full.lean:18:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.decidableLE', which is 'noncomputable'\n<repo>\\runs\\rung3-test\\prog\\p177\\_Full.lean:19:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.decidableLE', which is 'noncomputable'\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

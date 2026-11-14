@@ -1,0 +1,22 @@
+{
+ "case": "d18",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-12 01:39:46",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.9,
+ "peak_rss_gb": 1.75,
+ "peak_commit_gb": 3.93,
+ "lean_output": "<repo>\\runs\\rung2-test\\net\\d18\\_Full.lean:91:16: warning: Unused tactic linter: `simp [hd1, cand]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung2-test\\net\\d18\\_Full.lean:91:16: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n<repo>\\runs\\rung2-test\\net\\d18\\_Full.lean:164:57: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n<repo>\\runs\\rung2-test\\net\\d18\\_Full.lean:178:4: warning: Unused tactic linter: `beta_reduce` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung2-test\\net\\d18\\_Full.lean:229:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```\n<repo>\\runs\\rung2-test\\net\\d18\\_Full.lean:254:14: warning: Unused tactic linter: `simpa [div_eq_mul_inv] using mul_le_mul_of_nonneg_right hT (inv_nonneg.mpr hN.le)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung2-test\\net\\d18\\_Full.lean:254:14: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 3,
+ "attempts_left": 9
+}

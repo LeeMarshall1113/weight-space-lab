@@ -1,0 +1,17 @@
+{
+ "case": "f24",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-13 05:44:11",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.4,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung4-test\\prog\\f24\\_Full.lean:38:12: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  (List.foldl step (if (s, acc).1 = 0 then code b else (s, acc).1, [] ++ ?m.60) t).2\nin the target expression\n  (step (s, acc) b).2 ++ (List.foldl step ((step (s, acc) b).1, []) t).2 = acc ++ (List.foldl step (step (s, []) b) t).2\n\ncase cons\nb : \u2115\nt : List \u2115\nih : \u2200 (s : \u2115) (acc : List \u2115), (List.foldl step (s, acc) t).2 = acc ++ (List.foldl step (s, []) t).2\ns : \u2115\nacc : List \u2115\n\u22a2 (step (s, acc) b).2 ++ (List.foldl step ((step (s, acc) b).1, []) t).2 = acc ++ (List.foldl step (step (s, []) b) t).2\n<repo>\\runs\\rung4-test\\prog\\f24\\_Full.lean:53:13: error: unsolved goals\ncase cons.succ\nb : \u2115\nt : List \u2115\nih :\n  \u2200 (s j : \u2115),\n    j < t.length \u2192\n      (List.foldl step (s, []) t).2.getD j 0 =\n        ((if List.foldl (fun s t => if s = 0 then code t else s) s (List.take (j + 1) t) = 2 then 1 else 0) +\n            cbit (t.getD j 0)) %\n          2\ns j : \u2115\nhj : j + 1 < (b :: t).length\nhj' : j < t.length\nthis :\n  (List.foldl step (if s = 0 then code b else s, []) t).2.getD j 0 =\n    ((if\n            List.foldl (fun s t => if s = 0 then code t else s) (if s = 0 then code b else s) (List.take (j + 1) t) =\n              2 then\n          1\n        else 0) +\n        cbit (t.getD j 0)) %\n      2\n\u22a2 (List.foldl step (if s = 0 then code b else s, []) t).2[j]?.getD 0 =\n    ((if\n            List.foldl (fun s t => if s = 0 then code t else s) (if s = 0 then code b else s) (List.take (j + 1) t) =\n              2 then\n          1\n        else 0) +\n        cbit (t[j]?.getD 0)) %\n      2\n<repo>\\runs\\rung4-test\\prog\\f24\\_Full.lean:56:18: warning: This simp argument is unused:\n  this\n\nHint: Omit it from the simp argument list.\n  [apply] simp [step]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

@@ -1,0 +1,73 @@
+{
+ "id": "p244",
+ "tau": 0.001,
+ "delta": 0.2,
+ "hidden_widths": [
+  5
+ ],
+ "max_abs_weight": 2.5,
+ "written_net_max_dev": 4.440892098500626e-15,
+ "inside_ball_max_dev": {
+  "uniform": 0.03852151990458408,
+  "sign": 0.06963833333332525,
+  "adversarial": 0.06963833333332525
+ },
+ "inside_ball_ok": true,
+ "outside": {
+  "2": 0.13928666666666434,
+  "4": 0.2786133333333347
+ },
+ "smallest_violating_multiple": 4,
+ "float32_max_dev_from_spec": 1.6689300537109375e-06,
+ "finetune": {
+  "0": {
+   "mse_written_net": 0.0008415645981869362,
+   "mse_spec_program": 0.0008415645981869504,
+   "mse_finetuned": 0.00028435841011302835,
+   "max_weight_move": 0.0010000000000000009,
+   "max_dev_from_spec": 0.03905654653009227,
+   "inside_ball": true,
+   "within_delta": true,
+   "gain_vs_program": 0.662107447573669,
+   "unconstrained": {
+    "mse_finetuned": 1.4624358769923806e-05,
+    "max_weight_move": 0.013822585856655745,
+    "max_dev_from_spec": 0.05737310028524312,
+    "leaves_delta": false
+   }
+  },
+  "1": {
+   "mse_written_net": 0.0008336559665486725,
+   "mse_spec_program": 0.0008336559665486585,
+   "mse_finetuned": 0.00028443703073088405,
+   "max_weight_move": 0.0010000000000000009,
+   "max_dev_from_spec": 0.04028718506309792,
+   "inside_ball": true,
+   "within_delta": true,
+   "gain_vs_program": 0.6588076591013252,
+   "unconstrained": {
+    "mse_finetuned": 8.698021609552791e-06,
+    "max_weight_move": 0.012096460677041065,
+    "max_dev_from_spec": 0.05314533688739442,
+    "leaves_delta": false
+   }
+  },
+  "2": {
+   "mse_written_net": 0.0008260320391199503,
+   "mse_spec_program": 0.0008260320391199372,
+   "mse_finetuned": 0.00027256372190454366,
+   "max_weight_move": 0.0010000000000000009,
+   "max_dev_from_spec": 0.03864707943969625,
+   "inside_ball": true,
+   "within_delta": true,
+   "gain_vs_program": 0.6700325060091668,
+   "unconstrained": {
+    "mse_finetuned": 1.2433363704272116e-05,
+    "max_weight_move": 0.011170864712703121,
+    "max_dev_from_spec": 0.05439099663919844,
+    "leaves_delta": false
+   }
+  }
+ },
+ "finetune_median_gain": 0.662107447573669
+}

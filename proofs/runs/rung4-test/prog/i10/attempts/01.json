@@ -1,0 +1,17 @@
+{
+ "case": "i10",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-13 05:52:22",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 14.0,
+ "peak_rss_gb": 1.71,
+ "peak_commit_gb": 3.89,
+ "lean_output": "<repo>\\runs\\rung4-test\\prog\\i10\\_Full.lean:39:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung4-test\\prog\\i10\\_Full.lean:41:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n<repo>\\runs\\rung4-test\\prog\\i10\\_Full.lean:52:39: error: unsolved goals\ncase some\nw : List \u2115\ni val\u271d : \u2115\n\u22a2 (if tokAt w (val\u271d + 1) = 1 then 2\n    else if tokAt w (val\u271d + 1) = 2 then 0 else if tokAt w (val\u271d + 1) = 3 then 2 else 0) =\n    if tokAt w (val\u271d + 1) = 1 then 2 else if tokAt w (val\u271d + 1) = 2 then 0 else if tokAt w (val\u271d + 1) = 3 then 2 else 0\n<repo>\\runs\\rung4-test\\prog\\i10\\_Full.lean:82:12: warning: `List.take_succ` has been deprecated: Use `List.take_add_one` instead\n\nHint: Replace the deprecated name:\n  List.take_s\u0335u\u0335c\u0335c\u0335a\u0332d\u0332d\u0332_\u0332o\u0332n\u0332e\u0332\n<repo>\\runs\\rung4-test\\prog\\i10\\_Full.lean:82:6: error: Tactic `simp` failed with a nested error:\nmaximum recursion depth has been reached\nuse `set_option maxRecDepth <num>` to increase limit\nuse `set_option diagnostics true` to get diagnostic information\n<repo>\\runs\\rung4-test\\prog\\i10\\_Full.lean:101:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung4-test\\prog\\i10\\_Full.lean:101:23: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung4-test\\prog\\i10\\_Full.lean:105:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n<repo>\\runs\\rung4-test\\prog\\i10\\_Full.lean:105:23: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n<repo>\\runs\\rung4-test\\prog\\i10\\_Full.lean:116:12: error(lean.unknownIdentifier): Unknown constant `List.getD_append`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

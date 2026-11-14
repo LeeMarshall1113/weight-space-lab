@@ -1,0 +1,22 @@
+{
+ "case": "s00",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-12 01:49:45",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.2,
+ "peak_rss_gb": 1.75,
+ "peak_commit_gb": 3.93,
+ "lean_output": "<repo>\\runs\\rung2-test\\net\\s00\\_Full.lean:85:38: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n<repo>\\runs\\rung2-test\\net\\s00\\_Full.lean:144:29: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n<repo>\\runs\\rung2-test\\net\\s00\\_Full.lean:197:33: warning: Unused tactic linter: `ring` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung2-test\\net\\s00\\_Full.lean:197:33: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 2,
+ "attempts_left": 10
+}

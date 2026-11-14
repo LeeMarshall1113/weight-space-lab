@@ -1,0 +1,17 @@
+{
+ "case": "p129",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-11 13:06:11",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.7,
+ "peak_rss_gb": 1.75,
+ "peak_commit_gb": 3.94,
+ "lean_output": "<repo>\\runs\\rung1-test\\net\\p129\\_Full.lean:51:39: error: Tactic `rfl` failed: Expected the goal to be a binary relation\n\nHint: Reflexivity tactics can only be used on goals of the form `x ~ x` or `R x x`\n\ncase right.right.right.right.right.right.right.right\nx0 x1 x2 : \u211d\n\u22a2 True\n<repo>\\runs\\rung1-test\\net\\p129\\_Full.lean:60:39: error: Tactic `rfl` failed: Expected the goal to be a binary relation\n\nHint: Reflexivity tactics can only be used on goals of the form `x ~ x` or `R x x`\n\ncase right.right.right.right.right.right.right\np1 p2 p3 p4 p5 p6 p7 p8 : \u211d\n\u22a2 True\n<repo>\\runs\\rung1-test\\net\\p129\\_Full.lean:68:39: error: Tactic `rfl` failed: Expected the goal to be a binary relation\n\nHint: Reflexivity tactics can only be used on goals of the form `x ~ x` or `R x x`\n\ncase right.right.right.right.right.right\nv1 v2 v3 v4 v5 v6 v7 : \u211d\n\u22a2 True\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

@@ -1,0 +1,17 @@
+{
+ "case": "f05",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-13 05:42:02",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.9,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung4-test\\prog\\f05\\_Full.lean:49:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  (List.foldl step (gstep s t, [] ++ ?m.75) r).2\nin the target expression\n  (List.foldl step (step (s, []) t) r).2.getD k 0 =\n    ((if List.foldl gstep s (List.take (k + 1) (t :: r)) = 2 then 1 else 0) + cbit ((t :: r).getD k 0)) % 2\n\ncase cons\nt : \u2115\nr : List \u2115\nih :\n  \u2200 (s k : \u2115),\n    k < r.length \u2192\n      (List.foldl step (s, []) r).2.getD k 0 =\n        ((if List.foldl gstep s (List.take (k + 1) r) = 2 then 1 else 0) + cbit (r.getD k 0)) % 2\ns k : \u2115\nhk : k < (t :: r).length\n\u22a2 (List.foldl step (step (s, []) t) r).2.getD k 0 =\n    ((if List.foldl gstep s (List.take (k + 1) (t :: r)) = 2 then 1 else 0) + cbit ((t :: r).getD k 0)) % 2\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

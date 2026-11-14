@@ -1,0 +1,28 @@
+{
+ "pool_seed": 20261113,
+ "draw_seed": 4043,
+ "rung2_dev": [
+  "d09",
+  "p15"
+ ],
+ "rung2_test": [
+  "a00",
+  "a01",
+  "d15",
+  "d18",
+  "d10",
+  "p29",
+  "p05",
+  "p10",
+  "s01",
+  "s00"
+ ],
+ "rung2_reserve": [
+  "d01",
+  "d02",
+  "p24",
+  "p22",
+  "s02"
+ ],
+ "pool_sha256": "09ecec3c09b39f64f1f845183a619fd1d1a71e2cee66fee4850cb036c46cadaf"
+}

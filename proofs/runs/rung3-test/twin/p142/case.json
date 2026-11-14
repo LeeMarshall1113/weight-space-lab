@@ -1,0 +1,18 @@
+{
+ "id": "p142",
+ "arm": "twin",
+ "rung": 3,
+ "split": "test",
+ "import": "Robust",
+ "final_theorems": [
+  "Lane4Final.final",
+  "Lane4Final.shape"
+ ],
+ "max_attempts": 12,
+ "lean_timeout": 600,
+ "tau": "1/1000",
+ "delta": "11/20",
+ "widths": [
+  4
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "case": "p05",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-12 01:38:29",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.4,
+ "peak_rss_gb": 1.74,
+ "peak_commit_gb": 3.92,
+ "lean_output": "<repo>\\runs\\rung2-test\\net\\p05\\_Full.lean:71:43: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n<repo>\\runs\\rung2-test\\net\\p05\\_Full.lean:90:21: warning: This simp argument is unused:\n  Function.comp_def\n\nHint: Omit it from the simp argument list.\n  [apply] simp [sf, tokAt]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung2-test\\net\\p05\\_Full.lean:98:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n<repo>\\runs\\rung2-test\\net\\p05\\_Full.lean:154:6: warning: Unused tactic linter: `push_cast` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung2-test\\net\\p05\\_Full.lean:154:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n<repo>\\runs\\rung2-test\\net\\p05\\_Full.lean:154:16: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 1,
+ "attempts_left": 11
+}

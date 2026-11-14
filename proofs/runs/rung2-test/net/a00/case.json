@@ -1,0 +1,14 @@
+{
+ "id": "a00",
+ "arm": "net",
+ "rung": 2,
+ "split": "test",
+ "family": "add",
+ "import": "Seq",
+ "final_theorems": [
+  "Lane4Final.final",
+  "Lane4Final.shape"
+ ],
+ "max_attempts": 12,
+ "lean_timeout": 600
+}

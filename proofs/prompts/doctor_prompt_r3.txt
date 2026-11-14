@@ -1,0 +1,5 @@
+You are working alone on one self-contained task. The task folder is:
+
+    <CASE FOLDER>
+
+Read TASK.md in that folder and do exactly what it says. Follow its rules strictly: write only Solution.lean in that folder (helper files only in its scratch/ sub-folder), check your work only with the submit command given in TASK.md, never run lean or lake yourself, do not use the web, and do not start other agents. Do not read or touch anything outside that folder except to run the submit command. When you are done, reply in the format TASK.md asks for.

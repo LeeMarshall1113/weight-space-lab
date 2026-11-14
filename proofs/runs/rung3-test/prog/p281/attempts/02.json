@@ -1,0 +1,17 @@
+{
+ "case": "p281",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-12 10:44:46",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.6,
+ "peak_rss_gb": 1.72,
+ "peak_commit_gb": 3.9,
+ "lean_output": "<repo>\\runs\\rung3-test\\prog\\p281\\_Full.lean:17:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.decidableLE', which is 'noncomputable'\n<repo>\\runs\\rung3-test\\prog\\p281\\_Full.lean:19:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.decidableLE', which is 'noncomputable'\n<repo>\\runs\\rung3-test\\prog\\p281\\_Full.lean:21:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.decidableLE', which is 'noncomputable'\n<repo>\\runs\\rung3-test\\prog\\p281\\_Full.lean:26:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.decidableLE', which is 'noncomputable'\n<repo>\\runs\\rung3-test\\prog\\p281\\_Full.lean:49:42: warning: Variable name `h4` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _h4\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

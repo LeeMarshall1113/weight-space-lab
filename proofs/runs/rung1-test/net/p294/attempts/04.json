@@ -1,0 +1,17 @@
+{
+ "case": "p294",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-11 12:57:52",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.8,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung1-test\\net\\p294\\_Full.lean:31:4: error: `simp` made no progress\n<repo>\\runs\\rung1-test\\net\\p294\\_Full.lean:34:4: error: `simp` made no progress\n<repo>\\runs\\rung1-test\\net\\p294\\_Full.lean:37:4: error: `simp` made no progress\n<repo>\\runs\\rung1-test\\net\\p294\\_Full.lean:40:4: error: `simp` made no progress\n<repo>\\runs\\rung1-test\\net\\p294\\_Full.lean:43:4: error: `simp` made no progress\n<repo>\\runs\\rung1-test\\net\\p294\\_Full.lean:45:4: error: `simp` made no progress\ncase inl\nx0 : \u211d\na\u271d\u00b9 : -8 \u2264 x0\na\u271d : x0 \u2264 8\nmxl : \u2200 (a b : \u211d), b \u2264 a \u2192 max a b = a\nmxr : \u2200 (a b : \u211d), a \u2264 b \u2192 max a b = b\nmnl : \u2200 (a b : \u211d), a \u2264 b \u2192 min a b = a\nmnr : \u2200 (a b : \u211d), b \u2264 a \u2192 min a b = b\nh1 : x0 \u2264 -5 / 2\n\u22a2 -1 * max (1 * x0 + 0 + 5 / 2) 0 +\n        (5 / 2 * max (1 * x0 + 0 + 1) 0 +\n          (-5 / 2 * max (1 * x0 + 0 + 0) 0 + (3 / 2 * max (1 * x0 + 0 + -1) 0 + (1 * max (-1 * x0 + 0 + 0) 0 + 0)))) +\n      5 / 2 =\n    max (min (1 / 2 * x0 + 5 / 2) (-1 * x0 + 5 / 2))\n      (min (max (1 / 2 * x0 + 5 / 2) (-1 * x0 + 5 / 2)) (max (-2 * x0) (1 / 2 * x0 + 1)))\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 4,
+ "attempts_left": 8
+}

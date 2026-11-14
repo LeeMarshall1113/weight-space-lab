@@ -1,0 +1,17 @@
+{
+ "case": "f24",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-13 05:44:43",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.1,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung4-test\\prog\\f24\\_Full.lean:38:13: error: unsolved goals\nb : \u2115\nt : List \u2115\nih : \u2200 (s : \u2115) (acc : List \u2115), (List.foldl step (s, acc) t).2 = acc ++ (List.foldl step (s, []) t).2\ns : \u2115\nacc : List \u2115\n\u22a2 (if s = 0 then code b else s) = ?m.67 \u2227 ((if (if s = 0 then code b else s) = 2 then 1 else 0) + cbit b) % 2 = ?m.70\n<repo>\\runs\\rung4-test\\prog\\f24\\_Full.lean:38:29: error: unsolved goals\nb : \u2115\nt : List \u2115\nih : \u2200 (s : \u2115) (acc : List \u2115), (List.foldl step (s, acc) t).2 = acc ++ (List.foldl step (s, []) t).2\ns : \u2115\nacc : List \u2115\n\u22a2 (if s = 0 then code b else s) = ?m.67 \u2227 ((if (if s = 0 then code b else s) = 2 then 1 else 0) + cbit b) % 2 = ?m.70\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

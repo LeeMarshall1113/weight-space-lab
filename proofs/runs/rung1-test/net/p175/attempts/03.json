@@ -1,0 +1,17 @@
+{
+ "case": "p175",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-11 13:17:17",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 9.0,
+ "peak_rss_gb": 1.71,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung1-test\\net\\p175\\_Full.lean:46:2: error: linarith failed to find a contradiction\ncase h1\nx : \u211d\na\u271d\u00b2 : -8 \u2264 x\na\u271d\u00b9 : x \u2264 8\nh2 :\n  max (-1 / 2 * x + 2) (2 * x + 5 / 2) - relu (max (-1 / 2 * x + 2) (2 * x + 5 / 2) - (3 * x + 1 / 2)) =\n    min (max (-1 / 2 * x + 2) (2 * x + 5 / 2)) (3 * x + 1 / 2)\neu : 2 * x + 5 / 2 - (-1 / 2 * x + 2) = 5 / 2 * x + 1 / 2\nu : \u211d\nhu : relu (5 / 2 * x + 1 / 2) = u\nh1 : -1 / 2 * x + 2 + u = max (-1 / 2 * x + 2) (2 * x + 5 / 2)\np : \u211d\nhp : relu x = p\nn : \u211d\nhn : relu (-x) = n\nhx : p - n = x\nhxx : p - n = x\nhm : relu (-1 / 2 * x + 2 + u) - relu (-(-1 / 2 * x + 2 + u)) = -1 / 2 * x + 2 + u\neA : u + (-7 / 2 * p + 7 / 2 * n) + 3 / 2 = max (-1 / 2 * x + 2) (2 * x + 5 / 2) - (3 * x + 1 / 2)\neB : u + (-1 / 2 * p + 1 / 2 * n) + 2 = -1 / 2 * x + 2 + u\neC : -u + (1 / 2 * p + -1 / 2 * n) + -2 = -(-1 / 2 * x + 2 + u)\na\u271d :\n  -relu (-1 / 2 * x + 2 + u - (3 * x + 1 / 2)) + (relu (-1 / 2 * x + 2 + u) + -relu (-(-1 / 2 * x + 2 + u))) <\n    min (-1 / 2 * x + 2 + u) (3 * x + 1 / 2)\n\u22a2 False\nfailed\n<repo>\\runs\\rung1-test\\net\\p175\\_Full.lean:29:45: warning: This simp argument is unused:\n  mul_zero\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [one_mul, add_zero, neg_one_mul]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 3,
+ "attempts_left": 9
+}

@@ -1,0 +1,15 @@
+{
+ "id": "p244",
+ "arm": "prog",
+ "rung": 3,
+ "split": "test",
+ "max_attempts": 12,
+ "lean_timeout": 600,
+ "tau": "1/1000",
+ "delta": "1/5",
+ "spec_min": "-2",
+ "spec_max": "1/2",
+ "final_theorems": [
+  "Lane4Final.final"
+ ]
+}

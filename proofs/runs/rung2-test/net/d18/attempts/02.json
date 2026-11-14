@@ -1,0 +1,17 @@
+{
+ "case": "d18",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-12 01:39:19",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.5,
+ "peak_rss_gb": 1.76,
+ "peak_commit_gb": 3.93,
+ "lean_output": "<repo>\\runs\\rung2-test\\net\\d18\\_Full.lean:91:16: warning: Unused tactic linter: `simp [hd1, cand]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung2-test\\net\\d18\\_Full.lean:91:16: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nTry this:\n  [apply] ring_nf\n  \n  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.\n    \n  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.\n<repo>\\runs\\rung2-test\\net\\d18\\_Full.lean:144:40: error: unsolved goals\nw : List \u2115\nhw : \u2200 t \u2208 w, 1 \u2264 t \u2227 t \u2264 4\nj0 : \u2115\nhj0 : j0 < w.length + 1\nhmin : \u2200 k < w.length + 1, cc w j0 \u2264 cc w k\ni : \u2115\nhx : blk1.apply (w.length + 1) (net.init w) = x1 w\nhnb : net.blocks = [blk1, blk2]\nhno : net.outW = [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1 / 2, 0]\nhnc : net.outB = 0\nhh : blk2.heads = [hd2]\nhV : hd2.V = [z12, z12, e1, z12, z12, z12, z12, z12, z12, z12, z12, z12]\n\u22a2 cc w j0 - max (cc w i) 0 - max (-cc w i) 0 + (1 + \u2191w.length)\u207b\u00b9 * (1 / 2) =\n    cc w j0 + (1 + \u2191w.length)\u207b\u00b9 * (1 / 2) - |cc w i|\n<repo>\\runs\\rung2-test\\net\\d18\\_Full.lean:170:4: warning: Unused tactic linter: `beta_reduce` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung2-test\\net\\d18\\_Full.lean:221:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```\n<repo>\\runs\\rung2-test\\net\\d18\\_Full.lean:246:14: warning: Unused tactic linter: `simpa [div_eq_mul_inv] using mul_le_mul_of_nonneg_right hT (inv_nonneg.mpr hN.le)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung2-test\\net\\d18\\_Full.lean:246:14: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

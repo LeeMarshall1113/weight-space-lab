@@ -1,0 +1,17 @@
+{
+ "case": "d15",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-12 01:53:05",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.3,
+ "peak_rss_gb": 1.71,
+ "peak_commit_gb": 3.89,
+ "lean_output": "<repo>\\runs\\rung2-test\\prog\\d15\\_Full.lean:82:19: error: omega could not prove the goal:\na possible counterexample may satisfy the constraints\n  a \u2264 -1\nwhere\n a := (List.map wt w).sum\n<repo>\\runs\\rung2-test\\prog\\d15\\_Full.lean:88:4: error: omega could not prove the goal:\na possible counterexample may satisfy the constraints\n  a \u2265 1\nwhere\n a := (List.map wgt w).sum\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

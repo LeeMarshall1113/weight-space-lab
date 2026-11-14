@@ -1,0 +1,17 @@
+{
+ "case": "f05",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-13 03:21:12",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 23.0,
+ "peak_rss_gb": 1.88,
+ "peak_commit_gb": 4.06,
+ "lean_output": "<repo>\\runs\\rung4-test\\net\\f05\\_Full.lean:268:16: warning: Variable name `u` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _u\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<repo>\\runs\\rung4-test\\net\\f05\\_Full.lean:348:6: warning: `List.take_succ` has been deprecated: Use `List.take_add_one` instead\n\nHint: Replace the deprecated name:\n  List.take_s\u0335u\u0335c\u0335c\u0335a\u0332d\u0332d\u0332_\u0332o\u0332n\u0332e\u0332\n<repo>\\runs\\rung4-test\\net\\f05\\_Full.lean:346:87: error: unsolved goals\nw : List \u2115\ni : \u2115\nh : i < w.length\n\u22a2 List.foldl (fun s t => if s = 0 then code t else s) 0 (List.take (i + 1) w) =\n    if List.foldl (fun s t => if s = 0 then code t else s) 0 (List.take i w) = 0 then code w[i]\n    else List.foldl (fun s t => if s = 0 then code t else s) 0 (List.take i w)\n<repo>\\runs\\rung4-test\\net\\f05\\_Full.lean:349:8: warning: This simp argument is unused:\n  List.foldl_append\n\nHint: Omit it from the simp argument list.\n  [apply] simp [Lane4.Seq.tokAt_succ w i h]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung4-test\\net\\f05\\_Full.lean:370:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung4-test\\net\\f05\\_Full.lean:378:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n<repo>\\runs\\rung4-test\\net\\f05\\_Full.lean:382:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung4-test\\net\\f05\\_Full.lean:427:34: error: unsolved goals\nu : \u211d\nfl : \u211d \u2192 \u211d\nhr : Rounding u fl\nhu0 : 0 \u2264 u\nhu1 : u \u2264 1 / 16777216\np : Pert\nhp : Pert.Within (1 / 200) p\nw : List \u2115\nhw : \u2200 t \u2208 w, 1 \u2264 t \u2227 t \u2264 4\nhn : u * \u2191(w.length + 1) \u2264 1 / 256\ni : \u2115\nhi1 : 1 \u2264 i\nhi : i \u2264 w.length\n\u22a2 |net.out fl p w i - \u2191(target w i)| \u2264 1 / 4\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 3,
+ "attempts_left": 9
+}

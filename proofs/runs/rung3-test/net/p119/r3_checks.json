@@ -1,0 +1,75 @@
+{
+ "id": "p119",
+ "tau": 0.001,
+ "delta": 0.72,
+ "hidden_widths": [
+  3
+ ],
+ "max_abs_weight": 3.0,
+ "written_net_max_dev": 1.7763568394002505e-15,
+ "inside_ball_max_dev": {
+  "uniform": 0.04027584213533686,
+  "sign": 0.04749999999999943,
+  "adversarial": 0.04749999999999943
+ },
+ "inside_ball_ok": true,
+ "outside": {
+  "2": 0.09499999999999886,
+  "4": 0.19000000000000128,
+  "8": 0.379999999999999,
+  "16": 0.7599999999999998
+ },
+ "smallest_violating_multiple": 16,
+ "float32_max_dev_from_spec": 9.5367431640625e-07,
+ "finetune": {
+  "0": {
+   "mse_written_net": 0.010906677192502877,
+   "mse_spec_program": 0.010906677192502871,
+   "mse_finetuned": 0.008005423892140255,
+   "max_weight_move": 0.0010000000000000009,
+   "max_dev_from_spec": 0.045499999999998764,
+   "inside_ball": true,
+   "within_delta": true,
+   "gain_vs_program": 0.2660070752214896,
+   "unconstrained": {
+    "mse_finetuned": 0.00011522154120021057,
+    "max_weight_move": 0.04333127317423758,
+    "max_dev_from_spec": 0.18400298804141535,
+    "leaves_delta": false
+   }
+  },
+  "1": {
+   "mse_written_net": 0.010804181326470616,
+   "mse_spec_program": 0.010804181326470616,
+   "mse_finetuned": 0.007886425668188915,
+   "max_weight_move": 0.0010000000000000009,
+   "max_dev_from_spec": 0.04550000000000054,
+   "inside_ball": true,
+   "within_delta": true,
+   "gain_vs_program": 0.27005800533290747,
+   "unconstrained": {
+    "mse_finetuned": 7.178000735384734e-05,
+    "max_weight_move": 0.043208140845161606,
+    "max_dev_from_spec": 0.1934025767300529,
+    "leaves_delta": false
+   }
+  },
+  "2": {
+   "mse_written_net": 0.010705375226994386,
+   "mse_spec_program": 0.010705375226994383,
+   "mse_finetuned": 0.007865152824401773,
+   "max_weight_move": 0.0010000000000000009,
+   "max_dev_from_spec": 0.04550000000000054,
+   "inside_ball": true,
+   "within_delta": true,
+   "gain_vs_program": 0.26530806649642535,
+   "unconstrained": {
+    "mse_finetuned": 3.355274379287988e-05,
+    "max_weight_move": 0.03893160354513987,
+    "max_dev_from_spec": 0.19109172416531228,
+    "leaves_delta": false
+   }
+  }
+ },
+ "finetune_median_gain": 0.2660070752214896
+}

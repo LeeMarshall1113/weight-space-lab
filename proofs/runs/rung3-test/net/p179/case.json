@@ -1,0 +1,17 @@
+{
+ "id": "p179",
+ "arm": "net",
+ "rung": 3,
+ "split": "test",
+ "max_attempts": 12,
+ "lean_timeout": 600,
+ "tau": "1/1000",
+ "delta": "1/4",
+ "spec_min": "0",
+ "spec_max": "5",
+ "import": "Robust",
+ "final_theorems": [
+  "Lane4Final.final",
+  "Lane4Final.shape"
+ ]
+}

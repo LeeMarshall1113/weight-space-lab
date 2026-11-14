@@ -1,0 +1,17 @@
+{
+ "case": "d10",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-12 01:31:16",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 119.5,
+ "peak_rss_gb": 1.75,
+ "peak_commit_gb": 3.93,
+ "lean_output": "<repo>\\runs\\rung2-test\\net\\d10\\_Full.lean:162:6: warning: Unused tactic linter: `simp` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung2-test\\net\\d10\\_Full.lean:163:6: warning: Unused tactic linter: `norm_num` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung2-test\\net\\d10\\_Full.lean:162:6: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n<repo>\\runs\\rung2-test\\net\\d10\\_Full.lean:163:6: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n<repo>\\runs\\rung2-test\\net\\d10\\_Full.lean:180:14: error: unsolved goals\ncase succ\nw : List \u2115\nk : \u2115\nih : k \u2264 w.length \u2192 psum w k = \u2191(List.map wt (List.take k w)).sum\nhk : k + 1 \u2264 w.length\nhk' : k < w.length\nh0 : (List.map (wq w) (List.range (k + 1))).sum = \u2191(List.map wt (List.take k w)).sum\ne : List.take (k + 1) w = List.take k w ++ [w[k]]\n\u22a2 (List.take k (List.map (Int.cast \u2218 wt) w)).sum + \u2191(wt w[k]) = (List.take (k + 1) (List.map (Int.cast \u2218 wt) w)).sum\n<repo>\\runs\\rung2-test\\net\\d10\\_Full.lean:235:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

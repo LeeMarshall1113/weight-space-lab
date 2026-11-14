@@ -1,0 +1,22 @@
+{
+ "case": "a00",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-12 01:25:15",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 14.4,
+ "peak_rss_gb": 1.75,
+ "peak_commit_gb": 3.93,
+ "lean_output": "<repo>\\runs\\rung2-test\\net\\a00\\_Full.lean:66:57: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n<repo>\\runs\\rung2-test\\net\\a00\\_Full.lean:145:43: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n<repo>\\runs\\rung2-test\\net\\a00\\_Full.lean:151:43: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n<repo>\\runs\\rung2-test\\net\\a00\\_Full.lean:157:43: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n<repo>\\runs\\rung2-test\\net\\a00\\_Full.lean:161:43: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 4,
+ "attempts_left": 8
+}

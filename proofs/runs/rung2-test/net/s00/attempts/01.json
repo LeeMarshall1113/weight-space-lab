@@ -1,0 +1,17 @@
+{
+ "case": "s00",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-12 01:49:24",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.1,
+ "peak_rss_gb": 1.75,
+ "peak_commit_gb": 3.93,
+ "lean_output": "<repo>\\runs\\rung2-test\\net\\s00\\_Full.lean:85:38: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n<repo>\\runs\\rung2-test\\net\\s00\\_Full.lean:91:2: error: Type mismatch: After simplification, term\n  this\n has type\n  @Eq \u211a (List.map (fun j => if (0 :: w)[j]?.getD 0 = 1 then 1 else 0) (List.range (w.length + 1))).sum\n    \u2191(List.countP (fun s => decide (s = 1)) w)\nbut is expected to have type\n  @Eq \u211a (List.map (onef w) (List.range (w.length + 1))).sum \u2191(List.countP (fun s => decide (s = 1)) w)\n<repo>\\runs\\rung2-test\\net\\s00\\_Full.lean:140:29: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n<repo>\\runs\\rung2-test\\net\\s00\\_Full.lean:193:33: warning: Unused tactic linter: `ring` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\rung2-test\\net\\s00\\_Full.lean:193:33: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

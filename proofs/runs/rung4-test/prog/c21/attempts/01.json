@@ -1,0 +1,17 @@
+{
+ "case": "c21",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-13 05:40:57",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.9,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung4-test\\prog\\c21\\_Full.lean:36:12: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  (List.foldl step (?c, [(dg b + c) % 2]) t).2\nin the target expression\n  acc ++ [(dg b + c) % 2] ++ (List.foldl step (if cls b = 2 then c else cls b, []) t).2 =\n    acc ++ (List.foldl step (if cls b = 2 then c else cls b, [] ++ [(dg b + c) % 2]) t).2\n\ncase cons\nb : \u2115\nt : List \u2115\nih : \u2200 (c : \u2115) (acc : List \u2115), (List.foldl step (c, acc) t).2 = acc ++ (List.foldl step (c, []) t).2\nc : \u2115\nacc : List \u2115\n\u22a2 acc ++ [(dg b + c) % 2] ++ (List.foldl step (if cls b = 2 then c else cls b, []) t).2 =\n    acc ++ (List.foldl step (if cls b = 2 then c else cls b, [] ++ [(dg b + c) % 2]) t).2\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

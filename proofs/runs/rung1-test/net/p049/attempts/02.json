@@ -1,0 +1,17 @@
+{
+ "case": "p049",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-11 12:58:03",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 22.7,
+ "peak_rss_gb": 1.84,
+ "peak_commit_gb": 4.01,
+ "lean_output": "<repo>\\runs\\rung1-test\\net\\p049\\_Full.lean:72:2: error: linarith failed to find a contradiction\ncase h1\nx0 x1 : \u211d\nh0 : -4 \u2264 x0\nh1 : x0 \u2264 4\nh2 : -2 \u2264 x1\nh3 : x1 \u2264 2\nhx0 : relu (4 + x0) = 4 + x0\nhx1 : relu (2 + x1) = 2 + x1\nch :\n  max\n      (max\n        (max (min (-3 / 2 + x0 * 2 + x1) (1 / 2 - x0))\n          (min (max (-3 / 2 + x0 * 2 + x1) (1 / 2 - x0)) (-5 / 2 + x0 * 3)))\n        0)\n      (-3 + x0 * 2) =\n    -3 / 2 + x0 * 2 + x1 - relu (-2 + x0 * 3 + x1) +\n          relu (2 - x0 * 3 - x1 + relu (-2 + x0 * 3 + x1) * 2 - relu (3 - x0 * 4 + relu (-2 + x0 * 3 + x1))) +\n        relu\n          (3 / 2 - x0 * 2 - x1 + relu (-2 + x0 * 3 + x1) -\n            relu (2 - x0 * 3 - x1 + relu (-2 + x0 * 3 + x1) * 2 - relu (3 - x0 * 4 + relu (-2 + x0 * 3 + x1)))) +\n      relu\n        (-3 / 2 - x1 + relu (-2 + x0 * 3 + x1) -\n            relu (2 - x0 * 3 - x1 + relu (-2 + x0 * 3 + x1) * 2 - relu (3 - x0 * 4 + relu (-2 + x0 * 3 + x1))) -\n          relu\n            (3 / 2 - x0 * 2 - x1 + relu (-2 + x0 * 3 + x1) -\n              relu (2 - x0 * 3 - x1 + relu (-2 + x0 * 3 + x1) * 2 - relu (3 - x0 * 4 + relu (-2 + x0 * 3 + x1)))))\na\u271d :\n  -3 / 2 + x0 * 2 + x1 - relu (-2 + x0 * 3 + x1) +\n          relu (2 - x0 * 3 - x1 + relu (-2 + x0 * 3 + x1) * 2 - relu (1 - x0 * 4 + relu (-2 + x0 * 3 + x1))) +\n        relu\n          (3 / 2 - x0 * 2 - x1 + relu (-2 + x0 * 3 + x1) -\n            relu (2 - x0 * 3 - x1 + relu (-2 + x0 * 3 + x1) * 2 - relu (1 - x0 * 4 + relu (-2 + x0 * 3 + x1)))) +\n      relu\n        (-3 / 2 - x1 + relu (-2 + x0 * 3 + x1) -\n            relu (2 - x0 * 3 - x1 + relu (-2 + x0 * 3 + x1) * 2 - relu (1 - x0 * 4 + relu (-2 + x0 * 3 + x1))) -\n          relu\n            (3 / 2 - x0 * 2 - x1 + relu (-2 + x0 * 3 + x1) -\n              relu (2 - x0 * 3 - x1 + relu (-2 + x0 * 3 + x1) * 2 - relu (1 - x0 * 4 + relu (-2 + x0 * 3 + x1))))) <\n    -3 / 2 + x0 * 2 + x1 - relu (-2 + x0 * 3 + x1) +\n          relu (2 - x0 * 3 - x1 + relu (-2 + x0 * 3 + x1) * 2 - relu (3 - x0 * 4 + relu (-2 + x0 * 3 + x1))) +\n        relu\n          (3 / 2 - x0 * 2 - x1 + relu (-2 + x0 * 3 + x1) -\n            relu (2 - x0 * 3 - x1 + relu (-2 + x0 * 3 + x1) * 2 - relu (3 - x0 * 4 + relu (-2 + x0 * 3 + x1)))) +\n      relu\n        (-3 / 2 - x1 + relu (-2 + x0 * 3 + x1) -\n            relu (2 - x0 * 3 - x1 + relu (-2 + x0 * 3 + x1) * 2 - relu (3 - x0 * 4 + relu (-2 + x0 * 3 + x1))) -\n          relu\n            (3 / 2 - x0 * 2 - x1 + relu (-2 + x0 * 3 + x1) -\n              relu (2 - x0 * 3 - x1 + relu (-2 + x0 * 3 + x1) * 2 - relu (3 - x0 * 4 + relu (-2 + x0 * 3 + x1)))))\n\u22a2 False\nfailed\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

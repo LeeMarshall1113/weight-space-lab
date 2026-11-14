@@ -1,0 +1,22 @@
+{
+ "case": "c21",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-13 02:54:27",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 31.4,
+ "peak_rss_gb": 1.96,
+ "peak_commit_gb": 4.14,
+ "lean_output": "<repo>\\runs\\rung4-test\\net\\c21\\_Full.lean:79:6: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n<repo>\\runs\\rung4-test\\net\\c21\\_Full.lean:85:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung4-test\\net\\c21\\_Full.lean:82:38: warning: Variable name `hr` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _hr\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<repo>\\runs\\rung4-test\\net\\c21\\_Full.lean:203:13: warning: Variable name `hi1` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _hi1\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<repo>\\runs\\rung4-test\\net\\c21\\_Full.lean:270:76: warning: This simp argument is unused:\n  fl_sw hr\n\nHint: Omit it from the simp argument list.\n  [apply] simp [z8, pos, rdot, radd, raffine, sw_zero hr, hr.zero, hr.idem, hr.one, fl_dv hr, fl_qv hr, fl_gv hr]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung4-test\\net\\c21\\_Full.lean:426:10: warning: `List.take_succ` has been deprecated: Use `List.take_add_one` instead\n\nHint: Replace the deprecated name:\n  List.take_s\u0335u\u0335c\u0335c\u0335a\u0332d\u0332d\u0332_\u0332o\u0332n\u0332e\u0332\n<repo>\\runs\\rung4-test\\net\\c21\\_Full.lean:440:16: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung4-test\\net\\c21\\_Full.lean:445:16: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 2,
+ "attempts_left": 10
+}

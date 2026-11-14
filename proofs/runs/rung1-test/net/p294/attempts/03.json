@@ -1,0 +1,17 @@
+{
+ "case": "p294",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-11 12:57:16",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.7,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung1-test\\net\\p294\\_Full.lean:30:4: error: `simp` made no progress\n<repo>\\runs\\rung1-test\\net\\p294\\_Full.lean:33:4: error: `simp` made no progress\n<repo>\\runs\\rung1-test\\net\\p294\\_Full.lean:36:4: error: `simp` made no progress\n<repo>\\runs\\rung1-test\\net\\p294\\_Full.lean:39:4: error: `simp` made no progress\n<repo>\\runs\\rung1-test\\net\\p294\\_Full.lean:42:4: error: `simp` made no progress\n<repo>\\runs\\rung1-test\\net\\p294\\_Full.lean:44:4: error: `simp` made no progress\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 3,
+ "attempts_left": 9
+}

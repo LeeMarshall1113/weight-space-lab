@@ -1,0 +1,76 @@
+{
+ "id": "p001",
+ "tau": 0.001,
+ "delta": 0.2,
+ "hidden_widths": [
+  3,
+  2
+ ],
+ "max_abs_weight": 1.0,
+ "written_net_max_dev": 4.440892098500626e-16,
+ "inside_ball_max_dev": {
+  "uniform": 0.016132745982582342,
+  "sign": 0.022020999999999128,
+  "adversarial": 0.022020999999999128
+ },
+ "inside_ball_ok": true,
+ "outside": {
+  "2": 0.044083999999999485,
+  "4": 0.08833599999999953,
+  "8": 0.17734400000000006,
+  "16": 0.3573760000000004
+ },
+ "smallest_violating_multiple": 16,
+ "float32_max_dev_from_spec": 2.384185791015625e-07,
+ "finetune": {
+  "0": {
+   "mse_written_net": 0.0004226879929052901,
+   "mse_spec_program": 0.00042268799290529,
+   "mse_finetuned": 0.00029380587845737917,
+   "max_weight_move": 0.001000000000000334,
+   "max_dev_from_spec": 0.014017005999999554,
+   "inside_ball": true,
+   "within_delta": true,
+   "gain_vs_program": 0.3049107535845924,
+   "unconstrained": {
+    "mse_finetuned": 1.0832999397561658e-05,
+    "max_weight_move": 0.20747538695067946,
+    "max_dev_from_spec": 0.05116329677557052,
+    "leaves_delta": false
+   }
+  },
+  "1": {
+   "mse_written_net": 0.0006420285876199277,
+   "mse_spec_program": 0.0006420285876199277,
+   "mse_finetuned": 0.0003715163893182302,
+   "max_weight_move": 0.001000000000000334,
+   "max_dev_from_spec": 0.022020999999999128,
+   "inside_ball": true,
+   "within_delta": true,
+   "gain_vs_program": 0.4213398024915318,
+   "unconstrained": {
+    "mse_finetuned": 1.583404245805196e-05,
+    "max_weight_move": 0.17955841447666954,
+    "max_dev_from_spec": 0.05054863723362035,
+    "leaves_delta": false
+   }
+  },
+  "2": {
+   "mse_written_net": 0.0007429397798338547,
+   "mse_spec_program": 0.0007429397798338546,
+   "mse_finetuned": 0.0006472763343307806,
+   "max_weight_move": 0.001000000000000334,
+   "max_dev_from_spec": 0.013120479679159521,
+   "inside_ball": true,
+   "within_delta": true,
+   "gain_vs_program": 0.12876339119230817,
+   "unconstrained": {
+    "mse_finetuned": 1.2074403505661479e-05,
+    "max_weight_move": 0.17739746693789304,
+    "max_dev_from_spec": 0.07752548928772497,
+    "leaves_delta": false
+   }
+  }
+ },
+ "finetune_median_gain": 0.3049107535845924
+}

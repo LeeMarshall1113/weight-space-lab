@@ -1,0 +1,17 @@
+{
+ "case": "s00",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-12 02:07:11",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 91.0,
+ "peak_rss_gb": 1.71,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:42:12: warning: This simp argument is unused:\n  List.countP_cons\n\nHint: Omit it from the simp argument list.\n  [apply] simp [h, h']\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:42:30: warning: This simp argument is unused:\n  h\n\nHint: Omit it from the simp argument list.\n  [apply] simp [List.countP_cons, h']\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:47:12: warning: This simp argument is unused:\n  List.countP_cons\n\nHint: Omit it from the simp argument list.\n  [apply] simp [h, h']\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:47:30: warning: This simp argument is unused:\n  h\n\nHint: Omit it from the simp argument list.\n  [apply] simp [List.countP_cons, h']\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:81:12: error: Function expected at\n  List.length_eq_countP_add_countP fun s => decide (s < 2)\nbut this term has type\n  List.length ?m.121 =\n    List.countP (fun s => decide (s < 2)) ?m.121 + List.countP (fun a => decide \u00acdecide (a < 2) = true) ?m.121\n\nNote: Expected a function because this term is being applied to the argument\n  w\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:92:10: error: No goals to be solved\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:102:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung2-test\\prog\\s00\\_Full.lean:105:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}
