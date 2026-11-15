@@ -1,0 +1,24 @@
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 100, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 20, "cert_py": true, "margin": "0", "cert_size": {"boxes": 20, "step_checks": 40, "read_checks": 20}, "max_tau": 0.0033447265625, "sec": 100.2}
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 101, "gate": 7487, "gate_n": 9191, "exact": false, "sec": 50.2}
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 102, "gate": 7503, "gate_n": 9191, "exact": false, "sec": 50.4}
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 103, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 82, "cert_py": false, "sec": 56.0}
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 104, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 14, "cert_py": false, "sec": 51.8}
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 105, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 12, "cert_py": false, "sec": 54.0}
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 106, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 13, "cert_py": false, "sec": 52.8}
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 107, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 21, "cert_py": false, "sec": 54.6}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 100, "gate": 7886, "gate_n": 9191, "exact": false, "sec": 60.3}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 101, "gate": 9010, "gate_n": 9191, "exact": false, "sec": 58.8}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 102, "gate": 6422, "gate_n": 9191, "exact": false, "sec": 56.7}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 103, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 9, "cert_py": true, "margin": "0", "cert_size": {"boxes": 9, "step_checks": 18, "read_checks": 9}, "max_tau": 0.01839599609375, "sec": 84.6}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 104, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 9, "cert_py": true, "margin": "0", "cert_size": {"boxes": 9, "step_checks": 18, "read_checks": 9}, "max_tau": 0.01031494140625, "sec": 91.7}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 105, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 8, "cert_py": true, "margin": "0", "cert_size": {"boxes": 8, "step_checks": 16, "read_checks": 8}, "max_tau": 0.02176513671875, "sec": 80.9}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 106, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 13, "cert_py": false, "sec": 59.3}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 107, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 7, "cert_py": true, "margin": "0", "cert_size": {"boxes": 7, "step_checks": 14, "read_checks": 7}, "max_tau": 0.013720703125, "sec": 81.8}
+{"lang": "L3", "arm": "RND", "d": 8, "seed": 100, "gate": 5456, "gate_n": 9191, "exact": false, "n_clusters": 30, "cert_py": false, "sec": 6.2}
+{"lang": "L3", "arm": "RND", "d": 8, "seed": 101, "gate": 5456, "gate_n": 9191, "exact": false, "n_clusters": 58, "cert_py": false, "sec": 12.4}
+{"lang": "L3", "arm": "RND", "d": 8, "seed": 102, "gate": 4070, "gate_n": 9191, "exact": false, "n_clusters": 127, "cert_py": false, "sec": 12.5}
+{"lang": "L3", "arm": "RND", "d": 8, "seed": 103, "gate": 3713, "gate_n": 9191, "exact": false, "n_clusters": 259, "cert_py": false, "over_cap": true, "sec": 17.4}
+{"lang": "L3", "arm": "RND", "d": 8, "seed": 104, "gate": 3734, "gate_n": 9191, "exact": false, "n_clusters": 12, "cert_py": false, "sec": 5.3}
+{"lang": "L3", "arm": "RND", "d": 8, "seed": 105, "gate": 4927, "gate_n": 9191, "exact": false, "n_clusters": 12, "cert_py": false, "sec": 4.9}
+{"lang": "L3", "arm": "RND", "d": 8, "seed": 106, "gate": 5456, "gate_n": 9191, "exact": false, "n_clusters": 39, "cert_py": false, "sec": 8.9}
+{"lang": "L3", "arm": "RND", "d": 8, "seed": 107, "gate": 5456, "gate_n": 9191, "exact": false, "n_clusters": 30, "cert_py": false, "sec": 7.5}

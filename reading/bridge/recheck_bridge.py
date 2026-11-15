@@ -10,6 +10,9 @@ Sets (default: stage1, float, n8):
   stage1  ORD_w16_s100..107 and STR_w16_s100..107   (n = 6, kernel-checked at tau = 1/1000, about 1 minute each)
   float   ORDF_w16_s100..107                         (n = 6, exact dyadic float64 weights, about 1.5 minutes each)
   n8      N8_w24_s100                                 (n = 8, about 8 minutes; the other seven are not re-run by default)
+  rnn     RNNC_* nine test certificates of unit 4 (trained RNNs, all lengths; builds Bridge/RNN and Bridge/RNNClust first;
+          NOT in the default; about 12 s each, about 4 GB of commit)
+  rnnpipe RNNC_L3_ORD_d4_s2, the pipeline-check net (outside dev and test)
   region  R_MAJ10_w32_s104_maj                        (n = 10 majority, region certificate; NOT in the default: it did not finish
                                                        within a 1,500 s time limit in the release re-check)
 Not re-run: N10_w32_s100 (hit a 900 s stop; recorded), the other R_MAJ10 files and the n = 12 columns (CPU only).
@@ -53,13 +56,17 @@ def run(src, olean=None):
             "tail": out[-300:] if not ok else ""}
 
 
-for name in ["IBP", "Region"]:
+fw = ["IBP", "Region"] + (["RNN", "RNNClust"] if re.search(r"rnn", a.set) else [])
+for name in fw:
     row = run(os.path.join(LEAN, "Bridge", name + ".lean"), os.path.join(BUILD, "Bridge", name + ".olean"))
     rows.append(row); print("PASS" if row["pass"] else "FAIL", row["unit"], row["secs"], flush=True)
 sets = {
     "stage1": ["ORD_w16_s%d" % s for s in range(100, 108)] + ["STR_w16_s%d" % s for s in range(100, 108)],
     "float": ["ORDF_w16_s%d" % s for s in range(100, 108)],
     "n8": ["N8_w24_s100"],
+    "rnn": ["RNNC_" + x for x in ["L1_ORD_d8_s100", "L1_ORD_d8_s106", "L1_ORD_d8_s107", "L1_SAT_d8_s106", "L3_ORD_d8_s100",
+                                  "L3_SAT_d8_s103", "L3_SAT_d8_s104", "L3_SAT_d8_s105", "L3_SAT_d8_s107"]],
+    "rnnpipe": ["RNNC_L3_ORD_d4_s2"],
     "region": ["R_MAJ10_w32_s104_maj"],
 }
 for s in a.set.split(","):

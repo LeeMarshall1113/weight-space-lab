@@ -6,6 +6,10 @@ Living technical report, version 0.9 (2026-11-14). It is corrected in public: se
 
 Maintainer: GitHub handle `LeeMarshall1113` (display name to be added by the maintainer).
 
+## Abstract
+
+Small transformers whose weights and Lean 4 proofs were both written by LLM agents were checked by the Lean kernel. At rung 2, ten hard-attention networks are proved correct at every input length in exact arithmetic. At rung 4, eleven of twelve are proved within tolerance at every length for every relative weight change of at most 0.5%, under a rounding model valid up to 65,535 tokens; at rung 5, twelve of twelve softmax networks are proved under a binary32 model with a 1/200 relative ball. Counting tasks (parity, Dyck, sort) are excluded from these theorems. For parity networks and every token-blind network, it is kernel-checked that the correct relative radius shrinks like 1/n, an effect that is known in general form; the conjecture for the whole architecture is open. A plain verified program solves the same tasks with proofs a tenth to a twentieth as long, so no practical advantage is claimed. The earlier "fragile versus robust" contrast is withdrawn: additive and relative perturbations are different tests. The report lists its known weaknesses, what was not re-run, and how to correct it.
+
 This document is a record of what was built and measured: small transformers (hard attention at rungs 2 to 4, softmax attention at rung 5) whose weights and Lean 4 proofs were written by LLM agents, and what happens to those networks under weight perturbation and rounding. It is kept up to date; the known weaknesses are listed first, before any result, and corrections are invited (see "How to correct us"). The document's own file is `REPORT.md`. All other paths are relative to `lane4-proof/`. The title still fits: hard attention and softmax are both covered, and no claim is made about standard trained transformers.
 
 **One pre-registered check failed (rung 5).** The PyTorch module's stated-order forward pass was required to be bit-identical to numpy on every network. It is on 11 of 12; on `c04`, 142 of 9,576 outputs differ. Post hoc diagnosis: one unit in the last place on values near 2e-9, and numpy's and PyTorch's float32 `exp` differ on 39% of 2,000,001 sampled arguments. The check is reported as failed on one network (claims row 22, Section 6.5).
@@ -596,6 +600,8 @@ Each entry was checked against its own web page on 2026-11-13, except [LeanCert]
 ## Changelog
 
 Newest first.
+
+- **0.9, abstract (2026-11-15).** An abstract was added at the top. No claim, number or status changed.
 
 - **0.9, release copy (2026-11-14).** The release folder was synced to this version: rungs 5, 6b and 6c, the witnesses, the kit and the 2x2 tools are in; the report lives at `REPORT.md`; the "not yet in the release copy" statements were removed or rewritten; `VERIFY.md` records a clean-clone recheck of every Lean file. The word for a conventional article was dropped throughout; this is a living report. The reviewer of the second read is credited as "an independent AI reviewer".
 

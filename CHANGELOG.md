@@ -4,6 +4,20 @@ Corrections, downgrades and additions, newest first. Reporters are credited unle
 ask otherwise. A claim that is narrowed or retracted is also downgraded in the index table
 in `README.md`; it is not silently edited.
 
+## v0.3 (2026-11-15)
+
+- `reading/` unit 4 added: kernel-checked all-lengths weight-ball certificates (1/1000) for
+  nine trained clipped-ReLU RNNs, with the pre-registration (`reading/docs/PREREG_RNN.md`,
+  amendments A1 and A2), the Lean framework and files, scripts and rows. Registered status:
+  **no pass** (parity 3/8 ordinary and 1/8 penalty, mod-3 0/8 in both arms, Tomita 4 1/8 and
+  4/8, p = 0.14), boundary; the cluster-count explanation and the tightness caveat are in
+  the unit. Re-checked in `proofs/VERIFY.md`.
+- README: a short "What this is" at the top; "Known weaknesses" moved below the index and
+  linked from the opening; the five empty folders removed (their index rows stay, marked
+  "not yet included").
+- `proofs/REPORT.md`: an abstract added; no claim, number or status changed.
+- No external corrections yet.
+
 ## v0.2 (2026-11-15, first public version)
 
 - `proofs/` synced to the technical report version 0.9 (`proofs/REPORT.md`): rung 5 (softmax and a

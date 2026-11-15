@@ -70,6 +70,17 @@ majority region certificate) hit the script's 1,500 s limit and is recorded as a
 study's own report that the first full region certificate at 10 inputs hit its stop. It is not
 in the default set of the script.
 
+The RNN unit (`reading/` unit 4) was re-checked in a further clean clone of the tree after
+this version's changes (2026-11-15; one Lean process at a time, memory reservation 7 GB, whole
+job tree peaked at 4.3 GB of commit, no single Lean process above 2.2 GB working set):
+`python reading/bridge/recheck_bridge.py --set rnn,rnnpipe`: **14 of 14 passed in 202 s**: the
+four framework files (`IBP`, `Region`, `RNN`, `RNNClust`), the **nine test certificates**
+(`RNNC_L1_ORD_d8_s100/s106/s107`, `RNNC_L1_SAT_d8_s106`, `RNNC_L3_ORD_d8_s100`,
+`RNNC_L3_SAT_d8_s103/s104/s105/s107`; 13.5 to 16.3 s each), and the pipeline-check net
+`RNNC_L3_ORD_d4_s2` (outside dev and test). Every certificate's axioms are exactly
+`propext`, `Classical.choice`, `Quot.sound`. Rows: `results/recheck-rnn.json`. **Totals now: the main recheck 183 of 187 (4 expected failures), the bridge files 27 of 27, the RNN unit 14 of 14 (9 test certificates, the pipeline-check net and 4 framework files).** The four expected failures above are unchanged. No `native_decide`,
+`ofReduceBool`, `sorry` or `axiom` in any of the RNN files.
+
 ### 3. Axioms and `native_decide`
 
 Every passing check reports the final theorems' axioms as a subset of `propext`,

@@ -1,0 +1,43 @@
+{"lang": "L1", "arm": "ORD", "d": 4, "seed": 0, "gate": 4614, "gate_n": 9191, "exact": false, "sec": 51.9}
+{"lang": "L1", "arm": "ORD", "d": 4, "seed": 1, "gate": 4578, "gate_n": 9191, "exact": false, "sec": 49.8}
+{"lang": "L1", "arm": "ORD", "d": 4, "seed": 2, "gate": 4599, "gate_n": 9191, "exact": false, "sec": 47.6}
+{"lang": "L1", "arm": "ORD", "d": 4, "seed": 3, "gate": 4614, "gate_n": 9191, "exact": false, "sec": 49.1}
+{"lang": "L1", "arm": "ORD", "d": 8, "seed": 0, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 49.2}
+{"lang": "L1", "arm": "ORD", "d": 8, "seed": 1, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 48.5}
+{"lang": "L1", "arm": "ORD", "d": 8, "seed": 2, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 49.3}
+{"lang": "L1", "arm": "ORD", "d": 8, "seed": 3, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 49.4}
+{"lang": "L1", "chosen_d": 8}
+{"lang": "L1", "arm": "SAT", "d": 8, "seed": 0, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 56.9}
+{"lang": "L1", "arm": "SAT", "d": 8, "seed": 1, "gate": 4614, "gate_n": 9191, "exact": false, "sec": 54.8}
+{"lang": "L1", "arm": "SAT", "d": 8, "seed": 2, "gate": 4595, "gate_n": 9191, "exact": false, "sec": 55.2}
+{"lang": "L1", "arm": "SAT", "d": 8, "seed": 3, "gate": 4614, "gate_n": 9191, "exact": false, "sec": 54.2}
+{"lang": "L2", "arm": "ORD", "d": 4, "seed": 0, "gate": 6121, "gate_n": 9191, "exact": false, "sec": 47.6}
+{"lang": "L2", "arm": "ORD", "d": 4, "seed": 1, "gate": 3849, "gate_n": 9191, "exact": false, "sec": 47.2}
+{"lang": "L2", "arm": "ORD", "d": 4, "seed": 2, "gate": 3045, "gate_n": 9191, "exact": false, "sec": 48.3}
+{"lang": "L2", "arm": "ORD", "d": 4, "seed": 3, "gate": 6110, "gate_n": 9191, "exact": false, "sec": 50.6}
+{"lang": "L2", "arm": "ORD", "d": 8, "seed": 0, "gate": 5087, "gate_n": 9191, "exact": false, "sec": 48.6}
+{"lang": "L2", "arm": "ORD", "d": 8, "seed": 1, "gate": 7772, "gate_n": 9191, "exact": false, "sec": 48.5}
+{"lang": "L2", "arm": "ORD", "d": 8, "seed": 2, "gate": 6121, "gate_n": 9191, "exact": false, "sec": 48.6}
+{"lang": "L2", "arm": "ORD", "d": 8, "seed": 3, "gate": 6121, "gate_n": 9191, "exact": false, "sec": 48.6}
+{"lang": "L2", "arm": "ORD", "d": 16, "seed": 0, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 49.6}
+{"lang": "L2", "arm": "ORD", "d": 16, "seed": 1, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 49.6}
+{"lang": "L2", "arm": "ORD", "d": 16, "seed": 2, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 49.6}
+{"lang": "L2", "arm": "ORD", "d": 16, "seed": 3, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 49.5}
+{"lang": "L2", "chosen_d": 16}
+{"lang": "L2", "arm": "SAT", "d": 16, "seed": 0, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 58.1}
+{"lang": "L2", "arm": "SAT", "d": 16, "seed": 1, "gate": 4750, "gate_n": 9191, "exact": false, "sec": 57.3}
+{"lang": "L2", "arm": "SAT", "d": 16, "seed": 2, "gate": 6121, "gate_n": 9191, "exact": false, "sec": 56.9}
+{"lang": "L2", "arm": "SAT", "d": 16, "seed": 3, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 57.8}
+{"lang": "L3", "arm": "ORD", "d": 4, "seed": 0, "gate": 9174, "gate_n": 9191, "exact": false, "sec": 49.2}
+{"lang": "L3", "arm": "ORD", "d": 4, "seed": 1, "gate": 4928, "gate_n": 9191, "exact": false, "sec": 48.9}
+{"lang": "L3", "arm": "ORD", "d": 4, "seed": 2, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": true, "margin": "0", "sec": 49.3}
+{"lang": "L3", "arm": "ORD", "d": 4, "seed": 3, "gate": 8137, "gate_n": 9191, "exact": false, "sec": 48.8}
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 0, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 49.7}
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 1, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 48.6}
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 2, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 48.9}
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 3, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 49.2}
+{"lang": "L3", "chosen_d": 8}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 0, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 56.6}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 1, "gate": 9191, "gate_n": 9191, "exact": true, "cert_py": false, "margin": null, "sec": 56.4}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 2, "gate": 6313, "gate_n": 9191, "exact": false, "sec": 56.5}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 3, "gate": 9190, "gate_n": 9191, "exact": false, "sec": 57.4}

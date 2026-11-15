@@ -1,16 +1,16 @@
-# reading/: can an LLM read small networks from their weights? Three finished units, all boundaries or negatives
+# reading/: reading and certifying small networks from their weights. Four finished units, all boundaries or negatives
 
 Personal work. Views are my own.
 
-This folder holds three finished units from a study of LLM agents ("doctors") reading and
-analysing small neural networks from their weights. None is a positive headline result.
+This folder holds four finished units from a study of LLM agents ("doctors") reading and
+analysing small neural networks from their weights, and of kernel-checked certificates for them
+(units 3 and 4 use no agents). None is a positive headline result.
 Each is a boundary or a negative, stated with what it does not show. Numbers below are
 copied from `RESULTS.md` in this folder (an excerpt of the study's own results file). **The
 agent runs and the numeric scripts were not re-run for this release.** The Lean files of
-the bridge unit (unit 3) were re-checked from a clean clone; see `../proofs/VERIFY.md`.
+units 3 and 4 were re-checked from a clean clone; see `../proofs/VERIFY.md`.
 
-Not included: the earlier RNN stage (reading, repairing and extending random small RNNs,
-closed) and a test of certificates for trained recurrent nets (in progress).
+Not included: the earlier RNN stage (reading, repairing and extending random small RNNs, closed).
 
 ## Unit 1. Compiled versus trained transformers: weights-only reading works only on compiled ones
 
@@ -117,12 +117,68 @@ length; only finite Boolean inputs and small ReLU networks (hidden width 16 to 6
 statement is the weight ball of the `proofs/` study at one radius. The size ladder uses
 CPU timings from a shared machine. A route to all-length statements for trained networks
 would need a symbolic or relational certificate or a different statement (for example a
-recurrent network with a proved invariant); the study's last stage, on that, is in progress
-and not included.
+recurrent network with a proved invariant); the study's next stage, on that, is unit 4
+(trained RNNs), which also stops short of a pass.
 
 Pre-registration: `docs/PREREG_BRIDGE.md` (amendments A1 to A8). Lean files:
 `bridge/lean/Bridge/` (`IBP.lean`, `Region.lean`, `Nets/*.lean`); data: `results/bridge_*`,
 `bridge/nets/`. Python: `bridge/*.py`.
+
+## Unit 4. The RNN invariant: kernel-checked all-lengths certificates for trained RNNs, and where they stop
+
+*Statement tested.* A trained clipped-ReLU Elman RNN (hidden width 4 to 16) recognising a
+small regular language has a Lean-kernel-checked certificate: **for every weight and bias
+within 1/1000 (absolute) of the trained values, the RNN's accept/reject read-out is correct
+on every input string of every length.** Method: a finite family of boxes in hidden-state
+space, one per cluster of reached states, with a transition map between them, proved sound
+once (`bridge/lean/Bridge/RNN.lean`, `RNNClust.lean`) and then checked per net by kernel
+reduction (`decide +kernel`; no `native_decide`; standard three axioms). The certificate
+size does not depend on the input length. **The idea (an inductive invariant) is standard;
+nothing here is a new technique.** No proof agents were used.
+
+*Result, as registered* (`RESULTS.md`, "RNN invariant ... test result"; test seeds 100 to 107,
+one blind run of the frozen procedure, bars fixed in `docs/PREREG_RNN.md` and its amendments
+A1 and A2 before the run). **No pass.** Certified at 1/1000, out of 8 test seeds per cell
+(gate = the net is exact on all strings of length at most 12 and on 1,000 strings of length 200):
+
+| Language (width) | Ordinary training: gate / certified | Saturation-penalty training: gate / certified | Random-weight control |
+|---|---|---|---|
+| Parity (8) | 5 / **3** | 1 / **1** | 0/8 |
+| Mod-3 counter (16) | 4 / **0** | 2 / **0** | 0/8 |
+| Tomita 4 (8) | 6 / **1** | 5 / **4** | 0/8 |
+
+- **Pass bar (at least 6/8 on parity, and mod-3 above 0): not met.** Status: **boundary**.
+- **"Trained to be certifiable helps"**: met on Tomita 4 only (4 against 1, one-sided
+  Fisher p = 0.14, so weak), and reversed on parity (1 against 3, because the penalty made
+  most parity nets fail the gate: 1/8 against 5/8).
+- **Why it stops (cluster count).** The nets are exact, but they reach many saturated
+  hidden-state points, not one per state of the minimal automaton (2 to 4 states). The
+  certified nets use 5 to 20 clusters; the gate-passing nets that did not certify use 12 to
+  149 (mod-3: 24 to 149, none certified). Failure tracks the cluster count.
+- A trivial-language control (accept everything) certified 4/4 with 2 to 4 clusters.
+- **Tightness caveat.** Only one net has a confirmed break (Tomita 4, penalty arm, seed 105,
+  at radius 0.0263, ratio 1.21 to the certified radius). For the other 8 the break search
+  found nothing up to 1/2, and **that is a limit of the search, not evidence the nets are
+  robust**: the clip saturates, so the gradient-sign attack sees no gradient on the recurrent
+  weights. Certified radii are therefore not shown to be near-tight. No bar depends on this.
+- **The pipeline-check net** (`RNNC_L3_ORD_d4_s2`: Tomita 4, ordinary, width 4, seed 2) was
+  trained to check the pipeline and is outside the dev and test sets; it is not counted above.
+  Its certified radius is 0.0062 and its smallest exactly confirmed break 0.0107 (ratio 1.72).
+
+*What it does not show.* Nothing about transformers, or about languages beyond three small
+regular ones; nothing about nets that were not trained with this recipe; and the 9
+certificates are for nets that passed a sampled gate and then a certificate, so they say
+"these nets are certified", not "trained RNNs are generally certifiable". The registered design allowed one revision (A1);
+there is none left.
+
+Pre-registration: `docs/PREREG_RNN.md` (amendments A1 and A2) (the earlier scope note is not included). Dev results: `results/rnncert_dev*.jsonl`. Test rows:
+`results/rnncert_test_*.jsonl`, `results/rnncert_breaks.jsonl`. Code: `rnn/` (training, gate,
+cluster search, Lean export, break search; run order in `rnn/rnncert.py`). Lean:
+`bridge/lean/Bridge/RNN.lean`, `RNNClust.lean`, `Nets/RNNC_*.lean` (the nine test
+certificates and the pipeline-check net). `rnn/nets/` holds only those ten nets of the 116
+the study trained. *Release note:* the frozen sha256 list of the pre-registration covers the
+original files; the copies here differ from them only in a docstring line each (internal
+wording removed) and a usage-path line, so their hashes differ.
 
 ## How to check
 
@@ -134,7 +190,13 @@ python reading/bridge/recheck_bridge.py            # stage 1, float weights and 
 
 Each net file prints `#print axioms` for its certificate; the script requires them within
 `propext`, `Classical.choice`, `Quot.sound`. In the release re-check 27 of 27 of these (16 stage-1 nets, 8 float-weight nets, 1 n = 8 net, plus the two framework files) passed; the one n = 10 majority region file that was tried (`--set region`) did **not** finish within 1,500 s, in line with the study's own report that the first full region certificate hit its 15-minute stop. Rows are written to
-`proofs/results/recheck-bridge.json`. The Python scripts (`xf/`, `bridge/`) need numpy and
+`proofs/results/recheck-bridge.json`. Unit 4:
+
+```bash
+python reading/bridge/recheck_bridge.py --set rnn --out proofs/results/recheck-rnn.json   # 9 certificates, about 12 s each (build of the two RNN framework files first)
+```
+
+ The Python scripts (`xf/`, `bridge/`) need numpy and
 PyTorch; they were not re-run for this release. `xf/` also needs Tracr (Apache-2.0) to
 rebuild compiled networks; the compiled networks themselves are included.
 

@@ -1,0 +1,24 @@
+{"lang": "L1", "arm": "ORD", "d": 8, "seed": 0, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 14, "cert_py": true, "margin": "0", "cert_size": {"boxes": 14, "step_checks": 28, "read_checks": 14}, "sec": 60.8}
+{"lang": "L1", "arm": "ORD", "d": 8, "seed": 1, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 5, "cert_py": true, "margin": "0", "cert_size": {"boxes": 5, "step_checks": 10, "read_checks": 5}, "sec": 53.2}
+{"lang": "L1", "arm": "ORD", "d": 8, "seed": 2, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 7, "cert_py": true, "margin": "0", "cert_size": {"boxes": 7, "step_checks": 14, "read_checks": 7}, "sec": 53.8}
+{"lang": "L1", "arm": "ORD", "d": 8, "seed": 3, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 6, "cert_py": true, "margin": "0", "cert_size": {"boxes": 6, "step_checks": 12, "read_checks": 6}, "sec": 55.2}
+{"lang": "L1", "arm": "SAT", "d": 8, "seed": 0, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 8, "cert_py": true, "margin": "0", "cert_size": {"boxes": 8, "step_checks": 16, "read_checks": 8}, "sec": 59.9}
+{"lang": "L1", "arm": "SAT", "d": 8, "seed": 1, "gate": 4614, "gate_n": 9191, "exact": false, "sec": 58.7}
+{"lang": "L1", "arm": "SAT", "d": 8, "seed": 2, "gate": 4595, "gate_n": 9191, "exact": false, "sec": 58.2}
+{"lang": "L1", "arm": "SAT", "d": 8, "seed": 3, "gate": 4614, "gate_n": 9191, "exact": false, "sec": 59.4}
+{"lang": "L2", "arm": "ORD", "d": 16, "seed": 0, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 63, "cert_py": false, "sec": 59.9}
+{"lang": "L2", "arm": "ORD", "d": 16, "seed": 1, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 116, "cert_py": false, "sec": 59.3}
+{"lang": "L2", "arm": "ORD", "d": 16, "seed": 2, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 49, "cert_py": false, "sec": 57.3}
+{"lang": "L2", "arm": "ORD", "d": 16, "seed": 3, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 9, "cert_py": false, "sec": 56.1}
+{"lang": "L2", "arm": "SAT", "d": 16, "seed": 0, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 105, "cert_py": false, "sec": 69.9}
+{"lang": "L2", "arm": "SAT", "d": 16, "seed": 1, "gate": 4750, "gate_n": 9191, "exact": false, "sec": 61.5}
+{"lang": "L2", "arm": "SAT", "d": 16, "seed": 2, "gate": 6121, "gate_n": 9191, "exact": false, "sec": 63.2}
+{"lang": "L2", "arm": "SAT", "d": 16, "seed": 3, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 12, "cert_py": false, "sec": 66.9}
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 0, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 10, "cert_py": true, "margin": "0", "cert_size": {"boxes": 10, "step_checks": 20, "read_checks": 10}, "sec": 54.4}
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 1, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 55, "cert_py": false, "sec": 57.6}
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 2, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 17, "cert_py": false, "sec": 55.8}
+{"lang": "L3", "arm": "ORD", "d": 8, "seed": 3, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 13, "cert_py": false, "sec": 54.4}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 0, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 9, "cert_py": true, "margin": "0", "cert_size": {"boxes": 9, "step_checks": 18, "read_checks": 9}, "sec": 62.1}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 1, "gate": 9191, "gate_n": 9191, "exact": true, "n_clusters": 8, "cert_py": true, "margin": "0", "cert_size": {"boxes": 8, "step_checks": 16, "read_checks": 8}, "sec": 60.5}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 2, "gate": 6313, "gate_n": 9191, "exact": false, "sec": 59.8}
+{"lang": "L3", "arm": "SAT", "d": 8, "seed": 3, "gate": 9190, "gate_n": 9191, "exact": false, "sec": 59.3}

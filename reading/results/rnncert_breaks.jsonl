@@ -1,0 +1,9 @@
+{"net": "L1_ORD_d8_s100", "max_tau": 0.00556640625, "break_r": null, "note": "no break found up to 1/2"}
+{"net": "L1_ORD_d8_s106", "max_tau": 0.00157470703125, "break_r": null, "note": "no break found up to 1/2"}
+{"net": "L1_ORD_d8_s107", "max_tau": 0.0048583984375, "break_r": null, "note": "no break found up to 1/2"}
+{"net": "L1_SAT_d8_s106", "max_tau": 0.014501953125, "break_r": null, "note": "no break found up to 1/2"}
+{"net": "L3_ORD_d8_s100", "max_tau": 0.0033447265625, "break_r": null, "note": "no break found up to 1/2"}
+{"net": "L3_SAT_d8_s103", "max_tau": 0.01839599609375, "break_r": null, "note": "no break found up to 1/2"}
+{"net": "L3_SAT_d8_s104", "max_tau": 0.01031494140625, "break_r": null, "note": "no break found up to 1/2"}
+{"net": "L3_SAT_d8_s105", "max_tau": 0.02176513671875, "break_r": 0.02634783163666725, "ratio": 1.2105520850677403}
+{"net": "L3_SAT_d8_s107", "max_tau": 0.013720703125, "break_r": null, "note": "no break found up to 1/2"}

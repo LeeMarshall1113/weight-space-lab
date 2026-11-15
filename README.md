@@ -11,12 +11,54 @@ and claims that do not survive are downgraded in the table below, not quietly ed
 A lab-style repository of experiments on **LLMs writing, reading and editing neural-network
 weights**, with pre-registrations, negative results kept, and where possible machine-checked
 proofs. Each result lives in its own folder with its own README, pre-registration and
-instructions to check it. `proofs/` and `reading/` are included; the other folders are slots
-that will be filled as results are cleared for release. The full technical report is
+instructions to check it. `proofs/` and `reading/` are included; other results are listed in the index as
+"not yet included". The full technical report is
 `proofs/REPORT.md` (a living document with a claims table, a changelog and a "how to
 correct us" section).
 
-## Known weaknesses (read first)
+## What this is
+
+- **Strongest result.** An LLM wrote the weights of small transformers *and* Lean proofs, checked by the Lean kernel, that each one is correct at every input length for every weight change within a stated range (for example 0.5% relative; exact arithmetic at every length in one rung, a rounding model up to 65,535 tokens in another). Eleven of twelve and twelve of twelve in the two main rungs; counting tasks are excluded.
+- **Impossibility result.** For parity networks and every "token-blind" network, the correct radius shrinks like 1/n, so no positive radius works at every length. The effect is known (Hahn and Rofin); here it is machine-checked with explicit constants, for narrow classes only.
+- **Boundary.** For gradient-trained networks the results mark where methods stop: trained transformers are not readable from weights, and kernel-checked weight-ball certificates for small trained ReLU nets and RNNs reach only small input spaces or a minority of networks.
+- **Read the [weaknesses](#known-weaknesses-read-before-citing) before citing anything here.**
+
+Check one proof yourself (after the setup in `proofs/README.md`):
+
+```bash
+cd proofs && lake update && lake exe cache get
+export LANE4_LEAN=$(elan which lean) LANE4_MATHLIB_PROJECT=$PWD
+python tools/check.py runs/rung4-test/net/c14
+```
+
+## Index of results
+
+Status words: **confirmed** (the pre-registered claim was met and the Lean files were
+re-checked from this folder), **measured** (a numeric screen, not a proof), **negative**
+(the pre-registered test was not met or a kill criterion triggered), **boundary** (a result
+that marks where a method stops), **in progress**. "Not yet included" rows say what the
+lab's own notes report; they have not been independently re-checked.
+
+| Claim | Status | Where to look | How to check |
+|---|---|---|---|
+| 11 of 12 LLM-written hard-attention transformers kernel-checked correct at every input length for every relative weight change within 0.5%, under a rounding model up to 65,535 tokens (non-counting tasks only; a plain verified program does the same tasks with proofs about a tenth as long) | confirmed | `proofs/` (rung 4), `proofs/docs/RESULTS_R4.md` | `python tools/check.py runs/rung4-test/net/c14` inside `proofs/`; or `tools/recheck_release.py`. See `proofs/VERIFY.md` |
+| 12 of 12 LLM-written softmax transformers kernel-checked within 1/4 of the target at every length for every relative weight change within 1/200, with exact arithmetic at every length and a binary32 model up to 65,535 tokens (non-counting tasks only; the kit carries the float analysis; one pre-registered numeric check failed) | confirmed | `proofs/` (rung 5), `proofs/docs/RESULTS_R5.md` | `runs/rung5-test/net/*`, same checker |
+| 12 of 12 LLM-written ReLU networks proved within tolerance of an exact spec for every weight and bias within 1/1000 (absolute) | confirmed | `proofs/` (rung 3), `proofs/docs/RESULTS_R3.md` | same checker, `runs/rung3-test/` |
+| 10 of 10 LLM-written hard-attention transformers proved correct at every input length, exact arithmetic, written weights only | confirmed | `proofs/` (rung 2), `proofs/docs/RESULTS_R2.md` | same checker, `runs/rung2-test/` |
+| Perturbation 2x2 (additive versus relative; rung 2 versus rung 4): additive 1/1000 breaks all ten rung-2 networks and, at length 1,000, all eleven rung-4 networks; no break found under relative noise inside the rung-4 ball. The earlier "fragile versus robust" framing is withdrawn | measured (finite searches); three witnesses kernel-checked | `proofs/REPORT.md` (Section 3), `proofs/results/r3-2x2-v2.json`, `proofs/runs/witness/` | `proofs/tools/r3_2x2_v2.py`; the witnesses through the same checker |
+| For three proved parity networks (and every "token-blind" network, including two sort networks) no relative ball of radius 1/(2L-1) or more is correct up to length L, so no positive radius is correct at every length; the general phenomenon is known | confirmed (narrow classes) | `proofs/` (rungs 6b, 6c), `proofs/docs/RESULTS_R6B.md`, `RESULTS_R6C.md` | `runs/r6b/`, `runs/r6c/` |
+| Three open statements (no length-independent ball for parity; none absolute for a non-counting task) | conjecture (statements type-check; nothing proved) | `proofs/Lane4/Conjectures.lean` | `proofs/runs/r5-kit/kConj` |
+| Compiled versus trained transformers: an LLM reads small compiled (Tracr) transformers from weights alone at 20/20 functional, trained ones at 0/20 (0/41 when trained for discreteness) | negative on trained nets; compiled is the easy case | `reading/` unit 1 | not re-run; data in `reading/results/` |
+| A decay curve from compiled networks toward trained-like weights could not be built under the pre-registered rule (corrected: the first write-up overclaimed) | negative (stopped by kill rule) | `reading/` unit 2 | not re-run |
+| Kernel-checked weight-ball certificates (1/1000) for tiny trained ReLU networks: 8/8 and 8/8 at 6 inputs, near-tight, on float weights too; the certified fraction falls to 0/8 by 12 inputs and cost tracks 2^n | boundary (known method; finite inputs only) | `reading/` unit 3 | `python reading/bridge/recheck_bridge.py` |
+| Kernel-checked all-lengths weight-ball certificates (1/1000) for ordinarily trained clipped-ReLU RNNs: 9 certificates; registered pass bar **not met** (parity 3/8 ordinary and 1/8 with the penalty, mod-3 0/8 in both arms, Tomita 4 1/8 and 4/8, p = 0.14); the nets use 5 to 20 state clusters, not the 2 to 4 of the minimal automaton; the one confirmed break is at ratio 1.21 and the other 8 are not shown tight | boundary (known method; the pass bar was not met) | `reading/` unit 4, `reading/docs/PREREG_RNN.md` | `python reading/bridge/recheck_bridge.py --set rnn` |
+| Injecting a new skill into a pretrained network without gradients | mixed per lab notes: positive on small nets, not shown at the prose rung; not yet included | folder not yet included | |
+| Detecting planted behaviours from weights | negative per lab notes (kill criterion met for a zero-shot doctor); not yet included | folder not yet included | |
+| Self-improvement levers (data, recipe, weights) | in progress; not yet included | folder not yet included | |
+| A typed-decision method: reproduction and gate | negative per lab notes (gate not met, shelved); not yet included | folder not yet included | |
+| The doctor harness: an agent loop that edits weights under a forward-pass budget | tool; not yet included | folder not yet included | |
+
+## Known weaknesses (read before citing)
 
 These are the weak points we know of; each is repeated, with detail, in `proofs/REPORT.md`
 ("Known weaknesses") and `proofs/README.md` ("Limits"). If you find another, that is exactly
@@ -50,41 +92,15 @@ what we want to hear.
    independently verifiable.
 9. **Small samples:** 11 of 12, 12 of 12, 10 of 10; one model family (the exact version
    string was not recorded); the one rung-4 miss is an agent crash, counted as a failure.
-10. **`reading/` units are negatives and boundaries** from n = 20 runs with one agent model;
-    the agent runs were not re-run for this release.
-
-## Index of results
-
-Status words: **confirmed** (the pre-registered claim was met and the Lean files were
-re-checked from this folder), **measured** (a numeric screen, not a proof), **negative**
-(the pre-registered test was not met or a kill criterion triggered), **boundary** (a result
-that marks where a method stops), **in progress**. "Not yet included" rows say what the
-lab's own notes report; they have not been independently re-checked.
-
-| Claim | Status | Where to look | How to check |
-|---|---|---|---|
-| 11 of 12 LLM-written hard-attention transformers kernel-checked correct at every input length for every relative weight change within 0.5%, under a rounding model up to 65,535 tokens (non-counting tasks only; a plain verified program does the same tasks with proofs about a tenth as long) | confirmed | `proofs/` (rung 4), `proofs/docs/RESULTS_R4.md` | `python tools/check.py runs/rung4-test/net/c14` inside `proofs/`; or `tools/recheck_release.py`. See `proofs/VERIFY.md` |
-| 12 of 12 LLM-written softmax transformers kernel-checked within 1/4 of the target at every length for every relative weight change within 1/200, with exact arithmetic at every length and a binary32 model up to 65,535 tokens (non-counting tasks only; the kit carries the float analysis; one pre-registered numeric check failed) | confirmed | `proofs/` (rung 5), `proofs/docs/RESULTS_R5.md` | `runs/rung5-test/net/*`, same checker |
-| 12 of 12 LLM-written ReLU networks proved within tolerance of an exact spec for every weight and bias within 1/1000 (absolute) | confirmed | `proofs/` (rung 3), `proofs/docs/RESULTS_R3.md` | same checker, `runs/rung3-test/` |
-| 10 of 10 LLM-written hard-attention transformers proved correct at every input length, exact arithmetic, written weights only | confirmed | `proofs/` (rung 2), `proofs/docs/RESULTS_R2.md` | same checker, `runs/rung2-test/` |
-| Perturbation 2x2 (additive versus relative; rung 2 versus rung 4): additive 1/1000 breaks all ten rung-2 networks and, at length 1,000, all eleven rung-4 networks; no break found under relative noise inside the rung-4 ball. The earlier "fragile versus robust" framing is withdrawn | measured (finite searches); three witnesses kernel-checked | `proofs/REPORT.md` (Section 3), `proofs/results/r3-2x2-v2.json`, `proofs/runs/witness/` | `proofs/tools/r3_2x2_v2.py`; the witnesses through the same checker |
-| For three proved parity networks (and every "token-blind" network, including two sort networks) no relative ball of radius 1/(2L-1) or more is correct up to length L, so no positive radius is correct at every length; the general phenomenon is known | confirmed (narrow classes) | `proofs/` (rungs 6b, 6c), `proofs/docs/RESULTS_R6B.md`, `RESULTS_R6C.md` | `runs/r6b/`, `runs/r6c/` |
-| Three open statements (no length-independent ball for parity; none absolute for a non-counting task) | conjecture (statements type-check; nothing proved) | `proofs/Lane4/Conjectures.lean` | `proofs/runs/r5-kit/kConj` |
-| Compiled versus trained transformers: an LLM reads small compiled (Tracr) transformers from weights alone at 20/20 functional, trained ones at 0/20 (0/41 when trained for discreteness) | negative on trained nets; compiled is the easy case | `reading/` unit 1 | not re-run; data in `reading/results/` |
-| A decay curve from compiled networks toward trained-like weights could not be built under the pre-registered rule (corrected: the first write-up overclaimed) | negative (stopped by kill rule) | `reading/` unit 2 | not re-run |
-| Kernel-checked weight-ball certificates (1/1000) for tiny trained ReLU networks: 8/8 and 8/8 at 6 inputs, near-tight, on float weights too; the certified fraction falls to 0/8 by 12 inputs and cost tracks 2^n | boundary (known method; finite inputs only) | `reading/` unit 3 | `python reading/bridge/recheck_bridge.py` |
-| Injecting a new skill into a pretrained network without gradients | mixed per lab notes: positive on small nets, not shown at the prose rung; not yet included | slot `injection/` | |
-| Detecting planted behaviours from weights | negative per lab notes (kill criterion met for a zero-shot doctor); not yet included | slot `detection/` | |
-| Self-improvement levers (data, recipe, weights) | in progress; not yet included | slot `self-improvement/` | |
-| A typed-decision method: reproduction and gate | negative per lab notes (gate not met, shelved); not yet included | slot `typed-decisions/` | |
-| The doctor harness: an agent loop that edits weights under a forward-pass budget | tool; not yet included | slot `harness/` | |
+10. **`reading/` units are negatives and boundaries.** Units 1 and 2 are from n = 20 runs
+    with one agent model, not re-run for this release; units 3 and 4 are certificates, with
+    their Lean files re-checked. Unit 4's registered pass bar was **not** met (3/8, 0/8, 1/8).
 
 ## Repository layout
 
 ```
 proofs/            Lean proofs, checker, pools, pre-registrations, per-case results, REPORT.md   (included)
-reading/           three finished units on reading networks from weights (bridge Lean files included)   (included)
-injection/ detection/ self-improvement/ typed-decisions/ harness/                      (empty slots)
+reading/           four finished units on reading and certifying networks from their weights (Lean files included)   (included)
 LICENSE            Apache-2.0 (code, Lean files, scripts)
 NOTICE, CITATION.cff
 CONTRIBUTING.md, CHANGELOG.md, .github/ISSUE_TEMPLATE/   (how to report; corrections log)

@@ -62,7 +62,7 @@ This is in line with 2602.08857's need for an exact re-parameterisation, and wit
 **Not done:**
 - 2602.08857's analytic decompiler on our trained nets: needs an install approval.
 - Exact-structure judging of the calibration programs.
-- T-classic and the lane-1 networks.
+- T-classic and the other networks of the study.
 
 **2602.08857 baseline: not applicable without retraining** (project coordination's
 decision B, 2026-11-08). The code was cloned locally to `ext/` (gitignored, not
@@ -313,7 +313,7 @@ frozen in A3 before any test seed was trained. Test seeds 100-107 were run once.
 - **S2b, unquantized weights:** Lean.
 - **S2c, size scaling:** n = 8 and 10, CPU training plus Lean.
 
-None has started; each Lean batch waits for the coordinator's go and a slot agreed with
+None has started; each Lean batch waits for the maintainer's go and a slot agreed with
 the proofs study.
 
 **Stage 1 verdict, both halves (2026-11-15).**
@@ -413,7 +413,7 @@ trained transformers.
 - or a different statement, such as a recurrent net with a proved invariant.
 
 **Ladder stop.** The ladder stops at n = 12 for this question. n = 14 and 16 can only
-repeat 0/8 and add CPU hours, so they are left unrun unless the coordinator asks for them.
+repeat 0/8 and add CPU hours, so they are left unrun unless the maintainer asks for them.
 
 # Bridge: finished unit (PREREG_BRIDGE + A1-A8), 2026-11-16
 
@@ -451,3 +451,84 @@ sound once (`Bridge/IBP.lean`), checked per input by kernel reduction.
 
 Pre-registration and amendments: `PREREG_BRIDGE.md`. Code: `bridge/`. Logs: `results/bridge_*`.
 
+
+
+# RNN invariant (PREREG_RNN), dev finding, 2026-11-14: trained RNNs implement finer automata than the minimal DFA
+Clipped-ReLU Elman RNNs, trained ordinarily, pass the exactness gate (all strings of length
+≤ 12, plus 1,000 strings of length 200) at d = 8 (parity), d = 16 (mod-3) and d = 8
+(Tomita 4).
+
+**Their reached hidden states are almost fully saturated but not one point per DFA state.**
+
+| Net | Distinct points (rounded 0.01) per DFA state |
+|---|---|
+| Parity, 3 ORD nets plus 1 SAT net | 2-22 |
+| mod-3, d = 16 | 85-104 |
+| Tomita 4, d = 8 | 2-5 |
+
+- One box per DFA state therefore spans most of [0, 1]^d. It overlaps the other states'
+  boxes, and no sign-correct read-out exists on it, even with unperturbed weights.
+- The box-per-DFA-state invariant certified **no** parity dev net, in either arm.
+- The method works when a net happens to use one point per state. The single Tomita 4 net
+  that passed the gate at d = 4 has that property and certifies at τ = 1/1000.
+
+**SAT arm (dev observation).** The saturation-margin penalty lowered trainability: 1/4,
+2/4 and 2/4 dev nets passed the gate, against 4/4 for ORD.
+
+
+# RNN invariant (PREREG_RNN + A1/A2), test result, 2026-11-14: no pass; L3 meets the effect bar at p = 0.14; 9/9 certificates kernel-checked
+One blind run of the frozen procedure (A2 hashes, commit a4aa12c). Test seeds 100-107. Clusters
+are counted under the A1 rule. Certification is at τ = 1/1000.
+
+**Lean checks: all 9 confirmed.** All 9 Python-certified nets  were kernel-checked one at a
+time. Each check took 11.7-13.9 s and
+peaked at 4.3 GB of commit. Each certificate uses only the standard axioms (propext,
+Classical.choice, Quot.sound). The counts below are therefore final.
+
+**Certified counts, out of 8 test seeds per language and arm:**
+
+| Language (d) | ORD: gate / certified | SAT: gate / certified | RND certified | Clusters, certified nets | Clusters, gate-passing but uncertified |
+|---|---|---|---|---|---|
+| L1 parity (8) | 5 / **3** | 1 / **1** | 0/8 | 5-8 | 13, 24 |
+| L2 mod-3 (16) | 4 / **0** | 2 / **0** | 0/8 | none | 24-149 |
+| L3 Tomita 4 (8) | 6 / **1** | 5 / **4** | 0/8 | 7-20 | 12-82 |
+
+**Trivial-language control:** 4/4 certified, with 2-4 clusters. All four reach the search ceiling of τ = 1/20.
+
+**Bars:**
+- **Pass (level 2), not met.** No arm reaches ≥ 6/8 on L1, and L2 is 0/8 in both arms. Stage 2 stays closed.
+- **Structured effect, met on L3 only, and weakly.**
+  - L3: SAT − ORD = 4 − 1 = 3. One-sided Fisher exact p = 0.14.
+  - L1 goes the other way: SAT − ORD = −2. Most SAT nets fail the gate there (1/8 pass, against 5/8 for ORD).
+- **Level-3 candidate, not met.** The best L3 arm is 4/8.
+- **Kill, not fired.** L1 ORD is 3/8.
+- **Random control** is 0/8 on every language, as expected.
+
+**Tightness, as registered.**
+- One net has a confirmed break: L3 SAT s105 breaks at r = 0.0263, ratio 1.21.
+- The other 8 return "no break found up to 1/2".
+- This is a limit of the instrument, not evidence that the nets are robust:
+  - The clip saturates, so the sign-gradient attack sees zero gradient on W, U and b. Only the read-out moves.
+  - On the non-dev pipeline net, the same attack found a break at ratio 1.72.
+- No bar depends on tightness here, because the level-3 bar fails on count.
+
+**Certificate size (A1, condition 3).**
+- A certificate has n_C boxes, 2·n_C step checks and n_C read-out checks.
+- n_C is 5-20 on the certified nets. That size is constant in input length, but it is set by
+  how many state clusters the net actually uses, not by the minimal DFA (2-4 states).
+- Failure tracks n_C:
+  - The gate-passing nets that did not certify use 12-149 clusters.
+  - mod-3 nets, at d = 16, use 24-149, and none certifies.
+
+**What this supports:**
+- Kernel-checked, all-lengths, weight-ball correctness certificates exist for some ordinarily
+  trained RNNs: 3/8 on parity and 1/8 on Tomita 4.
+- The penalty arm ("trained to be certifiable") helps on Tomita 4 but costs trainability on parity.
+- The method does not scale to the mod-3 nets, which spread over many saturated points.
+- A1 was the one design revision allowed, so there is no further revision under this prereg.
+
+**Date correction.** The headings of PREREG_RNN, its scope note and the two earlier
+sections here read 2026-11-16. Every commit is dated 2026-11-14, so they were relabelled
+2026-11-14. The commit order, which is the audit trail, is unchanged.
+
+Rows: `results/rnncert_test_*.jsonl`, `results/rnncert_breaks.jsonl`.
