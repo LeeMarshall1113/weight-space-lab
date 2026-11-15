@@ -98,5 +98,5 @@ are not redistributed here; each folder will say what it needs and under what li
 
 ## Status of this copy
 
-This repository is private while the write-up is being checked. A DOI will be assigned
-when it is archived (placeholder in `CITATION.cff`).
+Public since 2026-11-15 (v0.2). No DOI yet: one will be assigned when a version is
+archived (placeholder in `CITATION.cff`).
