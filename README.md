@@ -20,7 +20,7 @@ correct us" section).
 
 - **Strongest result.** An LLM wrote the weights of small transformers *and* Lean proofs, checked by the Lean kernel, that each one is correct at every input length for every weight change within a stated range (for example 0.5% relative; exact arithmetic at every length in one rung, a rounding model up to 65,535 tokens in another). Eleven of twelve and twelve of twelve in the two main rungs; counting tasks are excluded.
 - **Impossibility result.** For parity networks and every "token-blind" network, the correct radius shrinks like 1/n, so no positive radius works at every length. The effect is known (Hahn and Rofin); here it is machine-checked with explicit constants, for narrow classes only.
-- **Boundary.** For gradient-trained networks the results mark where methods stop: trained transformers are not readable from weights, and kernel-checked weight-ball certificates for small trained ReLU nets and RNNs reach only small input spaces or a minority of networks.
+- **Boundary.** For gradient-trained networks the results mark where methods stop: the one LLM tried read trained transformers from weights at 0 of 20, and kernel-checked weight-ball certificates for small trained ReLU nets and RNNs reach only small input spaces or a minority of networks.
 - **Read the [weaknesses](#known-weaknesses-read-before-citing) before citing anything here.**
 
 Check one proof yourself (after the setup in `proofs/README.md`):
