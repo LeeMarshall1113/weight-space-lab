@@ -202,7 +202,7 @@ selected by robustness, so it is not a curve.
 | NOISE p3 (0.40) | 6 | 0.66 | 0.95 | 0.37 | 0.56 | 6 |
 | COMP p1-p3 | 6 | 0.65-0.67 | 0.95 | 0.36-0.39 | 0.48-0.52 | 5-6 |
 
-**What this does show.**
+**What the first write-up said this shows (the first two points are withdrawn; see "Withdrawn" below).**
 - **Compiled nets are isolated points, not one end of a continuum.** For 14 of 20, the
   function does not survive a move of drift ~0.001-0.01 in any direction tried.
 - **That is a concrete reason gradient training never lands on Tracr-like weights.** The

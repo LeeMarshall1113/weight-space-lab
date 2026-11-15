@@ -4,7 +4,7 @@ Corrections, downgrades and additions, newest first. Reporters are credited unle
 ask otherwise. A claim that is narrowed or retracted is also downgraded in the index table
 in `README.md`; it is not silently edited.
 
-## v0.2 (unreleased)
+## v0.2 (2026-11-15, first public version)
 
 - `proofs/` synced to the technical report version 0.9 (`proofs/REPORT.md`): rung 5 (softmax and a
   binary32 model), the rung-4 rounding witness and kit lemmas, Lean witnesses for three cells
@@ -21,7 +21,7 @@ in `README.md`; it is not silently edited.
   framing of v0.1 is withdrawn (see the report's 2x2 section).
 - No external corrections yet.
 
-## v0.1 (unreleased)
+## v0.1 (private, never released)
 
 - First private pre-release copy: `proofs/` (rungs 2 to 4), re-checked from this
   folder (`proofs/VERIFY.md`: 67 of 67 recorded solutions pass). Other folders are empty

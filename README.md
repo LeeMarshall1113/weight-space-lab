@@ -2,7 +2,7 @@
 
 Personal work. Views are my own.
 
-Private pre-release copy (not yet public). Maintainer: `LeeMarshall1113`.
+Maintainer: `LeeMarshall1113`. First public version: v0.2, 2026-11-15.
 
 This is a living, correctable lab notebook, not a finished publication. **Please try to
 break it** (see `CONTRIBUTING.md`). Corrections are logged in `CHANGELOG.md` with credit,
