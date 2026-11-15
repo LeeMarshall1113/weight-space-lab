@@ -1,4 +1,4 @@
-# Detection (lane 2): detecting planted behaviours from weights
+# Detection: detecting planted behaviours from weights
 
 Slot reserved. Not yet included in this release; the owner decides what is cleared for release.
 See the index in the top-level README.

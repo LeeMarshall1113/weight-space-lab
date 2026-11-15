@@ -1,0 +1,17 @@
+{
+ "case": "f29",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-14 00:03:42",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 21.8,
+ "peak_rss_gb": 1.98,
+ "peak_commit_gb": 4.17,
+ "lean_output": "<repo>\\runs\\rung5-test\\net\\f29\\_Full.lean:610:10: error: `dsimp` made no progress\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 5,
+ "attempts_left": 7
+}

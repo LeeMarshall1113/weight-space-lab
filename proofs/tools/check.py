@@ -92,7 +92,9 @@ def run_lean(args, timeout, cwd):
 
 
 # framework modules and what each imports
-DEPS = {"Basic": [], "Seq": ["Basic"], "Robust": ["Basic"], "RSeq": ["Seq"]}
+DEPS = {"Basic": [], "Seq": ["Basic"], "Robust": ["Basic"], "RSeq": ["Seq"], "RSoft": ["RSeq"],
+        "RSoftKit": ["RSoft"], "Bin32": ["RSoft"], "RSoftAll": ["RSoftKit", "Bin32"],
+        "QRSeq": ["RSeq"]}
 
 
 def ensure_basic(timeout=1800, name="Basic"):

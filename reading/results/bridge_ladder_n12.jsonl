@@ -1,0 +1,29 @@
+{"n": 12, "task": "mod3", "stage": "dev", "w": 32, "seed": 0, "quant_acc": 4048, "N": 4096, "sec": 17.6}
+{"n": 12, "task": "mod3", "stage": "dev", "w": 32, "seed": 1, "quant_acc": 4096, "N": 4096, "sec": 14.2}
+{"n": 12, "task": "mod3", "stage": "dev", "w": 32, "seed": 2, "quant_acc": 3805, "N": 4096, "sec": 14.2}
+{"n": 12, "task": "mod3", "stage": "dev", "w": 32, "seed": 3, "quant_acc": 4052, "N": 4096, "sec": 15.6}
+{"n": 12, "task": "mod3", "stage": "dev", "w": 48, "seed": 0, "quant_acc": 4080, "N": 4096, "sec": 24.3}
+{"n": 12, "task": "mod3", "stage": "dev", "w": 48, "seed": 1, "quant_acc": 4096, "N": 4096, "sec": 23.2}
+{"n": 12, "task": "mod3", "stage": "dev", "w": 48, "seed": 2, "quant_acc": 3994, "N": 4096, "sec": 22.6}
+{"n": 12, "task": "mod3", "stage": "dev", "w": 48, "seed": 3, "quant_acc": 3685, "N": 4096, "sec": 22.6}
+{"n": 12, "task": "mod3", "stage": "dev", "w": 64, "seed": 0, "quant_acc": 3999, "N": 4096, "sec": 38.0}
+{"n": 12, "task": "mod3", "stage": "dev", "w": 64, "seed": 1, "quant_acc": 4096, "N": 4096, "sec": 39.6}
+{"n": 12, "task": "mod3", "stage": "dev", "w": 64, "seed": 2, "quant_acc": 4096, "N": 4096, "sec": 39.2}
+{"n": 12, "task": "mod3", "stage": "dev", "w": 64, "seed": 3, "quant_acc": 4096, "N": 4096, "sec": 41.0}
+{"n": 12, "chosen_w": 64}
+{"n": 12, "task": "mod3", "stage": "test", "w": 64, "seed": 100, "quant_acc": 4096, "N": 4096, "ibp_cert_1e-3": false, "sec": 183.0}
+{"n": 12, "task": "mod3", "stage": "test", "w": 64, "seed": 101, "quant_acc": 4096, "N": 4096, "ibp_cert_1e-3": false, "sec": 186.2}
+{"n": 12, "task": "mod3", "stage": "test", "w": 64, "seed": 102, "quant_acc": 4096, "N": 4096, "ibp_cert_1e-3": false, "sec": 188.1}
+{"n": 12, "task": "mod3", "stage": "test", "w": 64, "seed": 103, "quant_acc": 4096, "N": 4096, "ibp_cert_1e-3": false, "sec": 185.2}
+{"n": 12, "task": "mod3", "stage": "test", "w": 64, "seed": 104, "quant_acc": 4076, "N": 4096, "sec": 38.2}
+{"n": 12, "task": "mod3", "stage": "test", "w": 64, "seed": 105, "quant_acc": 4096, "N": 4096, "ibp_cert_1e-3": false, "sec": 179.6}
+{"n": 12, "task": "mod3", "stage": "test", "w": 64, "seed": 106, "quant_acc": 4076, "N": 4096, "sec": 37.9}
+{"n": 12, "task": "mod3", "stage": "test", "w": 64, "seed": 107, "quant_acc": 4096, "N": 4096, "ibp_cert_1e-3": false, "sec": 180.1}
+{"n": 12, "task": "maj", "stage": "test", "w": 64, "seed": 100, "quant_acc": 4096, "N": 4096, "ibp_cert_1e-3": true, "region_leaves": 2684, "region_evals": 3652, "sec": 315.3}
+{"n": 12, "task": "maj", "stage": "test", "w": 64, "seed": 101, "quant_acc": 4096, "N": 4096, "ibp_cert_1e-3": true, "region_leaves": 2269, "region_evals": 2822, "sec": 290.6}
+{"n": 12, "task": "maj", "stage": "test", "w": 64, "seed": 102, "quant_acc": 4096, "N": 4096, "ibp_cert_1e-3": true, "region_leaves": 2971, "region_evals": 4226, "sec": 338.9}
+{"n": 12, "task": "maj", "stage": "test", "w": 64, "seed": 103, "quant_acc": 4096, "N": 4096, "ibp_cert_1e-3": true, "region_leaves": 2767, "region_evals": 3818, "sec": 318.9}
+{"n": 12, "task": "maj", "stage": "test", "w": 64, "seed": 104, "quant_acc": 4096, "N": 4096, "ibp_cert_1e-3": true, "region_leaves": 2676, "region_evals": 3636, "sec": 320.2}
+{"n": 12, "task": "maj", "stage": "test", "w": 64, "seed": 105, "quant_acc": 4096, "N": 4096, "ibp_cert_1e-3": true, "region_leaves": 2952, "region_evals": 4188, "sec": 350.5}
+{"n": 12, "task": "maj", "stage": "test", "w": 64, "seed": 106, "quant_acc": 4096, "N": 4096, "ibp_cert_1e-3": true, "region_leaves": 2961, "region_evals": 4206, "sec": 354.2}
+{"n": 12, "task": "maj", "stage": "test", "w": 64, "seed": 107, "quant_acc": 4096, "N": 4096, "ibp_cert_1e-3": true, "region_leaves": 2614, "region_evals": 3512, "sec": 315.6}

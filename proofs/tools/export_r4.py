@@ -1,6 +1,6 @@
 """Rung 4: export each passing doctor net as exact JSON by evaluating it in Lean.
 
-    python tools/export_nets.py runs/rung4-test        (RUN UNDER A LEASE: one lean.exe at a time)
+    python tools/export_nets.py runs/rung4-test        (run one Lean process at a time)
 
 Writes runs/.../net/<id>/net.json. Uses the passing attempt's Solution text.
 """

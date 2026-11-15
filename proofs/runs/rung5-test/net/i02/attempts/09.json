@@ -1,0 +1,17 @@
+{
+ "case": "i02",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-14 01:19:41",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 17.2,
+ "peak_rss_gb": 2.03,
+ "peak_commit_gb": 4.22,
+ "lean_output": "<repo>\\runs\\rung5-test\\net\\i02\\_Full.lean:529:52: warning: This simp argument is unused:\n  hat2'\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [sblock, blk3, sheadsApply, hat1, hat2, hx]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung5-test\\net\\i02\\_Full.lean:924:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```\n<repo>\\runs\\rung5-test\\net\\i02\\_Full.lean:955:4: error: linarith failed to find a contradiction\nu \u03b7 M : \u211d\nfl ex : \u211d \u2192 \u211d\nn : \u2115\nE : Env u \u03b7 M fl ex n\nS Q B : \u211d\nhS1 : 99 \u2264 S\nhS2 : S \u2264 101\nhQ0 : 0 \u2264 Q\nhQ1 : Q \u2264 320 * \u2191n\nhB0 : 0 \u2264 B\nhBM : 4 * B + 4 \u2264 M\ni j : \u2115\nhi : i + 1 \u2264 n\nhji : j \u2264 i\nhQ : j < i \u2192 280 * \u2191n \u2264 Q\nqt : \u2115 \u2192 \u211d\nhqt : \u2200 m \u2264 i, qt m = 0 \u2228 qt m = Q\nhwin : qt j = Q \u2228 j = i \u2227 \u2200 m \u2264 i, qt m = 0\nhlater : \u2200 (m : \u2115), j < m \u2192 m \u2264 i \u2192 qt m = 0\ns f : \u2115 \u2192 \u211d\nhs : \u2200 k \u2264 i, s k = fl (fl (S * fl \u2191k) + qt k)\nhfb : \u2200 k \u2264 i, |f k| \u2264 B\nhr : Rnd u \u03b7 M fl\nhn1 : 1 \u2264 \u2191n\nhnM : \u2191n \u2264 M\nh1000 : 1000 * \u2191n \u2264 M\nhpl : \u2200 k \u2264 i, 0 \u2264 fl \u2191k \u2227 fl \u2191k \u2264 \u2191n + 1 / 100\nhpn : \u2200 k \u2264 i, |fl \u2191k - \u2191k| \u2264 1 / 200\nhpg : \u2200 (a b : \u2115), a \u2264 b \u2192 b \u2264 i \u2192 fl \u2191a + (\u2191b - \u2191a) - 1 / 100 \u2264 fl \u2191b\nk : \u2115\nhk : k \u2264 i\nh0 : 0 \u2264 fl \u2191k\nh1 : fl \u2191k \u2264 \u2191n + 1 / 100\nthis : S * fl \u2191k \u2264 101 * (\u2191n + 1 / 100)\na\u271d : 102 * \u2191n < S * fl \u2191k\n\u22a2 False\nfailed\n<repo>\\runs\\rung5-test\\net\\i02\\_Full.lean:1255:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 9,
+ "attempts_left": 3
+}

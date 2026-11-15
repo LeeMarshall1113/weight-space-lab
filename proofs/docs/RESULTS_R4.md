@@ -1,4 +1,4 @@
-# Lane 4, rung 4 results: transformers proved correct at every length, across a weight ball, with a rounded forward pass
+# this study, rung 4 results: transformers proved correct at every length, across a weight ball, with a rounded forward pass
 
 Run 2026-11-13, 1:15 to 7:25 am EST. Pre-registration `PREREG_R4.md` (commit 5fdefc9,
 freeze amendment f905339). All counts below come from the checker's attempt logs and the
@@ -104,7 +104,7 @@ minutes per net case; 72k to 97k tokens and under 4 minutes per prog case.
   and does not cover additive noise or pruning. With these position features no task has
   a length-independent absolute ball.
 - **The tasks are easy for Sonnet with this kit**: 11 of 12 at a median of 2
-  submissions, and the lane chose the families knowing which mechanism works. The pass
+  submissions, and the study team chose the families knowing which mechanism works. The pass
   bar was low.
 - **The plain-code control was easier still** (12 of 12, about a tenth of the proof
   length). The transformers add nothing practical over a verified program; the result is

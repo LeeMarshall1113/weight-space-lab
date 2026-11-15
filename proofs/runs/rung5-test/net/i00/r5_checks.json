@@ -1,0 +1,36 @@
+{
+ "id": "i00",
+ "family": "induct",
+ "tau": 0.005,
+ "blocks": 2,
+ "heads": [
+  1,
+  2
+ ],
+ "width": 14,
+ "mlp_hidden": [
+  2,
+  2
+ ],
+ "max_abs_weight": 1024.0,
+ "written_exact_max_dev": 0.0,
+ "inside_ball_max_dev": {
+  "uniform": 0.04961704856754956,
+  "sign": 0.0939793668812492
+ },
+ "inside_ball_ok": true,
+ "outside": {
+  "2": 0.14928708980000094,
+  "4": 0.2970974336000003
+ },
+ "smallest_violating_multiple": 4,
+ "float32_max_dev": {
+  "1000": 0.06557703018188477,
+  "16000": 0.04517483711242676,
+  "65534": 0.055426597595214844
+ },
+ "float32_ok_in_range": true,
+ "torch_reference_mismatches": 0,
+ "torch_reference_outputs_compared": 9594,
+ "torch_fast_max_dev": 0.06557703018188477
+}

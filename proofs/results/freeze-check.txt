@@ -1,0 +1,21 @@
+== docs/freeze_r4.sha256: 13 listed, 8 match
+tools/make_r4_cases.py: FAILED
+tools/check.py: FAILED
+sha256sum: tools/service.py: No such file or directory
+tools/service.py: FAILED open or read
+sha256sum: tools/submit.py: No such file or directory
+tools/submit.py: FAILED open or read
+tools/r4_checks.py: FAILED
+== docs/freeze_r5.sha256: 21 listed, 14 match
+tools/make_r4_cases.py: FAILED
+tools/check.py: FAILED
+sha256sum: tools/service.py: No such file or directory
+tools/service.py: FAILED open or read
+sha256sum: tools/submit.py: No such file or directory
+tools/submit.py: FAILED open or read
+tools/r5_checks.py: FAILED
+tools/r5net.py: FAILED
+tools/r4_checks.py: FAILED
+== docs/freeze_r6b.sha256: 9 listed, 8 match
+Lane4/Collision.lean: FAILED
+== docs/freeze_r6c.sha256: 12 listed, 12 match

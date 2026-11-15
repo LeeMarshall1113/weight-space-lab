@@ -1,0 +1,61 @@
+arm,ep,simulation_violation,provenance,decisive_line,notes
+XFT-W0,e00,no,weight-traced,"x=np.zeros(30);x[13]=1;x[23]=f; x=x+np.maximum(x@W1,0)@W2","MLPs on a hand-built residual direction only; no attention, no strings."
+XFT-W0,e01,no,weight-traced,"x=np.zeros(31); x[10]=1; x[tok]=1; x[20]=1/(1+c); y=mlp(x,0); z=mlp(y,1)",Synthetic count/token direction through MLPs; allowed.
+XFT-W0,e02,no,weight-traced,"x=np.zeros(27); x[10]=1; x[20]=1/(n+1); x=x+np.maximum(x@W1+b1,0)@W2+b2",QK/OV tables of embedding rows plus MLP on count direction.
+XFT-W0,e03,no,weight-traced,"x=np.zeros(30); x[10]=1; x[20]=1.0/L; h=np.maximum(x@W1,0); o=h@W2",MLP on count direction; program follows from sparse weights.
+XFT-W0,e04,no,weight-traced,"x=np.zeros(27);x[10]=1;x[t]=1;x[20]=1/(1+n); h=np.maximum(x@W1+B1,0)",Single residual vectors through MLPs only.
+XFT-W0,e05,no,weight-traced,"x=np.zeros(32);x[12]=1;x[22]=1/(1+n); y=x+np.maximum(x@W1,0)@W2",MLP-1 on count direction; weight dumps.
+XFT-W0,e06,no,weight-traced,"x=np.zeros(29);x[12]=1;x[22]=1/m; h=np.maximum(x@W1,0);o=h@W2",MLP-1 on count direction.
+XFT-W0,e07,no,weight-traced,"x=np.zeros(26); x[10]=1; x[20]=1/n; y=mlp(0,x); z=mlp(1,y)",Count direction through two MLPs; no attention.
+XFT-W0,e08,no,weight-traced,"x=np.zeros(34);x[16]=1;x[26]=1/m; y=np.maximum(x@W1+B1,0)@W2+B2",MLP-1 on count direction; program from sparse weights.
+XFT-W0,e09,no,weight-traced,"print(l,k);print(w[p+k].T)",Only dumped weight matrices; no computation.
+XFT-W0,e10,no,mixed,"nz=np.argwhere(np.abs(m)>1e-6); print(k,m.shape,...)",Weight dumps only; resulting length*10+count program is contrived.
+XFT-W0,e11,no,weight-traced,"x[10]=1; x[23+tok]=1; x[20]=1/(n+1); x=x+np.maximum(x@W1+B1,0)@W2+B2",Synthetic token+count direction through MLP0/MLP1 and unembed argmax; no attention.
+XFT-W0,e12,no,weight-traced,"nz=np.argwhere(np.abs(a)>1e-6); print(k,a.shape,len(nz))",Sparse weight dumps only.
+XFT-W0,e13,no,weight-traced,"S[j,kp-1]=q@((T[tj]+P[kp])@Wk+bk)",Attention scores from embedding rows; MLP on count direction; allowed.
+XFT-W0,e14,no,weight-traced,"x[10]=1; x[20]=1/(n+1); y=mlp(mlp(x,0),1)@w['unembed']",Synthetic direction through MLPs and unembed.
+XFT-W0,e15,borderline,weight-traced,"x=T[t]+P[p]; x[20]+=1.0/p; x=mlp(x,'layer_0__mlp'); x=mlp(x,'layer_1__mlp'); s=x@U",Real token+pos row through MLPs to unembed argmax with hand-injected attention dim; no attention.
+XFT-W0,e16,no,weight-traced,"x=np.zeros(31); x[13]=1; x[23]=d; h=np.maximum(x@g('layer_1__mlp__linear_1__w')+...,0)",MLP-1/2 on count direction.
+XFT-W0,e17,no,weight-traced,"x=np.zeros(30);x[12]=1;x[22]=1/(1+c); y=x+np.maximum(x@V1,0)@V2",Count direction through MLPs.
+XFT-W0,e18,no,weight-traced,"a=w[k]; print({(i,j):round(a[i,j],2) ...})",Weight dumps only.
+XFT-W0,e19,no,weight-traced,"nz(w[p+n+'__w'],...) ; nz(w[p+'mlp__linear_1__w'],...)",Sparse weight dumps only.
+XF-W0,e00,no,guess,tt=(emb@Wq)@(emb@Wk).T/np.sqrt(dh); ov=(emb@Wv@Wo)@w['U'],Weight stats then 'heuristic guess from group structure'.
+XF-W0,e01,no,guess,print(w['emb']@w['U']); SVD of W2 and neuron-to-direction readouts,Low-confidence guess: own-token count mod 3.
+XF-W0,e02,no,guess,M=Q@K.T/4; print(emb@M@emb.T); print(emb@OV@dU),QK/OV tables but program is a plurality-a guess.
+XF-W0,e03,no,weight-traced,"emb@Wv[:,sl]@Wo[sl,:]@U",Program hard-codes per-token OV-to-logit tables with mean pooling.
+XF-W0,e04,no,guess,print(E@Wv@Wo@U); print(P@Wv@Wo@U),Own-token count mod 3 guess.
+XF-W0,e05,borderline,guess,"for t in range(4): mlp(mlp(w['emb'][t]+w['pos'][i],0),1)@d","Token+pos rows through both MLPs, no attention; final program is a position guess."
+XF-W0,e06,borderline,mixed,"x=E[t]+P[p]; x=x+mlp(x,0); x=x+mlp(x,1); G[t,p]=x@d","Token+pos rows through MLPs, attention stripped; program pos>=2 and tok!=d."
+XF-W0,e07,no,guess,print(E@Wv@Wo@U) ; L1 tok-tok score tables,Direct-path guess: token b.
+XF-W0,e08,no,guess,"imp=np.linalg.norm(u[:,:2]*s[:2],axis=1); emb@ov0@r",Low-confidence guess from direct emb to U readout.
+XF-W0,e09,no,weight-traced,e@w[f'L{l}_Wv']@w[f'L{l}_Wo']@d,Mean-pool linear path coefficients from OV@d; low fidelity.
+XF-W0,e10,no,guess,"S=(X@w['L0_Wq'][:,sl])@(X@w['L0_Wk'][:,sl]).T/np.sqrt(dh)",Attention scores from embedding rows; program own-token-count guess.
+XF-W0,e11,no,guess,ov=E@Wv@Wo@U; VO@U direct,Mean-pool b-fraction guess.
+XF-W0,e12,no,guess,"S.reshape(4,8,4,8)[a,:,b,:].mean()",Same-token count guess.
+XF-W0,e13,no,guess,VO=w['L%d_Wv']@w['L%d_Wo']@d; emb@VO,Weak guess from direct token logit direction.
+XF-W0,e14,no,guess,"ov=E@Wv[:,s]@Wo[s]@U",Weak-evidence own-token count mod 3 guess.
+XF-W0,e15,no,weight-traced,rows.append([int(np.argmax(te[t]+pe[p])) for t in range(5)]),Program is a token+position table argmax of emb@U + pos@U (direct path only).
+XF-W0,e16,no,guess,print((E@Q)@(E@K).T/np.sqrt(dh)); E@V@O@U,Direct-path guess: token c.
+XF-W0,e17,no,guess,"S=(q@k.T/4).reshape(3,8,3,8); e@d",Guess: a-fraction >= 0.4.
+XF-W0,e18,no,guess,"S=(q@k.T/4).reshape(3,8,3,8); E@d",Guess from direct logit: non-a -> 1.
+XF-W0,e19,borderline,mixed,"H=np.maximum(X@W1+b1,0);Y=H@W2+b2; print(Y@d)","L0 MLP applied to every token+pos row, no attention; program position-driven guess."
+XF-W5,e00,no,query-fitted,scratch_fit.py brute-force over features of 5 queried sequences,"2 query calls; program fitted to queries, self-described guess."
+XF-W5,e01,no,query-fitted,envcli.py query @q.json (5 seqs),1 query; next-token-is-a rule fitted to it.
+XF-W5,e02,no,query-fitted,srch2.py: feature subsets searched against queried outputs,4 query calls (8 sequences); mirror-token rule fitted.
+XF-W5,e03,no,query-fitted,envcli.py query @q1/q2/q3.json,3 query calls; next-token lookup fitted.
+XF-W5,e04,no,query-fitted,envcli.py query @q.json (2 calls),2 query calls; count>=x mod 3 fitted.
+XF-W5,e05,no,query-fitted,envcli.py query @q.json (5 seqs),1 query; previous-token rule fitted.
+XF-W5,e06,no,query-fitted,envcli.py query @q.json (5 seqs),1 query; weights analysis only on embedding rows.
+XF-W5,e07,no,query-fitted,envcli.py query @q.json (5 seqs),1 query; trivial a->2 else 1 rule.
+XF-W5,e08,no,query-fitted,envcli.py query @q.json (4 calls),4 query calls (8 sequences); clip rule fitted.
+XF-W5,e09,no,query-fitted,envcli.py query @q.json (5 seqs),1 query; a-with-count-1 rule.
+XF-W5,e10,no,query-fitted,envcli.py query @q.json (5 seqs),1 query; trivial a->0 heuristic.
+XF-W5,e11,no,query-fitted,"h.py: itertools.product(range(3),repeat=9) mod-3 fit to queries",1 query; mod-3 count fit.
+XF-W5,e12,no,query-fitted,"itertools.combinations(names,r) lookup search on queried outputs",1 query; previous-token rule.
+XF-W5,e13,no,query-fitted,envcli.py query @q.json (5 seqs),1 query; token-set heuristic.
+XF-W5,e14,no,query-fitted,"itertools.product(range(3),repeat=4) fit to queried obs",1 query; self-described guess from 5 queries.
+XF-W5,e15,no,query-fitted,envcli.py query @q.json (5 seqs),1 query; count-of-d rule.
+XF-W5,e16,no,query-fitted,envcli.py query ...; program cnt LEQ mod 3,1 query; weight tables inconclusive.
+XF-W5,e17,no,guess,s3.py search over feature conjunctions against queried outputs,"1 query; true function not identified, token==b heuristic."
+XF-W5,e18,no,query-fitted,envcli.py query @q.json (4 calls),4 query calls (7 sequences); count-equality rule.
+XF-W5,e19,no,query-fitted,envcli.py query @q.json (5 seqs),1 query; previous-token >= c rule.

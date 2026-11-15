@@ -1,0 +1,8 @@
+{"n": 8, "w": 24, "seed": 100, "quant_acc": 256, "N": 256, "cert_1e-3": true, "max_tau": 0.002254486083984375, "falsifier_worst_margin": 4.569948060830593, "sec": 30.4}
+{"n": 8, "w": 24, "seed": 101, "quant_acc": 256, "N": 256, "cert_1e-3": true, "max_tau": 0.00188446044921875, "falsifier_worst_margin": 3.37009375, "sec": 28.4}
+{"n": 8, "w": 24, "seed": 102, "quant_acc": 256, "N": 256, "cert_1e-3": true, "max_tau": 0.00380706787109375, "falsifier_worst_margin": 8.372669213115826, "sec": 29.6}
+{"n": 8, "w": 24, "seed": 103, "quant_acc": 256, "N": 256, "cert_1e-3": true, "max_tau": 0.001354217529296875, "falsifier_worst_margin": 0.7618301594253908, "sec": 29.6}
+{"n": 8, "w": 24, "seed": 104, "quant_acc": 256, "N": 256, "cert_1e-3": true, "max_tau": 0.00234222412109375, "falsifier_worst_margin": 4.990890166530671, "sec": 30.3}
+{"n": 8, "w": 24, "seed": 105, "quant_acc": 256, "N": 256, "cert_1e-3": true, "max_tau": 0.002689361572265625, "falsifier_worst_margin": 6.647561958053367, "sec": 29.8}
+{"n": 8, "w": 24, "seed": 106, "quant_acc": 256, "N": 256, "cert_1e-3": true, "max_tau": 0.00389862060546875, "falsifier_worst_margin": 6.888644108090476, "sec": 29.5}
+{"n": 8, "w": 24, "seed": 107, "quant_acc": 256, "N": 256, "cert_1e-3": true, "max_tau": 0.002948760986328125, "falsifier_worst_margin": 6.101288367733037, "sec": 26.5}

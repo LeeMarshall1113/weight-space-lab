@@ -1,0 +1,22 @@
+{
+ "case": "kA2",
+ "arm": "kit",
+ "pass": true,
+ "time": "2026-11-13 19:46:10",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 20.4,
+ "peak_rss_gb": 1.76,
+ "peak_commit_gb": 3.93,
+ "lean_output": "<repo>\\runs\\r5-kit\\kA2\\_Full.lean:181:6: warning: Unused tactic linter: `beta_reduce  at hxy` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\r5-kit\\kA2\\_Full.lean:186:6: warning: Unused tactic linter: `beta_reduce` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\r5-kit\\kA2\\_Full.lean:195:6: warning: Unused tactic linter: `beta_reduce  at hxy` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\r5-kit\\kA2\\_Full.lean:201:6: warning: Unused tactic linter: `beta_reduce` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 1,
+ "attempts_left": 19
+}

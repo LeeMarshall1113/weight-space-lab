@@ -1,0 +1,36 @@
+{
+ "vocab": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e"
+ ],
+ "classes": [
+  0,
+  1,
+  2
+ ],
+ "input_order": [
+  "BOS",
+  "a",
+  "b",
+  "c",
+  "compiler_pad",
+  "d",
+  "e"
+ ],
+ "num_heads": 1,
+ "layers": [
+  "layer_0__attn",
+  "layer_0__mlp",
+  "layer_1__attn",
+  "layer_1__mlp",
+  "layer_2__attn",
+  "layer_2__mlp"
+ ],
+ "template": "count_combine",
+ "prog_seed": 100099,
+ "d_resid": 33,
+ "case_id": "96378b89"
+}

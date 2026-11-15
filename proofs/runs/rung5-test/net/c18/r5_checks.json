@@ -1,0 +1,35 @@
+{
+ "id": "c18",
+ "family": "carry",
+ "tau": 0.005,
+ "blocks": 1,
+ "heads": [
+  1
+ ],
+ "width": 10,
+ "mlp_hidden": [
+  2
+ ],
+ "max_abs_weight": 50.0,
+ "written_exact_max_dev": 4.1223078284247094e-09,
+ "inside_ball_max_dev": {
+  "uniform": 0.05857879010892164,
+  "sign": 0.10925200491800346
+ },
+ "inside_ball_ok": true,
+ "outside": {
+  "2": 0.21938410307449008,
+  "4": 0.2807363161997227
+ },
+ "smallest_violating_multiple": 4,
+ "float32_max_dev": {
+  "1000": 0.0703510046005249,
+  "16000": 0.009850789792835712,
+  "65534": 0.010024785995483398
+ },
+ "float32_ok_in_range": true,
+ "torch_reference_mismatches": 0,
+ "torch_reference_outputs_compared": 9576,
+ "torch_fast_max_dev": 0.0703510046005249,
+ "float32_beyond_200000": 0.0
+}

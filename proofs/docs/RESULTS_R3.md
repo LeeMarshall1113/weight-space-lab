@@ -1,4 +1,4 @@
-# Lane 4, rung 3 results: proofs that hold for every nearby weight setting
+# this study, rung 3 results: proofs that hold for every nearby weight setting
 
 **Status: CLOSED (2026-11-12).** 25 doctor episodes on the test set (12 robust net, 12
 plain code, 1 twin), all Sonnet, none rerun; 36 twins trained. Every number is read from
@@ -119,7 +119,7 @@ What this is worth, plainly:
    same recipe gained 68% to 99% and never left δ on sampled points, moving weights by up
    to 0.32 (320 τ). The ball's value here is that the bound is proved rather than sampled,
    not that it produced better numbers. It cost most of the available gain.
-3. **The task was built by the lane** to have something to adapt to, sized relative to δ.
+3. **The task was built by the study team** to have something to adapt to, sized relative to δ.
    It is one synthetic shift, not real data.
 4. So the honest reading: the proven region is large enough to be worth something
    (double-digit gains on 11 of 12), and it is small relative to what the data wanted.
@@ -180,7 +180,7 @@ of a forward pass; that is measured above (float32, at most 2.4e-6), not proved.
 
 - **n = 12**, one model, one prompt, one τ and one δ rule. Specs have at most 3 inputs and
   the networks at most 4 hidden layers of at most 9 units.
-- **τ and δ were chosen by the lane** after a calibration on rung-1 networks, so that the
+- **τ and δ were chosen by the study team** after a calibration on rung-1 networks, so that the
   bar would be "neither trivial nor hopeless". A larger τ or smaller δ would lower the
   count; this was not explored.
 - **The worked example** shows the whole proof pattern on a toy spec, and the lemma kit

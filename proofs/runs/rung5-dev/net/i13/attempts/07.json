@@ -1,0 +1,17 @@
+{
+ "case": "i13",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-13 22:04:57",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 22.1,
+ "peak_rss_gb": 1.94,
+ "peak_commit_gb": 4.12,
+ "lean_output": "<repo>\\runs\\rung5-dev\\net\\i13\\_Full.lean:549:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 7,
+ "attempts_left": 5
+}

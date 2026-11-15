@@ -1,0 +1,17 @@
+{
+ "case": "f29",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-14 02:05:20",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.3,
+ "peak_rss_gb": 1.71,
+ "peak_commit_gb": 3.89,
+ "lean_output": "<repo>\\runs\\rung5-test\\prog\\f29\\_Full.lean:57:14: error: unsolved goals\ncase cons.succ\nb : \u2115\nt : List \u2115\nih :\n  \u2200 (f : \u2115) (acc : List \u2115),\n    \u2200 i < t.length,\n      (List.foldl step (f, acc) t).2.getD (acc.length + i) 0 =\n        ((if gg f (List.take (i + 1) t) = 2 then 1 else 0) + cbit (t.getD i 0)) % 2\nf : \u2115\nacc : List \u2115\ni' : \u2115\nhi : i' + 1 < (b :: t).length\nh' : i' < t.length\nthis :\n  (List.foldl step ((step (f, acc) b).1, (step (f, acc) b).2) t).2.getD (acc.length + 1 + i') 0 =\n    ((if gg (step (f, acc) b).1 (List.take (i' + 1) t) = 2 then 1 else 0) + cbit (t.getD i' 0)) % 2\nhl : (step (f, acc) b).2.length = acc.length + 1\ne : acc.length + (i' + 1) = acc.length + 1 + i'\n\u22a2 ((if List.foldl (fun s t => if s = 0 then code t else s) (if f = 0 then code b else f) (List.take (i' + 1) t) = 2 then\n          1\n        else 0) +\n        cbit (t[i']?.getD 0)) %\n      2 =\n    ((if\n            List.foldl (fun s t => if s = 0 then code t else s) (if f = 0 then code b else f) (List.take (i' + 1) t) =\n              2 then\n          1\n        else 0) +\n        cbit (t[i']?.getD 0)) %\n      2\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

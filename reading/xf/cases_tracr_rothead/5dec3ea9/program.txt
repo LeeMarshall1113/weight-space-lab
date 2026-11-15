@@ -1,0 +1,4 @@
+k = Map(lambda x: {'a': 1, 'b': 2, 'c': 1, 'd': 0, 'e': 2}[x], tokens)
+q = Map(lambda x: {'a': 1, 'b': 1, 'c': 1, 'd': 0, 'e': 2}[x], tokens)
+w = SelectorWidth(Select(k, q, Comparison.GEQ))
+out = Map(lambda x: 1 if x >= 2 else 0, w)

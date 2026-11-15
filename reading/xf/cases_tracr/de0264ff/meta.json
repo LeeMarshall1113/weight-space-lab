@@ -1,0 +1,34 @@
+{
+ "vocab": [
+  "a",
+  "b",
+  "c",
+  "d"
+ ],
+ "classes": [
+  0,
+  1,
+  2
+ ],
+ "input_order": [
+  "BOS",
+  "a",
+  "b",
+  "c",
+  "compiler_pad",
+  "d"
+ ],
+ "num_heads": 1,
+ "layers": [
+  "layer_0__attn",
+  "layer_0__mlp",
+  "layer_1__attn",
+  "layer_1__mlp",
+  "layer_2__attn",
+  "layer_2__mlp"
+ ],
+ "template": "count",
+ "prog_seed": 984248,
+ "d_resid": 30,
+ "case_id": "de0264ff"
+}

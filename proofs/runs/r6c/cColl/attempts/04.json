@@ -1,0 +1,17 @@
+{
+ "case": "cColl",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-14 17:02:42",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.2,
+ "peak_rss_gb": 1.75,
+ "peak_commit_gb": 3.93,
+ "lean_output": "<repo>\\runs\\r6c\\cColl\\_Full.lean:323:16: error: unsolved goals\ncase cons\ng : \u2115 \u2192 \u211a\nx : \u2115\nt : List \u2115\nih : (List.map (fun j => g (t.getD j 0)) (List.range t.length)).sum = (List.map g t).sum\n\u22a2 (List.map (fun x => g (t[x]?.getD 0)) (List.range t.length)).sum = (List.map g t).sum\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 4,
+ "attempts_left": 8
+}

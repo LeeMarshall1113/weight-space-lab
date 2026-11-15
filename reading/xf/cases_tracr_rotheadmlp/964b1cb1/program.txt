@@ -1,0 +1,3 @@
+k = Map(lambda x: {'a': 0, 'b': 1, 'c': 1, 'd': 0, 'e': 0}[x], tokens)
+w = SelectorWidth(Select(k, indices, Comparison.LT))
+out = Map(lambda x: 1 if x >= 1 else 0, w)

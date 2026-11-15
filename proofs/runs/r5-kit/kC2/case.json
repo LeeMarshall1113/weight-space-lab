@@ -1,0 +1,1 @@
+{"id": "kC2", "arm": "kit", "rung": 5, "import": "RSoft", "final_theorems": ["Lane4Final.final"], "max_attempts": 25, "lean_timeout": 600}

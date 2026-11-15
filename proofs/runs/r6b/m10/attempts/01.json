@@ -1,0 +1,17 @@
+{
+ "case": "m10",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-14 15:59:32",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.3,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.88,
+ "lean_output": "def Lane4.Seq.Head.sel : Head \u2192 \u2115 \u2192 (\u2115 \u2192 Vec) \u2192 \u2115 \u2192 List \u2115 :=\nfun h n x i =>\n  List.filter (fun j => decide (\u2200 k \u2208 cand h.mask n i, h.score (x i) (x k) \u2264 h.score (x i) (x j))) (cand h.mask n i)\ndef Lane4.Seq.Head.attn : Head \u2192 \u2115 \u2192 (\u2115 \u2192 Vec) \u2192 \u2115 \u2192 Vec :=\nfun h n x i => List.map (fun row => avg (h.sel n x i) fun j => qdot row (x j)) h.V\n<repo>\\runs\\r6b\\m10\\_Full.lean:111:7: error(lean.unknownIdentifier): Unknown constant `Head.cand`\ndef Lane4.Seq.avg : List \u2115 \u2192 (\u2115 \u2192 \u211a) \u2192 \u211a :=\nfun S f => (List.map f S).sum / \u2191S.length\ninductive Lane4.Seq.Mask : Type\nnumber of parameters: 0\nconstructors:\nLane4.Seq.Mask.all : Mask\nLane4.Seq.Mask.causal : Mask\nLane4.Seq.Mask.strict : Mask\ndef Lane4.Seq.TNet.out : TNet \u2192 List \u2115 \u2192 \u2115 \u2192 \u211a :=\nfun N w i => qdot N.outW (N.run w i) + N.outB\ntheorem Lane4.Seq.sel_all : \u2200 (h : Head) (n : \u2115) (x : \u2115 \u2192 Vec) (i : \u2115),\n  (\u2200 k \u2208 cand h.mask n i, \u2200 l \u2208 cand h.mask n i, h.score (x i) (x k) = h.score (x i) (x l)) \u2192\n    h.sel n x i = cand h.mask n i :=\nfun h n x i heq =>\n  id\n    (Eq.mpr (id (congrArg (fun _a => _a) (propext List.filter_eq_self))) fun j hj =>\n      Eq.mpr (id (congrArg (fun _a => _a) decide_eq_true_eq)) fun k hk => le_of_eq (heq k hk j hj))\ndef Lane4.Seq.pos : \u2115 \u2192 \u2115 \u2192 Vec :=\nfun i n => [1, \u2191i, \u2191i ^ 2, 1 / (\u2191i + 1), (-1) ^ i, \u2191n, 1 / \u2191n, \u2191i / \u2191n]\n<repo>\\runs\\r6b\\m10\\_Full.lean:122:79: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.membership`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

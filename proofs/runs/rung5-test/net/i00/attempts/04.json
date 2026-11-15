@@ -1,0 +1,17 @@
+{
+ "case": "i00",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-14 00:51:55",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 17.4,
+ "peak_rss_gb": 2.07,
+ "peak_commit_gb": 4.26,
+ "lean_output": "<repo>\\runs\\rung5-test\\net\\i00\\_Full.lean:81:37: error: failed to synthesize\n  Decidable (Statement net)\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 4,
+ "attempts_left": 8
+}

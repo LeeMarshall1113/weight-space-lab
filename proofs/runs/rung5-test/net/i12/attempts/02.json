@@ -1,0 +1,17 @@
+{
+ "case": "i12",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-14 01:24:34",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.8,
+ "peak_rss_gb": 1.74,
+ "peak_commit_gb": 3.92,
+ "lean_output": "<repo>\\runs\\rung5-test\\net\\i12\\_Full.lean:208:59: error: Type mismatch: After simplification, term\n  hM\n has type\n  |sw fl 40 (dA 13 14)| * |qk| \u2264 M\nbut is expected to have type\n  |sw fl 40 (dA 13 14)| * |xj[14]?.getD 0| \u2264 M\n<repo>\\runs\\rung5-test\\net\\i12\\_Full.lean:209:4: error: Type mismatch: After simplification, term\n  this\n has type\n  rdot fl (sp 14 1 40) xj (dA 13) 0 0 = fl (sw fl 40 (dA 13 14) * xj[14]?.getD 0)\nbut is expected to have type\n  rdot fl (sp 14 1 40) xj (dA 13) 0 0 = fl (sw fl 40 (dA 13 14) * qk)\n<repo>\\runs\\rung5-test\\net\\i12\\_Full.lean:221:59: error: Type mismatch: After simplification, term\n  hM1\n has type\n  |sw fl 40 (dA 13 14)| * |qk| \u2264 M\nbut is expected to have type\n  |sw fl 40 (dA 13 14)| * |xj[14]?.getD 0| \u2264 M\n<repo>\\runs\\rung5-test\\net\\i12\\_Full.lean:222:4: error: Type mismatch: After simplification, term\n  this\n has type\n  rdot fl (sp 14 1 40) xj (dA 13) 0 0 = fl (sw fl 40 (dA 13 14) * xj[14]?.getD 0)\nbut is expected to have type\n  rdot fl (sp 14 1 40) xj (dA 13) 0 0 = fl (sw fl 40 (dA 13 14) * qk)\n<repo>\\runs\\rung5-test\\net\\i12\\_Full.lean:225:72: error: Type mismatch: After simplification, term\n  hM2\n has type\n  |sw fl (-1) (dA 15 (6 + c))| * |g| \u2264 M\nbut is expected to have type\n  |sw fl (-1) (dA 15 (6 + c))| * |xj[6 + c]?.getD 0| \u2264 M\n<repo>\\runs\\rung5-test\\net\\i12\\_Full.lean:226:4: error: Type mismatch: After simplification, term\n  this\n has type\n  rdot fl (sp (6 + c) (9 - c) (-1)) xj (dA 15) 0 0 = fl (sw fl (-1) (dA 15 (6 + c)) * xj[6 + c]?.getD 0)\nbut is expected to have type\n  rdot fl (sp (6 + c) (9 - c) (-1)) xj (dA 15) 0 0 = fl (sw fl (-1) (dA 15 (6 + c)) * g)\n<repo>\\runs\\rung5-test\\net\\i12\\_Full.lean:262:2: error: Tactic `assumption` failed\n\n\u22a2 Statement net\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

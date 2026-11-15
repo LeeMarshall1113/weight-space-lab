@@ -1,0 +1,1 @@
+{"id": "iBlock", "arm": "kit", "rung": "6c", "import": "Seq", "final_theorems": ["Lane4Final.final"], "max_attempts": 12, "lean_timeout": 600}

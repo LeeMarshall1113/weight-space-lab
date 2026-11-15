@@ -1,0 +1,17 @@
+{
+ "case": "i02",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-14 00:57:54",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.5,
+ "peak_rss_gb": 1.8,
+ "peak_commit_gb": 3.99,
+ "lean_output": "<repo>\\runs\\rung5-test\\net\\i02\\_Full.lean:387:27: error: linarith failed to find a contradiction\nu \u03b7 M : \u211d\nfl ex : \u211d \u2192 \u211d\nn : \u2115\nE : Env u \u03b7 M fl ex n\nq1 q2 : \u211a\nc1 c2 : \u211d\nhq1 : \u2191q1 = c1\nhq2 : \u2191q2 = c2\nd1 d2 x1 x2 X1 X2 : \u211d\nhd1 : |d1| \u2264 1 / 200\nhd2 : |d2| \u2264 1 / 200\nh10 : 1 / 2 \u2264 |c1|\nh11 : |c1| \u2264 10\nh20 : 1 / 2 \u2264 |c2|\nh21 : |c2| \u2264 10\nhx1 : |x1| \u2264 X1\nhx2 : |x2| \u2264 X2\nhX1 : X1 \u2264 500\nhX2 : X2 \u2264 500\na1 : |sw fl q1 d1| \u2264 |c1| + |c1| / 150\na1' : |sw fl q1 d1| \u2264 101 / 10\na2 : |sw fl q2 d2| \u2264 |c2| + |c2| / 150\na2' : |sw fl q2 d2| \u2264 101 / 10\nb1 : |sw fl q1 d1 * x1| \u2264 101 / 10 * X1\nb2 : |sw fl q2 d2 * x2| \u2264 101 / 10 * X2\nf1 : |fl (sw fl q1 d1 * x1)| \u2264 101 / 10 * X1 + 1 / 1000\nf2 : |fl (sw fl q2 d2 * x2)| \u2264 101 / 10 * X2 + 1 / 1000\ns : |fl (sw fl q1 d1 * x1) + fl (sw fl q2 d2 * x2)| \u2264 101 / 10 * X1 + 1 / 1000 + (101 / 10 * X2 + 1 / 1000)\na\u271d : 10000 < 101 / 10 * X1 + 1 / 1000 + (101 / 10 * X2 + 1 / 1000)\n\u22a2 False\nfailed\n<repo>\\runs\\rung5-test\\net\\i02\\_Full.lean:407:23: error: unexpected token ':='; expected ')', ',' or ':'\n<repo>\\runs\\rung5-test\\net\\i02\\_Full.lean:446:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 3,
+ "attempts_left": 9
+}

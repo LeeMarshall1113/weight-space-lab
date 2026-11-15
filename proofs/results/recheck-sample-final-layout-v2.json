@@ -1,0 +1,588 @@
+[
+ {
+  "kind": "framework",
+  "unit": "Lane4/Basic.lean",
+  "pass": true,
+  "secs": 10.9
+ },
+ {
+  "kind": "framework",
+  "unit": "Lane4/Seq.lean",
+  "pass": true,
+  "secs": 11.1
+ },
+ {
+  "kind": "framework",
+  "unit": "Lane4/Robust.lean",
+  "pass": true,
+  "secs": 11.0
+ },
+ {
+  "kind": "framework",
+  "unit": "Lane4/RSeq.lean",
+  "pass": true,
+  "secs": 11.7
+ },
+ {
+  "kind": "framework",
+  "unit": "Lane4/RSoft.lean",
+  "pass": true,
+  "secs": 12.1
+ },
+ {
+  "kind": "framework",
+  "unit": "Lane4/RSoftKit.lean",
+  "pass": true,
+  "secs": 21.2
+ },
+ {
+  "kind": "framework",
+  "unit": "Lane4/Bin32.lean",
+  "pass": true,
+  "secs": 12.6
+ },
+ {
+  "kind": "framework",
+  "unit": "Lane4/RSoftAll.lean",
+  "pass": true,
+  "secs": 11.0
+ },
+ {
+  "kind": "framework",
+  "unit": "Lane4/QRSeq.lean",
+  "pass": true,
+  "secs": 10.7
+ },
+ {
+  "kind": "framework",
+  "unit": "Lane4/Collision.lean",
+  "pass": true,
+  "secs": 10.8,
+  "peak_rss_gb": 1.69,
+  "sorry_warning": false
+ },
+ {
+  "kind": "framework",
+  "unit": "Lane4/TokenBlind.lean",
+  "pass": true,
+  "secs": 10.7,
+  "peak_rss_gb": 1.7,
+  "sorry_warning": false
+ },
+ {
+  "kind": "framework",
+  "unit": "Lane4/Conjectures.lean",
+  "pass": true,
+  "secs": 10.6,
+  "peak_rss_gb": 1.69,
+  "sorry_warning": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r5-kit/kA2",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 19.6,
+  "peak_rss_gb": 1.76,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r5-kit/kA",
+  "pass": false,
+  "reason": "lean reported errors",
+  "secs": 11.4,
+  "peak_rss_gb": 1.72,
+  "axioms": null,
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r5-kit/kC",
+  "pass": false,
+  "reason": "lean reported errors",
+  "secs": 12.6,
+  "peak_rss_gb": 1.74,
+  "axioms": null,
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r5-kit/kConj",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.7,
+  "peak_rss_gb": 1.69,
+  "axioms": [],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r5-kit/kQ",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.8,
+  "peak_rss_gb": 1.72,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r5-kit/kR",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 12.2,
+  "peak_rss_gb": 1.77,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r6b/kColl2",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 12.0,
+  "peak_rss_gb": 1.74,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r6b/kColl",
+  "pass": false,
+  "reason": "lean reported errors",
+  "secs": 11.6,
+  "peak_rss_gb": 1.72,
+  "axioms": null,
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r6b/m05",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.3,
+  "peak_rss_gb": 1.74,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r6c/cBounds",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.1,
+  "peak_rss_gb": 1.73,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r6c/iNet",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.2,
+  "peak_rss_gb": 1.76,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung1-test/net/p019",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 143.3,
+  "peak_rss_gb": 2.6,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung2-test/net/a00",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 12.9,
+  "peak_rss_gb": 1.75,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung2-test/net/p05",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.7,
+  "peak_rss_gb": 1.75,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung2-test/net/s01",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.6,
+  "peak_rss_gb": 1.76,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung2-test/prog/a00",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.7,
+  "peak_rss_gb": 1.7,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung2-test/prog/p05",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.9,
+  "peak_rss_gb": 1.7,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung2-test/prog/s01",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.2,
+  "peak_rss_gb": 1.74,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung3-test/net/p001",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 18.1,
+  "peak_rss_gb": 1.79,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung3-test/prog/p001",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.7,
+  "peak_rss_gb": 1.69,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung4-test/net/c14",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 22.3,
+  "peak_rss_gb": 1.97,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung4-test/net/i09",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 18.4,
+  "peak_rss_gb": 2.02,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung4-test/prog/c14",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.5,
+  "peak_rss_gb": 1.7,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung4-test/prog/i09",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.8,
+  "peak_rss_gb": 1.71,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung5-dev/net/i13",
+  "pass": false,
+  "reason": "lean reported errors",
+  "secs": 21.3,
+  "peak_rss_gb": 1.94,
+  "axioms": null,
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung5-test/net/c04",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 23.7,
+  "peak_rss_gb": 1.99,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung5-test/net/i02",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 23.0,
+  "peak_rss_gb": 2.29,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung5-test/prog/c04",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.1,
+  "peak_rss_gb": 1.7,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/witness/r2long_a00",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 14.5,
+  "peak_rss_gb": 2.04,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/witness/r2rel_s00",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 12.8,
+  "peak_rss_gb": 1.78,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "case",
+  "unit": "runs/witness/r4abs_c14",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 24.3,
+  "peak_rss_gb": 2.03,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "native_decide_attempted": false
+ },
+ {
+  "kind": "standalone",
+  "unit": "runs/r6b/m05/_Corollary.lean",
+  "pass": true,
+  "secs": 13.1,
+  "peak_rss_gb": 1.78,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_axiom_reports": 3
+ },
+ {
+  "kind": "standalone",
+  "unit": "runs/r6b/m10/_Corollary.lean",
+  "pass": true,
+  "secs": 12.8,
+  "peak_rss_gb": 1.77,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_axiom_reports": 3
+ },
+ {
+  "kind": "standalone",
+  "unit": "runs/r6b/m29/_Corollary.lean",
+  "pass": true,
+  "secs": 12.4,
+  "peak_rss_gb": 1.77,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_axiom_reports": 3
+ },
+ {
+  "kind": "standalone",
+  "unit": "runs/r6c/members/Members.lean",
+  "pass": true,
+  "secs": 11.1,
+  "peak_rss_gb": 1.72,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_axiom_reports": 5
+ },
+ {
+  "kind": "standalone",
+  "unit": "runs/r6c/final/R6C.lean",
+  "pass": true,
+  "secs": 13.2,
+  "peak_rss_gb": 1.84,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_axiom_reports": 19
+ },
+ {
+  "kind": "standalone",
+  "unit": "runs/r6c/example/Example.lean",
+  "pass": true,
+  "secs": 13.2,
+  "peak_rss_gb": 1.85,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_axiom_reports": 2
+ },
+ {
+  "kind": "audit",
+  "files": 956,
+  "token_counts": {
+   "native_decide": 0,
+   "ofReduceBool": 0,
+   "sorry": 0,
+   "axiom": 0
+  },
+  "token_counts_attempts": {
+   "native_decide": 0,
+   "ofReduceBool": 0,
+   "sorry": 0,
+   "axiom": 0
+  }
+ }
+]

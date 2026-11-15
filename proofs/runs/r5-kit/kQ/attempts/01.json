@@ -1,0 +1,17 @@
+{
+ "case": "kQ",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-14 00:07:44",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.7,
+ "peak_rss_gb": 1.73,
+ "peak_commit_gb": 3.9,
+ "lean_output": "<repo>\\runs\\r5-kit\\kQ\\_Full.lean:269:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  List.map relu (List.map (fun q => \u2191q) (qraffine B.W1 B.b1 (qheads B.heads n x i (x i))))\nin the target expression\n  radd (fun x => x) (List.map (fun q => \u2191q) (qheads B.heads n x i (x i)))\n      (raffine (fun x => x) B.W2 B.b2 (List.map (relu \u2218 fun q => \u2191q) (qraffine B.W1 B.b1 (qheads B.heads n x i (x i))))\n        (pert0.W2 b) (pert0.b2 b) 0) =\n    List.map (fun q => \u2191q)\n      (qradd (qheads B.heads n x i (x i))\n        (qraffine B.W2 B.b2 (List.map (fun v => max v 0) (qraffine B.W1 B.b1 (qheads B.heads n x i (x i))))))\n\nB : Block\nb n : \u2115\nx : \u2115 \u2192 List \u211a\ni : \u2115\nhA : \u2200 (k i j : \u2115), pert0.A b k i j = 0\nhV : \u2200 (k i j : \u2115), pert0.V b k i j = 0\nhh :\n  headsApply (fun x => x) B.heads (pert0.A b) (pert0.V b) n (fun j => List.map (fun q => \u2191q) (x j)) i\n      (List.map (fun q => \u2191q) (x i)) 0 =\n    List.map (fun q => \u2191q) (qheads B.heads n x i (x i))\nh1 :\n  raffine (fun x => x) B.W1 B.b1 (List.map (fun q => \u2191q) (qheads B.heads n x i (x i))) (pert0.W1 b) (pert0.b1 b) 0 =\n    List.map (fun q => \u2191q) (qraffine B.W1 B.b1 (qheads B.heads n x i (x i)))\nh2 :\n  List.map (fun q => \u2191q) (List.map (fun v => max v 0) (qraffine B.W1 B.b1 (qheads B.heads n x i (x i)))) =\n    List.map relu (List.map (fun q => \u2191q) (qraffine B.W1 B.b1 (qheads B.heads n x i (x i))))\n\u22a2 radd (fun x => x) (List.map (fun q => \u2191q) (qheads B.heads n x i (x i)))\n      (raffine (fun x => x) B.W2 B.b2 (List.map (relu \u2218 fun q => \u2191q) (qraffine B.W1 B.b1 (qheads B.heads n x i (x i))))\n        (pert0.W2 b) (pert0.b2 b) 0) =\n    List.map (fun q => \u2191q)\n      (qradd (qheads B.heads n x i (x i))\n        (qraffine B.W2 B.b2 (List.map (fun v => max v 0) (qraffine B.W1 B.b1 (qheads B.heads n x i (x i))))))\n<repo>\\runs\\r5-kit\\kQ\\_Full.lean:302:25: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  swRow (fun x => x) ?r (fun x => 0) ?j\nin the target expression\n  swRow (fun x => x) (N.embed.getD (tokAt w j) []) (pert0.E (tokAt w j)) 0 ++ pos (fun x => x) j (w.length + 1) =\n    List.map (fun q => \u2191q) (N.embed.getD (tokAt w j) []) ++ List.map (fun q => \u2191q) (qpos j (w.length + 1))\n\nN : TNet\nw : List \u2115\ni j : \u2115\n\u22a2 swRow (fun x => x) (N.embed.getD (tokAt w j) []) (pert0.E (tokAt w j)) 0 ++ pos (fun x => x) j (w.length + 1) =\n    List.map (fun q => \u2191q) (N.embed.getD (tokAt w j) []) ++ List.map (fun q => \u2191q) (qpos j (w.length + 1))\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 24
+}

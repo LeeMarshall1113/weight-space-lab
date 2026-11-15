@@ -1,0 +1,93 @@
+{
+ "a00": {
+  "token_coordinates": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "token_blind": false,
+  "why_not": [
+   "block 1 head 1: score reads a token coordinate",
+   "block 1 head 1: value reads a token coordinate, head is not a global uniform average (mask strict)",
+   "block 1: MLP reads a token coordinate"
+  ]
+ },
+ "a01": {
+  "token_coordinates": [
+   0,
+   1,
+   2
+  ],
+  "token_blind": false,
+  "why_not": [
+   "block 1 head 1: score reads a token coordinate",
+   "block 1 head 1: value reads a token coordinate, head is not a global uniform average (mask strict)",
+   "block 1: MLP reads a token coordinate",
+   "read-out reads a token coordinate"
+  ]
+ },
+ "d10": {
+  "token_coordinates": [
+   0
+  ],
+  "token_blind": false,
+  "why_not": [
+   "block 1 head 1: value reads a token coordinate, head is not a global uniform average (mask causal)"
+  ]
+ },
+ "d15": {
+  "token_coordinates": [
+   0
+  ],
+  "token_blind": false,
+  "why_not": [
+   "block 1 head 1: value reads a token coordinate, head is not a global uniform average (mask causal)"
+  ]
+ },
+ "d18": {
+  "token_coordinates": [
+   0
+  ],
+  "token_blind": false,
+  "why_not": [
+   "block 1 head 1: value reads a token coordinate, head is not a global uniform average (mask causal)"
+  ]
+ },
+ "p05": {
+  "token_coordinates": [
+   0
+  ],
+  "token_blind": true,
+  "why_not": []
+ },
+ "p10": {
+  "token_coordinates": [
+   0
+  ],
+  "token_blind": true,
+  "why_not": []
+ },
+ "p29": {
+  "token_coordinates": [
+   0
+  ],
+  "token_blind": true,
+  "why_not": []
+ },
+ "s00": {
+  "token_coordinates": [
+   1
+  ],
+  "token_blind": true,
+  "why_not": []
+ },
+ "s01": {
+  "token_coordinates": [
+   0,
+   1
+  ],
+  "token_blind": true,
+  "why_not": []
+ }
+}

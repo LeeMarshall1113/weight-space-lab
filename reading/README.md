@@ -1,4 +1,147 @@
-# Reading (lane 3): reading and repairing small networks from weights
+# reading/: can an LLM read small networks from their weights? Three finished units, all boundaries or negatives
 
-Slot reserved. Not yet included in this release; the owner decides what is cleared for release.
-See the index in the top-level README.
+Personal work. Views are my own.
+
+This folder holds three finished units from a study of LLM agents ("doctors") reading and
+analysing small neural networks from their weights. None is a positive headline result.
+Each is a boundary or a negative, stated with what it does not show. Numbers below are
+copied from `RESULTS.md` in this folder (an excerpt of the study's own results file). **The
+agent runs and the numeric scripts were not re-run for this release.** The Lean files of
+the bridge unit (unit 3) were re-checked from a clean clone; see `../proofs/VERIFY.md`.
+
+Not included: the earlier RNN stage (reading, repairing and extending random small RNNs,
+closed) and a test of certificates for trained recurrent nets (in progress).
+
+## Unit 1. Compiled versus trained transformers: weights-only reading works only on compiled ones
+
+*Question.* Can a Sonnet agent, given only the weights of a small transformer, write a RASP
+program with the same function (functional match: at least 0.99 whole-sequence agreement
+with the network on 1,000 held-out inputs)?
+
+*Result* (`RESULTS.md`, "Transformer stage", n = 20 networks per decisive arm, one run per
+network, every run audited for rule breaks):
+
+| Networks | Weights only | 20 input-output examples only |
+|---|---|---|
+| Tracr-compiled | **20/20** functional | 14/20 |
+| Gradient-trained (2 layers, d = 64) | **0/20** | 19/20 |
+| Trained for discreteness (annealed attention, L1-sparse MLPs, or both) | **0/41** | 10/12 on the "both" nets |
+
+On compiled networks weights-only reading beats the examples-only arm (McNemar p = 0.016,
+6 against 0 discordant cases). On trained networks it fails completely, and weights plus
+five queries do no better than five queries alone (7/20 against 8/20). Training for
+discreteness did not make trained networks readable. Reading survives a random rotation of
+the residual basis (16/20) and a larger scramble (20/20).
+
+*What it does not show.*
+- **Function, not source.** On the compiled networks the doctors recover the function but
+  rarely the original program: 3 of 20 exact structure, 6 partial, 11 different (blind
+  Sonnet judge).
+- **The compiled case is the easy case:** compiled weights are sparse and structured, and
+  the doctors read them by pushing hand-built residual vectors through the layers.
+- **The two arms are not matched in everything.** The compiled calibration used the same
+  program pool without one template (the "permute" template) that the trained networks
+  included. Other differences (architecture, size) were not isolated.
+- A prior-only guesser that knows the program generator scores about 17 to 18 of 20 given 20
+  examples, so the program pool is easy from examples.
+- One doctor model, one run per case, n = 20, no second model.
+- **Comparisons with published decompilers are not like-for-like.** A neural decompiler
+  (Thurnherr and Riesen, arXiv 2410.00061) reported 73% functional on its own generator
+  and check. An analytic decompiler for trained transformers (arXiv 2602.08857) was **not
+  run**: it needs a different model family and retraining, so no comparison is made.
+- Whether weights-only reading of trained networks is possible by other means is not
+  addressed.
+
+Pre-registration: `docs/PREREG_XF.md` (with amendments). Data: `results/doctor_XF-*.jsonl`,
+`results/xf_*`. Code: `xf/`. The compiled networks (`xf/cases_tracr*`) are included. The
+trained networks (about 54 MB) are not; the case manifests list seeds, regeneration was
+not tested for this release.
+
+## Unit 2. A decay curve from compiled networks could not be built (corrected)
+
+*Question.* Starting from compiled (readable) networks, move them step by step toward
+trained-like weights while keeping the function, and measure where reading breaks.
+
+*Result* (`RESULTS.md`, "Legibility decay curve", with its correction). The pre-registered
+feasibility rule stopped the experiment: no gradient arm moved any compiled network to 0.05
+relative parameter drift while keeping sampled agreement at or above 0.99 (0/20 for each of
+six learning rates). One noise-and-repair schedule and one compression schedule kept 6 to 7
+of 20, mostly the same networks. No doctor episodes were run.
+
+*Corrected, as the results file says.* The first write-up claimed more than the data show.
+Withdrawn: that the other 14 networks "have essentially no robustness margin", that
+compiled networks "are isolated points, not one end of a continuum", that this explains why
+gradient training never lands on compiled-like weights, and that "write tables lose
+discreteness first". What was shown: these schedules, at these budgets, failed. That does
+not show that function-preserving paths do not exist (exact rotations and scalings in the
+perturbation ladder preserve the function). The agreement gate is sampled (1,000 random
+inputs) and the same inputs were reused to pick checkpoints.
+
+Pre-registration: `docs/PREREG_DECAY.md`. Data: `results/decay_*.jsonl`. Code: `xf/decay*.py`.
+
+## Unit 3. The bridge: kernel-checked weight-ball certificates for tiny trained ReLU nets, and where they stop
+
+*Statement tested.* A small trained ReLU classifier (n boolean inputs, two hidden layers,
+one output) on an exact finite spec has a Lean-kernel-checked certificate: **for every
+weight and bias within 1/1000 (absolute) of the trained values, the output has the correct
+sign on every one of the 2^n inputs.** Method: weight-space interval bound propagation in
+exact rationals, proved sound once (`bridge/lean/Bridge/IBP.lean`), then checked per input
+by kernel reduction (`decide +kernel`; no `native_decide`; axioms within the standard three).
+No proof agents were used. **The method is known** (interval bound propagation, Weng et al.
+2020; Lean-checked variants exist); nothing here is a new technique.
+
+*Results* (`RESULTS.md`, "Bridge"; test seeds run once, bars fixed in `docs/PREREG_BRIDGE.md`
+before training):
+- **Stage 1 (n = 6, popcount mod 3, 16 test networks):** 8/8 ordinarily trained and 8/8
+  "structured" networks kernel-checked at 1/1000 (bar: at least 6 of 8, met). The
+  pre-registered "structured training helps" effect was **not met** (certified radius
+  0.77 times the ordinary one, not 4 times). The certificate is about the quantized network
+  (multiples of 1/256).
+- **Tightness:** the smallest confirmed breaking radius over the largest certified radius has
+  median 1.29 (range 1.01 to 2.47; bar at most 4, met).
+- **Float weights:** on the exact dyadic float64 weights of 8 retrained networks, 8/8
+  kernel-checked, removing the "quantized only" caveat at n = 6.
+- **Size ladder (fails):** the fraction of networks certified at 1/1000 is 8/8, 8/8, 5/8, 0/8
+  at n = 6, 8, 10, 12 inputs. Per-input Lean cost grows with 2^n (about 1 to 2 s per input);
+  per-input checking stopped at n = 10 (a 900-second time limit was hit). Region certificates
+  (cubes of inputs) on a majority task cover about 0.55 to 0.67 of 2^n and do not shrink
+  with n. The pre-stated closure conditions both hold: **this kind of certificate does not
+  get beyond enumeration of small input spaces and cannot carry to unbounded inputs.**
+- **Radius alone is not evidence:** random near-constant networks, certified against their own
+  sign, reach larger radii (up to 0.035) than any trained network; radius must be read against
+  margin and tightness. "STR has more radius per unit margin" is descriptive, not a registered
+  effect.
+
+*What it does not show.* Nothing about transformers, attention, or inputs of unbounded
+length; only finite Boolean inputs and small ReLU networks (hidden width 16 to 64). The
+statement is the weight ball of the `proofs/` study at one radius. The size ladder uses
+CPU timings from a shared machine. A route to all-length statements for trained networks
+would need a symbolic or relational certificate or a different statement (for example a
+recurrent network with a proved invariant); the study's last stage, on that, is in progress
+and not included.
+
+Pre-registration: `docs/PREREG_BRIDGE.md` (amendments A1 to A8). Lean files:
+`bridge/lean/Bridge/` (`IBP.lean`, `Region.lean`, `Nets/*.lean`); data: `results/bridge_*`,
+`bridge/nets/`. Python: `bridge/*.py`.
+
+## How to check
+
+Set up as in `../proofs/README.md`, then, from the repository root:
+
+```bash
+python reading/bridge/recheck_bridge.py            # stage 1, float weights and one n = 8 net: about 50 minutes; --set stage1 for the 16 main certificates
+```
+
+Each net file prints `#print axioms` for its certificate; the script requires them within
+`propext`, `Classical.choice`, `Quot.sound`. In the release re-check 27 of 27 of these (16 stage-1 nets, 8 float-weight nets, 1 n = 8 net, plus the two framework files) passed; the one n = 10 majority region file that was tried (`--set region`) did **not** finish within 1,500 s, in line with the study's own report that the first full region certificate hit its 15-minute stop. Rows are written to
+`proofs/results/recheck-bridge.json`. The Python scripts (`xf/`, `bridge/`) need numpy and
+PyTorch; they were not re-run for this release. `xf/` also needs Tracr (Apache-2.0) to
+rebuild compiled networks; the compiled networks themselves are included.
+
+## Notes and licence
+
+Third-party code is not redistributed. `xf/rasp.py` is a small RASP interpreter written for
+the study; whether any part resembles Tracr code was not checked line by line. Code and Lean
+files: Apache-2.0; text: proposed CC-BY-4.0 (see the top-level README). Doctor audit
+excerpts in `results/xf_*audit*.csv` are short code snippets from agent tool calls kept as
+audit evidence; full transcripts are not included.

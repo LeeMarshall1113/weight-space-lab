@@ -11,62 +11,80 @@ and claims that do not survive are downgraded in the table below, not quietly ed
 A lab-style repository of experiments on **LLMs writing, reading and editing neural-network
 weights**, with pre-registrations, negative results kept, and where possible machine-checked
 proofs. Each result lives in its own folder with its own README, pre-registration and
-instructions to check it. Only `proofs/` is included so far; the other folders are slots
-that will be filled as results are cleared for release.
+instructions to check it. `proofs/` and `reading/` are included; the other folders are slots
+that will be filled as results are cleared for release. The full technical report is
+`proofs/REPORT.md` (a living document with a claims table, a changelog and a "how to
+correct us" section).
 
 ## Known weaknesses (read first)
 
-These are the weak points we know of; each is repeated, with detail, in `proofs/README.md`
-("Limits"). If you find another, that is exactly what we want to hear.
+These are the weak points we know of; each is repeated, with detail, in `proofs/REPORT.md`
+("Known weaknesses") and `proofs/README.md` ("Limits"). If you find another, that is exactly
+what we want to hear.
 
-1. **The headline contrast is not like-for-like.** The fragility numbers use an absolute
-   weight change (zeros included); the rung-4 ball is relative with zeros held fixed. The
-   rung-2 networks have not been tested under the relative ball, so "exact proofs are
-   fragile, ours are not" is not established; only that exact-tie constructions break under
-   additive noise.
-2. **The theorem is about a tailored model.** Hard attention with ties averaged (not
-   softmax), hand-written weights, width at most 15, and a *rounding model* (not IEEE:
-   no overflow, underflow, subnormals, fused multiply-add or reordered sums), valid only up
-   to 65,535 tokens. We have not shown a Lean witness that the rounding hypothesis is
-   satisfiable for a positive unit roundoff.
-3. **Counting tasks are excluded** (parity, Dyck, sort), where a ball must shrink like 1/n.
+1. **The earlier "fragile versus robust" framing is withdrawn.** An additive perturbation
+   (zeros included) and a relative one (zeros fixed) are different tests; a 2x2 measurement
+   showed the contrast was not like-for-like. What remains are finite search outcomes
+   ("a break was found" / "no break found"), with three individual Lean-checked witnesses.
+2. **The theorems are about tailored models.** Hand-written weights, width at most 15 (hard
+   attention, rungs 2 to 4) or a softmax model (rung 5); the rounding models are not full
+   IEEE arithmetic (rung 4: no overflow, underflow or subnormals; rung 5: an underflow term
+   and a range bound, with an assumed accuracy for the float exponential); lengths up to
+   65,535 tokens for the rounded statements.
+3. **Counting tasks are excluded** from the all-length relative-ball theorems (parity,
+   Dyck, sort). For the three written parity networks, and for every "token-blind" network,
+   the radius provably shrinks like 1/n (rungs 6b and 6c). That phenomenon is known
+   (Hahn and Rofin), the classes are narrow, and the conjecture for the whole architecture
+   is open (type-checked statements only).
 4. **No practical advantage over a plain verified program:** the control arm solved every
-   task with proofs about a tenth as long. The two arms prove different statements.
+   task with proofs a tenth to a twentieth as long. The arms prove different statements.
 5. **Tasks were chosen knowing which mechanism works**, with a lemma kit and a worked
-   example supplied; the result is about proof automation as much as about transformers.
-6. **The statements are only as good as `Spec.lean`, `Final.lean` and `Lane4/RSeq.lean`**,
+   example supplied; the rung-5 kit carries the softmax and float analysis. The result is
+   about proof automation as much as about transformers.
+6. **A pre-registered rung-5 check failed** (bit-identity of two float32 implementations on
+   one of 12 networks); it is reported as failed, not replaced.
+7. **The statements are only as good as `Spec.lean`, `Final.lean` and the framework files**,
    which we wrote; the kernel checks proofs against them, not against intent.
-7. **Novelty is a search over abstracts**, not a literature review; "not found" is weaker
-   than "does not exist".
-8. **Small samples:** 11 of 12, 12 of 12, 10 of 10; one model family; the one miss is an
-   agent crash, counted as a failure.
+8. **Novelty is a search over abstracts**, not a literature review; "not found" is weaker
+   than "does not exist". Pre-registration commits are in a private repository and are not
+   independently verifiable.
+9. **Small samples:** 11 of 12, 12 of 12, 10 of 10; one model family (the exact version
+   string was not recorded); the one rung-4 miss is an agent crash, counted as a failure.
+10. **`reading/` units are negatives and boundaries** from n = 20 runs with one agent model;
+    the agent runs were not re-run for this release.
 
 ## Index of results
 
-Status words: **confirmed** (the pre-registered claim was met and, for `proofs/`, re-checked
-from this folder), **negative** (the pre-registered test was not met or a kill criterion
-triggered), **in progress**. "Not yet included" rows say what the lab's own notes report;
-they have not been independently re-checked.
+Status words: **confirmed** (the pre-registered claim was met and the Lean files were
+re-checked from this folder), **measured** (a numeric screen, not a proof), **negative**
+(the pre-registered test was not met or a kill criterion triggered), **boundary** (a result
+that marks where a method stops), **in progress**. "Not yet included" rows say what the
+lab's own notes report; they have not been independently re-checked.
 
 | Claim | Status | Where to look | How to check |
 |---|---|---|---|
-| 11 of 12 LLM-written hard-attention transformers kernel-checked correct at every input length for every relative weight change within 0.5%, under a rounding model up to 65,535 tokens (non-counting tasks only; a plain verified program does the same tasks with proofs about a tenth as long) | confirmed | `proofs/` (rung 4), `proofs/docs/RESULTS_R4.md` | `python tools/check.py runs/rung4-test/net/c14` inside `proofs/`; or `tools/recheck_all.py`. See `proofs/VERIFY.md` |
+| 11 of 12 LLM-written hard-attention transformers kernel-checked correct at every input length for every relative weight change within 0.5%, under a rounding model up to 65,535 tokens (non-counting tasks only; a plain verified program does the same tasks with proofs about a tenth as long) | confirmed | `proofs/` (rung 4), `proofs/docs/RESULTS_R4.md` | `python tools/check.py runs/rung4-test/net/c14` inside `proofs/`; or `tools/recheck_release.py`. See `proofs/VERIFY.md` |
+| 12 of 12 LLM-written softmax transformers kernel-checked within 1/4 of the target at every length for every relative weight change within 1/200, with exact arithmetic at every length and a binary32 model up to 65,535 tokens (non-counting tasks only; the kit carries the float analysis; one pre-registered numeric check failed) | confirmed | `proofs/` (rung 5), `proofs/docs/RESULTS_R5.md` | `runs/rung5-test/net/*`, same checker |
 | 12 of 12 LLM-written ReLU networks proved within tolerance of an exact spec for every weight and bias within 1/1000 (absolute) | confirmed | `proofs/` (rung 3), `proofs/docs/RESULTS_R3.md` | same checker, `runs/rung3-test/` |
 | 10 of 10 LLM-written hard-attention transformers proved correct at every input length, exact arithmetic, written weights only | confirmed | `proofs/` (rung 2), `proofs/docs/RESULTS_R2.md` | same checker, `runs/rung2-test/` |
-| All ten rung-2 networks break when one weight moves by an absolute 1/1000 (8 of 10 at 1e-6); a proved sort network fails in float32 from length 300 | confirmed (measurement; the perturbation is absolute, see limits in `proofs/README.md`) | `proofs/results/r3-transformers.json`, `rung2-float-probe.json` | `proofs/tools/r3_transformers.py`, `float_probe.py` |
-| Softmax attention and IEEE binary32 semantics (rung 5) | in progress, not included | | |
-| Injecting a new skill into a pretrained network without gradients (lane 1) | mixed per lab notes: positive on small nets, not shown at the prose rung; not yet included | slot `injection/` | |
-| Detecting planted behaviours from weights (lane 2) | negative per lab notes (kill criterion met for a zero-shot doctor); not yet included | slot `detection/` | |
-| Reading and repairing small RNNs and transformers from weights (lane 3) | mixed per lab notes (works on compiler-built nets, not on trained ones); not yet included | slot `reading/` | |
-| Self-improvement levers (data, recipe, weights) (lane 5) | in progress; not yet included | slot `self-improvement/` | |
-| A typed-decision method: reproduction and gate (lane 6) | negative per lab notes (gate not met, shelved); not yet included | slot `typed-decisions/` | |
+| Perturbation 2x2 (additive versus relative; rung 2 versus rung 4): additive 1/1000 breaks all ten rung-2 networks and, at length 1,000, all eleven rung-4 networks; no break found under relative noise inside the rung-4 ball. The earlier "fragile versus robust" framing is withdrawn | measured (finite searches); three witnesses kernel-checked | `proofs/REPORT.md` (Section 3), `proofs/results/r3-2x2-v2.json`, `proofs/runs/witness/` | `proofs/tools/r3_2x2_v2.py`; the witnesses through the same checker |
+| For three proved parity networks (and every "token-blind" network, including two sort networks) no relative ball of radius 1/(2L-1) or more is correct up to length L, so no positive radius is correct at every length; the general phenomenon is known | confirmed (narrow classes) | `proofs/` (rungs 6b, 6c), `proofs/docs/RESULTS_R6B.md`, `RESULTS_R6C.md` | `runs/r6b/`, `runs/r6c/` |
+| Three open statements (no length-independent ball for parity; none absolute for a non-counting task) | conjecture (statements type-check; nothing proved) | `proofs/Lane4/Conjectures.lean` | `proofs/runs/r5-kit/kConj` |
+| Compiled versus trained transformers: an LLM reads small compiled (Tracr) transformers from weights alone at 20/20 functional, trained ones at 0/20 (0/41 when trained for discreteness) | negative on trained nets; compiled is the easy case | `reading/` unit 1 | not re-run; data in `reading/results/` |
+| A decay curve from compiled networks toward trained-like weights could not be built under the pre-registered rule (corrected: the first write-up overclaimed) | negative (stopped by kill rule) | `reading/` unit 2 | not re-run |
+| Kernel-checked weight-ball certificates (1/1000) for tiny trained ReLU networks: 8/8 and 8/8 at 6 inputs, near-tight, on float weights too; the certified fraction falls to 0/8 by 12 inputs and cost tracks 2^n | boundary (known method; finite inputs only) | `reading/` unit 3 | `python reading/bridge/recheck_bridge.py` |
+| Injecting a new skill into a pretrained network without gradients | mixed per lab notes: positive on small nets, not shown at the prose rung; not yet included | slot `injection/` | |
+| Detecting planted behaviours from weights | negative per lab notes (kill criterion met for a zero-shot doctor); not yet included | slot `detection/` | |
+| Self-improvement levers (data, recipe, weights) | in progress; not yet included | slot `self-improvement/` | |
+| A typed-decision method: reproduction and gate | negative per lab notes (gate not met, shelved); not yet included | slot `typed-decisions/` | |
 | The doctor harness: an agent loop that edits weights under a forward-pass budget | tool; not yet included | slot `harness/` | |
 
 ## Repository layout
 
 ```
-proofs/            Lean proofs, checker, pools, pre-registrations, per-case results   (included)
-injection/ detection/ reading/ self-improvement/ typed-decisions/ harness/             (empty slots)
+proofs/            Lean proofs, checker, pools, pre-registrations, per-case results, REPORT.md   (included)
+reading/           three finished units on reading networks from weights (bridge Lean files included)   (included)
+injection/ detection/ self-improvement/ typed-decisions/ harness/                      (empty slots)
 LICENSE            Apache-2.0 (code, Lean files, scripts)
 NOTICE, CITATION.cff
 CONTRIBUTING.md, CHANGELOG.md, .github/ISSUE_TEMPLATE/   (how to report; corrections log)

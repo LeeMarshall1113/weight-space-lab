@@ -1,0 +1,17 @@
+{
+ "case": "c18",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-13 23:15:55",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.8,
+ "peak_rss_gb": 1.81,
+ "peak_commit_gb": 4.01,
+ "lean_output": "<repo>\\runs\\rung5-test\\net\\c18\\_Full.lean:83:72: warning: This simp argument is unused:\n  hr.one\n\nHint: Omit it from the simp argument list.\n  [apply] simp [TNet.init, net, embRows, swRow, pos, ev, embq, h, sw_zero hr]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung5-test\\net\\c18\\_Full.lean:108:10: warning: `List.take_succ` has been deprecated: Use `List.take_add_one` instead\n\nHint: Replace the deprecated name:\n  List.take_s\u0335u\u0335c\u0335c\u0335a\u0332d\u0332d\u0332_\u0332o\u0332n\u0332e\u0332\n<repo>\\runs\\rung5-test\\net\\c18\\_Full.lean:121:18: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung5-test\\net\\c18\\_Full.lean:367:2: error: linarith failed to find a contradiction\nu \u03b7 M : \u211d\nfl : \u211d \u2192 \u211d\nn : \u2115\nE : Env u \u03b7 M fl n\nPw pf : \u211d\nhP1 : -51 \u2264 Pw\nhP2 : Pw \u2264 -49\nhpf0 : 0 \u2264 pf\nhpf1 : pf \u2264 101 / 100\nhx1a : Pw * pf \u2264 0\nhx1b : -52 \u2264 Pw * pf\nhx1 : |Pw * pf| \u2264 100\nht1 : -(1 / 1000) \u2264 fl (Pw * pf) - Pw * pf \u2227 fl (Pw * pf) - Pw * pf \u2264 1 / 1000\nh100 : 100 \u2264 M\nht1n : fl (Pw * pf) \u2264 0\nhc :\n  fl (fl \u2191n * fl (Pw * pf)) \u2264 0 \u2227\n    |fl (fl \u2191n * fl (Pw * pf))| \u2264 55 * \u2191n \u2227 (fl (Pw * pf) \u2264 -48 \u2192 fl (fl \u2191n * fl (Pw * pf)) \u2264 -48 * \u2191n + 1)\nhpf : 99 / 100 \u2264 pf\nthis : Pw * pf \u2264 -48\na\u271d : -48 < fl (Pw * pf)\n\u22a2 False\nfailed\n<repo>\\runs\\rung5-test\\net\\c18\\_Full.lean:433:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 4,
+ "attempts_left": 8
+}

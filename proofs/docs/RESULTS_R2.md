@@ -1,4 +1,4 @@
-# Lane 4, rung 2 results: transformers proved correct for every sequence length
+# this study, rung 2 results: transformers proved correct for every sequence length
 
 **Status: CLOSED (2026-11-12, 2:30 am EST).** 20 doctor episodes (10 net, 10 prog), all
 Sonnet, none rerun; 30 twins trained. Every number is read from attempt logs and result
@@ -15,7 +15,7 @@ over a verified program**. All 10 trained twins of the same shapes are wrong bey
 training lengths.
 
 How to read this, stated before the test set was built: the four task families are famous,
-their constructions are in the literature, and the architecture was designed by the lane
+their constructions are in the literature, and the architecture was designed by the study team
 so that those constructions fit. The result shows that Sonnet can **recall, adapt and
 formally verify known constructions**, quickly. It does not show discovery of new
 length-general algorithms. It is not a first; the nearest prior work is arXiv 2602.16473
@@ -74,7 +74,7 @@ The contrast is weaker than "10 of 10" sounds:
 - The other 28 did not fit the task in distribution, so their failure beyond length 10 is
   mostly a training failure of a very small network with raw position features, not
   evidence about length generalisation. Parity twins are near chance everywhere.
-- The trainer is the lane's own numpy code with one fixed recipe (20,000 Adam steps). A
+- The trainer is the study team's own numpy code with one fixed recipe (20,000 Adam steps). A
   better training recipe might fit more twins in distribution. It was not tuned, on
   purpose: it was fixed before any twin was trained.
 - No proof was attempted on twins. Nothing here says trained transformers cannot be
@@ -110,7 +110,7 @@ Every theorem is about exact rational arithmetic. Nothing is proved about floats
 - **The architecture was built for the tasks.** Average-hard attention, a BOS token and
   eight position features (including i², 1/(i+1), (-1)^i, 1/n) are what the known
   constructions need. It is not softmax attention and not a standard transformer.
-- **The lane's own worked example** (accept when a token occurs) shows the proof pattern
+- **The study team's own worked example** (accept when a token occurs) shows the proof pattern
   and the lemma kit. It is outside the four families, but it lowers the difficulty.
 - **n = 10**, one model, one prompt, small alphabets (2-9 tokens).
 - **Compute incidents** (no effect on any submission, all in the run log (not released)): the doctor memory reservation

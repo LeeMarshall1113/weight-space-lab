@@ -1,0 +1,17 @@
+{
+ "id": "c18",
+ "arm": "net",
+ "rung": 5,
+ "split": "test",
+ "family": "carry",
+ "import": "RSoftAll",
+ "tau": "1/200",
+ "final_theorems": [
+  "Lane4Final.final",
+  "Lane4Final.shape",
+  "Lane4Final.exact_all_lengths",
+  "Lane4Final.binary32"
+ ],
+ "max_attempts": 12,
+ "lean_timeout": 600
+}

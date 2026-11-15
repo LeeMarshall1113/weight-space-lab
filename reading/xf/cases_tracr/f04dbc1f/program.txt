@@ -1,0 +1,4 @@
+k = Map(lambda x: {'a': 2, 'b': 1, 'c': 2}[x], tokens)
+w = SelectorWidth(Select(k, indices, Comparison.LT))
+g = Map(lambda x: {'a': 0, 'b': 1, 'c': 1}[x], tokens)
+out = SequenceMap(lambda x, y: (x + y) % 2, w, g)

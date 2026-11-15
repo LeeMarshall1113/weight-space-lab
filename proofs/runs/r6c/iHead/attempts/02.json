@@ -1,0 +1,17 @@
+{
+ "case": "iHead",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-14 16:44:25",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.4,
+ "peak_rss_gb": 1.73,
+ "peak_commit_gb": 3.9,
+ "lean_output": "<repo>\\runs\\r6c\\iHead\\_Full.lean:203:4: error: unsolved goals\ncase cons.e_a\nu : \u211a\nas : List \u211a\nih : \u2200 (b : Vec), qdot as b = (List.map (fun c => as.getD c 0 * List.getD b c 0) (List.range as.length)).sum\nb : Vec\n\u22a2 (List.map (fun c => as[c]?.getD 0 * b[c + 1]?.getD 0) (List.range as.length)).sum =\n    (List.map ((fun c => (u :: as)[c]?.getD 0 * b[c]?.getD 0) \u2218 Nat.succ) (List.range as.length)).sum\n<repo>\\runs\\r6c\\iHead\\_Full.lean:204:4: error: No goals to be solved\n<repo>\\runs\\r6c\\iHead\\_Full.lean:305:63: warning: Variable name `hi` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _hi\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

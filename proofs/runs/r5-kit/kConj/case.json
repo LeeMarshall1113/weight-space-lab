@@ -1,0 +1,1 @@
+{"id": "kConj", "arm": "kit", "rung": 6, "import": "RSeq", "final_theorems": ["Lane4Final.final"], "max_attempts": 8, "lean_timeout": 600}

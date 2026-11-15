@@ -1,0 +1,79 @@
+PASS framework Basic
+PASS framework Seq
+PASS framework Robust
+PASS framework RSeq
+PASS framework RSoft
+PASS framework RSoftKit
+PASS framework Bin32
+PASS framework RSoftAll
+PASS framework QRSeq
+PASS framework Collision
+PASS framework TokenBlind
+PASS framework Conjectures
+PASS  runs/r5-kit/kA2 19.6s rss=1.76 Classical.choice,Quot.sound,propext
+FAIL  runs/r5-kit/kA 11.4s rss=1.72 lean reported errors
+FAIL  runs/r5-kit/kC 12.6s rss=1.74 lean reported errors
+PASS  runs/r5-kit/kConj 10.7s rss=1.69 
+PASS  runs/r5-kit/kQ 10.8s rss=1.72 Classical.choice,Quot.sound,propext
+PASS  runs/r5-kit/kR 12.2s rss=1.77 Classical.choice,Quot.sound,propext
+PASS  runs/r6b/kColl2 12.0s rss=1.74 Classical.choice,Quot.sound,propext
+FAIL  runs/r6b/kColl 11.6s rss=1.72 lean reported errors
+PASS  runs/r6b/m05 11.3s rss=1.74 Classical.choice,Quot.sound,propext
+PASS  runs/r6c/cBounds 11.1s rss=1.73 Classical.choice,Quot.sound,propext
+PASS  runs/r6c/iNet 11.2s rss=1.76 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p019 143.3s rss=2.6 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/net/a00 12.9s rss=1.75 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/net/p05 11.7s rss=1.75 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/net/s01 11.6s rss=1.76 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/prog/a00 10.7s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/prog/p05 10.9s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/prog/s01 11.2s rss=1.74 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/net/p001 18.1s rss=1.79 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/prog/p001 10.7s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/net/c14 22.3s rss=1.97 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/net/i09 18.4s rss=2.02 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/prog/c14 10.5s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/prog/i09 10.8s rss=1.71 Classical.choice,Quot.sound,propext
+FAIL  runs/rung5-dev/net/i13 21.3s rss=1.94 lean reported errors
+PASS  runs/rung5-test/net/c04 23.7s rss=1.99 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/net/i02 23.0s rss=2.29 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/prog/c04 11.1s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/witness/r2long_a00 14.5s rss=2.04 Classical.choice,Quot.sound,propext
+PASS  runs/witness/r2rel_s00 12.8s rss=1.78 Classical.choice,Quot.sound,propext
+PASS  runs/witness/r4abs_c14 24.3s rss=2.03 Classical.choice,Quot.sound,propext
+PASS runs/r6b/m05/_Corollary.lean 13.1 ['Classical.choice', 'Quot.sound', 'propext']
+PASS runs/r6b/m10/_Corollary.lean 12.8 ['Classical.choice', 'Quot.sound', 'propext']
+PASS runs/r6b/m29/_Corollary.lean 12.4 ['Classical.choice', 'Quot.sound', 'propext']
+PASS runs/r6c/members/Members.lean 11.1 ['Classical.choice', 'Quot.sound', 'propext']
+PASS runs/r6c/final/R6C.lean 13.2 ['Classical.choice', 'Quot.sound', 'propext']
+PASS runs/r6c/example/Example.lean 13.2 ['Classical.choice', 'Quot.sound', 'propext']
+total wall seconds: 791; passed 45 of 49; expected-fail cases that failed: ['runs/r5-kit/kA', 'runs/r5-kit/kC', 'runs/r6b/kColl', 'runs/rung5-dev/net/i13']; unexpected: []; audit {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0}
+PASS reading/bridge/lean/Bridge/IBP.lean 11.7
+PASS reading/bridge/lean/Bridge/Region.lean 11.5
+PASS reading/bridge/lean/Bridge/Nets/ORD_w16_s100.lean 68.8 rss=1.98 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/ORD_w16_s101.lean 68.0 rss=1.97 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/ORD_w16_s102.lean 65.7 rss=1.97 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/ORD_w16_s103.lean 67.9 rss=1.97 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/ORD_w16_s104.lean 71.0 rss=1.99 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/ORD_w16_s105.lean 71.0 rss=1.97 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/ORD_w16_s106.lean 70.1 rss=1.98 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/ORD_w16_s107.lean 69.4 rss=1.97 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/STR_w16_s100.lean 60.1 rss=1.97 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/STR_w16_s101.lean 62.5 rss=1.97 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/STR_w16_s102.lean 60.0 rss=1.95 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/STR_w16_s103.lean 66.2 rss=1.98 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/STR_w16_s104.lean 64.5 rss=1.97 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/STR_w16_s105.lean 63.7 rss=1.97 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/STR_w16_s106.lean 64.2 rss=1.97 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/STR_w16_s107.lean 63.7 rss=1.97 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/ORDF_w16_s100.lean 91.4 rss=2.0 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/ORDF_w16_s101.lean 86.1 rss=2.0 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/ORDF_w16_s102.lean 78.6 rss=1.98 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/ORDF_w16_s103.lean 94.2 rss=2.0 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/ORDF_w16_s104.lean 95.9 rss=2.0 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/ORDF_w16_s105.lean 86.4 rss=2.0 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/ORDF_w16_s106.lean 88.7 rss=2.0 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/ORDF_w16_s107.lean 95.2 rss=2.0 ['Classical.choice', 'Quot.sound', 'propext']
+PASS reading/bridge/lean/Bridge/Nets/N8_w24_s100.lean 468.6 rss=2.41 ['Classical.choice', 'Quot.sound', 'propext']
+FAIL reading/bridge/lean/Bridge/Nets/R_MAJ10_w32_s104_maj.lean 1500.6 rss=3.12 []
+total wall seconds: 3766; passed 27 of 28

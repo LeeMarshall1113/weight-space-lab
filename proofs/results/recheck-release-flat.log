@@ -1,0 +1,188 @@
+PASS framework Basic
+PASS framework Seq
+PASS framework Robust
+PASS framework RSeq
+PASS framework RSoft
+PASS framework RSoftKit
+PASS framework Bin32
+PASS framework RSoftAll
+PASS framework QRSeq
+PASS framework Collision
+PASS framework TokenBlind
+PASS framework Conjectures
+PASS  runs/r5-kit/kA2 20.7s rss=1.76 Classical.choice,Quot.sound,propext
+FAIL  runs/r5-kit/kA 13.3s rss=1.72 lean reported errors
+PASS  runs/r5-kit/kB 23.8s rss=1.85 Classical.choice,Quot.sound,propext
+PASS  runs/r5-kit/kC2 14.2s rss=1.75 Classical.choice,Quot.sound,propext
+FAIL  runs/r5-kit/kC 13.3s rss=1.74 lean reported errors
+PASS  runs/r5-kit/kConj 11.4s rss=1.69 
+PASS  runs/r5-kit/kQ 11.9s rss=1.73 Classical.choice,Quot.sound,propext
+PASS  runs/r5-kit/kR 13.0s rss=1.77 Classical.choice,Quot.sound,propext
+PASS  runs/r6b/kColl2 13.2s rss=1.74 Classical.choice,Quot.sound,propext
+FAIL  runs/r6b/kColl 12.9s rss=1.72 lean reported errors
+PASS  runs/r6b/m05 12.5s rss=1.74 Classical.choice,Quot.sound,propext
+PASS  runs/r6b/m10 12.2s rss=1.74 Classical.choice,Quot.sound,propext
+PASS  runs/r6b/m29 11.8s rss=1.74 Classical.choice,Quot.sound,propext
+PASS  runs/r6c/cBounds 12.3s rss=1.73 Classical.choice,Quot.sound,propext
+PASS  runs/r6c/cColl 13.4s rss=1.75 Classical.choice,Quot.sound,propext
+PASS  runs/r6c/iBlock 13.2s rss=1.75 Classical.choice,Quot.sound,propext
+PASS  runs/r6c/iHead 11.9s rss=1.72 Classical.choice,Quot.sound,propext
+PASS  runs/r6c/iNet 12.4s rss=1.76 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p019 155.8s rss=2.58 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p031 12.4s rss=1.74 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p049 23.9s rss=1.88 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p057 158.3s rss=2.38 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p063 12.9s rss=1.72 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p069 13.4s rss=1.72 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p074 18.6s rss=1.91 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p087 17.2s rss=1.75 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p096 14.0s rss=1.73 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p122 13.7s rss=1.73 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p124 16.7s rss=1.77 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p129 14.9s rss=1.75 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p166 17.8s rss=1.87 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p175 12.5s rss=1.71 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p192 26.9s rss=1.8 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p232 14.0s rss=1.73 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p262 13.4s rss=1.77 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p266 12.9s rss=1.73 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p294 165.6s rss=2.62 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/net/p297 13.3s rss=1.72 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p019 11.7s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p031 11.9s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p049 11.9s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p057 11.9s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p063 11.9s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p069 15.5s rss=1.73 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p074 11.8s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p087 12.1s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p096 11.9s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p122 12.0s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p124 12.3s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p129 11.6s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p166 11.9s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p175 12.6s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p192 11.6s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p232 10.8s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p262 11.6s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p266 11.8s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p294 11.7s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung1-test/prog/p297 12.9s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-dev/net/d09 13.0s rss=1.75 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-dev/net/p15 11.7s rss=1.74 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-dev/prog/d09 12.1s rss=1.72 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-dev/prog/p15 11.5s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/net/a00 13.5s rss=1.75 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/net/a01 12.6s rss=1.76 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/net/d10 12.9s rss=1.75 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/net/d15 12.6s rss=1.75 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/net/d18 12.7s rss=1.75 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/net/p05 12.4s rss=1.75 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/net/p10 12.8s rss=1.74 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/net/p29 12.3s rss=1.74 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/net/s00 12.5s rss=1.75 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/net/s01 12.2s rss=1.76 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/prog/a00 11.4s rss=1.71 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/prog/a01 11.2s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/prog/d10 11.0s rss=1.7 Quot.sound,propext
+PASS  runs/rung2-test/prog/d15 11.4s rss=1.71 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/prog/d18 11.1s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/prog/p05 11.6s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/prog/p10 11.4s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/prog/p29 11.5s rss=1.7 Quot.sound,propext
+PASS  runs/rung2-test/prog/s00 11.2s rss=1.71 Classical.choice,Quot.sound,propext
+PASS  runs/rung2-test/prog/s01 12.4s rss=1.74 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-dev/net/p109 54.9s rss=2.01 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-dev/net/p233 46.5s rss=2.05 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-dev/prog/p109 11.6s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-dev/prog/p233 11.6s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/net/p001 20.1s rss=1.79 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/net/p007 27.6s rss=1.88 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/net/p030 31.4s rss=2.21 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/net/p119 25.5s rss=1.84 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/net/p134 162.0s rss=2.8 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/net/p142 29.9s rss=1.84 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/net/p177 17.9s rss=1.89 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/net/p179 62.6s rss=2.02 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/net/p196 18.0s rss=1.81 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/net/p244 16.7s rss=1.83 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/net/p249 27.7s rss=1.88 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/net/p281 25.2s rss=2.06 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/prog/p001 10.6s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/prog/p007 11.0s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/prog/p030 10.7s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/prog/p119 11.7s rss=1.72 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/prog/p134 10.7s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/prog/p142 10.8s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/prog/p177 11.0s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/prog/p179 11.2s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/prog/p196 11.2s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/prog/p244 10.7s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/prog/p249 10.9s rss=1.69 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/prog/p281 12.0s rss=1.71 Classical.choice,Quot.sound,propext
+PASS  runs/rung3-test/twin/p142 97.1s rss=2.33 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-dev/net/c16 13.3s rss=1.85 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-dev/net/f04 17.2s rss=1.9 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-dev/net/i04 18.1s rss=1.92 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-dev/net/l12 17.9s rss=1.83 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/net/c07 22.6s rss=2.02 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/net/c14 22.2s rss=1.97 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/net/c21 27.4s rss=1.96 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/net/f05 23.2s rss=2.1 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/net/f08 15.7s rss=1.9 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/net/f24 22.9s rss=1.9 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/net/i09 18.5s rss=2.02 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/net/i10 20.0s rss=2.0 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/net/l11 18.2s rss=1.85 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/net/l25 14.8s rss=1.83 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/net/l38 23.4s rss=1.86 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/prog/c07 10.9s rss=1.71 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/prog/c14 10.8s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/prog/c21 10.7s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/prog/f05 11.2s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/prog/f08 11.1s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/prog/f24 10.5s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/prog/i03 11.0s rss=1.73 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/prog/i09 10.9s rss=1.71 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/prog/i10 11.2s rss=1.71 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/prog/l11 10.8s rss=1.7 Quot.sound,propext
+PASS  runs/rung4-test/prog/l25 10.6s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung4-test/prog/l38 10.8s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-dev/net/c11 31.1s rss=2.07 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-dev/net/f33 18.3s rss=2.08 Classical.choice,Quot.sound,propext
+FAIL  runs/rung5-dev/net/i13 21.3s rss=1.94 lean reported errors
+PASS  runs/rung5-dev/net/l26 36.2s rss=2.02 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/net/c04 23.7s rss=1.99 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/net/c15 23.0s rss=2.08 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/net/c18 18.2s rss=2.03 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/net/f14 57.7s rss=2.23 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/net/f28 37.4s rss=2.01 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/net/f29 21.8s rss=1.99 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/net/i00 23.1s rss=2.26 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/net/i02 22.7s rss=2.28 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/net/i12 36.6s rss=2.4 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/net/l06 25.5s rss=1.94 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/net/l10 21.9s rss=1.95 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/net/l37 31.8s rss=1.97 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/prog/c04 10.6s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/prog/c15 10.7s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/prog/c18 10.8s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/prog/f14 10.8s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/prog/f28 10.6s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/prog/f29 10.7s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/prog/i00 10.9s rss=1.73 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/prog/i02 10.9s rss=1.72 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/prog/i12 10.8s rss=1.72 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/prog/l06 11.0s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/prog/l10 10.7s rss=1.7 Classical.choice,Quot.sound,propext
+PASS  runs/rung5-test/prog/l37 10.6s rss=1.7 Quot.sound,propext
+PASS  runs/witness/r2long_a00 14.0s rss=2.04 Classical.choice,Quot.sound,propext
+PASS  runs/witness/r2rel_s00 12.0s rss=1.78 Classical.choice,Quot.sound,propext
+PASS  runs/witness/r4abs_c14 22.4s rss=2.03 Classical.choice,Quot.sound,propext
+PASS runs/r6b/m05/_Corollary.lean 12.6 ['Classical.choice', 'Quot.sound', 'propext']
+PASS runs/r6b/m10/_Corollary.lean 12.4 ['Classical.choice', 'Quot.sound', 'propext']
+PASS runs/r6b/m29/_Corollary.lean 12.3 ['Classical.choice', 'Quot.sound', 'propext']
+PASS runs/r6c/members/Members.lean 10.9 ['Classical.choice', 'Quot.sound', 'propext']
+PASS runs/r6c/final/R6C.lean 13.0 ['Classical.choice', 'Quot.sound', 'propext']
+PASS runs/r6c/example/Example.lean 12.9 ['Classical.choice', 'Quot.sound', 'propext']
+total wall seconds: 3628; passed 183 of 187; audit {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0}

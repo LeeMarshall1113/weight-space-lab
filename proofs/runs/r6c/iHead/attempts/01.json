@@ -1,0 +1,17 @@
+{
+ "case": "iHead",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-14 16:43:58",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.4,
+ "peak_rss_gb": 1.72,
+ "peak_commit_gb": 3.9,
+ "lean_output": "<repo>\\runs\\r6c\\iHead\\_Full.lean:195:4: error: unsolved goals\ncase cons.e_a\nu : \u211a\nas : List \u211a\nih : \u2200 (b : Vec), qdot as b = (List.map (fun c => as.getD c 0 * List.getD b c 0) (List.range as.length)).sum\nb : Vec\n\u22a2 (List.map (fun c => as[c]?.getD 0 * b[c + 1]?.getD 0) (List.range as.length)).sum =\n    (List.map ((fun c => (u :: as)[c]?.getD 0 * b[c]?.getD 0) \u2218 Nat.succ) (List.range as.length)).sum\n<repo>\\runs\\r6c\\iHead\\_Full.lean:196:4: error: No goals to be solved\n<repo>\\runs\\r6c\\iHead\\_Full.lean:208:2: error: unsolved goals\ncase pos\na b b' : Vec\nh : \u2200 (c : \u2115), List.getD a c 0 \u2260 0 \u2192 List.getD b c 0 = List.getD b' c 0\nc : \u2115\na\u271d : c \u2208 List.range (List.length a)\nhc : List.getD a c 0 = 0\n\u22a2 b[c]?.getD 0 = b'[c]?.getD 0 \u2228 a[c]?.getD 0 = 0\n<repo>\\runs\\r6c\\iHead\\_Full.lean:208:10: warning: This simp argument is unused:\n  hc\n\nHint: Omit it from the simp argument list.\n  [apply] simp\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\r6c\\iHead\\_Full.lean:213:8: error(lean.unknownIdentifier): Unknown constant `List.getD_eq_getElem`\n<repo>\\runs\\r6c\\iHead\\_Full.lean:214:8: error(lean.unknownIdentifier): Unknown constant `List.getD_eq_default`\n<repo>\\runs\\r6c\\iHead\\_Full.lean:216:82: error: unsolved goals\nr : Vec\nhr : \u2200 v \u2208 r, v = 0\nb : Vec\n\u22a2 (List.map (fun c => r[c]?.getD 0 * b[c]?.getD 0) (List.range (List.length r))).sum = 0\n<repo>\\runs\\r6c\\iHead\\_Full.lean:218:8: warning: This simp argument is unused:\n  rowzero_getD r hr\n\nHint: Omit it from the simp argument list.\n  [apply] simp\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\r6c\\iHead\\_Full.lean:285:8: error(lean.unknownIdentifier): Unknown constant `List.getD_eq_getElem`\n<repo>\\runs\\r6c\\iHead\\_Full.lean:286:8: error(lean.unknownIdentifier): Unknown constant `List.getD_eq_default`\n<repo>\\runs\\r6c\\iHead\\_Full.lean:299:10: error(lean.unknownIdentifier): Unknown constant `List.getD_eq_getElem`\n<repo>\\runs\\r6c\\iHead\\_Full.lean:302:10: error(lean.unknownIdentifier): Unknown constant `List.getD_eq_default`\n<repo>\\runs\\r6c\\iHead\\_Full.lean:304:48: error: unsolved goals\nT : List \u2115\nd n : \u2115\nx y : \u2115 \u2192 Vec\nh : Head\nhA : Agree T d n x y\nhz : isZero h.A = true\nhm : h.mask = Mask.all\ni : \u2115\nhi : i < n\nhrow : \u2200 (c : \u2115), \u2200 v \u2208 h.A.getD c [], v = 0\na b : Vec\nthis : \u2200 (c : \u2115), List.getD (matVec h.A b) c 0 = 0\n\u22a2 (List.map (fun c => a[c]?.getD 0 * (matVec h.A b)[c]?.getD 0) (List.range (List.length a))).sum = 0\n<repo>\\runs\\r6c\\iHead\\_Full.lean:312:10: warning: This simp argument is unused:\n  this\n\nHint: Omit it from the simp argument list.\n  [apply] simp\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

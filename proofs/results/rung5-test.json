@@ -1,0 +1,693 @@
+[
+ {
+  "id": "c04",
+  "family": "carry",
+  "arm": "net",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 138.0,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 818,
+  "blocks": 1,
+  "heads": [
+   1
+  ],
+  "width": 8,
+  "mlp_hidden": [
+   1
+  ],
+  "max_abs_weight": 100.0,
+  "written_exact_max_dev": 4.122307162290895e-09,
+  "inside_ball_max_dev": 0.07504899624062289,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 8,
+  "float32_in_range_max_dev": 0.05474865436553955,
+  "float32_ok_in_range": true,
+  "torch_reference_mismatches": 142,
+  "torch_reference_outputs_compared": 9576,
+  "torch_fast_max_dev": 0.05474865436553955,
+  "float32_beyond_200000": 2.06115369216775e-09
+ },
+ {
+  "id": "c15",
+  "family": "carry",
+  "arm": "net",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 46.8,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 1013,
+  "blocks": 1,
+  "heads": [
+   1
+  ],
+  "width": 8,
+  "mlp_hidden": [
+   1
+  ],
+  "max_abs_weight": 50.0,
+  "written_exact_max_dev": 5.668172597950161e-09,
+  "inside_ball_max_dev": 0.08826073048046723,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 4,
+  "float32_in_range_max_dev": 0.05020475387573242,
+  "float32_ok_in_range": true,
+  "torch_reference_mismatches": 0,
+  "torch_reference_outputs_compared": 9582,
+  "torch_fast_max_dev": 0.0502048134803772,
+  "float32_beyond_200000": 2.06115369216775e-09
+ },
+ {
+  "id": "c18",
+  "family": "carry",
+  "arm": "net",
+  "submissions": 9,
+  "pass": true,
+  "lean_secs": 128.1,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 9,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 1061,
+  "blocks": 1,
+  "heads": [
+   1
+  ],
+  "width": 10,
+  "mlp_hidden": [
+   2
+  ],
+  "max_abs_weight": 50.0,
+  "written_exact_max_dev": 4.1223078284247094e-09,
+  "inside_ball_max_dev": 0.10925200491800346,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 4,
+  "float32_in_range_max_dev": 0.0703510046005249,
+  "float32_ok_in_range": true,
+  "torch_reference_mismatches": 0,
+  "torch_reference_outputs_compared": 9576,
+  "torch_fast_max_dev": 0.0703510046005249,
+  "float32_beyond_200000": 0.0
+ },
+ {
+  "id": "f14",
+  "family": "first",
+  "arm": "net",
+  "submissions": 5,
+  "pass": true,
+  "lean_secs": 206.7,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 5,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 789,
+  "blocks": 1,
+  "heads": [
+   1
+  ],
+  "width": 6,
+  "mlp_hidden": [
+   1
+  ],
+  "max_abs_weight": 120.0,
+  "written_exact_max_dev": 2.06115369216775e-09,
+  "inside_ball_max_dev": 0.034799382215014385,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 8,
+  "float32_in_range_max_dev": 0.044998545199632645,
+  "float32_ok_in_range": true,
+  "torch_reference_mismatches": 0,
+  "torch_reference_outputs_compared": 9594,
+  "torch_fast_max_dev": 0.044998545199632645,
+  "float32_beyond_200000": 0.0
+ },
+ {
+  "id": "f28",
+  "family": "first",
+  "arm": "net",
+  "submissions": 3,
+  "pass": true,
+  "lean_secs": 123.9,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 801,
+  "blocks": 1,
+  "heads": [
+   1
+  ],
+  "width": 8,
+  "mlp_hidden": [
+   2
+  ],
+  "max_abs_weight": 48.0,
+  "written_exact_max_dev": 2.0611536181902033e-09,
+  "inside_ball_max_dev": 0.024800250003124594,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 16,
+  "float32_in_range_max_dev": 0.025251150131225586,
+  "float32_ok_in_range": true,
+  "torch_reference_mismatches": 0,
+  "torch_reference_outputs_compared": 9594,
+  "torch_fast_max_dev": 0.025251150131225586,
+  "float32_beyond_200000": 0.0
+ },
+ {
+  "id": "f29",
+  "family": "first",
+  "arm": "net",
+  "submissions": 6,
+  "pass": true,
+  "lean_secs": 153.4,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 6,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 774,
+  "blocks": 1,
+  "heads": [
+   1
+  ],
+  "width": 7,
+  "mlp_hidden": [
+   1
+  ],
+  "max_abs_weight": 40.0,
+  "written_exact_max_dev": 2.0611538031900523e-09,
+  "inside_ball_max_dev": 0.03494862502948459,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 8,
+  "float32_in_range_max_dev": 0.04499858617782593,
+  "float32_ok_in_range": true,
+  "torch_reference_mismatches": 0,
+  "torch_reference_outputs_compared": 9588,
+  "torch_fast_max_dev": 0.04499858617782593,
+  "float32_beyond_200000": 0.0
+ },
+ {
+  "id": "i00",
+  "family": "induct",
+  "arm": "net",
+  "submissions": 5,
+  "pass": true,
+  "lean_secs": 108.0,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 5,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 1899,
+  "blocks": 2,
+  "heads": [
+   1,
+   2
+  ],
+  "width": 14,
+  "mlp_hidden": [
+   2,
+   2
+  ],
+  "max_abs_weight": 1024.0,
+  "written_exact_max_dev": 0.0,
+  "inside_ball_max_dev": 0.0939793668812492,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 4,
+  "float32_in_range_max_dev": 0.06557703018188477,
+  "float32_ok_in_range": true,
+  "torch_reference_mismatches": 0,
+  "torch_reference_outputs_compared": 9594,
+  "torch_fast_max_dev": 0.06557703018188477,
+  "float32_beyond_200000": null
+ },
+ {
+  "id": "i02",
+  "family": "induct",
+  "arm": "net",
+  "submissions": 10,
+  "pass": true,
+  "lean_secs": 142.3,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 10,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 2026,
+  "blocks": 3,
+  "heads": [
+   1,
+   0,
+   2
+  ],
+  "width": 12,
+  "mlp_hidden": [
+   3,
+   2,
+   2
+  ],
+  "max_abs_weight": 300.0,
+  "written_exact_max_dev": 0.0,
+  "inside_ball_max_dev": 0.12838273189998395,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 4,
+  "float32_in_range_max_dev": 0.13163292407989502,
+  "float32_ok_in_range": true,
+  "torch_reference_mismatches": 0,
+  "torch_reference_outputs_compared": 9588,
+  "torch_fast_max_dev": 0.13163292407989502,
+  "float32_beyond_200000": null
+ },
+ {
+  "id": "i12",
+  "family": "induct",
+  "arm": "net",
+  "submissions": 10,
+  "pass": true,
+  "lean_secs": 268.4,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 10,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 1812,
+  "blocks": 2,
+  "heads": [
+   3,
+   3
+  ],
+  "width": 16,
+  "mlp_hidden": [
+   3,
+   3
+  ],
+  "max_abs_weight": 150.0,
+  "written_exact_max_dev": 0.0,
+  "inside_ball_max_dev": 0.07562637311874854,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 4,
+  "float32_in_range_max_dev": 0.055426597595214844,
+  "float32_ok_in_range": true,
+  "torch_reference_mismatches": 0,
+  "torch_reference_outputs_compared": 9576,
+  "torch_fast_max_dev": 0.055426597595214844,
+  "float32_beyond_200000": null
+ },
+ {
+  "id": "l06",
+  "family": "last",
+  "arm": "net",
+  "submissions": 3,
+  "pass": true,
+  "lean_secs": 78.8,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 553,
+  "blocks": 1,
+  "heads": [
+   1
+  ],
+  "width": 6,
+  "mlp_hidden": [
+   0
+  ],
+  "max_abs_weight": 40.0,
+  "written_exact_max_dev": 8.279875451933094e-08,
+  "inside_ball_max_dev": 0.045225374999999346,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 8,
+  "float32_in_range_max_dev": 0.04522538185119629,
+  "float32_ok_in_range": true,
+  "torch_reference_mismatches": 0,
+  "torch_reference_outputs_compared": 9570,
+  "torch_fast_max_dev": 0.04522538185119629,
+  "float32_beyond_200000": 2.384185791015625e-07
+ },
+ {
+  "id": "l10",
+  "family": "last",
+  "arm": "net",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 71.9,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 586,
+  "blocks": 1,
+  "heads": [
+   1
+  ],
+  "width": 6,
+  "mlp_hidden": [
+   0
+  ],
+  "max_abs_weight": 40.0,
+  "written_exact_max_dev": 8.279875451933094e-08,
+  "inside_ball_max_dev": 0.0452253749999989,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 8,
+  "float32_in_range_max_dev": 0.04522562026977539,
+  "float32_ok_in_range": true,
+  "torch_reference_mismatches": 0,
+  "torch_reference_outputs_compared": 9588,
+  "torch_fast_max_dev": 0.04522562026977539,
+  "float32_beyond_200000": 2.384185791015625e-07
+ },
+ {
+  "id": "l37",
+  "family": "last",
+  "arm": "net",
+  "submissions": 3,
+  "pass": true,
+  "lean_secs": 101.2,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 529,
+  "blocks": 1,
+  "heads": [
+   1
+  ],
+  "width": 6,
+  "mlp_hidden": [
+   0
+  ],
+  "max_abs_weight": 40.0,
+  "written_exact_max_dev": 8.27987527429741e-08,
+  "inside_ball_max_dev": 0.0452253749999989,
+  "inside_ball_ok": true,
+  "smallest_violating_multiple": 8,
+  "float32_in_range_max_dev": 0.04522538185119629,
+  "float32_ok_in_range": true,
+  "torch_reference_mismatches": 0,
+  "torch_reference_outputs_compared": 9570,
+  "torch_fast_max_dev": 0.04522538185119629,
+  "float32_beyond_200000": 1.1920928955078125e-07
+ },
+ {
+  "id": "c04",
+  "family": "carry",
+  "arm": "prog",
+  "submissions": 1,
+  "pass": true,
+  "lean_secs": 10.3,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 1,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 42
+ },
+ {
+  "id": "c15",
+  "family": "carry",
+  "arm": "prog",
+  "submissions": 1,
+  "pass": true,
+  "lean_secs": 10.3,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 1,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 44
+ },
+ {
+  "id": "c18",
+  "family": "carry",
+  "arm": "prog",
+  "submissions": 1,
+  "pass": true,
+  "lean_secs": 10.2,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 1,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 38
+ },
+ {
+  "id": "f14",
+  "family": "first",
+  "arm": "prog",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 20.7,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 37
+ },
+ {
+  "id": "f28",
+  "family": "first",
+  "arm": "prog",
+  "submissions": 1,
+  "pass": true,
+  "lean_secs": 10.3,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 1,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 45
+ },
+ {
+  "id": "f29",
+  "family": "first",
+  "arm": "prog",
+  "submissions": 3,
+  "pass": true,
+  "lean_secs": 20.7,
+  "native_decide_attempts": 0,
+  "banned_rejections": 1,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 58
+ },
+ {
+  "id": "i00",
+  "family": "induct",
+  "arm": "prog",
+  "submissions": 1,
+  "pass": true,
+  "lean_secs": 10.6,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 1,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 251
+ },
+ {
+  "id": "i02",
+  "family": "induct",
+  "arm": "prog",
+  "submissions": 3,
+  "pass": true,
+  "lean_secs": 21.2,
+  "native_decide_attempts": 0,
+  "banned_rejections": 1,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 136
+ },
+ {
+  "id": "i12",
+  "family": "induct",
+  "arm": "prog",
+  "submissions": 5,
+  "pass": true,
+  "lean_secs": 41.8,
+  "native_decide_attempts": 0,
+  "banned_rejections": 1,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 5,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 170
+ },
+ {
+  "id": "l06",
+  "family": "last",
+  "arm": "prog",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 10.3,
+  "native_decide_attempts": 0,
+  "banned_rejections": 1,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 43
+ },
+ {
+  "id": "l10",
+  "family": "last",
+  "arm": "prog",
+  "submissions": 1,
+  "pass": true,
+  "lean_secs": 10.3,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 1,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 49
+ },
+ {
+  "id": "l37",
+  "family": "last",
+  "arm": "prog",
+  "submissions": 2,
+  "pass": true,
+  "lean_secs": 20.7,
+  "native_decide_attempts": 0,
+  "banned_rejections": 0,
+  "timeouts": 0,
+  "mem_kills": 0,
+  "pass_at_submission": 2,
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "solution_lines": 31
+ }
+]

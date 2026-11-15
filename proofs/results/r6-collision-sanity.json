@@ -1,0 +1,122 @@
+{
+ "p05": {
+  "a": "2",
+  "b": "1",
+  "c": "1",
+  "closed_form_matches_evaluator_len30": true,
+  "L=20": {
+   "collision_equal_outputs": true,
+   "collision_out": "-1",
+   "one_is_wrong": true,
+   "value_weight_only_break_radius_times_L": 0.500000000001819,
+   "count_path_all_weights_break_radius_times_L": 0.12638768041142612,
+   "statement_radius_times_L": 0.5128205128205128,
+   "statement_radius": "1/39",
+   "break_at_rel_1_200_value_weight_only": false,
+   "break_at_rel_1_200_count_path": false
+  },
+  "L=100": {
+   "collision_equal_outputs": true,
+   "collision_out": "-1",
+   "one_is_wrong": true,
+   "evaluator_agrees": true,
+   "value_weight_only_break_radius_times_L": 0.5000000000109139,
+   "count_path_all_weights_break_radius_times_L": 0.12527424596555647,
+   "statement_radius_times_L": 0.5025125628140703,
+   "statement_radius": "1/199",
+   "break_at_rel_1_200_value_weight_only": true,
+   "break_at_rel_1_200_count_path": true
+  },
+  "L=1000": {
+   "collision_equal_outputs": true,
+   "collision_out": "-1",
+   "one_is_wrong": true,
+   "value_weight_only_break_radius_times_L": 0.5000000001018634,
+   "count_path_all_weights_break_radius_times_L": 0.12502735216912697,
+   "statement_radius_times_L": 0.5002501250625313,
+   "statement_radius": "1/1999",
+   "break_at_rel_1_200_value_weight_only": true,
+   "break_at_rel_1_200_count_path": true
+  }
+ },
+ "p10": {
+  "a": "1",
+  "b": "1/2",
+  "c": "1",
+  "closed_form_matches_evaluator_len30": true,
+  "L=20": {
+   "collision_equal_outputs": true,
+   "collision_out": "-1",
+   "one_is_wrong": true,
+   "value_weight_only_break_radius_times_L": 0.500000000001819,
+   "count_path_all_weights_break_radius_times_L": 0.12638768041142612,
+   "statement_radius_times_L": 0.5128205128205128,
+   "statement_radius": "1/39",
+   "break_at_rel_1_200_value_weight_only": false,
+   "break_at_rel_1_200_count_path": false
+  },
+  "L=100": {
+   "collision_equal_outputs": true,
+   "collision_out": "-1",
+   "one_is_wrong": true,
+   "evaluator_agrees": true,
+   "value_weight_only_break_radius_times_L": 0.5000000000109139,
+   "count_path_all_weights_break_radius_times_L": 0.12527424596555647,
+   "statement_radius_times_L": 0.5025125628140703,
+   "statement_radius": "1/199",
+   "break_at_rel_1_200_value_weight_only": true,
+   "break_at_rel_1_200_count_path": true
+  },
+  "L=1000": {
+   "collision_equal_outputs": true,
+   "collision_out": "-1",
+   "one_is_wrong": true,
+   "value_weight_only_break_radius_times_L": 0.5000000001018634,
+   "count_path_all_weights_break_radius_times_L": 0.12502735216912697,
+   "statement_radius_times_L": 0.5002501250625313,
+   "statement_radius": "1/1999",
+   "break_at_rel_1_200_value_weight_only": true,
+   "break_at_rel_1_200_count_path": true
+  }
+ },
+ "p29": {
+  "a": "2",
+  "b": "1",
+  "c": "-1",
+  "closed_form_matches_evaluator_len30": true,
+  "L=20": {
+   "collision_equal_outputs": true,
+   "collision_out": "1",
+   "one_is_wrong": true,
+   "value_weight_only_break_radius_times_L": 0.500000000001819,
+   "count_path_all_weights_break_radius_times_L": 0.12638768041142612,
+   "statement_radius_times_L": 0.5128205128205128,
+   "statement_radius": "1/39",
+   "break_at_rel_1_200_value_weight_only": false,
+   "break_at_rel_1_200_count_path": false
+  },
+  "L=100": {
+   "collision_equal_outputs": true,
+   "collision_out": "1",
+   "one_is_wrong": true,
+   "evaluator_agrees": true,
+   "value_weight_only_break_radius_times_L": 0.5000000000109139,
+   "count_path_all_weights_break_radius_times_L": 0.12527424596555647,
+   "statement_radius_times_L": 0.5025125628140703,
+   "statement_radius": "1/199",
+   "break_at_rel_1_200_value_weight_only": false,
+   "break_at_rel_1_200_count_path": true
+  },
+  "L=1000": {
+   "collision_equal_outputs": true,
+   "collision_out": "1",
+   "one_is_wrong": true,
+   "value_weight_only_break_radius_times_L": 0.5000000001018634,
+   "count_path_all_weights_break_radius_times_L": 0.12502735216912697,
+   "statement_radius_times_L": 0.5002501250625313,
+   "statement_radius": "1/1999",
+   "break_at_rel_1_200_value_weight_only": true,
+   "break_at_rel_1_200_count_path": true
+  }
+ }
+}

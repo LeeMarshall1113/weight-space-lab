@@ -1,9 +1,9 @@
-# Lane 4 pre-registration: rungs 0 and 1
+# Pre-registration: rungs 0 and 1
 
 Written 2026-11-11, before any doctor run. Changes after this commit go in a
 dated "Amendments" section at the end, never as edits above it.
 
-Read NOVELTY.md first: the lane no longer claims to be the first LLM-written
+Read NOVELTY.md first: the study team no longer claims to be the first LLM-written
 network with a machine-checked proof. What this experiment measures is a
 success **rate** from a blind random spec pool with controls, which no prior
 item reports.
@@ -18,8 +18,8 @@ equals the spec at every real point of a stated box?
 
 - `Lane4/Basic.lean`: network type (rational weights), `Net.eval` over any
   linearly ordered field, a shape check, and six small ReLU lemmas. Written by
-  the lane. Doctors cannot change it.
-- Per case, the lane writes `Spec.lean` (the spec as a Lean term and the
+  the study team. Doctors cannot change it.
+- Per case, the study team writes `Spec.lean` (the spec as a Lean term and the
   `Statement`) and `Final.lean` (the theorem `Lane4Final.final : Statement net`
   plus `#print axioms`). The doctor writes only `Solution.lean`.
 - `tools/check.py <casedir>` is the one command. A case **passes** when: the
@@ -45,10 +45,10 @@ equals the spec at every real point of a stated box?
 - `tools/specpool.py draw`, seed 4042: a shuffle; the first 4 are **dev**, the
   next 20 are **test**, the next 10 are reserve. Test-id sha256
   `3d56d372da5e5c7dd65bf2a7f816e638c2ed37c02855131a224c539b7bb9b6cd`.
-- The lane has read the 4 dev specs and has not read the test specs. Prompts
+- The study team has read the 4 dev specs and has not read the test specs. Prompts
   are tuned on dev only and frozen (hash recorded in the run log (not released)) before any
   test case is built. A reserve spec replaces a test spec only if its case
-  files fail to compile for a reason in the lane's own generator; never for
+  files fail to compile for a reason in the study team's own generator; never for
   difficulty.
 - Rung 0 pool: 50 random 4-bit boolean functions that depend on all 4 bits
   (seed 20261112); the first 3 of the same shuffle are used.
@@ -107,18 +107,18 @@ hidden layers, units, non-zero weights. Also the count of `native_decide`
 attempts and other banned-token rejections.
 
 **Float gap (measured, not proved).** Every theorem is about exact rational
-weights and real arithmetic. For each passing net the lane also runs a float32
+weights and real arithmetic. For each passing net the study team also runs a float32
 forward pass on 10,000 random box points and reports the largest deviation from
 the exact spec. No rounding margin is proved at rung 1.
 
 ## Bars and kill rules
 
-- **Kill:** S_net < 12 → stop the lane at rung 1 and report why.
+- **Kill:** S_net < 12 → stop the study team at rung 1 and report why.
 - **Pass:** S_net ≥ 16.  12-15 is "partial"; report it and ask before rung 2.
 - **Verified-code control:** if S_prog ≥ S_net and the median submissions used
   in prog is no more than in net, the reading is "at rung 1 the network adds
   nothing over a verified program". This is the expected outcome; it does not
-  stop the lane (the scope puts the answer to "why a network" at rung 3), but
+  stop the study team (the scope puts the answer to "why a network" at rung 3), but
   it is stated in the headline.
 - **Trained-twin contrast:** claimed only if S_net − S_twin ≥ 8 on the same 20
   specs. Otherwise "no contrast shown". The exact-equality refutation count is

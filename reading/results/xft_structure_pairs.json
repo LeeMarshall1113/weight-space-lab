@@ -1,0 +1,102 @@
+[
+ {
+  "pair": 0,
+  "true": "k = Map(lambda x: {'a': 1, 'b': 1, 'c': 0, 'd': 0}[x], tokens)\nw = SelectorWidth(Select(k, indices, Comparison.GT))\nout = Map(lambda x: x % 3, w)",
+  "submitted": "isab = Map(lambda t: 1 if t in ('a', 'b') else 0, tokens)\nn = SelectorWidth(Select(isab, Full(1), Comparison.EQ))\nout = SequenceMap(lambda i, c: c % 3 if i == 0 else 0, indices, n)"
+ },
+ {
+  "pair": 1,
+  "true": "w = SelectorWidth(Select(tokens, tokens, Comparison.NEQ))\ng = Map(lambda x: {'a': 0, 'b': 0, 'c': 0, 'd': 0, 'e': 1}[x], tokens)\nout = SequenceMap(lambda x, y: (x + y) % 3, w, g)",
+  "submitted": "c = SelectorWidth(Select(tokens, tokens, Comparison.NEQ))\nout = SequenceMap(lambda n, t: (n + (1 if t == 'e' else 0)) % 3, c, tokens)"
+ },
+ {
+  "pair": 2,
+  "true": "w = SelectorWidth(Select(tokens, tokens, Comparison.GT))\nout = Map(lambda x: 1 if x >= 1 else 0, w)",
+  "submitted": "n_greater = SelectorWidth(Select(tokens, tokens, Comparison.GT))\nout = Map(lambda n: 1 if n >= 1 else 0, n_greater)"
+ },
+ {
+  "pair": 3,
+  "true": "w = SelectorWidth(Select(indices, indices, Comparison.NEQ))\ng = Map(lambda x: {'a': 1, 'b': 0, 'c': 0, 'd': 0, 'e': 0}[x], tokens)\nout = SequenceMap(lambda x, y: (x + y) % 2, w, g)",
+  "submitted": "length = SelectorWidth(Select(tokens, tokens, Comparison.TRUE))\nisa = Map(lambda t: 1 if t == 'a' else 0, tokens)\nout = SequenceMap(lambda a, n: a if n % 2 == 1 else 1 - a, isa, length)"
+ },
+ {
+  "pair": 4,
+  "true": "w = SelectorWidth(Select(tokens, tokens, Comparison.LT))\nout = Map(lambda x: 1 if x >= 1 else 0, w)",
+  "submitted": "out = Map(lambda n: 1 if n > 0 else 0, SelectorWidth(Select(tokens, tokens, Comparison.LT)))"
+ },
+ {
+  "pair": 5,
+  "true": "k = Map(lambda x: {'a': 2, 'b': 0, 'c': 0, 'd': 0, 'e': 2}[x], tokens)\nw = SelectorWidth(Select(k, indices, Comparison.EQ))\ng = Map(lambda x: {'a': 0, 'b': 0, 'c': 1, 'd': 1, 'e': 0}[x], tokens)\nout = SequenceMap(lambda x, y: (x + y) % 2, w, g)",
+  "submitted": "qkey = Map(lambda t: t in ('b', 'c', 'd'), tokens)\nwant = Map(lambda i: True if i == 0 else (False if i == 2 else None), indices)\nwidth = SelectorWidth(Select(qkey, want, Comparison.EQ))\niscd = Map(lambda t: 1 if t in ('c', 'd') else 0, tokens)\nout = SequenceMap(lambda w, c: (w + c) % 2, width, iscd)"
+ },
+ {
+  "pair": 6,
+  "true": "k = Map(lambda x: {'a': 0, 'b': 1, 'c': 1, 'd': 1}[x], tokens)\nw = SelectorWidth(Select(k, indices, Comparison.LEQ))\nout = Map(lambda x: 1 if x >= 3 else 0, w)",
+  "submitted": "isa = Map(lambda t: 1 if t == 'a' else 0, tokens)\ncnt = SelectorWidth(Select(isa, Full(1), Comparison.EQ))\nout = SequenceMap(lambda i, c: 1 if (i > 0 or c >= 3) else 0, indices, cnt)"
+ },
+ {
+  "pair": 7,
+  "true": "w = SelectorWidth(Select(tokens, tokens, Comparison.GT))\nout = Map(lambda x: 1 if x >= 1 else 0, w)",
+  "submitted": "qb = Map(lambda t: 'b', tokens)\nqc = Map(lambda t: 'c', tokens)\nnb = SelectorWidth(Select(tokens, qb, Comparison.EQ))\nnc = SelectorWidth(Select(tokens, qc, Comparison.EQ))\ntot = SequenceMap(lambda x, y: x + y, nb, nc)\nr1 = SequenceMap(lambda t, n: 1 if (t == 'a' and n >= 1) else 0, tokens, tot)\nr2 = SequenceMap(lambda t, n: 1 if (t == 'b' and n >= 1) else 0, tokens, nc)\nout = SequenceMap(lambda x, y: x + y, r1, r2)"
+ },
+ {
+  "pair": 8,
+  "true": "k = Map(lambda x: {'a': 1, 'b': 2, 'c': 1, 'd': 0, 'e': 2}[x], tokens)\nq = Map(lambda x: {'a': 1, 'b': 1, 'c': 1, 'd': 0, 'e': 2}[x], tokens)\nw = SelectorWidth(Select(k, q, Comparison.GEQ))\nout = Map(lambda x: 1 if x >= 2 else 0, w)",
+  "submitted": "one = Map(lambda t: 1, tokens)\nnd_key = Map(lambda t: t != 'd', tokens)\nbe_key = Map(lambda t: t == 'b' or t == 'e', tokens)\nn_nd = SelectorWidth(Select(nd_key, one, Comparison.EQ))\nn_be = SelectorWidth(Select(be_key, one, Comparison.EQ))\ntn = SequenceMap(lambda t, n: (t, n), tokens, n_nd)\ndef _f(t, a, b):\n    if t == 'd':\n        return 1\n    if t == 'e':\n        return 1 if b >= 2 else 0\n    return 1 if a >= 2 else 0\nout = SequenceMap(lambda x, b: _f(x[0], x[1], b), tn, n_be)"
+ },
+ {
+  "pair": 9,
+  "true": "k = Map(lambda x: {'a': 1, 'b': 0, 'c': 0, 'd': 0, 'e': 1}[x], tokens)\nw = SelectorWidth(Select(k, indices, Comparison.EQ))\nout = Map(lambda x: x % 2, w)",
+  "submitted": "isbcd = Map(lambda t: 1 if t in ('b', 'c', 'd') else 0, tokens)\nisae = Map(lambda t: 1 if t in ('a', 'e') else 0, tokens)\nnbcd = SelectorWidth(Select(isbcd, Full(1), Comparison.EQ))\nnae = SelectorWidth(Select(isae, Full(1), Comparison.EQ))\na = SequenceMap(lambda i, n: (n % 2) if i == 0 else 0, indices, nbcd)\nout = SequenceMap(lambda i, n: (n % 2) if i == 1 else 0, indices, nae)\nout = SequenceMap(lambda x, y: x + y, a, out)"
+ },
+ {
+  "pair": 10,
+  "true": "k = Map(lambda x: {'a': 2, 'b': 1, 'c': 2}[x], tokens)\nw = SelectorWidth(Select(k, indices, Comparison.LT))\ng = Map(lambda x: {'a': 0, 'b': 1, 'c': 1}[x], tokens)\nout = SequenceMap(lambda x, y: (x + y) % 2, w, g)",
+  "submitted": "length = SelectorWidth(Select(tokens, tokens, Comparison.TRUE))\nallb = Map(lambda t: 'b', tokens)\nnb = SelectorWidth(Select(tokens, allb, Comparison.EQ))\nkey = SequenceMap(lambda l, b: l * 10 + b, length, nb)\ncnt = SequenceMap(lambda i, k: 1 if i < 2 else (1 + k % 10 if i == 2 else k // 10 + 1), indices, key)\nout = SequenceMap(lambda t, n: int((t == 'a') != (n % 2 == 1)), tokens, cnt)"
+ },
+ {
+  "pair": 11,
+  "true": "w = SelectorWidth(Select(tokens, tokens, Comparison.EQ))\ng = Map(lambda x: {'a': 0, 'b': 0, 'c': 1, 'd': 1, 'e': 1}[x], tokens)\nout = SequenceMap(lambda x, y: (x + y) % 2, w, g)",
+  "submitted": "n = SelectorWidth(Select(tokens, tokens, Comparison.EQ))\nout = SequenceMap(lambda t, c: int((c % 2 == 1) if t in (\"a\", \"b\") else (c % 2 == 0)), tokens, n)"
+ },
+ {
+  "pair": 12,
+  "true": "k = Map(lambda x: {'a': 0, 'b': 2, 'c': 2, 'd': 2, 'e': 2}[x], tokens)\nw = SelectorWidth(Select(k, indices, Comparison.GEQ))\ng = Map(lambda x: {'a': 0, 'b': 1, 'c': 0, 'd': 0, 'e': 1}[x], tokens)\nout = SequenceMap(lambda x, y: (x + y) % 3, w, g)",
+  "submitted": "length = SelectorWidth(Select(tokens, tokens, Comparison.TRUE))\nconsta = Map(lambda t: 'a', tokens)\nnona = SelectorWidth(Select(tokens, consta, Comparison.NEQ))\nA = SequenceMap(lambda ix, L: L if ix == 0 else -1, indices, length)\nB = SequenceMap(lambda ix, c: c if ix in (1, 2) else 0, indices, nona)\nI = SequenceMap(lambda a, b: a if a >= 0 else b, A, B)\nout = SequenceMap(lambda i, t: (i + (1 if t in ('b', 'e') else 0)) % 3, I, tokens)"
+ },
+ {
+  "pair": 13,
+  "true": "k = Map(lambda x: {'a': 2, 'b': 0, 'c': 1, 'd': 1}[x], tokens)\nq = Map(lambda x: {'a': 2, 'b': 0, 'c': 2, 'd': 2}[x], tokens)\nw = SelectorWidth(Select(k, q, Comparison.NEQ))\nout = Map(lambda x: 1 if x >= 1 else 0, w)",
+  "submitted": "length = SelectorWidth(Select(tokens, tokens, Comparison.TRUE))\nsame = SelectorWidth(Select(tokens, tokens, Comparison.EQ))\nalleq = SequenceMap(lambda s, n: s == n, same, length)\nout = SequenceMap(lambda e, t: 0 if (e and t in ('a', 'b')) else 1, alleq, tokens)"
+ },
+ {
+  "pair": 14,
+  "true": "w = SelectorWidth(Select(tokens, tokens, Comparison.LEQ))\ng = Map(lambda x: {'a': 0, 'b': 0, 'c': 1, 'd': 1, 'e': 1}[x], tokens)\nout = SequenceMap(lambda x, y: (x + y) % 2, w, g)",
+  "submitted": "n = SelectorWidth(Select(tokens, tokens, Comparison.LEQ))\nlow = Map(lambda t: 1 if t in ('a','b') else 0, tokens)\nout = SequenceMap(lambda l, c: 1 if ((c % 2 == 1) == (l == 1)) else 0, low, n)"
+ },
+ {
+  "pair": 15,
+  "true": "w = SelectorWidth(Select(indices, indices, Comparison.LT))\ng = Map(lambda x: {'a': 1, 'b': 0, 'c': 0, 'd': 0}[x], tokens)\nout = SequenceMap(lambda x, y: (x + y) % 2, w, g)",
+  "submitted": "out = SequenceMap(lambda t, i: int((t == 'a') == (i % 2 == 0)), tokens, indices)"
+ },
+ {
+  "pair": 16,
+  "true": "k = Map(lambda x: {'a': 2, 'b': 1, 'c': 0}[x], tokens)\nw = SelectorWidth(Select(k, indices, Comparison.GT))\ng = Map(lambda x: {'a': 1, 'b': 0, 'c': 0}[x], tokens)\nout = SequenceMap(lambda x, y: (x + y) % 2, w, g)",
+  "submitted": "cnt_a = SelectorWidth(Select(tokens, Full('a'), Comparison.EQ))\ncnt_nc = SelectorWidth(Select(tokens, Full('c'), Comparison.NEQ))\nk1 = SequenceMap(lambda i, n: n if i == 0 else 0, indices, cnt_nc)\nk = SequenceMap(lambda i, n: n if i == 1 else i * 0, indices, cnt_a)\nkk = SequenceMap(lambda x, y: x + y, k1, k)\nout = SequenceMap(lambda t, n: (n % 2) ^ (1 if t == 'a' else 0), tokens, kk)"
+ },
+ {
+  "pair": 17,
+  "true": "k = Map(lambda x: {'a': 0, 'b': 1, 'c': 1, 'd': 0, 'e': 0}[x], tokens)\nw = SelectorWidth(Select(k, indices, Comparison.LT))\nout = Map(lambda x: 1 if x >= 1 else 0, w)",
+  "submitted": "ade = Map(lambda t: 1 if t in ('a', 'd', 'e') else 0, tokens)\nfrac = numerical(Aggregate(Select(tokens, tokens, Comparison.TRUE), ade))\nanyade = Map(lambda v: 1 if v > 0 else 0, frac)\nout = SequenceMap(lambda i, a: 0 if i == 0 else (a if i == 1 else 1), indices, anyade)"
+ },
+ {
+  "pair": 18,
+  "true": "k = Map(lambda x: {'a': 0, 'b': 1, 'c': 0, 'd': 1, 'e': 0}[x], tokens)\nq = Map(lambda x: {'a': 0, 'b': 1, 'c': 1, 'd': 0, 'e': 0}[x], tokens)\nw = SelectorWidth(Select(k, q, Comparison.GT))\nout = Map(lambda x: 1 if x >= 2 else 0, w)",
+  "submitted": "isbd = Map(lambda t: 1 if t in ('b', 'd') else 0, tokens)\nn = SelectorWidth(Select(isbd, Full(1), Comparison.EQ))\nout = SequenceMap(lambda t, c: 1 if (t in ('a', 'd', 'e') and c >= 2) else 0, tokens, n)"
+ },
+ {
+  "pair": 19,
+  "true": "k = Map(lambda x: {'a': 2, 'b': 2, 'c': 1, 'd': 0}[x], tokens)\nq = Map(lambda x: {'a': 1, 'b': 1, 'c': 1, 'd': 0}[x], tokens)\nw = SelectorWidth(Select(k, q, Comparison.NEQ))\nout = Map(lambda x: 1 if x >= 3 else 0, w)",
+  "submitted": "isd = Map(lambda t: t == 'd', tokens)\nisc = Map(lambda t: t == 'c', tokens)\nyes = Map(lambda t: True, tokens)\nlength = SelectorWidth(Select(tokens, tokens, Comparison.TRUE))\nn_d = SelectorWidth(Select(isd, yes, Comparison.EQ))\nn_c = SelectorWidth(Select(isc, yes, Comparison.EQ))\nex_d = SequenceMap(lambda t, n: n if t == 'd' else 0, tokens, n_d)\nex_c = SequenceMap(lambda t, n: n if t != 'd' else 0, tokens, n_c)\nexcl = SequenceMap(lambda x, y: x + y, ex_d, ex_c)\nout = SequenceMap(lambda l, e: 1 if l - e >= 3 else 0, length, excl)"
+ }
+]

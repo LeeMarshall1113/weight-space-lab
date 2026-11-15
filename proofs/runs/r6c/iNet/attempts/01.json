@@ -1,0 +1,22 @@
+{
+ "case": "iNet",
+ "arm": "kit",
+ "pass": true,
+ "time": "2026-11-14 16:58:22",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.2,
+ "peak_rss_gb": 1.76,
+ "peak_commit_gb": 3.94,
+ "lean_output": "<repo>\\runs\\r6c\\iNet\\_Full.lean:308:63: warning: Variable name `hi` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _hi\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<repo>\\runs\\r6c\\iNet\\_Full.lean:659:12: warning: Unused tactic linter: `exact List.elem_iff.mp h` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\r6c\\iNet\\_Full.lean:660:12: warning: Unused tactic linter: `exact List.contains_iff.mp h` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\r6c\\iNet\\_Full.lean:667:8: warning: Unused tactic linter: `simpa using h3` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\r6c\\iNet\\_Full.lean:659:12: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n<repo>\\runs\\r6c\\iNet\\_Full.lean:660:12: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n<repo>\\runs\\r6c\\iNet\\_Full.lean:667:8: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 1,
+ "attempts_left": 11
+}

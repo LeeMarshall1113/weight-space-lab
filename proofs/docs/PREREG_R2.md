@@ -1,4 +1,4 @@
-# Lane 4 pre-registration: rung 2 (all sequence lengths)
+# Pre-registration: rung 2 (all sequence lengths)
 
 Written 2026-11-11, late evening, after rung 1 closed (commit 6cd7ebd) and after the
 the project owner's go was relayed. Written before any rung-2 doctor run and before any rung-2
@@ -16,7 +16,7 @@ length**?
 
 ## Fixed framework
 
-`Lane4/Seq.lean`, written by the lane. In short:
+`Lane4/Seq.lean`, written by the study team. In short:
 
 - Weights are exact rationals. All arithmetic is over ℚ. Inputs are token lists, so no
   real numbers are involved.
@@ -31,7 +31,7 @@ length**?
 - A lemma kit about the selected set and averages is part of the framework.
 - Why these choices: unique-hard attention provably cannot compute parity at every
   length (Hahn 2020), so ties must share weight, and the position features are the ones
-  the known constructions for the four families need. The lane has checked on paper that
+  the known constructions for the four families need. The study team has checked by hand that
   each family below is expressible in this architecture. That is a design-time fact about
   the architecture, not a result.
 
@@ -55,10 +55,10 @@ families require exact equality at every position. No statement has a length bou
   families, capped at 30 per family by a seeded shuffle.
 - `tools/seqpool.py draw`, seed 4043: per family, a seeded shuffle. **Dev** = 1 case from
   each of two families chosen by the seed. **Test** = 10 cases: 3 parity, 3 dyck, 2 sort,
-  2 add. The next 2 per family are reserve, used only for faults in the lane's generator.
+  2 add. The next 2 per family are reserve, used only for faults in the study team's generator.
 - Blindness is weaker than at rung 1 and is reported as such: the four families are
   famous and their constructions are in the literature. Only the parameters are drawn
-  blind. The lane's worked example is on a task outside the four families (does the input
+  blind. The study team's worked example is on a task outside the four families (does the input
   contain a given token).
 
 ## Arms (the same 10 test cases in each)
@@ -137,7 +137,7 @@ training is numpy on CPU, under its own memory reservation if it needs more than
    case** (the two families with spare settings). Pool sha256
    `09ecec3c09b39f64f1f845183a619fd1d1a71e2cee66fee4850cb036c46cadaf`; the test-id hash is
    in the run log (not released).
-2. Expressibility was checked by test, not only on paper: the lane built one reference
+2. Expressibility was checked by test, not only by hand: the study team built one reference
    network per family in `private/expr_check.py` and compared it exactly with the spec on
    random inputs up to length 60 (parity, add) or 25 (dyck, sort). These reference
    networks are lane-private and are never placed in a case folder.

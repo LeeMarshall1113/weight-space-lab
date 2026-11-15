@@ -2,13 +2,13 @@
 
 Personal work. Views are my own.
 
-Status: private pre-release copy, flagship folder of the weight-space lab repository. Not yet published. Nothing here has been peer reviewed. All commands below run inside this folder (`proofs/`).
+Status: flagship folder of the weight-space lab repository (version 0.2, unreleased). Nothing here has been peer reviewed. The full technical report is `REPORT.md` (living, with a claims table, a changelog and a "how to correct us" section); this README is the short version. All commands below run inside this folder (`proofs/`).
 
 This repository holds the Lean 4 proofs, the checker, the specification pools, the
 pre-registrations and the per-case results behind a study of LLM-written networks with
-Lean-kernel-checked correctness proofs ("rungs" 2, 3 and 4 below; rung 1 is background).
-Every claim below is copied from the results files in `docs/` (`RESULTS*.md`), which state
-the same limits.
+Lean-kernel-checked correctness proofs ("rungs" 2 to 6c below; rung 1 is background).
+Every claim below is copied from the results files in `docs/` (`RESULTS*.md`) and the claims
+table of `REPORT.md`, which state the same limits.
 
 ## Claims (exact wording)
 
@@ -37,6 +37,27 @@ Control 10 of 10.
 single weight by an absolute 1/1000 makes the network wrong at some length of at most 20;
 8 of 10 still break at 1e-6 (the two addition networks at 1e-4, not 1e-5). The proved
 sort network `s00` gives wrong outputs in float32 from length 300 and is correct in float64.
+
+**Rung 5.** 12 of 12 written softmax transformers kernel-checked within 1/4 of the target at
+every position for every relative weight change within 1/200, with two corollaries:
+exact real arithmetic at every length, and a binary32 model (underflow term and range bound,
+with the accuracy of the float exponential as an assumed hypothesis, checked numerically on a
+sample) for up to 65,535 tokens. Non-counting tasks only. A lemma kit and a worked example
+carry the softmax and float analysis. Plain-code control 12 of 12 (median proof 43.5 lines
+against 810). One pre-registered numeric check failed (bit-identity of two float32
+implementations on `c04`) and is reported as failed. `docs/RESULTS_R5.md`.
+
+**Rungs 6b and 6c (necessary radius for counting tasks).** For the three proved parity
+networks p05, p10, p29, no relative ball of radius 1/(2L-1) or more is correct up to length
+L, so no positive radius is correct at every length (rung 6b); for every "token-blind"
+network, which includes the two proved sort networks, the same holds for parity and sort
+rank (rung 6c). The general phenomenon is known (Hahn and Rofin); the classes are narrow;
+whether it holds for the whole architecture is open (`Lane4/Conjectures.lean`, statements
+type-check, nothing proved). `docs/RESULTS_R6B.md`, `docs/RESULTS_R6C.md`.
+
+**Perturbation 2x2 and witnesses.** Additive versus relative perturbation for rung-2 and
+rung-4 networks, as finite searches, with three Lean-checked witnesses in `runs/witness/`.
+The earlier "fragile versus robust" framing is withdrawn. `REPORT.md`, Section 3.
 
 ## Limits (read before citing)
 
@@ -80,7 +101,10 @@ runs/rungN-test|dev/{net,prog,twin}/<id>/
                        attempts/NN.json + NN.lean (every submission with the checker's verdict),
                        net.json (exported network), r3_checks.json / r4_checks.json
 results/               per-case result JSONs (the sources of the write-up's tables)
-docs/                  PREREG*.md (pre-registrations, with dated amendments), RESULTS*.md, NOVELTY.md
+REPORT.md              the living technical report (claims table, known weaknesses, changelog, responses to two reviews)
+writeup/               notes cited by the report (2x2 version 2, open problems, token-blind usage)
+scratch/               statement files and sanity scripts named in the freeze lists
+docs/                  PREREG*.md (pre-registrations, with dated amendments), RESULTS*.md, NOVELTY.md, freeze_*.sha256
 smoke/                 negative controls (wrong weight, sorry, native_decide, banned token) for the checker
 VERIFY.md              what was re-run from this folder, with times
 ```
@@ -88,7 +112,7 @@ VERIFY.md              what was re-run from this folder, with times
 `runs/rung4-test/net/i03` has no `Solution.lean` (no submission); `runs/rung4-test/net-rerun/i03`
 is the untouched rerun (also no submission). Rung 1 is included only as
 `runs/rung1-test/{net,prog}`; its trained-twin arm is summarised in `results/twins-test.json`
-but its model files are not included. Rung 0 and rung 5 are not part of this release.
+but its model files are not included. Rung 0 and rung 6a (registered, parked, unfinished) are not part of this release.
 
 ## Setup
 
@@ -132,8 +156,13 @@ trusted base is those files plus the Lean kernel).
 Re-check everything (every case folder with a `Solution.lean`; see `VERIFY.md` for time):
 
 ```bash
-python tools/recheck_all.py --out results/recheck.json
+python tools/recheck_all.py --out results/recheck.json          # rungs 2 to 4 (the original 67)
+python tools/recheck_release.py                                  # every Lean file in this folder: frameworks, all cases, standalone files, token audit
 ```
+
+The case-local `Spec.lean`/`Final.lean`/`Solution.lean` of rungs 5, 6b and 6c are checked the
+same way (`python tools/check.py runs/rung5-test/net/c04`). The three superseded or failed
+attempts kept on purpose (`runs/r5-kit/kA`, `runs/r5-kit/kC`, `runs/r6b/kColl`) are expected to FAIL.
 
 Negative controls (these should FAIL or PASS as their folder names say):
 
@@ -153,12 +182,11 @@ it; run them on a copy. Their memory needs are not measured.
   in `attempts/*.json` (the checker's recorded `lean_output`), `TASK.md` and the text
   results. Only text in the recorded Lean output changed, not any `pass` verdict.
 - `tools/check.py` was edited: the two hard-coded machine paths became the environment
-  variables above, a non-Windows kill path was added, and the unreleased rung-5 modules
-  were removed from its module table.
+  variables above, a non-Windows kill path was added, and its module table
+  was extended for the rung-5 and rational-mirror modules.
 - Scheduling, memory-reservation and run-log references in `docs/` were generalised
   ("compute scheduler", "memory reservation", "run log (not released)"). The scientific
-  content of the pre-registrations and results files is unchanged. The unfinished rung-5
-  section of the novelty note was dropped.
+  content of the pre-registrations and results files is unchanged.
 - Not included: agent transcripts, internal run logs, per-case scratch folders, generated
   `_Full.lean` / `_Export.lean` files, copies of framework files inside case folders (the
   checker uses `Lane4/`; the copies were byte-identical to it), service and scheduling
@@ -166,8 +194,15 @@ it; run them on a copy. Their memory needs are not measured.
 - Git history: this repository starts fresh. The pre-registration commit ids quoted in
   `docs/PREREG_R4.md` (5fdefc9, f905339), `RESULTS_R2.md` (6fdeeca) and rung 1 (6cd7ebd)
   refer to the authors' private development repository, where they are timestamped before
-  the runs they precede; they cannot be checked from this copy. The frozen-file hashes in
-  `docs/freeze_r4.sha256` can.
+  the runs they precede; they cannot be checked from this copy. The frozen-file hash lists
+  `docs/freeze_r4.sha256`, `freeze_r5.sha256`, `freeze_r6b.sha256`, `freeze_r6c.sha256` can be
+  checked with `sha256sum -c`, **but only in part**: a file listed there matches only if it was
+  not edited afterwards. Files edited for release (`tools/check.py`, which gained environment
+  variables and a longer module table; scripts whose paths were scrubbed) no longer match,
+  `Lane4/Collision.lean` was extended at rung 6c, and service scripts are not included.
+  `results/freeze-check.txt` records the outcome (r4: 8 of 13 match; r5: 14 of 21; r6b: 8 of 9; r6c: 12 of 12).
+- Added for release: `case.json` for the three witness cases, `tools/recheck_release.py`, and
+  `scratch/` holding only the statement files and sanity scripts that the freeze lists name.
 
 ## Licence and citation
 

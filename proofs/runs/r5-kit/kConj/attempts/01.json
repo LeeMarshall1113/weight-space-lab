@@ -1,0 +1,18 @@
+{
+ "case": "kConj",
+ "arm": "kit",
+ "pass": true,
+ "time": "2026-11-14 00:16:44",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.3,
+ "peak_rss_gb": 1.69,
+ "peak_commit_gb": 3.88,
+ "lean_output": "Lane4.Conj.ParityNoBall : Prop\nLane4.Conj.ParityRadiusBound : Prop\nLane4.Conj.LastNoAbsBall : Prop\n'Lane4Final.final' does not depend on any axioms\n",
+ "axioms": [],
+ "reason": "kernel-checked",
+ "attempt": 1,
+ "attempts_left": 7
+}

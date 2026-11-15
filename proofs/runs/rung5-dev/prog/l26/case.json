@@ -1,0 +1,15 @@
+{
+ "id": "l26",
+ "arm": "prog",
+ "rung": 5,
+ "split": "dev",
+ "family": "last",
+ "import": "RSeq",
+ "tau": "1/200",
+ "final_theorems": [
+  "Lane4Final.final"
+ ],
+ "max_attempts": 12,
+ "lean_timeout": 600,
+ "prog_banned": "(?<![\\w])(countP|count|sum|take|drop|filter|filterMap|find\\?|findIdx\\?|findSome\\?|reverse|carry|lastv|firstc|prevOcc|target|Statement|StatementProg|toFinset|Multiset|Finset)(?![\\w])"
+}

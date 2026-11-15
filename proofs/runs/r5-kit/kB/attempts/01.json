@@ -1,0 +1,17 @@
+{
+ "case": "kB",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-13 19:51:37",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 27.2,
+ "peak_rss_gb": 1.78,
+ "peak_commit_gb": 3.99,
+ "lean_output": "<repo>\\runs\\r5-kit\\kB\\_Full.lean:82:28: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n<repo>\\runs\\r5-kit\\kB\\_Full.lean:90:28: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\r5-kit\\kB\\_Full.lean:151:43: error(lean.unknownIdentifier): Unknown constant `Real.exp_one_gt_d9`\n<repo>\\runs\\r5-kit\\kB\\_Full.lean:151:30: error: unsolved goals\n\u22a2 27 / 10 \u2264 ?m.46\n<repo>\\runs\\r5-kit\\kB\\_Full.lean:149:54: error: unsolved goals\n\u22a2 Real.exp (-15) \u2264 1 / 10 ^ 6\n<repo>\\runs\\r5-kit\\kB\\_Full.lean:341:20: error: (deterministic) timeout at `isDefEq`, maximum number of heartbeats (200000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.\n<repo>\\runs\\r5-kit\\kB\\_Full.lean:183:0: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.\n<repo>\\runs\\r5-kit\\kB\\_Full.lean:395:8: error: (kernel) unknown constant 'Lane4.Case.savg_near'\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Lane4Final.final, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 24
+}

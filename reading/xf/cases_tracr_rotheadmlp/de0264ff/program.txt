@@ -1,0 +1,3 @@
+k = Map(lambda x: {'a': 1, 'b': 1, 'c': 0, 'd': 0}[x], tokens)
+w = SelectorWidth(Select(k, indices, Comparison.GT))
+out = Map(lambda x: x % 3, w)

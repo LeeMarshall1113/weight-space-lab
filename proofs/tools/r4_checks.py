@@ -1,7 +1,7 @@
 """Rung-4 lane checks on exported nets (PREREG_R4.md, "Checks the lane runs"). numpy, CPU.
 
     python tools/r4_checks.py runs/rung4-test [--quick]     -> <case>/r4_checks.json per net
-    (RUN UNDER A LEASE: tools/r4_checks_lease.sh)
+    (budget a few GB of RAM)
 
 Needs <case>/net.json (exact export) and the pool setting. Fixed here before any run:
   inside   : 60 uniform + 60 sign-corner relative perturbations at tau, float64, each on a

@@ -1,0 +1,17 @@
+{
+ "case": "l37",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-14 02:16:30",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.3,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.88,
+ "lean_output": "<repo>\\runs\\rung5-test\\prog\\l37\\_Full.lean:39:45: error: unsolved goals\nw : List \u2115\na\u271d : \u2200 t \u2208 w, 1 \u2264 t \u2227 t \u2264 5\ni : \u2115\nhi1 : 1 \u2264 i\nhi : i \u2264 w.length\nh : i - 1 < w.length\ne : i - 1 + 1 = i\n\u22a2 List.foldl adv 0 (List.take i w) = List.foldl (fun s t => if val t = 0 then s else val t) 0 (List.take i w)\n<repo>\\runs\\rung5-test\\prog\\l37\\_Full.lean:45:42: warning: This simp argument is unused:\n  adv\n\nHint: Omit it from the simp argument list.\n  [apply] simp [List.getD_eq_getElem?_getD, h, e]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

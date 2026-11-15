@@ -1,0 +1,17 @@
+{
+ "case": "i12",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-14 01:21:31",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.9,
+ "peak_rss_gb": 1.73,
+ "peak_commit_gb": 3.91,
+ "lean_output": "<repo>\\runs\\rung5-test\\net\\i12\\_Full.lean:97:21: error: Application type mismatch: The argument\n  hacc\nhas type\n  fl acc = acc\nof sort `Prop` but is expected to have type\n  \u211d\nof sort `Type` in the application\n  ih ?m.103 ?m.104 ?m.105 hacc\n<repo>\\runs\\rung5-test\\net\\i12\\_Full.lean:168:2: error: Tactic `assumption` failed\n\n\u22a2 Statement net\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

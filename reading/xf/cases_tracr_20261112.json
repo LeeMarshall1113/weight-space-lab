@@ -1,0 +1,692 @@
+{
+ "seed": 20261112,
+ "cases": [
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "classes": [
+    0,
+    1,
+    2
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp",
+    "layer_2__attn",
+    "layer_2__mlp"
+   ],
+   "template": "count",
+   "prog_seed": 984248,
+   "d_resid": 30,
+   "case_id": "de0264ff"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "classes": [
+    0,
+    1,
+    2
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d",
+    "e"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp"
+   ],
+   "template": "count_combine",
+   "prog_seed": 874613,
+   "d_resid": 31,
+   "case_id": "d3447631"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp"
+   ],
+   "template": "count_cmp",
+   "prog_seed": 429173,
+   "d_resid": 27,
+   "case_id": "dc01854c"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d",
+    "e"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp"
+   ],
+   "template": "count_combine",
+   "prog_seed": 99727,
+   "d_resid": 30,
+   "case_id": "4fe6b72e"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp"
+   ],
+   "template": "count_cmp",
+   "prog_seed": 992409,
+   "d_resid": 27,
+   "case_id": "bfb6b2e2"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d",
+    "e"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp",
+    "layer_2__attn",
+    "layer_2__mlp"
+   ],
+   "template": "count_combine",
+   "prog_seed": 343869,
+   "d_resid": 32,
+   "case_id": "4875745e"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp",
+    "layer_2__attn",
+    "layer_2__mlp"
+   ],
+   "template": "count_cmp",
+   "prog_seed": 537998,
+   "d_resid": 29,
+   "case_id": "1fb4b73b"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp"
+   ],
+   "template": "count_cmp",
+   "prog_seed": 108091,
+   "d_resid": 26,
+   "case_id": "30cd3cfd"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d",
+    "e"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp",
+    "layer_2__attn",
+    "layer_2__mlp"
+   ],
+   "template": "count_cmp",
+   "prog_seed": 122006,
+   "d_resid": 34,
+   "case_id": "5dec3ea9"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d",
+    "e"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp",
+    "layer_2__attn",
+    "layer_2__mlp"
+   ],
+   "template": "count",
+   "prog_seed": 760907,
+   "d_resid": 30,
+   "case_id": "d2787819"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp",
+    "layer_2__attn",
+    "layer_2__mlp"
+   ],
+   "template": "count_combine",
+   "prog_seed": 320589,
+   "d_resid": 30,
+   "case_id": "f04dbc1f"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d",
+    "e"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp"
+   ],
+   "template": "count_combine",
+   "prog_seed": 650446,
+   "d_resid": 30,
+   "case_id": "dfdc74a6"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "classes": [
+    0,
+    1,
+    2
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d",
+    "e"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp",
+    "layer_2__attn",
+    "layer_2__mlp"
+   ],
+   "template": "count_combine",
+   "prog_seed": 100099,
+   "d_resid": 33,
+   "case_id": "96378b89"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp",
+    "layer_2__attn",
+    "layer_2__mlp"
+   ],
+   "template": "count_cmp",
+   "prog_seed": 684964,
+   "d_resid": 32,
+   "case_id": "34078000"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d",
+    "e"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp"
+   ],
+   "template": "count_combine",
+   "prog_seed": 795662,
+   "d_resid": 30,
+   "case_id": "9e3d759c"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp"
+   ],
+   "template": "count_combine",
+   "prog_seed": 601105,
+   "d_resid": 29,
+   "case_id": "3c4fbc13"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp",
+    "layer_2__attn",
+    "layer_2__mlp"
+   ],
+   "template": "count_combine",
+   "prog_seed": 400597,
+   "d_resid": 31,
+   "case_id": "829f185b"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d",
+    "e"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp",
+    "layer_2__attn",
+    "layer_2__mlp"
+   ],
+   "template": "count_cmp",
+   "prog_seed": 416497,
+   "d_resid": 30,
+   "case_id": "964b1cb1"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d",
+    "e"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp",
+    "layer_2__attn",
+    "layer_2__mlp"
+   ],
+   "template": "count_cmp",
+   "prog_seed": 51749,
+   "d_resid": 32,
+   "case_id": "f3500b0f"
+  },
+  {
+   "vocab": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "classes": [
+    0,
+    1
+   ],
+   "input_order": [
+    "BOS",
+    "a",
+    "b",
+    "c",
+    "compiler_pad",
+    "d"
+   ],
+   "num_heads": 1,
+   "layers": [
+    "layer_0__attn",
+    "layer_0__mlp",
+    "layer_1__attn",
+    "layer_1__mlp",
+    "layer_2__attn",
+    "layer_2__mlp"
+   ],
+   "template": "count_cmp",
+   "prog_seed": 794421,
+   "d_resid": 32,
+   "case_id": "780a86cc"
+  }
+ ],
+ "replaced": [
+  {
+   "seed": 91076,
+   "why": "NotImplementedError('Unsupported RASP expressions:\\naggregate: Categorical aggregate only supports None as default value.')"
+  },
+  {
+   "seed": 329547,
+   "why": "NotImplementedError('Unsupported RASP expressions:\\naggregate: Categorical aggregate only supports None as default value.')"
+  },
+  {
+   "seed": 695824,
+   "why": "NotImplementedError('Unsupported RASP expressions:\\naggregate: Categorical aggregate only supports None as default value.')"
+  },
+  {
+   "seed": 128088,
+   "why": "NotImplementedError('Unsupported RASP expressions:\\naggregate: Categorical aggregate only supports None as default value.')"
+  },
+  {
+   "seed": 311950,
+   "why": "NotImplementedError('Unsupported RASP expressions:\\naggregate: Categorical aggregate only supports None as default value.')"
+  },
+  {
+   "seed": 96187,
+   "why": "NotImplementedError('Unsupported RASP expressions:\\naggregate: Categorical aggregate only supports None as default value.')"
+  }
+ ]
+}

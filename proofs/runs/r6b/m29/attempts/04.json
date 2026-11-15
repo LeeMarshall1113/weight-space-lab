@@ -1,0 +1,22 @@
+{
+ "case": "m29",
+ "arm": "kit",
+ "pass": true,
+ "time": "2026-11-14 16:11:59",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.6,
+ "peak_rss_gb": 1.74,
+ "peak_commit_gb": 3.92,
+ "lean_output": "<repo>\\runs\\r6b\\m29\\_Full.lean:258:2: warning: Unused tactic linter: `all_goals (try ring)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\r6b\\m29\\_Full.lean:258:12: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n<repo>\\runs\\r6b\\m29\\_Full.lean:279:18: warning: This simp argument is unused:\n  List.map\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [hd2, hf, hz]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\r6b\\m29\\_Full.lean:279:28: warning: This simp argument is unused:\n  hf\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [hd2, List.map, hz]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\r6b\\m29\\_Full.lean:279:32: warning: This simp argument is unused:\n  hz\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [hd2, List.map, hf]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\r6b\\m29\\_Full.lean:281:2: warning: Unused tactic linter: `all_goals (try ring)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\r6b\\m29\\_Full.lean:281:12: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n<repo>\\runs\\r6b\\m29\\_Full.lean:302:16: warning: Unused tactic linter: `(congr 1; funext j; exact decide_eq_decide.mpr Iff.rfl)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n<repo>\\runs\\r6b\\m29\\_Full.lean:302:16: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 4,
+ "attempts_left": 8
+}

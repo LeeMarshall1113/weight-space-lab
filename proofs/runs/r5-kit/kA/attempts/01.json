@@ -1,0 +1,17 @@
+{
+ "case": "kA",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-13 19:30:16",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 15.2,
+ "peak_rss_gb": 1.74,
+ "peak_commit_gb": 3.92,
+ "lean_output": "<repo>\\runs\\r5-kit\\kA\\_Full.lean:17:60: error(lean.unknownIdentifier): Unknown constant `Nat.dist`\n<repo>\\runs\\r5-kit\\kA\\_Full.lean:121:49: error(lean.unknownIdentifier): Unknown constant `Nat.dist`\n<repo>\\runs\\r5-kit\\kA\\_Full.lean:126:11: error(lean.unknownIdentifier): Unknown constant `Nat.dist`\n<repo>\\runs\\r5-kit\\kA\\_Full.lean:126:45: error(lean.unknownIdentifier): Unknown constant `Nat.dist`\n<repo>\\runs\\r5-kit\\kA\\_Full.lean:128:51: error(lean.unknownIdentifier): Unknown constant `Nat.dist`\n<repo>\\runs\\r5-kit\\kA\\_Full.lean:134:11: error(lean.unknownIdentifier): Unknown constant `Nat.dist`\n<repo>\\runs\\r5-kit\\kA\\_Full.lean:134:45: error(lean.unknownIdentifier): Unknown constant `Nat.dist`\n<repo>\\runs\\r5-kit\\kA\\_Full.lean:142:6: error: `simp` made no progress\n<repo>\\runs\\r5-kit\\kA\\_Full.lean:147:6: error: `simp` made no progress\n<repo>\\runs\\r5-kit\\kA\\_Full.lean:156:6: error: `simp` made no progress\n<repo>\\runs\\r5-kit\\kA\\_Full.lean:162:6: error: `simp` made no progress\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 19
+}

@@ -1,0 +1,21 @@
+{
+ "n": 200001,
+ "numpy": {
+  "worst_ratio": 0.8272093014052029,
+  "at_x": -28.064722061157227,
+  "worst_ratio_normal_range": 0.8272093014052029,
+  "worst_relative_error_over_u_normal_range": 3.3088372056208115,
+  "negative_outputs": 0,
+  "exp0_is_1": true,
+  "worst_ulp_estimate": 2.3578778337687254
+ },
+ "torch": {
+  "worst_ratio": 0.49999579169279934,
+  "at_x": -103.9720687866211,
+  "worst_ratio_normal_range": 0.26278000835697335,
+  "worst_relative_error_over_u_normal_range": 1.0511360329193864,
+  "negative_outputs": 0,
+  "exp0_is_1": true,
+  "worst_ulp_estimate": 0.5625957380980253
+ }
+}

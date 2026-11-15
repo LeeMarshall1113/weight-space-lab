@@ -1,0 +1,17 @@
+{
+ "case": "f14",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-13 23:15:43",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.2,
+ "peak_rss_gb": 1.72,
+ "peak_commit_gb": 3.91,
+ "lean_output": "<repo>\\runs\\rung5-test\\net\\f14\\_Full.lean:90:90: error: unsolved goals\nu \u03b7 M : \u211d\nfl : \u211d \u2192 \u211d\nhr : Rnd u \u03b7 M fl\ndA : \u2115 \u2192 \u2115 \u2192 \u211d\na b c I nn x y f K nK : \u211d\nhP : fl (fl (sw fl (-20) (dA 3 4) * K)) = fl (sw fl (-20) (dA 3 4) * K)\nhI :\n  fl (fl (fl (sw fl (-20) (dA 3 4) * K) + fl (I * R4 fl (dA 4) [x, y, f, 1, K, nK]))) =\n    fl (fl (sw fl (-20) (dA 3 4) * K) + fl (I * R4 fl (dA 4) [x, y, f, 1, K, nK]))\nh3 : rdot fl [0, 0, 0, 0, -20, 0] [x, y, f, 1, K, nK] (dA 3) 0 0 = fl (sw fl (-20) (dA 3 4) * K)\n\u22a2 fl (fl (fl (fl (fl (sw fl (-20) (dA 3 4) * K))) + fl (I * R4 fl (dA 4) [x, y, f, 1, K, nK]))) =\n    fl (fl (sw fl (-20) (dA 3 4) * K) + fl (I * R4 fl (dA 4) [x, y, f, 1, K, nK]))\n<repo>\\runs\\rung5-test\\net\\f14\\_Full.lean:92:70: warning: This simp argument is unused:\n  hI\n\nHint: Omit it from the simp argument list.\n  [apply] simp [Head.score, hd, pdot, rmat, zrow_eq hr, h3, r4_fold, hr.zero]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung5-test\\net\\f14\\_Full.lean:140:54: warning: This simp argument is unused:\n  hA\n\nHint: Omit it from the simp argument list.\n  [apply] simp [z6, rdot, radd, raffine, sw_zero hr, hr.zero, hq1, hq2, hq3]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung5-test\\net\\f14\\_Full.lean:151:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

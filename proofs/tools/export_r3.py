@@ -1,6 +1,6 @@
 """Rung 3: export each passing net (arm net: `net`; arm twin: `twin`) as exact JSON via Lean.
 
-    python tools/export_r3.py runs/rung3-test [arm]      (RUN UNDER A LEASE: one lean.exe at a time)
+    python tools/export_r3.py runs/rung3-test [arm]      (run one Lean process at a time)
 
 Writes runs/.../<arm>/<id>/net.json from the passing attempt's Solution text.
 """

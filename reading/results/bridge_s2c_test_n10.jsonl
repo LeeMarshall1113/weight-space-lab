@@ -1,0 +1,8 @@
+{"n": 10, "w": 32, "seed": 100, "quant_acc": 1024, "N": 1024, "cert_1e-3": true, "max_tau": 0.001270294189453125, "falsifier_worst_margin": 4.82721034095948, "sec": 184.4}
+{"n": 10, "w": 32, "seed": 101, "quant_acc": 1024, "N": 1024, "cert_1e-3": false, "max_tau": 0.00075531005859375, "falsifier_worst_margin": 0.6975035956730787, "sec": 200.8}
+{"n": 10, "w": 32, "seed": 102, "quant_acc": 1022, "N": 1024, "sec": 5.2}
+{"n": 10, "w": 32, "seed": 103, "quant_acc": 1024, "N": 1024, "cert_1e-3": true, "max_tau": 0.00130462646484375, "falsifier_worst_margin": 3.4902084244041833, "sec": 188.9}
+{"n": 10, "w": 32, "seed": 104, "quant_acc": 1024, "N": 1024, "cert_1e-3": true, "max_tau": 0.001300811767578125, "falsifier_worst_margin": 4.3491524054097335, "sec": 204.8}
+{"n": 10, "w": 32, "seed": 105, "quant_acc": 1024, "N": 1024, "cert_1e-3": true, "max_tau": 0.001796722412109375, "falsifier_worst_margin": 4.5149100790623935, "sec": 201.2}
+{"n": 10, "w": 32, "seed": 106, "quant_acc": 1024, "N": 1024, "cert_1e-3": true, "max_tau": 0.00162506103515625, "falsifier_worst_margin": 4.1624556597290585, "sec": 203.7}
+{"n": 10, "w": 32, "seed": 107, "quant_acc": 1024, "N": 1024, "cert_1e-3": false, "max_tau": 0.000827789306640625, "falsifier_worst_margin": 2.486311249862529, "sec": 194.8}

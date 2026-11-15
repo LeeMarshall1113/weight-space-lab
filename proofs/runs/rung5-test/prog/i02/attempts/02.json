@@ -1,0 +1,17 @@
+{
+ "case": "i02",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-14 02:13:16",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.6,
+ "peak_rss_gb": 1.72,
+ "peak_commit_gb": 3.9,
+ "lean_output": "<repo>\\runs\\rung5-test\\prog\\i02\\_Full.lean:52:2: error: unsolved goals\ncase pos\nw : List \u2115\nA : \u2115 \u2192 \u2115 \u2192 \u2115\nhA :\n  \u2200 (k c : \u2115),\n    A k c =\n      match List.find? (fun j => decide (1 \u2264 j) && tokAt w j == c) (List.range k).reverse with\n      | some j => h (tokAt w (j + 1))\n      | none => 0\nk c : \u2115\nhc : c \u2260 0\nh2 : tokAt w k = c \u2192 1 \u2264 k\ne : tokAt w k = c\nh1 : 1 \u2264 k\nhp : (decide (1 \u2264 k) && tokAt w k == c) = true\n\u22a2 (match\n      match decide (1 \u2264 k) with\n      | true => some k\n      | false => List.find? (fun j => decide (1 \u2264 j) && tokAt w j == c) (List.range k).reverse with\n    | some j => h (tokAt w (j + 1))\n    | none => 0) =\n    h (tokAt w (k + 1))\n<repo>\\runs\\rung5-test\\prog\\i02\\_Full.lean:54:44: warning: This simp argument is unused:\n  hp\n\nHint: Omit it from the simp argument list.\n  [apply] simp [List.range_succ, List.find?_cons, e]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung5-test\\prog\\i02\\_Full.lean:56:27: warning: This simp argument is unused:\n  List.find?_cons\n\nHint: Omit it from the simp argument list.\n  [apply] simp [List.range_succ, hp, e]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung5-test\\prog\\i02\\_Full.lean:70:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n<repo>\\runs\\rung5-test\\prog\\i02\\_Full.lean:102:22: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n<repo>\\runs\\rung5-test\\prog\\i02\\_Full.lean:106:22: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

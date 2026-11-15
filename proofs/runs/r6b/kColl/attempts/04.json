@@ -1,0 +1,17 @@
+{
+ "case": "kColl",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-14 15:54:46",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.8,
+ "peak_rss_gb": 1.72,
+ "peak_commit_gb": 3.91,
+ "lean_output": "<repo>\\runs\\r6b\\kColl\\_Full.lean:96:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```\n<repo>\\runs\\r6b\\kColl\\_Full.lean:102:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```\n<repo>\\runs\\r6b\\kColl\\_Full.lean:159:4: error: omega could not prove the goal:\na possible counterexample may satisfy the constraints\n  e \u2265 0\n  d \u2265 2\n  d - e - 2*f \u2264 -1\n  d - e - 2*g \u2264 0\n  0 \u2264 d - 2*f \u2264 1\n  1 \u2264 d - 2*g \u2264 2\n  c \u2265 1\n  b \u2265 0\n  b - c \u2265 0\n  a \u2265 1\n  a - b \u2264 0\nwhere\n a := \u2191s\n b := \u2191T.V\n c := \u2191o\n d := \u2191(List.countP T.inS w\u2082)\n e := \u2191T.par\n f := \u2191(m + 1) / 2\n g := \u2191m / 2\n<repo>\\runs\\r6b\\kColl\\_Full.lean:164:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 4,
+ "attempts_left": 8
+}

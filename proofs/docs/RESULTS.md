@@ -1,4 +1,4 @@
-# Lane 4, rung 1 results
+# this study, rung 1 results
 
 **Status: CLOSED (2026-11-11, 9:50 pm EST).** All three arms are complete: 60 episodes,
 none rerun. Every number below is read from the attempt logs by `tools/collect.py`,

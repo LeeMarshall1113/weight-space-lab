@@ -1,0 +1,17 @@
+{
+ "case": "l06",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-14 01:44:29",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 26.2,
+ "peak_rss_gb": 1.95,
+ "peak_commit_gb": 4.13,
+ "lean_output": "<repo>\\runs\\rung5-test\\net\\l06\\_Full.lean:82:6: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n<repo>\\runs\\rung5-test\\net\\l06\\_Full.lean:145:87: error: unsolved goals\nw : List \u2115\ni : \u2115\nh : i < w.length\nht : List.take (i + 1) w = List.take i w ++ [w[i]]\n\u22a2 List.foldl (fun s t => if val t = 0 then s else val t) 0 (List.take (i + 1) w) =\n    if val w[i] = 0 then List.foldl (fun s t => if val t = 0 then s else val t) 0 (List.take i w) else val w[i]\n<repo>\\runs\\rung5-test\\net\\l06\\_Full.lean:154:8: warning: This simp argument is unused:\n  List.foldl_append\n\nHint: Omit it from the simp argument list.\n  [apply] simp\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung5-test\\net\\l06\\_Full.lean:187:18: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung5-test\\net\\l06\\_Full.lean:197:18: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung5-test\\net\\l06\\_Full.lean:203:16: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335n\u0335e\u0335g\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332r\u0332i\u0332g\u0332h\u0332t\u0332\n<repo>\\runs\\rung5-test\\net\\l06\\_Full.lean:415:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

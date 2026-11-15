@@ -1,7 +1,7 @@
-# Lane 4, rung 4 pre-registration: transformers proved correct at every length, for every nearby weight setting, with a rounded forward pass
+# this study, rung 4 pre-registration: transformers proved correct at every length, for every nearby weight setting, with a rounded forward pass
 
 Written 2026-11-12/13 before any doctor episode. The framework (`Lane4/RSeq.lean`) and one
-worked example were written and compiled by the lane before this file; no doctor has seen
+worked example were written and compiled by the study team before this file; no doctor has seen
 either. Changes after this point go in dated amendments at the bottom.
 
 ## Why this rung
@@ -55,7 +55,7 @@ an absolute ball that does not shrink with length. This is a weaker ball than ru
 and the results must say so. It is the right model for rounding of stored weights and for
 multiplicative noise; it does not cover pruning errors or additive noise.
 
-τ = 1/200 was chosen by the lane from a hand calculation on its own construction for the
+τ = 1/200 was chosen by the study team from a hand calculation on its own construction for the
 carry family (error about 0.11 against the 1/4 tolerance; at 1/100 about 0.22). It is one
 value for all cases. It was not tuned on doctor results.
 
@@ -68,7 +68,7 @@ rounded too. IEEE binary32 round-to-nearest satisfies this with u = 2^-24 **as l
 operation overflows or underflows**. Overflow, underflow, subnormals, fused multiply-add,
 reordered or vectorised sums, and softmax are **not** modelled. Attention is hard
 (arg-max with ties averaged), not softmax. So the theorem is about the model, and its
-link to a real float32 run is the lane check below, not a proof.
+link to a real float32 run is the study team check below, not a proof.
 
 ### Output tolerance
 
@@ -92,7 +92,7 @@ count. So:
   covers only the non-counting kind of task, and that for counting tasks the best
   possible statement is "every length up to c/τ", which nobody has proved here.
 
-**Feasibility, checked numerically by the lane before this file (nothing proved):** hand
+**Feasibility, checked numerically by the study team before this file (nothing proved):** hand
 constructions for the two hardest families, carry and induct, on 12 pool settings
 (c34-c39, i24-i29, `scratch/r4_feas.py`). Exact at zero perturbation; worst deviation
 found under random sign-corner perturbations at τ: 0.03 to 0.10 (tolerance 0.25); the
@@ -133,7 +133,7 @@ help is part of the result and must be reported with it.
 
 ## Fable
 
-Sonnet first on every case. If the net arm ends below the pass bar, the lane may run
+Sonnet first on every case. If the net arm ends below the pass bar, the study team may run
 **one Fable doctor at a time** on test cases Sonnet failed, in family order, after
 clearing each use with the compute scheduler and logging the reason. Fable results are
 reported in a separate column and never added to the Sonnet count without saying so.
@@ -156,7 +156,7 @@ tools. If the pilot shows the task file or kit is broken or misleading it may be
 then everything is frozen by hash before the test draw is opened. Pilot results are not
 results.
 
-## Checks the lane runs on every proved network (no doctor)
+## Checks the study team runs on every proved network (no doctor)
 
 `tools/r4_checks.py`, numpy, under a memory reservation. Networks exported from the kernel-checked
 file.
@@ -185,7 +185,7 @@ file.
 ## What would make the result weak, written down now
 
 - A relative ball is weaker than rung 3's absolute ball.
-- The tasks are easier than rung 2's (no counting) and the lane picked the families
+- The tasks are easier than rung 2's (no counting) and the study team picked the families
   knowing which mechanism works.
 - The kit and the example carry part of the proof.
 - 12 cases, one model, one τ, one tolerance.
@@ -210,7 +210,7 @@ as the kill bar is certain.
   submissions 2, 2, 2, 1; solution files 345 to 829 lines. These are not results.
   All four doctors found an exact-zero penalty score on their own.
 - The pilot showed no fault in kit, example, prompt, task file or checker, so nothing
-  was changed after it. The check wording in "Checks the lane runs" had been aligned
+  was changed after it. The check wording in "Checks the study team runs" had been aligned
   with `tools/r4_checks.py` before the prereg commit.
 - A warning the pilot gives: 4 of 4 at two submissions suggests the test arm may be
   near its ceiling, in which case the result says the kit plus Sonnet makes these

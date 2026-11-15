@@ -1,7 +1,7 @@
-# Lane 4 pre-registration: rung 3 (proofs with weight tolerance)
+# Pre-registration: rung 3 (proofs with weight tolerance)
 
 Written 2026-11-12, after rung 2 closed (commit 6fdeeca) and after the project lead relayed
-the project owner's go ("Lane 4 A"), bounded to about a week. Written before any rung-3 doctor run.
+the project owner's go, bounded to about a week. Written before any rung-3 doctor run.
 PREREG.md and PREREG_R2.md stay unchanged. Later changes go in a dated "Amendments" list
 at the end of this file.
 
@@ -26,7 +26,7 @@ constants τ and δ below:
     for all perturbations dW, db with every entry |·| ≤ τ,
     for all real x in the box:   | net.evalP dW db x  −  spec x | ≤ δ
 
-`evalP` and `Within` are defined in `Lane4/Robust.lean` (written by the lane). The ball
+`evalP` and `Within` are defined in `Lane4/Robust.lean` (written by the study team). The ball
 is per weight and per bias (an ℓ∞ box in weight space) and includes the entries written
 as 0, so any same-shape network with weights within τ is covered.
 
@@ -80,7 +80,7 @@ reported separately.
 - **Kill: S3 < 4 → stop rung 3 and report it as a negative result.**
 - Pass: S3 ≥ 8. 4-7 is "partial".
 
-## Checks the lane runs on every proven net (no doctor)
+## Checks the study team runs on every proven net (no doctor)
 
 1. **Inside the ball.** 10,000 random perturbations (uniform, sign corners, and
    gradient-ascent adversarial starts) at 2,000 box points each batch. The largest
@@ -151,7 +151,7 @@ numpy on CPU, 2 threads, under a memory reservation when over 15 minutes.
    - Draw made (`tools/draw3.py`, seed 4044, 266 unused specs): dev p109 and p233; test-set
      sha256 `45d6ff83dfcd05f88b427a7e3d9a0512003c3ba10ebd53ef82bc4c58ce15e661`.
    - Framework `Lane4/Robust.lean` compiled (kit: `pert_abs_mul`, `pert_mul`, `relu_sub_le`,
-     `relu_pert`, `abs_add3_le`, `relu_nonneg'`, `relu_le_of_le`). The lane's worked example
+     `relu_pert`, `abs_add3_le`, `relu_nonneg'`, `relu_le_of_le`). The study team's worked example
      (`examples/EXAMPLE_robust.lean`: `max x0 x1` on a box, one hidden layer of 3 units,
      δ = 2/5) passed the checker on its first compile. Smoke test: the example passes; a
      tighter δ, a larger τ, a changed output weight and a `native_decide` are each rejected.

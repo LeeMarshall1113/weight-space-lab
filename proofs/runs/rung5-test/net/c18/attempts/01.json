@@ -1,0 +1,17 @@
+{
+ "case": "c18",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-13 23:12:27",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.7,
+ "peak_rss_gb": 1.72,
+ "peak_commit_gb": 3.91,
+ "lean_output": "<repo>\\runs\\rung5-test\\net\\c18\\_Full.lean:83:72: warning: This simp argument is unused:\n  hr.one\n\nHint: Omit it from the simp argument list.\n  [apply] simp [TNet.init, net, embRows, swRow, pos, ev, embq, h, sw_zero hr]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n<repo>\\runs\\rung5-test\\net\\c18\\_Full.lean:108:10: warning: `List.take_succ` has been deprecated: Use `List.take_add_one` instead\n\nHint: Replace the deprecated name:\n  List.take_s\u0335u\u0335c\u0335c\u0335a\u0332d\u0332d\u0332_\u0332o\u0332n\u0332e\u0332\n<repo>\\runs\\rung5-test\\net\\c18\\_Full.lean:121:18: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n<repo>\\runs\\rung5-test\\net\\c18\\_Full.lean:140:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4.Case.Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4.Case.Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n'Lane4.Case.Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4.Case.Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

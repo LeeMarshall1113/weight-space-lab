@@ -1,0 +1,36 @@
+{
+ "id": "l37",
+ "family": "last",
+ "tau": 0.005,
+ "blocks": 1,
+ "heads": [
+  1
+ ],
+ "width": 6,
+ "mlp_hidden": [
+  0
+ ],
+ "max_abs_weight": 40.0,
+ "written_exact_max_dev": 8.27987527429741e-08,
+ "inside_ball_max_dev": {
+  "uniform": 0.025359514732313126,
+  "sign": 0.0452253749999989
+ },
+ "inside_ball_ok": true,
+ "outside": {
+  "2": 0.0909030000000004,
+  "4": 0.18362400000000045,
+  "8": 0.37459200000000026
+ },
+ "smallest_violating_multiple": 8,
+ "float32_max_dev": {
+  "1000": 0.04522538185119629,
+  "16000": 0.029850244522094727,
+  "65534": 0.04477548599243164
+ },
+ "float32_ok_in_range": true,
+ "torch_reference_mismatches": 0,
+ "torch_reference_outputs_compared": 9570,
+ "torch_fast_max_dev": 0.04522538185119629,
+ "float32_beyond_200000": 1.1920928955078125e-07
+}

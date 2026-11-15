@@ -1,0 +1,11 @@
+{
+ "id": "r2rel_s00",
+ "arm": "witness",
+ "import": "Seq",
+ "final_theorems": [
+  "Lane4Final.final",
+  "Lane4Final.shape",
+  "Lane4Final.witness"
+ ],
+ "note": "added for the release so the ordinary checker can check the witness"
+}
