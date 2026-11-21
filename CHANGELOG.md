@@ -4,6 +4,33 @@ Corrections, downgrades and additions, newest first. Reporters are credited unle
 ask otherwise. A claim that is narrowed or retracted is also downgraded in the index table
 in `README.md`; it is not silently edited.
 
+## v0.4 (2026-11-21)
+
+- `proofs/` extended with rungs 6a, 7 and 8, with the report at version 0.10
+  (`proofs/REPORT.md`, Sections 6.8 to 6.10, claims rows 29 to 35, and a new list of caveats
+  that leads "Known weaknesses"):
+  - rung 6a: 12 of 12 written gated softmax transformers, additive 1/1000 ball, every length
+    (a non-standard gate; the kit was amended once);
+  - rung 7: one soundness theorem for a checker and a generated Lean file per gradient-trained
+    network (4 of 9 screened reserve networks; 0 of 18 on the standard architecture);
+  - rung 8: the same method on standard softmax attention, 19 of 20 fresh seeds at an additive
+    radius of 2^-14 (chosen on the tuning set), eight controls rejected.
+  - mechanism row (b): a finder reads a trivial 5-state program off the weights of the 19 accepted rung 8
+    networks and the kernel checks equality at every length (outcome fixed in advance; `runs/mech`).
+  - mechanism row (a): on the same networks, each head puts all but 2^-21 of its softmax weight on a
+    window of its latest positions, kernel-checked (`runs/mech/*/Attn.lean`).
+- New in `proofs/`: Lean frameworks `Lane4/AGate*`, `R7*`, `R8*`; agent-proved kit cases
+  (`runs/r6-kit`, `r7-kit`, `r8-kit`); the rung-6a cases; the generated per-network files and
+  controls (`runs/r7-nets`, `runs/r8-nets`) with the trained networks of rung 8
+  (`runs/r8-fresh`); pre-registrations, results and freeze lists (`docs/`); tools; results rows;
+  `writeup/NOVELTY_R8.md` (what is and is not new against prior work, including a
+  kernel-checked all-length theorem for a trained threshold RNN that came earlier).
+- Checker: module table extended; `tools/recheck_r678.py` and `tools/build_net.py` re-check
+  the new Lean files; results in `proofs/VERIFY.md`.
+- Report: three leftover internal phrases in the v0.9 text were reworded; no claim, number or
+  status changed.
+- No external corrections yet.
+
 ## v0.3 (2026-11-15)
 
 - `reading/` unit 4 added: kernel-checked all-lengths weight-ball certificates (1/1000) for

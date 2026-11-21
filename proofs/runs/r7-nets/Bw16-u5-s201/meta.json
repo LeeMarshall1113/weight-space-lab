@@ -1,0 +1,29 @@
+{
+ "tag": "Bw16-u5-s201",
+ "task": "Bw16",
+ "recipe": "u5",
+ "seed": 201,
+ "task_as": "Bw16",
+ "radius": "1/1000",
+ "prototype_ok": true,
+ "prototype_reason": "ok",
+ "states": 13,
+ "cands": [
+  [
+   true,
+   true,
+   true,
+   false,
+   true,
+   true
+  ],
+  [
+   true,
+   true,
+   false,
+   true,
+   true,
+   true
+  ]
+ ]
+}

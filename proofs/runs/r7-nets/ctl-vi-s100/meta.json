@@ -1,0 +1,29 @@
+{
+ "tag": "ctl-vi-s100",
+ "task": "B",
+ "recipe": "u5",
+ "seed": 100,
+ "task_as": "B",
+ "radius": "1/1000",
+ "prototype_ok": false,
+ "prototype_reason": "head 0: content score spread 15.692 for query token 1 (keys 2,0) leaves no gap of 12 per position (allowed 10.780)",
+ "states": 12,
+ "cands": [
+  [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ]
+ ]
+}

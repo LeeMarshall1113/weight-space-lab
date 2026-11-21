@@ -1,0 +1,16 @@
+{
+ "tag": "A-u3-s153",
+ "dir": "runs/r8-fresh/A/u3/s153",
+ "net": "W14.json",
+ "task": "A",
+ "recipe": "u3",
+ "seed": 153,
+ "task_as": "A",
+ "radius": "1/16384",
+ "mirror_ok": false,
+ "mirror_reason": "case token 5, keys ((4, 5), (5, 4, 5)), task state 3: output 2.0300 +- 0.2201 against target 2 (mixed attention)",
+ "states": 15,
+ "info": {
+  "worst": 0.2500328348306563
+ }
+}

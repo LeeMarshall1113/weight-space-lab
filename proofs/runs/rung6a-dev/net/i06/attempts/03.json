@@ -1,0 +1,17 @@
+{
+ "case": "i06",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 03:39:40",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 20.2,
+ "peak_rss_gb": 2.16,
+ "peak_commit_gb": 4.36,
+ "lean_output": "runs\\rung6a-dev\\net\\i06\\_Full.lean:1388:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```\nruns\\rung6a-dev\\net\\i06\\_Full.lean:1603:5: error(lean.unknownIdentifier): Unknown identifier `unitRow_ok`\nruns\\rung6a-dev\\net\\i06\\_Full.lean:1683:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\nruns\\rung6a-dev\\net\\i06\\_Full.lean:1693:5: error(lean.unknownIdentifier): Unknown identifier `zrow_ok`\nruns\\rung6a-dev\\net\\i06\\_Full.lean:1711:20: error(lean.unknownIdentifier): Unknown identifier `unitRow_ok`\nruns\\rung6a-dev\\net\\i06\\_Full.lean:1854:58: error(lean.unknownIdentifier): Unknown identifier `unitRow_ok`\nruns\\rung6a-dev\\net\\i06\\_Full.lean:1968:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\nruns\\rung6a-dev\\net\\i06\\_Full.lean:1978:5: error(lean.unknownIdentifier): Unknown identifier `zrow_ok`\nruns\\rung6a-dev\\net\\i06\\_Full.lean:2003:10: warning: Unused tactic linter: `(simp at ha; rcases ha with ha | ha | ha <;> (rw [ha]; norm_num))` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-dev\\net\\i06\\_Full.lean:2003:10: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-dev\\net\\i06\\_Full.lean:2126:5: error(lean.unknownIdentifier): Unknown identifier `unitRow_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 3,
+ "attempts_left": 9
+}

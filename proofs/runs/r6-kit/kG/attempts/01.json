@@ -1,0 +1,17 @@
+{
+ "case": "kG",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-14 13:40:23",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 25.8,
+ "peak_rss_gb": 1.87,
+ "peak_commit_gb": 4.05,
+ "lean_output": "runs\\r6-kit\\kG\\_Full.lean:153:4: error: (deterministic) timeout at `isDefEq`, maximum number of heartbeats (200000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.\nruns\\r6-kit\\kG\\_Full.lean:85:0: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.\nruns\\r6-kit\\kG\\_Full.lean:156:8: error: (kernel) unknown constant 'Lane4.Case.ar_step'\nruns\\r6-kit\\kG\\_Full.lean:300:4: error: (deterministic) timeout at `«Mathlib.Tactic.Linarith.SimplexAlgorithm.Gauss.getTableauImp»`, maximum number of heartbeats (200000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.\nruns\\r6-kit\\kG\\_Full.lean:356:26: warning: Unused tactic linter: `simp [pdot]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r6-kit\\kG\\_Full.lean:356:26: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r6-kit\\kG\\_Full.lean:470:4: error: (deterministic) timeout at `isDefEq`, maximum number of heartbeats (200000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound, Lane4.Case.ardot_aux]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 29
+}

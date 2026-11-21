@@ -1,0 +1,17 @@
+{
+ "case": "f37",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 06:52:35",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.5,
+ "peak_rss_gb": 1.85,
+ "peak_commit_gb": 4.05,
+ "lean_output": "runs\\rung6a-test\\net\\f37\\_Full.lean:638:16: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  Fq w i\nin the target expression\n  |att0 fl ex p w i [1 / 4, 0, 0, 0, 0, 0] 3 - 1 / 4| ≤\n    1 / 4 * (1 / 900) + 1 / 130 + (|1 / 4| + (1 / 4 * (1 / 900) + 1 / 130)) / 100 + 1 / 2 ^ 90\n\ncase pos\nu η M : ℝ\nfl ex : ℝ → ℝ\np : APert\nw : List ℕ\nev : Ctx u η M fl ex p w\ni : ℕ\nhi : i ≤ w.length\nh1 : ¬Pre w i → att0 fl ex p w i [1 / 4, 0, 0, 0, 0, 0] 3 = 0\nh2 :\n  Pre w i →\n    |att0 fl ex p w i [1 / 4, 0, 0, 0, 0, 0] 3 - 1 / 4| ≤\n      absSum [1 / 4, 0, 0, 0, 0, 0] * (1 / 900) + 1 / 130 +\n          (|1 / 4| + (absSum [1 / 4, 0, 0, 0, 0, 0] * (1 / 900) + 1 / 130)) / 100 +\n        1 / 2 ^ 90\nhp : Pre w i\nthis :\n  |att0 fl ex p w i [1 / 4, 0, 0, 0, 0, 0] 3 - 1 / 4| ≤\n    1 / 4 * (1 / 900) + 1 / 130 + (|1 / 4| + (1 / 4 * (1 / 900) + 1 / 130)) / 100 + 1 / 2 ^ 90\n⊢ |att0 fl ex p w i [1 / 4, 0, 0, 0, 0, 0] 3 - Fq w i| ≤ 1 / 90\nruns\\rung6a-test\\net\\f37\\_Full.lean:706:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 6,
+ "attempts_left": 6
+}

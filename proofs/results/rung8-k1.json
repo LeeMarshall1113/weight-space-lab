@@ -1,0 +1,4609 @@
+{
+ "design_g": 14,
+ "nets": {
+  "A/u3": [
+   {
+    "seed": 110,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 2, keys ((0,), (2, 0)), task state 0: output 1.0322 +- 0.2259 against target 1",
+      "worst": 0.2580191150927787
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.16244767033521676,
+      "states": 6,
+      "table_rows": 30,
+      "cases": 30,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       0.08,
+       0.36
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 0
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.1045780165781276,
+      "states": 6,
+      "table_rows": 30,
+      "cases": 30,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       0.07,
+       0.35
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 0
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07692484391921828,
+      "states": 6,
+      "table_rows": 30,
+      "cases": 30,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       0.07,
+       0.35
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 0
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06417917295115724,
+      "states": 6,
+      "table_rows": 30,
+      "cases": 30,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       0.07,
+       0.35
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 0
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.05413591056440366,
+      "states": 6,
+      "table_rows": 30,
+      "cases": 30,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       0.06,
+       0.35
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 0
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0422 +- 0.2078 against target 0",
+     "worst": 0.2500329313266603
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 100,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 2, keys ((5,), (2, 5, 0)), task state 4: output 0.0585 +- 0.2471 against target 0 (mixed attention)",
+      "worst": 0.30555019671442846
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.16945887546507746,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.4,
+       26.99
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 6
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.10887589572739696,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.38,
+       26.9
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 6
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07905414245015782,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.37,
+       26.86
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 6
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06545113013716061,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.36,
+       26.83
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 6
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.05538159466309342,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.36,
+       26.82
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 6
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 2, keys ((5,), (2, 5, 0)), task state 4: output 0.0596 +- 0.2527 against target 0 (mixed attention)",
+     "worst": 0.3122281994487805
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 113,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 2, keys ((0,), (2, 0)), task state 0: output 0.9638 +- 0.2249 against target 1",
+      "worst": 0.2610695801994441
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.15497153842267541,
+      "states": 6,
+      "table_rows": 30,
+      "cases": 30,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       0.15,
+       1.29
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 0
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.10791170960427489,
+      "states": 6,
+      "table_rows": 30,
+      "cases": 30,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       0.14,
+       1.27
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 0
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07984097028989455,
+      "states": 6,
+      "table_rows": 30,
+      "cases": 30,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       0.13,
+       1.26
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 0
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.0670652814973534,
+      "states": 6,
+      "table_rows": 30,
+      "cases": 30,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       0.13,
+       1.26
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 0
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.05799256296199996,
+      "states": 6,
+      "table_rows": 30,
+      "cases": 30,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       0.13,
+       1.26
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 0
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 2, keys ((0,), (2, 0)), task state 0: output 0.9635 +- 0.2296 against target 1",
+     "worst": 0.2660549913934096
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 105,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 2, keys ((4,), (2, 4, 5)), task state 3: output 3.8871 +- 0.2754 against target 4 (mixed attention)",
+      "worst": 0.3883114394455581
+     },
+     "11": {
+      "ok": false,
+      "reason": "case token 5, keys ((2,), (5, 2, 3)), task state 1: output 0.0321 +- 0.2324 against target 0 (mixed attention)",
+      "worst": 0.26451027355974904
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.15878281081831497,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.03,
+       28.76
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 18
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.11002334898445454,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.02,
+       28.72
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 12
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08155586330814696,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.01,
+       28.7
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 12
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06323948230536847,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.01,
+       28.69
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 12
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 2, keys ((4,), (2, 4, 5)), task state 3: output 3.8855 +- 0.2828 against target 4 (mixed attention)",
+     "worst": 0.3972880991733027
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 115,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 2, keys ((0,), (2, 0)), task state 0: output 1.0999 +- 0.2818 against target 1 (mixed attention)",
+      "worst": 0.3816628602157664
+     },
+     "11": {
+      "ok": false,
+      "reason": "case token 2, keys ((1,), (2, 1, 2)), task state 0: output 1.1027 +- 0.1969 against target 1 (mixed attention)",
+      "worst": 0.2995631651594998
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.18825670609421863,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       1.31,
+       29.81
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 13
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.13148162769542482,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       1.3,
+       29.76
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 13
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.10465962957069608,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       1.29,
+       29.73
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 13
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08350746608195335,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       1.28,
+       29.71
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 13
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 2, keys ((0,), (2, 0)), task state 0: output 1.1015 +- 0.2881 against target 1 (mixed attention)",
+     "worst": 0.3896227691297606
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 119,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9385 +- 0.3431 against target 4 (mixed attention)",
+      "worst": 0.4046030823308159
+     },
+     "11": {
+      "ok": false,
+      "reason": "case token 3, keys ((4,), (3, 4, 5)), task state 3: output 0.0819 +- 0.3193 against target 0 (mixed attention)",
+      "worst": 0.40118988073148804
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.23360569353344354,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.13,
+       26.5
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 30
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.15826283445555095,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.12,
+       26.45
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 30
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.12188298292780804,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.12,
+       26.42
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 30
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.094148007561057,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.11,
+       26.4
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 30
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9371 +- 0.3509 against target 4 (mixed attention)",
+     "worst": 0.4137734911670381
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 108,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9465 +- 0.2069 against target 4",
+      "worst": 0.260330930813916
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.231464563463701,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.08,
+       25.83
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 12
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.14295930340653798,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.06,
+       25.75
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 12
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.0989029551044832,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.05,
+       25.7
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 12
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07910418654095616,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.04,
+       25.68
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 12
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.0629300824784085,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.04,
+       25.67
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 12
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9460 +- 0.2115 against target 4",
+     "worst": 0.2654245920220663
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 118,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 3, keys ((5,), (3, 5, 0)), task state 4: output 1.0541 +- 0.4830 against target 1 (mixed attention)",
+      "worst": 0.5371303674428066
+     },
+     "11": {
+      "ok": false,
+      "reason": "case token 3, keys ((5,), (3, 5, 0)), task state 4: output 1.0347 +- 0.2564 against target 1 (mixed attention)",
+      "worst": 0.2911195668569063
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.22365940522402938,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.04,
+       29.2
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 30
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.1489779725878553,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.02,
+       29.16
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 30
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.11044027433987025,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.02,
+       29.15
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 30
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08170388644931442,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.01,
+       29.13
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 30
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 3, keys ((5,), (3, 5, 0)), task state 4: output 1.0553 +- 0.4939 against target 1 (mixed attention)",
+     "worst": 0.5492731503177833
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 116,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 2, keys ((0,), (2, 0)), task state 0: output 1.0229 +- 0.5196 against target 1 (mixed attention)",
+      "worst": 0.5424487319592531
+     },
+     "11": {
+      "ok": false,
+      "reason": "case token 2, keys ((0,), (2, 0)), task state 0: output 1.0408 +- 0.2751 against target 1 (mixed attention)",
+      "worst": 0.315917223454143
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.23747025294399926,
+      "states": 156,
+      "table_rows": 780,
+      "cases": 780,
+      "window": [
+       1,
+       3
+      ],
+      "spread": [
+       0.32,
+       33.35
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 188
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.15728059702511085,
+      "states": 156,
+      "table_rows": 780,
+      "cases": 780,
+      "window": [
+       1,
+       3
+      ],
+      "spread": [
+       0.31,
+       33.29
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 188
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.11814225218703456,
+      "states": 156,
+      "table_rows": 780,
+      "cases": 780,
+      "window": [
+       1,
+       3
+      ],
+      "spread": [
+       0.31,
+       33.26
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 188
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08749972834536902,
+      "states": 156,
+      "table_rows": 780,
+      "cases": 780,
+      "window": [
+       1,
+       3
+      ],
+      "spread": [
+       0.3,
+       33.24
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 188
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 2, keys ((0,), (2, 0)), task state 0: output 1.0235 +- 0.5314 against target 1 (mixed attention)",
+     "worst": 0.5548808473773988
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 104,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0681 +- 0.1926 against target 0",
+      "worst": 0.260711578338814
+     },
+     "11": {
+      "ok": false,
+      "reason": "case token 1, keys ((2,), (1, 2, 3)), task state 1: output 1.0908 +- 0.2917 against target 1 (mixed attention)",
+      "worst": 0.38251745685884675
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.22169398651965566,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.67,
+       24.61
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 6
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.1504218908598043,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.66,
+       24.57
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 6
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.11242694314713754,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.65,
+       24.55
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 6
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08432440403639138,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.65,
+       24.54
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 6
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0690 +- 0.1969 against target 0",
+     "worst": 0.2658976967077794
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 114,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 5, keys ((2, 3), (5, 2, 3)), task state 1: output 0.0509 +- 0.2505 against target 0 (mixed attention)",
+      "worst": 0.3013798592595972
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.23887947783198019,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       24.83,
+       26.16
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 7
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.14930121407906655,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       24.75,
+       26.08
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 7
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.10469201882551367,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       24.71,
+       26.03
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 7
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08140867410070134,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       24.69,
+       26.02
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 7
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06456482572314845,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       24.67,
+       26.0
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 7
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 5, keys ((2, 3), (5, 2, 3)), task state 1: output 0.0518 +- 0.2565 against target 0 (mixed attention)",
+     "worst": 0.3082737959676687
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 106,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9574 +- 0.2455 against target 4 (mixed attention)",
+      "worst": 0.2881717711652325
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.1761074493816249,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.09,
+       27.34
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 25
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.11252943982748433,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.05,
+       27.27
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 25
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08208171003238829,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.03,
+       27.24
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 25
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06590139023022684,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.02,
+       27.22
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 25
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.053782005611300664,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.01,
+       27.2
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 25
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9569 +- 0.2511 against target 4 (mixed attention)",
+     "worst": 0.2941516337217268
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 103,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 2, keys ((5,), (2, 5, 0)), task state 4: output 0.1504 +- 0.3732 against target 0 (mixed attention)",
+      "worst": 0.5235265273099488
+     },
+     "11": {
+      "ok": false,
+      "reason": "case token 2, keys ((5,), (2, 5, 0)), task state 4: output 0.0946 +- 0.2007 against target 0 (mixed attention)",
+      "worst": 0.2952453190370508
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.1968552978883121,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.25,
+       25.31
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 19
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.12536711101310563,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.23,
+       25.28
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 19
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.09140952742352235,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.22,
+       25.26
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 19
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07067085645432647,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.22,
+       25.24
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 19
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 2, keys ((5,), (2, 5, 0)), task state 4: output 0.1534 +- 0.3818 against target 0 (mixed attention)",
+     "worst": 0.5351239416588917
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 111,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9493 +- 0.8258 against target 4 (mixed attention)",
+      "worst": 0.876512924299255
+     },
+     "11": {
+      "ok": false,
+      "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9696 +- 0.4120 against target 4 (mixed attention)",
+      "worst": 0.44245381719229004
+     },
+     "12": {
+      "ok": false,
+      "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9662 +- 0.2255 against target 4 (mixed attention)",
+      "worst": 0.25928794207779604
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.16605676712394848,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.03,
+       26.27
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 36
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.12242823649006619,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.02,
+       26.25
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 36
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.087420485878087,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.01,
+       26.23
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 36
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9480 +- 0.8452 against target 4 (mixed attention)",
+     "worst": 0.8971622766652964
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 102,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9348 +- 0.3222 against target 4 (mixed attention)",
+      "worst": 0.38740846283596087
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.2313301765472069,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       1.74,
+       29.72
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 36
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.13509784040320785,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       1.71,
+       29.6
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 36
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.0900316087876614,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       1.7,
+       29.54
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 36
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07165312643177428,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       1.69,
+       29.52
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 36
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.05794792641052858,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       1.69,
+       29.5
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 36
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9332 +- 0.3296 against target 4 (mixed attention)",
+     "worst": 0.3963241486922296
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 101,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 3, keys ((0,), (3, 0)), task state 0: output 2.0083 +- 0.3201 against target 2 (mixed attention)",
+      "worst": 0.32842673008727585
+     },
+     "11": {
+      "ok": false,
+      "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9934 +- 0.6747 against target 4 (mixed attention)",
+      "worst": 0.6812376445122856
+     },
+     "12": {
+      "ok": false,
+      "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9722 +- 0.3606 against target 4 (mixed attention)",
+      "worst": 0.3883487224244188
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.24756906035319762,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.04,
+       27.56
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 43
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.18017261910257143,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.03,
+       27.53
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 43
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.12729380412258376,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.02,
+       27.51
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 43
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 3, keys ((0,), (3, 0)), task state 0: output 2.0074 +- 0.3274 against target 2 (mixed attention)",
+     "worst": 0.3347669012325295
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 117,
+    "by_g": {
+     "10": {
+      "ok": false,
+      "reason": "case token 2, keys ((4,), (2, 4, 5)), task state 3: output 3.9460 +- 0.2810 against target 4 (mixed attention)",
+      "worst": 0.3350431311828507
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.187768133281927,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       1.22,
+       25.37
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 6
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.11821812316661175,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       1.19,
+       25.29
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 6
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08614731642634565,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       1.18,
+       25.26
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 6
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07002407173786362,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       1.17,
+       25.24
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 6
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.0576878456058758,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       1.17,
+       25.23
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 6
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": false,
+     "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0403 +- 0.2108 against target 0",
+     "worst": 0.25111434736269733
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 109,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.21254390778005314,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.51,
+       26.39
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 12
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.12671614333571837,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.46,
+       26.27
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 12
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08315060968212876,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.43,
+       26.22
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 12
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06436168042825052,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.42,
+       26.19
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 12
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.05556580371847071,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.41,
+       26.17
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 12
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.04800530596628799,
+      "states": 31,
+      "table_rows": 155,
+      "cases": 155,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.4,
+       26.16
+      ],
+      "dense": [
+       true,
+       true
+      ],
+      "mixed_rows": 12
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.21713053982466676,
+     "states": 31,
+     "table_rows": 155,
+     "cases": 155,
+     "window": [
+      1,
+      2
+     ],
+     "spread": [
+      0.52,
+      26.4
+     ],
+     "dense": [
+      true,
+      true
+     ],
+     "mixed_rows": 12
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   }
+  ],
+  "B/u5": [
+   {
+    "seed": 103,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.11949565685482737,
+      "states": 10,
+      "table_rows": 50,
+      "cases": 50,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       4.94,
+       0.09
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.09108749904556132,
+      "states": 10,
+      "table_rows": 50,
+      "cases": 50,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       4.87,
+       0.05
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.0792453646130847,
+      "states": 10,
+      "table_rows": 50,
+      "cases": 50,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       4.84,
+       0.03
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07216356112325337,
+      "states": 10,
+      "table_rows": 50,
+      "cases": 50,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       4.82,
+       0.02
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06886625913152486,
+      "states": 10,
+      "table_rows": 50,
+      "cases": 50,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       4.81,
+       0.01
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.0663229221336985,
+      "states": 10,
+      "table_rows": 50,
+      "cases": 50,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       4.81,
+       0.01
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.12079434110003918,
+     "states": 10,
+     "table_rows": 50,
+     "cases": 50,
+     "window": [
+      1,
+      1
+     ],
+     "spread": [
+      4.94,
+      0.09
+     ],
+     "dense": [
+      false,
+      false
+     ],
+     "mixed_rows": 0
+    },
+    "rung7_checker": true,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 118,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.12529661083680352,
+      "states": 5,
+      "table_rows": 25,
+      "cases": 25,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       5.61,
+       0.0
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.10053802830836174,
+      "states": 5,
+      "table_rows": 25,
+      "cases": 25,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       5.49,
+       0.0
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08734619287409219,
+      "states": 5,
+      "table_rows": 25,
+      "cases": 25,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       5.43,
+       0.0
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08015038122540108,
+      "states": 5,
+      "table_rows": 25,
+      "cases": 25,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       5.4,
+       0.0
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07709944909772033,
+      "states": 5,
+      "table_rows": 25,
+      "cases": 25,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       5.39,
+       0.0
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07477217736353953,
+      "states": 5,
+      "table_rows": 25,
+      "cases": 25,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       5.38,
+       0.0
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.1266385094273251,
+     "states": 5,
+     "table_rows": 25,
+     "cases": 25,
+     "window": [
+      1,
+      1
+     ],
+     "spread": [
+      5.61,
+      0.0
+     ],
+     "dense": [
+      false,
+      false
+     ],
+     "mixed_rows": 0
+    },
+    "rung7_checker": true,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 113,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.12050332681671624,
+      "states": 30,
+      "table_rows": 150,
+      "cases": 150,
+      "window": [
+       2,
+       1
+      ],
+      "spread": [
+       7.78,
+       0.19
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08953057062468356,
+      "states": 30,
+      "table_rows": 150,
+      "cases": 150,
+      "window": [
+       2,
+       1
+      ],
+      "spread": [
+       7.69,
+       0.1
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07480304190295081,
+      "states": 30,
+      "table_rows": 150,
+      "cases": 150,
+      "window": [
+       2,
+       1
+      ],
+      "spread": [
+       7.64,
+       0.06
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06762068334332212,
+      "states": 30,
+      "table_rows": 150,
+      "cases": 150,
+      "window": [
+       2,
+       1
+      ],
+      "spread": [
+       7.62,
+       0.03
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06392135549138395,
+      "states": 30,
+      "table_rows": 150,
+      "cases": 150,
+      "window": [
+       2,
+       1
+      ],
+      "spread": [
+       7.61,
+       0.02
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06137161418773409,
+      "states": 30,
+      "table_rows": 150,
+      "cases": 150,
+      "window": [
+       2,
+       1
+      ],
+      "spread": [
+       7.6,
+       0.01
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.12217696590651572,
+     "states": 30,
+     "table_rows": 150,
+     "cases": 150,
+     "window": [
+      2,
+      1
+     ],
+     "spread": [
+      7.79,
+      0.19
+     ],
+     "dense": [
+      false,
+      false
+     ],
+     "mixed_rows": 0
+    },
+    "rung7_checker": true,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 106,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.14887708381722956,
+      "states": 45,
+      "table_rows": 225,
+      "cases": 225,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.99,
+       9.89
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.1079283238726311,
+      "states": 45,
+      "table_rows": 225,
+      "cases": 225,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.95,
+       9.79
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.09227781165658878,
+      "states": 45,
+      "table_rows": 225,
+      "cases": 225,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.94,
+       9.74
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08428583396010417,
+      "states": 45,
+      "table_rows": 225,
+      "cases": 225,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.93,
+       9.71
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08059337959341152,
+      "states": 45,
+      "table_rows": 225,
+      "cases": 225,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.93,
+       9.7
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07764178269572003,
+      "states": 45,
+      "table_rows": 225,
+      "cases": 225,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       0.92,
+       9.69
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.15081214749740085,
+     "states": 45,
+     "table_rows": 225,
+     "cases": 225,
+     "window": [
+      1,
+      2
+     ],
+     "spread": [
+      0.99,
+      9.9
+     ],
+     "dense": [
+      false,
+      false
+     ],
+     "mixed_rows": 0
+    },
+    "rung7_checker": true,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 117,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.1288266825920945,
+      "states": 30,
+      "table_rows": 150,
+      "cases": 150,
+      "window": [
+       2,
+       1
+      ],
+      "spread": [
+       7.25,
+       1.47
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.09111919475099566,
+      "states": 30,
+      "table_rows": 150,
+      "cases": 150,
+      "window": [
+       2,
+       1
+      ],
+      "spread": [
+       7.1,
+       1.35
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07506246454065464,
+      "states": 30,
+      "table_rows": 150,
+      "cases": 150,
+      "window": [
+       2,
+       1
+      ],
+      "spread": [
+       7.03,
+       1.29
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06754262971680729,
+      "states": 30,
+      "table_rows": 150,
+      "cases": 150,
+      "window": [
+       2,
+       1
+      ],
+      "spread": [
+       6.99,
+       1.26
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06404459511214519,
+      "states": 8,
+      "table_rows": 40,
+      "cases": 40,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       6.97,
+       1.25
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.061078772047103,
+      "states": 8,
+      "table_rows": 40,
+      "cases": 40,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       6.96,
+       1.24
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.1305083383731841,
+     "states": 30,
+     "table_rows": 150,
+     "cases": 150,
+     "window": [
+      2,
+      1
+     ],
+     "spread": [
+      7.26,
+      1.48
+     ],
+     "dense": [
+      false,
+      false
+     ],
+     "mixed_rows": 0
+    },
+    "rung7_checker": true,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 108,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.2272520949699862,
+      "states": 133,
+      "table_rows": 665,
+      "cases": 665,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       15.74,
+       21.54
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 11
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.1696263152130338,
+      "states": 133,
+      "table_rows": 665,
+      "cases": 665,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       15.58,
+       21.36
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 11
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.14059187342024262,
+      "states": 133,
+      "table_rows": 665,
+      "cases": 665,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       15.5,
+       21.28
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 11
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.12663119462604122,
+      "states": 133,
+      "table_rows": 665,
+      "cases": 665,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       15.46,
+       21.23
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 11
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.11884012412580164,
+      "states": 133,
+      "table_rows": 665,
+      "cases": 665,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       15.44,
+       21.21
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 11
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.11380328439785588,
+      "states": 133,
+      "table_rows": 665,
+      "cases": 665,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       15.42,
+       21.2
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 11
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.2300888986400469,
+     "states": 133,
+     "table_rows": 665,
+     "cases": 665,
+     "window": [
+      2,
+      2
+     ],
+     "spread": [
+      15.74,
+      21.55
+     ],
+     "dense": [
+      false,
+      false
+     ],
+     "mixed_rows": 11
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 134,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.11861329892808,
+      "states": 8,
+      "table_rows": 40,
+      "cases": 40,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       5.64,
+       0.68
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08986325112930285,
+      "states": 8,
+      "table_rows": 40,
+      "cases": 40,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       5.57,
+       0.62
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07580222608102435,
+      "states": 8,
+      "table_rows": 40,
+      "cases": 40,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       5.53,
+       0.6
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06910544572775648,
+      "states": 8,
+      "table_rows": 40,
+      "cases": 40,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       5.51,
+       0.58
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.0654760679239312,
+      "states": 8,
+      "table_rows": 40,
+      "cases": 40,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       5.5,
+       0.58
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06306929339514575,
+      "states": 8,
+      "table_rows": 40,
+      "cases": 40,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       5.49,
+       0.57
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.12006754745827442,
+     "states": 8,
+     "table_rows": 40,
+     "cases": 40,
+     "window": [
+      1,
+      1
+     ],
+     "spread": [
+      5.65,
+      0.68
+     ],
+     "dense": [
+      false,
+      false
+     ],
+     "mixed_rows": 0
+    },
+    "rung7_checker": true,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 125,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.12338761930060246,
+      "states": 35,
+      "table_rows": 175,
+      "cases": 175,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       4.81,
+       18.02
+      ],
+      "dense": [
+       false,
+       true
+      ],
+      "mixed_rows": 0
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08616861512029798,
+      "states": 35,
+      "table_rows": 175,
+      "cases": 175,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       4.72,
+       17.79
+      ],
+      "dense": [
+       false,
+       true
+      ],
+      "mixed_rows": 0
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06968322696129864,
+      "states": 35,
+      "table_rows": 175,
+      "cases": 175,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       4.67,
+       17.67
+      ],
+      "dense": [
+       false,
+       true
+      ],
+      "mixed_rows": 0
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06134583882426067,
+      "states": 35,
+      "table_rows": 175,
+      "cases": 175,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       4.65,
+       17.61
+      ],
+      "dense": [
+       false,
+       true
+      ],
+      "mixed_rows": 0
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.058103116905044994,
+      "states": 35,
+      "table_rows": 175,
+      "cases": 175,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       4.63,
+       17.58
+      ],
+      "dense": [
+       false,
+       true
+      ],
+      "mixed_rows": 0
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.055256957697424725,
+      "states": 35,
+      "table_rows": 175,
+      "cases": 175,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       4.63,
+       17.56
+      ],
+      "dense": [
+       false,
+       true
+      ],
+      "mixed_rows": 0
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.12508298149870373,
+     "states": 35,
+     "table_rows": 175,
+     "cases": 175,
+     "window": [
+      1,
+      2
+     ],
+     "spread": [
+      4.81,
+      18.03
+     ],
+     "dense": [
+      false,
+      true
+     ],
+     "mixed_rows": 0
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 129,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.12379005428088678,
+      "states": 8,
+      "table_rows": 40,
+      "cases": 40,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       6.61,
+       4.07
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.09435708245531209,
+      "states": 8,
+      "table_rows": 40,
+      "cases": 40,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       6.54,
+       3.92
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.0794874713143135,
+      "states": 8,
+      "table_rows": 40,
+      "cases": 40,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       6.5,
+       3.84
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07209562560855982,
+      "states": 8,
+      "table_rows": 40,
+      "cases": 40,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       6.48,
+       3.8
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06894872360912506,
+      "states": 8,
+      "table_rows": 40,
+      "cases": 40,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       6.47,
+       3.78
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06610057531351915,
+      "states": 8,
+      "table_rows": 40,
+      "cases": 40,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       6.47,
+       3.77
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.12525357821247285,
+     "states": 8,
+     "table_rows": 40,
+     "cases": 40,
+     "window": [
+      1,
+      1
+     ],
+     "spread": [
+      6.61,
+      4.08
+     ],
+     "dense": [
+      false,
+      false
+     ],
+     "mixed_rows": 0
+    },
+    "rung7_checker": true,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 136,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.16113302640529292,
+      "states": 5,
+      "table_rows": 25,
+      "cases": 25,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       3.36,
+       5.65
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.11881611132405734,
+      "states": 5,
+      "table_rows": 25,
+      "cases": 25,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       3.29,
+       5.5
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.09842829613043932,
+      "states": 5,
+      "table_rows": 25,
+      "cases": 25,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       3.25,
+       5.42
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08798193115142276,
+      "states": 5,
+      "table_rows": 25,
+      "cases": 25,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       3.23,
+       5.39
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08267228934569082,
+      "states": 5,
+      "table_rows": 25,
+      "cases": 25,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       3.22,
+       5.37
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07882059260803546,
+      "states": 5,
+      "table_rows": 25,
+      "cases": 25,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       3.21,
+       5.35
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.16315791108102945,
+     "states": 5,
+     "table_rows": 25,
+     "cases": 25,
+     "window": [
+      1,
+      1
+     ],
+     "spread": [
+      3.37,
+      5.66
+     ],
+     "dense": [
+      false,
+      false
+     ],
+     "mixed_rows": 0
+    },
+    "rung7_checker": true,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 133,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.11221049297036521,
+      "states": 21,
+      "table_rows": 105,
+      "cases": 105,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       3.31,
+       13.42
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08555437344874144,
+      "states": 21,
+      "table_rows": 105,
+      "cases": 105,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       3.22,
+       13.24
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07272099674099991,
+      "states": 21,
+      "table_rows": 105,
+      "cases": 105,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       3.19,
+       13.16
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06736687831735823,
+      "states": 21,
+      "table_rows": 105,
+      "cases": 105,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       3.17,
+       13.12
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06430027295858594,
+      "states": 21,
+      "table_rows": 105,
+      "cases": 105,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       3.16,
+       13.1
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06221039023040673,
+      "states": 21,
+      "table_rows": 105,
+      "cases": 105,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       3.15,
+       13.08
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.11359018345193864,
+     "states": 21,
+     "table_rows": 105,
+     "cases": 105,
+     "window": [
+      1,
+      2
+     ],
+     "spread": [
+      3.31,
+      13.43
+     ],
+     "dense": [
+      false,
+      false
+     ],
+     "mixed_rows": 0
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 137,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.13792497560170766,
+      "states": 117,
+      "table_rows": 585,
+      "cases": 585,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       7.32,
+       26.78
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.10262944890510321,
+      "states": 117,
+      "table_rows": 585,
+      "cases": 585,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       7.23,
+       26.64
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08544308102944423,
+      "states": 117,
+      "table_rows": 585,
+      "cases": 585,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       7.19,
+       26.57
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07779512037211801,
+      "states": 117,
+      "table_rows": 585,
+      "cases": 585,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       7.17,
+       26.53
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07474407540867842,
+      "states": 117,
+      "table_rows": 585,
+      "cases": 585,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       7.16,
+       26.51
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07220880642095409,
+      "states": 117,
+      "table_rows": 585,
+      "cases": 585,
+      "window": [
+       2,
+       2
+      ],
+      "spread": [
+       7.15,
+       26.5
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.13954998665143453,
+     "states": 117,
+     "table_rows": 585,
+     "cases": 585,
+     "window": [
+      2,
+      2
+     ],
+     "spread": [
+      7.32,
+      26.79
+     ],
+     "dense": [
+      false,
+      false
+     ],
+     "mixed_rows": 0
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 131,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.15564721504037782,
+      "states": 224,
+      "table_rows": 1120,
+      "cases": 1120,
+      "window": [
+       2,
+       3
+      ],
+      "spread": [
+       7.4,
+       37.82
+      ],
+      "dense": [
+       false,
+       true
+      ],
+      "mixed_rows": 35
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.11033554255049413,
+      "states": 224,
+      "table_rows": 1120,
+      "cases": 1120,
+      "window": [
+       2,
+       3
+      ],
+      "spread": [
+       7.31,
+       37.63
+      ],
+      "dense": [
+       false,
+       true
+      ],
+      "mixed_rows": 35
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.08789915664969698,
+      "states": 224,
+      "table_rows": 1120,
+      "cases": 1120,
+      "window": [
+       2,
+       3
+      ],
+      "spread": [
+       7.26,
+       37.52
+      ],
+      "dense": [
+       false,
+       true
+      ],
+      "mixed_rows": 35
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07738092721329494,
+      "states": 224,
+      "table_rows": 1120,
+      "cases": 1120,
+      "window": [
+       2,
+       3
+      ],
+      "spread": [
+       7.23,
+       37.48
+      ],
+      "dense": [
+       false,
+       true
+      ],
+      "mixed_rows": 35
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07196796611799801,
+      "states": 224,
+      "table_rows": 1120,
+      "cases": 1120,
+      "window": [
+       2,
+       3
+      ],
+      "spread": [
+       7.22,
+       37.45
+      ],
+      "dense": [
+       false,
+       true
+      ],
+      "mixed_rows": 35
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06771140217127895,
+      "states": 224,
+      "table_rows": 1120,
+      "cases": 1120,
+      "window": [
+       2,
+       3
+      ],
+      "spread": [
+       7.21,
+       37.43
+      ],
+      "dense": [
+       false,
+       true
+      ],
+      "mixed_rows": 35
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.15778160894428114,
+     "states": 224,
+     "table_rows": 1120,
+     "cases": 1120,
+     "window": [
+      2,
+      3
+     ],
+     "spread": [
+      7.41,
+      37.83
+     ],
+     "dense": [
+      false,
+      true
+     ],
+     "mixed_rows": 35
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 139,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.12711419360053852,
+      "states": 21,
+      "table_rows": 105,
+      "cases": 105,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       6.86,
+       11.59
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.09282668380454241,
+      "states": 21,
+      "table_rows": 105,
+      "cases": 105,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       6.74,
+       11.44
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.07636679579443885,
+      "states": 21,
+      "table_rows": 105,
+      "cases": 105,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       6.68,
+       11.37
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06894964959884074,
+      "states": 21,
+      "table_rows": 105,
+      "cases": 105,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       6.66,
+       11.33
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06509608501593984,
+      "states": 21,
+      "table_rows": 105,
+      "cases": 105,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       6.64,
+       11.31
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06207646929019092,
+      "states": 21,
+      "table_rows": 105,
+      "cases": 105,
+      "window": [
+       1,
+       2
+      ],
+      "spread": [
+       6.63,
+       11.3
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.1287678156150854,
+     "states": 21,
+     "table_rows": 105,
+     "cases": 105,
+     "window": [
+      1,
+      2
+     ],
+     "spread": [
+      6.86,
+      11.6
+     ],
+     "dense": [
+      false,
+      false
+     ],
+     "mixed_rows": 0
+    },
+    "rung7_checker": false,
+    "ok": true,
+    "reason": "ok"
+   },
+   {
+    "seed": 126,
+    "by_g": {
+     "10": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.13376223930067438,
+      "states": 13,
+      "table_rows": 65,
+      "cases": 65,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       3.89,
+       1.99
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "11": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.09585880737407985,
+      "states": 13,
+      "table_rows": 65,
+      "cases": 65,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       3.81,
+       1.88
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "12": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.076000877736153,
+      "states": 13,
+      "table_rows": 65,
+      "cases": 65,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       3.77,
+       1.85
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "13": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06774929203234478,
+      "states": 13,
+      "table_rows": 65,
+      "cases": 65,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       3.75,
+       1.83
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "14": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.06330758454029152,
+      "states": 13,
+      "table_rows": 65,
+      "cases": 65,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       3.74,
+       1.82
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     },
+     "16": {
+      "ok": true,
+      "reason": "ok",
+      "worst": 0.060443633428382756,
+      "states": 13,
+      "table_rows": 65,
+      "cases": 65,
+      "window": [
+       1,
+       1
+      ],
+      "spread": [
+       3.73,
+       1.81
+      ],
+      "dense": [
+       false,
+       false
+      ],
+      "mixed_rows": 0
+     }
+    },
+    "rung7_skeleton_radius_1_1000": {
+     "ok": true,
+     "reason": "ok",
+     "worst": 0.13563537177173965,
+     "states": 13,
+     "table_rows": 65,
+     "cases": 65,
+     "window": [
+      1,
+      1
+     ],
+     "spread": [
+      3.9,
+      1.99
+     ],
+     "dense": [
+      false,
+      false
+     ],
+     "mixed_rows": 0
+    },
+    "rung7_checker": true,
+    "ok": true,
+    "reason": "ok"
+   }
+  ]
+ },
+ "controls": [
+  {
+   "control": "wrong task (B automaton)",
+   "ok": false,
+   "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0306 +- 0.0300 against target 2"
+  },
+  {
+   "control": "embedding rows 1 and 2 swapped",
+   "ok": false,
+   "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 1.0303 +- 0.0323 against target 0"
+  },
+  {
+   "control": "read-out negated",
+   "ok": false,
+   "reason": "case token 2, keys ((0,), (2, 0)), task state 0: output -1.0303 +- 0.0323 against target 1"
+  },
+  {
+   "control": "radius x16",
+   "ok": false,
+   "reason": "case token 2, keys ((0,), (2, 0)), task state 0: output 1.0303 +- 0.2256 against target 1"
+  },
+  {
+   "control": "radius x64",
+   "ok": false,
+   "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0798 +- 0.7827 against target 0"
+  },
+  {
+   "control": "A u3 seed 107 (failed the screen)",
+   "ok": true,
+   "reason": "ok"
+  },
+  {
+   "control": "A u3 seed 112 (failed the screen)",
+   "ok": true,
+   "reason": "ok"
+  }
+ ],
+ "sound_test": {
+  "A-110": {
+   "positions": 4176,
+   "violations": 0,
+   "smallest_slack": 0.00882886029114062
+  },
+  "A-100": {
+   "positions": 3632,
+   "violations": 0,
+   "smallest_slack": 0.008165239095988937
+  },
+  "A-113": {
+   "positions": 3787,
+   "violations": 0,
+   "smallest_slack": 0.01034083961230281
+  },
+  "A-105": {
+   "positions": 3846,
+   "violations": 0,
+   "smallest_slack": 0.008171012546224935
+  },
+  "A-115": {
+   "positions": 5240,
+   "violations": 0,
+   "smallest_slack": 0.008444633589522965
+  },
+  "A-119": {
+   "positions": 3263,
+   "violations": 0,
+   "smallest_slack": 0.009929620913981863
+  },
+  "A-108": {
+   "positions": 3812,
+   "violations": 0,
+   "smallest_slack": 0.011055197711755893
+  },
+  "A-118": {
+   "positions": 3758,
+   "violations": 0,
+   "smallest_slack": 0.006646696012457647
+  },
+  "A-116": {
+   "positions": 3755,
+   "violations": 0,
+   "smallest_slack": 0.00978100688250394
+  },
+  "A-104": {
+   "positions": 4449,
+   "violations": 0,
+   "smallest_slack": 0.014610931080975664
+  },
+  "A-114": {
+   "positions": 3775,
+   "violations": 0,
+   "smallest_slack": 0.007538531366987396
+  },
+  "A-106": {
+   "positions": 4905,
+   "violations": 0,
+   "smallest_slack": 0.007857227404853395
+  },
+  "A-103": {
+   "positions": 3760,
+   "violations": 0,
+   "smallest_slack": 0.010025984497690876
+  },
+  "A-111": {
+   "positions": 4112,
+   "violations": 0,
+   "smallest_slack": 0.008349225032114611
+  },
+  "A-102": {
+   "positions": 4563,
+   "violations": 0,
+   "smallest_slack": 0.00953474285265088
+  },
+  "A-101": {
+   "positions": 4543,
+   "violations": 0,
+   "smallest_slack": 0.010635421006532655
+  },
+  "A-117": {
+   "positions": 4499,
+   "violations": 0,
+   "smallest_slack": 0.010684285952027861
+  },
+  "A-109": {
+   "positions": 4509,
+   "violations": 0,
+   "smallest_slack": 0.00934187695852362
+  },
+  "B-103": {
+   "positions": 3760,
+   "violations": 0,
+   "smallest_slack": 0.012004008503415188
+  },
+  "B-118": {
+   "positions": 3758,
+   "violations": 0,
+   "smallest_slack": 0.013677005945662013
+  },
+  "B-113": {
+   "positions": 3787,
+   "violations": 0,
+   "smallest_slack": 0.0027610816078097976
+  },
+  "B-106": {
+   "positions": 4905,
+   "violations": 0,
+   "smallest_slack": 0.009533602704601876
+  },
+  "B-117": {
+   "positions": 4499,
+   "violations": 0,
+   "smallest_slack": 0.008707635369666043
+  },
+  "B-108": {
+   "positions": 3812,
+   "violations": 0,
+   "smallest_slack": 0.019105478493729233
+  },
+  "B-134": {
+   "positions": 3972,
+   "violations": 0,
+   "smallest_slack": 0.015497408228801733
+  },
+  "B-125": {
+   "positions": 4617,
+   "violations": 0,
+   "smallest_slack": 0.0052865091542532335
+  },
+  "B-129": {
+   "positions": 4668,
+   "violations": 0,
+   "smallest_slack": 0.007591242228742318
+  },
+  "B-136": {
+   "positions": 4417,
+   "violations": 0,
+   "smallest_slack": 0.014790172167976727
+  },
+  "B-133": {
+   "positions": 3967,
+   "violations": 0,
+   "smallest_slack": 0.010133938268290402
+  },
+  "B-137": {
+   "positions": 4082,
+   "violations": 0,
+   "smallest_slack": 0.018607439188663387
+  },
+  "B-131": {
+   "positions": 3570,
+   "violations": 0,
+   "smallest_slack": 0.0030769629139759218
+  },
+  "B-139": {
+   "positions": 5331,
+   "violations": 0,
+   "smallest_slack": 0.01509484467564871
+  },
+  "B-126": {
+   "positions": 3753,
+   "violations": 0,
+   "smallest_slack": 0.011464962215799963
+  }
+ },
+ "secs": 454.3
+}

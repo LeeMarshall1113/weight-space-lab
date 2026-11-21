@@ -1,6 +1,6 @@
-# Novelty re-check (2026-11-11)
+# the proofs study novelty re-check (2026-11-11)
 
-Run before any doctor run, as the lab rules requires. Re-run before any claim.
+Run before any doctor run, as the study's rules requires. Re-run before any claim.
 
 ## Verdict
 
@@ -9,7 +9,7 @@ produces both the weights and a machine-checked proof" is no longer safe to say.
 One public repository, three weeks old, covers most of the ingredients:
 
 **`teal-sea/lean-checked-network`** (Thomas Lince; created 2026-10-15, last push
-2026-11-04, MIT, 1 star, no article found). Its README and RESULTS.md state:
+2026-11-04, MIT, 1 star, no paper found). Its README and RESULTS.md state:
 
 - "AI coding agents (Claude Code and Codex workers) wrote the proofs, generators
   and checks"; the human chose problems and checked statements, and "did not
@@ -63,10 +63,10 @@ level 4 rests on rungs 3-4 alone.
 | ctrimm/weight-space-programming (Cory Trimm, CC BY 4.0) | 2026-11-07 | Weight-space programming experiments on SNAP, EITC, SSI and Medicaid arithmetic: LLM writes weights that reproduce a benefits formula, compared with a trained baseline (corrected 2026-11-13: the page does not mention pre-registration or frozen hashes; not verified) | No. Dense grid tests, error ~1e-12. **Closest to rung 1's task and its trained-twin control** |
 | arXiv 2610.24548 (Browne, Lee, Salvi), "Proving LLM-Generated GPU Kernels Correct and Safe: Floating-Point Verification in Lean and VerCors" (corrected 2026-11-13: title added) | 2026-10-17 | LLM agent writes GPU kernels and proves them equal to spec in Lean (Velvet), over floats | Yes, but for kernel code, not weights |
 | TorchLean, arXiv 2602.22631 (ICML 2026) | 2026-02 | Lean 4 network semantics, bound propagation, certificate checking | Infrastructure; no LLM-written weights |
-| arXiv 2603.20991 | 2026-03 | (corrected 2026-11-13) WRONG ENTRY: this id is "Structural Sensitivity in Compressed Transformers: Relative Error Propagation and Layer Removal" (Basu, Basu, Deb), not a Lean belief-propagation transformer. The intended article was not found and is not cited | - |
+| arXiv 2603.20991 | 2026-03 | (corrected 2026-11-13) WRONG ENTRY: this id is "Structural Sensitivity in Compressed Transformers: Relative Error Propagation and Layer Removal" (Basu, Basu, Deb), not a Lean belief-propagation transformer. The intended paper was not found and is not cited | - |
 | brettkoonce/lean4-mlir (Brett Koonce, BSD-3) | 2026 | (corrected 2026-11-13) Lean specification of neural architectures with machine-checked backward-pass correctness (Jacobian-transpose) and StableHLO/XLA code generation; `native_decide` use not seen on the page | Training code and layer-level proofs |
 | fxeqxmulfx/transformer | 2026 | (corrected 2026-11-13) Research project with unfinished goals (training-convergence proofs for a one-block transformer variant, grokking, convex models, forward-only training); Lean proofs on spectral recovery, convex learners and forward-only learning; no checkpoints published; the "39 unfinished statements" figure was not seen | No all-lengths theorem for written weights found |
-| arXiv 2506.19104 (D. Huybrechs, "On the algorithmic construction of deep ReLU networks") | 2025-06 | (corrected 2026-11-13: author and title added) Explicit ReLU network constructions, e.g. exact sorting | Written proof only |
+| arXiv 2506.19104 (D. Huybrechs, "On the algorithmic construction of deep ReLU networks") | 2025-06 | (corrected 2026-11-13: author and title added) Explicit ReLU network constructions, e.g. exact sorting | Paper proof only |
 | Brucker & Stell (Isabelle AFP 2025); Coq piecewise-affine nets (arXiv 2301.12893, Aleksandrov and Völlinger, "Formalizing Piecewise Affine Activation Functions of Neural Networks in Coq"; corrected 2026-11-13: authors and title added) | 2023-25 | Formal semantics of feed-forward nets | Human proofs; no LLM, no written weights |
 | nathanrs/weight-space-lp, openwsp, AuremHQ, others (12 WSP repos, Nov 2026) | 2026-11 | Weight editing of LLMs | No proofs |
 
@@ -106,9 +106,9 @@ transformer + all lengths; RASP/Tracr verified; LLM-written weights + Lean; hard
 | Item | What it does | Takes the rung-2 claim? |
 |---|---|---|
 | Jiang, Hague, Rümmer, Lin, arXiv 2602.16473, "Synthesis and Verification of Transformer Programs" (Feb 2026; abstract read; corrected 2026-11-13: title added) | Verifies **C-RASP programs** by translating to Lustre and using SMT-based model checkers; also learns C-RASP programs from examples | **Closest.** Unbounded-length verification, but of programs, not weights; SMT trust base, no proof assistant; no LLM. Must be cited. |
-| Yang & Chiang, "Counting Like Transformers: Compiling Temporal Counting Logic Into Softmax Transformers", arXiv 2404.04393 (corrected 2026-11-13: title added) | Written proof that C-RASP compiles to future-masked soft-attention encoders for any length | No. Written proof of a compiler, not a checked proof of given weights |
+| Yang & Chiang, "Counting Like Transformers: Compiling Temporal Counting Logic Into Softmax Transformers", arXiv 2404.04393 (corrected 2026-11-13: title added) | Paper proof that C-RASP compiles to future-masked soft-attention encoders for any length | No. Paper proof of a compiler, not a checked proof of given weights |
 | Tracr (Lindner et al., NeurIPS 2023), arXiv 2301.05062 | Compiles RASP to weights | No. Correctness not mechanised |
-| "Quantitative Bounds for Length Generalization in Transformers", ICLR 2026 (corrected 2026-11-13: Izzo, Nichani, Lee; arXiv 2510.27015) | Bounds how many lengths must agree before two limit transformers agree everywhere | No. Written theory; but it means "test up to length N" can in principle be a proof for a restricted class. Worth one sentence |
+| "Quantitative Bounds for Length Generalization in Transformers", ICLR 2026 (corrected 2026-11-13: Izzo, Nichani, Lee; arXiv 2510.27015) | Bounds how many lengths must agree before two limit transformers agree everywhere | No. Paper theory; but it means "test up to length N" can in principle be a proof for a restricted class. Worth one sentence |
 | "Compact Proofs of Model Performance via Mechanistic Interpretability" (Gross et al., NeurIPS 2024), arXiv 2406.11779 | Computer-assisted proofs about a trained Max-of-K transformer | No. Fixed length, trained weights |
 | Items already in this memo (trained RNN adder for all lengths; 2603.20991) | Unchanged | Rung-2 proof shape exists for a trained RNN; not for a written transformer |
 
@@ -131,7 +131,7 @@ architecture can do it.
 
 Question: what is new in "a written network with a proof that it stays correct for every
 weight setting inside a stated ball, so float rounding and fine-tuning are covered"?
-Three web searches. Search summaries only; no article was read in full.
+Three web searches. Search summaries only; no paper was read in full.
 
 | Item | What it does | What it takes from the rung-3 claim |
 |---|---|---|
@@ -161,18 +161,18 @@ published. Cite 2512.01899 and Weng et al. 2020 first in any write-up.
 Question: is there prior work with a transformer proved correct, in a proof assistant, at
 every input length, for every weight setting in a stated ball, or for a modelled
 floating-point forward pass? Eight web searches and three abstract-level page reads.
-Search summaries and abstracts only; no article was read in full.
+Search summaries and abstracts only; no paper was read in full.
 
 | Item | What it does | What it takes from the rung-4 claim |
 |---|---|---|
 | Hahn 2020 (Michael Hahn, TACL, arXiv 1906.06755); Chiang and Cholak, "Overcoming a Theoretical Limitation of Self-Attention", ACL 2022 (arXiv 2202.12172) | (corrected 2026-11-13) Hahn's abstract covers soft and hard attention and says self-attention cannot model periodic finite-state languages or hierarchical structure unless layers or heads grow with input length; Chiang and Cholak show ways to overcome the limitation on PARITY and FIRST. The "margin shrinks as inputs get longer" and "layer norm / log n" wording was not found on the abstract pages | **The fragility is known in theory.** "Exact all-lengths constructions have margins that vanish with n" is not our discovery |
-| Merrill and Sabharwal, "A Logic for Expressing Log-Precision Transformers", NeurIPS 2023 (arXiv 2210.02671) and "The Parallelism Tradeoff", TACL (arXiv 2207.00729); Li and Cotterell, "Characterizing the Expressivity of Fixed-Precision Transformer Language Models" (arXiv 2505.23623, NeurIPS 2025); Yang, Bergsträßer, Zetzsche, Chiang, Lin, "Length Generalization Bounds for Transformers" (arXiv 2603.02238) | (corrected 2026-11-13: authors added; the last two were wrongly grouped under Merrill and Sabharwal) Written theory on log-precision and fixed-precision transformers and on length-generalisation bounds; the "about log n bits" wording was not found on the abstract pages | The float32 failure of our sort network is the expected consequence. Not machine-checked, not about a weight ball |
+| Merrill and Sabharwal, "A Logic for Expressing Log-Precision Transformers", NeurIPS 2023 (arXiv 2210.02671) and "The Parallelism Tradeoff", TACL (arXiv 2207.00729); Li and Cotterell, "Characterizing the Expressivity of Fixed-Precision Transformer Language Models" (arXiv 2505.23623, NeurIPS 2025); Yang, Bergsträßer, Zetzsche, Chiang, Lin, "Length Generalization Bounds for Transformers" (arXiv 2603.02238) | (corrected 2026-11-13: authors added; the last two were wrongly grouped under Merrill and Sabharwal) Paper theory on log-precision and fixed-precision transformers and on length-generalisation bounds; the "about log n bits" wording was not found on the abstract pages | The float32 failure of our sort network is the expected consequence. Not machine-checked, not about a weight ball |
 | arXiv 2602.16473 (already in this memo) | C-RASP programs verified with SMT model checkers, all lengths | All lengths, but programs, exact arithmetic, no weights, no proof assistant |
 | (corrected 2026-11-13) "R. J. George, Verifiable Transformers in Lean, June 2026 (web article)" | NOT FOUND. Searches for the title returned only TorchLean (arXiv 2602.22631, first author Robert Joseph George), Rush's "Lean Verified Transformers" and Somani's "Towards Verifiable Transformers". The entry is a suspected conflation and is not cited | - |
 | "Towards Verifiable Transformers: Solver-Checkable Circuit Explanations" (Neel Somani), arXiv 2605.24033 | Solver-checked properties of a GPT-2 circuit on a 1,280-prompt domain, real arithmetic | Finite domain, no weight perturbation, no floats |
 | "Conic Certification of Transformer Attention" (Masoud Ataei), arXiv 2611.00585 | Numerical certificates for softmax attention under input perturbation, GPT-2 | Inputs not weights; numerical; fixed length |
-| Lean 4 attention formalisations (corrected 2026-11-13: arXiv 2608.10288 is Gokden, "Power law graph attention", a non-Lean empirical article, and is dropped; "Formally Verified Autoresearch ... Multi-Head Attention" and "Identifiability of Deep Normalized Attention" were not re-found and are not cited; brettkoonce Lean 4 project: see above) | Lean proofs of algebraic or expressivity facts about attention, or of backward-pass correctness | Lean and attention, but none proves a task correct at all lengths, none has a weight ball or a float model |
-| Float-executiby hands and FloatLib (rung-3 section) | Real-arithmetic certificates can fail in floats; verified float arithmetic exists in Lean | The float concern and the infrastructure are known |
+| Lean 4 attention formalisations (corrected 2026-11-13: arXiv 2608.10288 is Gokden, "Power law graph attention", a non-Lean empirical paper, and is dropped; "Formally Verified Autoresearch ... Multi-Head Attention" and "Identifiability of Deep Normalized Attention" were not re-found and are not cited; brettkoonce Lean 4 project: see above) | Lean proofs of algebraic or expressivity facts about attention, or of backward-pass correctness | Lean and attention, but none proves a task correct at all lengths, none has a weight ball or a float model |
+| Float-execution papers and FloatLib (rung-3 section) | Real-arithmetic certificates can fail in floats; verified float arithmetic exists in Lean | The float concern and the infrastructure are known |
 
 **What is not found:** a transformer (written or trained) with a proof-assistant theorem
 of correctness at every input length for every weight setting in a ball; or with a
@@ -235,7 +235,7 @@ The all-lengths claim can only be about exact arithmetic with a weight ball.
 
 ## Rung 5 (softmax attention and IEEE binary32): novelty and feasibility, 2026-11-13 evening
 
-Target from the coordinator: a written transformer with softmax attention (not average-hard)
+Target from the project owner: a written transformer with softmax attention (not average-hard)
 and true IEEE float32 semantics, proved for every length up to a stated bound and over a
 weight ball, loadable in PyTorch. Web search over abstracts and project pages only (same
 caveat as before: "not found" is weaker than "does not exist").
@@ -244,11 +244,11 @@ caveat as before: "not found" is weaker than "does not exist").
 
 | Work | What it has | What it lacks for this target |
 |---|---|---|
-| Yang, Strobl, Chiang, Angluin, "Simulating Hard Attention Using Soft Attention" (arXiv 2412.09925; no venue on the arXiv page; "TACL 2026" unverified, corrected 2026-11-13) | Written proofs that soft attention simulates hard attention; some constructions with length-independent parameters (previous/next, "since", counting, using encodings such as i, i², 1/i), others needing temperature 1/n | Not mechanised; exact real arithmetic; no weight perturbation; no rounding |
-| C-RASP (arXiv 2404.04393) | RASP variant that provably compiles to future-masked soft-attention transformers at every length | Written proof; exact arithmetic; no weight ball |
+| Yang, Strobl, Chiang, Angluin, "Simulating Hard Attention Using Soft Attention" (arXiv 2412.09925; no venue on the arXiv page; "TACL 2026" unverified, corrected 2026-11-13) | Paper proofs that soft attention simulates hard attention; some constructions with length-independent parameters (previous/next, "since", counting, using encodings such as i, i², 1/i), others needing temperature 1/n | Not mechanised; exact real arithmetic; no weight perturbation; no rounding |
+| C-RASP (arXiv 2404.04393) | RASP variant that provably compiles to future-masked soft-attention transformers at every length | Paper proof; exact arithmetic; no weight ball |
 | TorchLean (arXiv 2602.22631, lean-dojo) | Lean 4 framework: bit-level binary32 model (IEEE32Exec) refined to a round-on-reals model for finite values; attention specified; interval and CROWN-style bounds with certificate checking for input regions | No theorem about a transformer's correctness at all lengths; no weight-ball statement; transcendental functions go through an external interval oracle |
 | FloatSpec (Beneficial AI Foundation) | Lean 4 port of Flocq, in progress (Lean 4.29) | Open error-bound theorems; no neural network result |
-| Fixed-precision / log-precision expressivity articles | Theory of what finite-precision transformers can compute | Not mechanised; not about a concrete float format |
+| Fixed-precision / log-precision expressivity papers | Theory of what finite-precision transformers can compute | Not mechanised; not about a concrete float format |
 | Float-aware verifiers (software-level, Lipschitz with float error) | Bounds for trained nets on input regions | Not proof-assistant-checked end to end; fixed input size |
 
 ### Verdict
@@ -308,13 +308,33 @@ installed here.
 **Risk:** the proofs are much harder than rung 4's (geometric leak sums through rounded
 left-to-right summation, underflow terms, overflow bounds). The lemma kit must carry most
 of that or Sonnet will fail; rung 4 suggests that with a strong kit the per-task work is
-routine. The framework is the Fable-level part and the study team writes it itself.
+routine. The framework is the stronger model-level part and the study team run writes it itself.
 
 ## Re-statement of the narrow "first" after Rush's work (2026-11-13)
 
 Sasha Rush's "Lean Verified Transformers" (https://srush.github.io/lean-transformer/, repository srush/lean-transformer; human-written text, AI-written proofs; exact rationals; a "softmax-like" normalisation, 1 + relu divided by the sum, not an exponential) has Lean theorems about transformer blocks for arbitrary weights, as we read the page at every sequence length: permutation equivariance of attention layers and blocks, batch invariance, tensor and data parallelism. So "Lean theorems at all lengths about transformer blocks" are not new. It proves no statement that a network computes a specific task, has no weight ball and no rounding. The narrow "first" therefore stands only in this form: machine-checked proofs that specific written transformer weights compute a task at every length, for every weight setting in a stated relative ball, and under a modelled rounding model up to a stated length. The caveat is unchanged: this is an abstract-level web search, and "not found" is weaker than "does not exist". Lince's repository (read through its README) covers a trained softmax transformer on a finite domain with exact real softmax, not a weight ball or rounding.
 
-(The novelty check for rung 6a, a registered and parked design, is not included in this release.)
+## Rung 6a (gated softmax transformer, additive weight ball, every length): novelty check, 2026-11-14
+
+Two targeted web searches plus two abstract pages opened today. Same caveat as before: a
+search of abstracts and summaries; "not found" is weaker than "does not exist".
+
+| Work (page opened 2026-11-14 unless noted) | What it has | What it lacks for this target |
+|---|---|---|
+| Opper, Fernandez, Smolensky, Gao, "TRA: Better Length Generalisation with Threshold Relative Attention", arXiv:2503.23174 (v4 Oct 2025) | An architecture close in spirit to ours: "selective sparsity" removes irrelevant keys from the attention softmax entirely, and relative positional distance is computed only between the query and the keys that remain; trained models, reported length-generalisation gains | No theorem, no proof assistant, no weight-perturbation statement (per the abstract) |
+| Basu, Basu, Deb, "Structural Sensitivity in Compressed Transformers: Relative Error Propagation and Layer Removal", arXiv:2603.20991 (v2 May 2026) | Lean 4 machine-checked per-matrix error bounds (norm inequalities) for weight-matrix compression error in transformers | Not about a network computing a task, sequence length or an all-inputs correctness statement (per the abstract) |
+| Shi et al. 2020, "Robustness Verification for Transformers" (search summary only, page not opened) | Numerical robustness verification for INPUT perturbations | No weights, no proof assistant |
+| Weng et al. AAAI 2020; Elmecker-Plakolm et al. (already in the report) | Numerical weight-ball certificates for trained ReLU networks | Fixed input size, not transformers at every length, not proof-assistant-checked |
+| Izzo, Nichani, Lee, "Quantitative Bounds for Length Generalization in Transformers" (search summary only) | Theory of length generalisation, finite versus infinite precision | Paper proofs; no weight ball; not mechanised |
+
+**Verdict.** Not found: a proof-assistant-checked theorem that a transformer computes a
+task at every input length for every ADDITIVE perturbation of every weight in a stated
+ball. **What is not new, and must be said:** removing keys from the softmax by a threshold
+and using relative position for the rest is TRA's idea (for trained models, without
+proofs); our gate differs in that it thresholds a ReLU of the key's own state and the
+position bias runs over all positions, but the report must not present key gating as
+our invention. Machine-checked weight-error bounds for transformers exist at the level
+of matrix norms (Basu et al.).
 
 ## Rung 6b (collision bound), search of 2026-11-14
 

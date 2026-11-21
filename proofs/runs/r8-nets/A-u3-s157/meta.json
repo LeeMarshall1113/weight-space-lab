@@ -1,0 +1,32 @@
+{
+ "tag": "A-u3-s157",
+ "dir": "runs/r8-fresh/A/u3/s157",
+ "net": "W14.json",
+ "task": "A",
+ "recipe": "u3",
+ "seed": 157,
+ "task_as": "A",
+ "radius": "1/16384",
+ "mirror_ok": true,
+ "mirror_reason": "ok",
+ "states": 31,
+ "info": {
+  "worst": 0.09681464586511898,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "window": [
+   1,
+   2
+  ],
+  "spread": [
+   0.1,
+   25.15
+  ],
+  "dense": [
+   true,
+   true
+  ],
+  "mixed_rows": 18
+ }
+}

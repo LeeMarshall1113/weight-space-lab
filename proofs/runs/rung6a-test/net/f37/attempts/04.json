@@ -1,0 +1,17 @@
+{
+ "case": "f37",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 06:49:34",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.7,
+ "peak_rss_gb": 1.81,
+ "peak_commit_gb": 4.0,
+ "lean_output": "runs\\rung6a-test\\net\\f37\\_Full.lean:212:15: error: Invalid projection: Projections extract constructor fields for one-constructor inductive types. The expression\n  k1\nhas type\n  Real.le✝ |ardot fl r x d 0 0 - dotQ r xh|\n    (absSum r * e + 6 * (1 / 1000) * (1 + e) + 6 * (W + 1) * (1 + e + 1) / 65536 + 1 / 1267650600228229401496703205376)\nwhich is not a one-constructor inductive type.\nruns\\rung6a-test\\net\\f37\\_Full.lean:213:4: error: linarith failed to find a contradiction\ncase right\nu η M : ℝ\nfl ex : ℝ → ℝ\np : APert\nw : List ℕ\nev : Ctx u η M fl ex p w\nr : List ℚ\nhr6 : r.length = 6\nW : ℝ\nhW : ∀ a ∈ r, |↑a| ≤ W\nhW0 : 0 ≤ W\nhW4 : W ≤ 4\nx xh : List ℝ\nhx : x.length = 6\ne : ℝ\nhe0 : 0 ≤ e\nhe1 : e ≤ 1 / 10\nhC : Close x xh e 1\nd : ℕ → ℝ\nhd : ∀ (k : ℕ), |d k| ≤ 1 / 1000\nhM30 : 2 ^ 30 ≤ M\nhT : (W + 1) * (1 + e + 1) ≤ 2 ^ 20\nh3 : ↑6 = 6\nh16 : 2 ^ 16 = 65536\nh100 : 1 / 2 ^ 100 = 1 / 1267650600228229401496703205376\nhWW : (W + 1) * (1 + e + 1) ≤ 5 * (21 / 10)\nk1 :\n  |ardot fl r x d 0 0 - dotQ r xh| ≤\n    absSum r * e + 6 * (1 / 1000) * (1 + e) + 6 * (W + 1) * (1 + e + 1) / 65536 + 1 / 1267650600228229401496703205376\nk2 :\n  |ardot fl r x d 0 0 - dotQ r xh| ≤\n      6 * (W * e + 1 / 1000 * (1 + e)) + 6 * (W + 1) * (1 + e + 1) / 65536 + 1 / 1267650600228229401496703205376 ∧\n    |ardot fl r x d 0 0| ≤ 6 * (W + 1) * (1 + e + 1) * 2\na✝ : 70 < |ardot fl r x d 0 0|\n⊢ False\nfailed\nruns\\rung6a-test\\net\\f37\\_Full.lean:215:50: error: unsolved goals\nxh : List ℝ\n⊢ (List.zipWith (fun a v => ↑a * v) [0, 0, 0, 0, 0, 0] xh).sum = 0\nruns\\rung6a-test\\net\\f37\\_Full.lean:290:48: error: unsolved goals\nu η M : ℝ\nfl ex : ℝ → ℝ\np : APert\nw : List ℕ\nev : Ctx u η M fl ex p w\nh : AHead\nhA : h.A = [z6, z6, z6, z6, z6, z6]\ndA : ℕ → ℕ → ℝ\nhdA : ∀ (r c : ℕ), |dA r c| ≤ 1 / 1000\nxi xk xhi xhk : List ℝ\nhi6 : xi.length = 6\nhk6 : xk.length = 6\ne : ℝ\nhe0 : 0 ≤ e\nhe1 : e ≤ 1 / 10\nhCi : Close xi xhi e 1\nhCk : Close xk xhk e 1\nhrow : ∀ (r : ℕ), |ardot fl z6 xk (dA r) 0 0 - 0| ≤ 1 / 130\nhy :\n  armat fl h.A xk dA 0 =\n    [ardot fl z6 xk (dA 0) 0 0, ardot fl z6 xk (dA 1) 0 0, ardot fl z6 xk (dA 2) 0 0, ardot fl z6 xk (dA 3) 0 0,\n      ardot fl z6 xk (dA 4) 0 0, ardot fl z6 xk (dA 5) 0 0]\nhCy : Close (armat fl h.A xk dA 0) [0, 0, 0, 0, 0, 0] (1 / 130) 0\nhly : List.length (armat fl h.A xk dA 0) = 6\nhM30 : 2 ^ 30 ≤ M\np1 :\n  |RSeq.pdot fl xi (armat fl h.A xk dA 0) 0 - dotR xhi [0, 0, 0, 0, 0, 0]| ≤\n    ↑xi.length * (e * (0 + 1 / 130) + 1 * (1 / 130)) + ↑xi.length * (1 + e + 1) * (0 + 1 / 130 + 1) / 2 ^ 16 +\n      1 / 2 ^ 100\n⊢ (List.zipWith (fun a v => a * v) xhi [0, 0, 0, 0, 0, 0]).sum = 0\nruns\\rung6a-test\\net\\f37\\_Full.lean:409:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 4,
+ "attempts_left": 8
+}

@@ -1,0 +1,29 @@
+{
+ "tag": "ctl-iv-swap",
+ "task": "B",
+ "recipe": "u5",
+ "seed": 103,
+ "task_as": "B",
+ "radius": "1/1000",
+ "prototype_ok": false,
+ "prototype_reason": "case token 1, picks (0, 1), task state 0: output 0.0288 +- 0.0888 against target 2",
+ "states": 10,
+ "cands": [
+  [
+   true,
+   true,
+   true,
+   false,
+   true,
+   true
+  ],
+  [
+   false,
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ ]
+}

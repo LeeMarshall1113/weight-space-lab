@@ -1,0 +1,22 @@
+{
+ "case": "k3",
+ "arm": "kit",
+ "pass": true,
+ "time": "2026-11-20 02:07:32",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 14.6,
+ "peak_rss_gb": 1.81,
+ "peak_commit_gb": 4.0,
+ "lean_output": "runs\\r7-kit\\k3\\_Full.lean:133:45: warning: Unused tactic linter: `omega` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r7-kit\\k3\\_Full.lean:133:45: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r7-kit\\k3\\_Full.lean:285:16: warning: Unused tactic linter: `simp [headOut]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r7-kit\\k3\\_Full.lean:285:16: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r7-kit\\k3\\_Full.lean:457:14: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\nruns\\r7-kit\\k3\\_Full.lean:555:14: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 2,
+ "attempts_left": 28
+}

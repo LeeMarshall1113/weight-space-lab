@@ -108,6 +108,47 @@ matches 12 of 12, `freeze_r6b.sha256` 8 of 9 (`Lane4/Collision.lean` was extende
 `freeze_r5.sha256` 14 of 21 and `freeze_r4.sha256` 8 of 13; the rest were edited for release
 (`tools/check.py`, scrubbed scripts) or are service scripts that are not included.
 
+### 6. Rungs 6a, 7, 8 and the mechanism rows (version 0.4; run 2026-11-21)
+
+Same machine and toolchain as above (Lean `v4.35.0-rc3`, Mathlib `v4.35.0-rc3`, Mathlib not rebuilt). Run
+from a clean clone of the draft branch, one Lean process at a time, with `tools/recheck_r678.py`
+(`--set frameworks,kits,r6a,nets-r7,nets-r8`, then `nets-mech`, then `frameworks,kit-mech,attn`, then
+`nets-mech --match ctl`). A per-network file passes when Lean exits 0 with no error and no `sorry`,
+every `#print axioms` is within `propext`, `Classical.choice`, `Quot.sound`, it proves `accept` or
+`reject`, **and that verdict equals the one recorded in the folder's log**, and its commit stays
+at or under 6 GB (the limit of `PREREG_R8.md` Amendment 1). Rows and logs are in `results/`.
+
+| Run | Rows | Passed | Notes |
+|---|---|---|---|
+| Frameworks, kit cases, rung 6a cases, rung 7 and 8 per-network files and controls (`recheck-r678.json`, `.log`; 6,479 s) | 179 | **178** | 1 framework build, 47 kit and rung-6a cases, 131 per-network files: 48 accept, 82 reject, 1 not a net file (below). Largest file 648 s, 5.45 GB commit. |
+| Mechanism row (b) (`recheck-r678-mech.json`; 2,664 s) | 23 | 23 | framework build plus 22 files (21 accept; fresh seed 153 proves `reject`, as in rung 8). |
+| Mechanism row (a) (`recheck-r678-attn.json`; 2,371 s) | 21 | 21 | framework build plus 20 files, each carries the row (b) theorems as well; largest 591 s, 4.89 GB. |
+| Row (a) kit case and the swapped-embedding control (`recheck-r678-attn-ctl.log`, `recheck-r678-ctl.json`) | 2 | 2 | kit case `runs/mech-kit/ma` (axioms `propext`, `Classical.choice`, `Quot.sound`); the control file proves `accept` (kernel-checked, no trained-network theorems). |
+
+**The one non-pass:** `runs/r8-nets/probe116/Net.lean`. It is a development probe on a tuning-set
+network, containing only the first six case theorems; it compiles cleanly (exit 0, no error, no
+`sorry`, 29 s) but states no `accept` or `reject` theorem, so the script's rule marks it. It is kept
+so that nothing is quietly removed; no result in `RESULTS_R8.md` rests on it.
+
+**A first attempt that did not count.** The first run of the row (a) files (`recheck-r678-attn-run1.json`)
+shows 20 failures: every file compiled and proved its theorems with the standard axioms, but the
+script compared the file's verdict with the wrong recorded one (a bug in `tools/recheck_r678.py`, fixed
+afterwards). The table above is the rerun with the fixed script. An earlier launch also stopped within
+a minute for a missing dependency in the module table of `tools/check.py` (fixed; nothing else ran).
+
+**Token audit** over the 522 Lean files of these rungs: `native_decide` 0, `ofReduceBool` 0, `sorry` 0, `axiom` 0
+in the final files and in every recorded attempt.
+
+**Freeze lists** (`results/freeze-check-r678.txt`): the rung-8 checker's Lean files match their listed
+hashes; many Python tools differ because the release copies were scrubbed of internal wording or
+because they are shared files edited later.
+
+**What this does not show.** Not re-run: the Python mirrors and numeric checks, the training of the
+networks, the extraction step (only its generated Lean files are checked), the agent runs. Mathlib was not
+rebuilt. No external checker (nanoda, lean4lean, `lake comparator`) has been run on these files; see
+`writeup/LEAN_VERSION.md` for the version check and why that is the natural next
+step. The toolchain is a release candidate.
+
 ## What this does not show
 
 - It re-checks that the recorded solutions are accepted by the Lean kernel against the
@@ -117,6 +158,6 @@ matches 12 of 12, `freeze_r6b.sha256` 8 of 9 (`Lane4/Collision.lean` was extende
   busier machine).
 - The numeric scripts (`tools/r4_checks.py`, `r5_checks.py`, `r3_2x2_v2.py` and so on), the
   export step, the agent runs and the `reading/` Python scripts were not re-run.
-- Rung 6a is not included; `runs/*-dev` of rungs 2 to 5 were re-checked only in the flat run.
+- `runs/*-dev` of rungs 2 to 5 were re-checked only in the flat run; rungs 6a to 8 and the mechanism rows are in Section 6.
 - Not tested on Linux or macOS; the memory guard in `tools/check.py` works on Windows only.
 - Mathlib was not rebuilt (see the caveat above).

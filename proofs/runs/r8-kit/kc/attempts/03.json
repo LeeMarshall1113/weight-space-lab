@@ -1,0 +1,17 @@
+{
+ "case": "kc",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-20 14:52:23",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 9.7,
+ "peak_rss_gb": 1.75,
+ "peak_commit_gb": 3.94,
+ "lean_output": "runs\\r8-kit\\kc\\_Full.lean:57:76: error: unsolved goals\nL : List ℕ\n⊢ List.flatMap (fun a => [↑a]) L = List.map (fun k => ↑k) L\nruns\\r8-kit\\kc\\_Full.lean:86:4: warning: Unused tactic linter: `(simp only [key_list]; exact fold_eq0 y 14)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r8-kit\\kc\\_Full.lean:86:4: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r8-kit\\kc\\_Full.lean:93:4: warning: Unused tactic linter: `push_cast` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r8-kit\\kc\\_Full.lean:105:14: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\nruns\\r8-kit\\kc\\_Full.lean:108:14: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\nruns\\r8-kit\\kc\\_Full.lean:126:13: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\nruns\\r8-kit\\kc\\_Full.lean:241:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r8-kit\\kc\\_Full.lean:241:18: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r8-kit\\kc\\_Full.lean:249:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r8-kit\\kc\\_Full.lean:249:18: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 3,
+ "attempts_left": 27
+}

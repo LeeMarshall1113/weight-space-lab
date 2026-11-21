@@ -1,0 +1,17 @@
+{
+ "case": "f37",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 06:47:41",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.0,
+ "peak_rss_gb": 1.74,
+ "peak_commit_gb": 3.92,
+ "lean_output": "runs\\rung6a-test\\net\\f37\\_Full.lean:164:14: error: don't know how to synthesize implicit argument `d`\n  @asw_c u η M fl ex p w ev (mkQ (tokAt w j)) (p.E ?m.188 0) (ev.hp.E ?m.188 0)\n    (Eq.mpr (id (congrArg (fun _a => |_a| ≤ 5) (mkQ_R (tokAt w j))))\n      (Or.casesOn (mkR_01 (tokAt w j))\n        (fun h =>\n          Eq.mpr (id (congrArg (fun _a => |_a| ≤ 5) h))\n            (Mathlib.Meta.NormNum.isNat_le_true\n              (Mathlib.Meta.NormNum.isNat_abs_nonneg (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))\n              (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 5)) (Eq.refl true)))\n        fun h =>\n        Eq.mpr (id (congrArg (fun _a => |_a| ≤ 5) h))\n          (Mathlib.Meta.NormNum.isNat_le_true\n            (Mathlib.Meta.NormNum.isNat_abs_nonneg (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one))\n            (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 5)) (Eq.refl true))))\ncontext:\nu η M : ℝ\nfl ex : ℝ → ℝ\np : APert\nw : List ℕ\nev : Ctx u η M fl ex p w\nj : ℕ\nht : tokAt w j ≤ 5\n⊢ ℝ\nruns\\rung6a-test\\net\\f37\\_Full.lean:164:50: error: don't know how to synthesize placeholder for argument `t`\ncontext:\nu η M : ℝ\nfl ex : ℝ → ℝ\np : APert\nw : List ℕ\nev : Ctx u η M fl ex p w\nj : ℕ\nht : tokAt w j ≤ 5\n⊢ ℕ\nruns\\rung6a-test\\net\\f37\\_Full.lean:164:9: error: failed to infer `have` declaration type\nruns\\rung6a-test\\net\\f37\\_Full.lean:191:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

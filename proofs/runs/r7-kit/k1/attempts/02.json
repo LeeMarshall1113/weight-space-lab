@@ -1,0 +1,17 @@
+{
+ "case": "k1",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-20 00:59:42",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 23.2,
+ "peak_rss_gb": 1.84,
+ "peak_commit_gb": 4.02,
+ "lean_output": "runs\\r7-kit\\k1\\_Full.lean:37:47: error: unsolved goals\nh1 : 1 + 11 / 100 + (11 / 100) ^ 2 / 2 ≤ Real.exp (11 / 100)\nh2 : (1 + 11 / 100 + (11 / 100) ^ 2 / 2) ^ 100 ≤ Real.exp (11 / 100) ^ 100\nh3 : Real.exp 11 = Real.exp (11 / 100) ^ 100\n⊢ False\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 28
+}

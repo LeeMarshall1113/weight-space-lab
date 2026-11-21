@@ -1,0 +1,32 @@
+{
+ "tag": "B-u5-s141",
+ "dir": "runs/r8-fresh/B/u5/s141",
+ "net": "W14.json",
+ "task": "B",
+ "recipe": "u5",
+ "seed": 141,
+ "task_as": "B",
+ "radius": "1/16384",
+ "mirror_ok": true,
+ "mirror_reason": "ok",
+ "states": 8,
+ "info": {
+  "worst": 0.04440706702383392,
+  "states": 8,
+  "table_rows": 40,
+  "cases": 40,
+  "window": [
+   1,
+   1
+  ],
+  "spread": [
+   1.11,
+   3.65
+  ],
+  "dense": [
+   false,
+   false
+  ],
+  "mixed_rows": 0
+ }
+}

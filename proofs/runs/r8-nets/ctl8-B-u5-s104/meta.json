@@ -1,0 +1,16 @@
+{
+ "tag": "ctl8-B-u5-s104",
+ "dir": "runs/r7-stage0/B/u5/s104",
+ "net": "W14.json",
+ "task": "B",
+ "recipe": "u5",
+ "seed": 104,
+ "task_as": "B",
+ "radius": "1/16384",
+ "mirror_ok": false,
+ "mirror_reason": "case token 1, keys ((2, 3), (2,)), task state 1: output 0.6339 +- 0.0213 against target 0",
+ "states": 7,
+ "info": {
+  "worst": 0.6551967859600092
+ }
+}

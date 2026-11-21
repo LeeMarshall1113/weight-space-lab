@@ -1,0 +1,2727 @@
+[
+ {
+  "kind": "framework",
+  "unit": "Lane4/R8All.lean (and all modules it imports)",
+  "pass": true,
+  "secs": 473.0
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r6-kit/kG2",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 14.0,
+  "peak_rss_gb": 1.86,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r6-kit/kG",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 14.1,
+  "peak_rss_gb": 1.84,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r6-kit/kW",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 25.4,
+  "peak_rss_gb": 1.79,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r6-kit/kX2",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 13.5,
+  "peak_rss_gb": 1.82,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r6-kit/kX",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 13.3,
+  "peak_rss_gb": 1.83,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r7-kit/k1",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 21.4,
+  "peak_rss_gb": 1.84,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r7-kit/k2",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 12.7,
+  "peak_rss_gb": 1.81,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r7-kit/k3",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 15.0,
+  "peak_rss_gb": 1.81,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r7-kit/k4",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.8,
+  "peak_rss_gb": 1.72,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r7-kit/k5",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 12.3,
+  "peak_rss_gb": 1.76,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r7-kit/kT",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.9,
+  "peak_rss_gb": 1.76,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r8-kit/ka",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 14.0,
+  "peak_rss_gb": 1.79,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r8-kit/kb",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 20.6,
+  "peak_rss_gb": 1.94,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r8-kit/kc",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 13.5,
+  "peak_rss_gb": 1.75,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r8-kit/kd",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 21.5,
+  "peak_rss_gb": 1.75,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r8-kit/ke",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 12.5,
+  "peak_rss_gb": 1.79,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r8-kit/kf",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.1,
+  "peak_rss_gb": 1.73,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r8-kit/kg",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 15.2,
+  "peak_rss_gb": 1.89,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r8-kit/kh",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 13.5,
+  "peak_rss_gb": 1.78,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-dev/net/c03",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 12.7,
+  "peak_rss_gb": 1.88,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-dev/net/f36",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 15.4,
+  "peak_rss_gb": 1.92,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-dev/net/i06",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 20.4,
+  "peak_rss_gb": 2.16,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-dev/net/l39",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 13.3,
+  "peak_rss_gb": 1.85,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/net/c01",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 18.1,
+  "peak_rss_gb": 1.89,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/net/c08",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 14.0,
+  "peak_rss_gb": 1.89,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/net/c19",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 14.4,
+  "peak_rss_gb": 1.9,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/net/f12",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 14.3,
+  "peak_rss_gb": 1.95,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/net/f22",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 14.0,
+  "peak_rss_gb": 1.91,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/net/f37",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 15.5,
+  "peak_rss_gb": 1.98,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/net/i16",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 14.8,
+  "peak_rss_gb": 1.98,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/net/i17",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 13.5,
+  "peak_rss_gb": 1.93,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/net/i18",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 14.3,
+  "peak_rss_gb": 1.98,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/net/l15",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 13.7,
+  "peak_rss_gb": 1.85,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/net/l16",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 13.5,
+  "peak_rss_gb": 1.84,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/net/l27",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 13.7,
+  "peak_rss_gb": 1.85,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/prog/c01",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.8,
+  "peak_rss_gb": 1.7,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/prog/c08",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.2,
+  "peak_rss_gb": 1.7,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/prog/c19",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.9,
+  "peak_rss_gb": 1.7,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/prog/f12",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.7,
+  "peak_rss_gb": 1.7,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/prog/f22",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.9,
+  "peak_rss_gb": 1.7,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/prog/f37",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.9,
+  "peak_rss_gb": 1.71,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/prog/i16",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.3,
+  "peak_rss_gb": 1.71,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/prog/i17",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.7,
+  "peak_rss_gb": 1.72,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/prog/i18",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.5,
+  "peak_rss_gb": 1.73,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/prog/l15",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.8,
+  "peak_rss_gb": 1.7,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/prog/l16",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.8,
+  "peak_rss_gb": 1.7,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/rung6a-test/prog/l27",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 10.9,
+  "peak_rss_gb": 1.7,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s100/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 13.6,
+  "peak_rss_gb": 2.09,
+  "peak_commit_gb": 4.28,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s101/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 13.9,
+  "peak_rss_gb": 2.11,
+  "peak_commit_gb": 4.3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s102/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 13.7,
+  "peak_rss_gb": 2.13,
+  "peak_commit_gb": 4.33,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s103/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 12.6,
+  "peak_rss_gb": 2.12,
+  "peak_commit_gb": 4.31,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s104/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 12.1,
+  "peak_rss_gb": 2.11,
+  "peak_commit_gb": 4.3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s105/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 12.0,
+  "peak_rss_gb": 2.07,
+  "peak_commit_gb": 4.26,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s106/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 11.7,
+  "peak_rss_gb": 2.09,
+  "peak_commit_gb": 4.29,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s108/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 11.5,
+  "peak_rss_gb": 2.11,
+  "peak_commit_gb": 4.3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s109/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 10.9,
+  "peak_rss_gb": 2.15,
+  "peak_commit_gb": 4.34,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s110/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 11.4,
+  "peak_rss_gb": 2.17,
+  "peak_commit_gb": 4.36,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s111/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 12.4,
+  "peak_rss_gb": 2.1,
+  "peak_commit_gb": 4.3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s113/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 12.2,
+  "peak_rss_gb": 2.17,
+  "peak_commit_gb": 4.36,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s114/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 11.4,
+  "peak_rss_gb": 1.99,
+  "peak_commit_gb": 4.19,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s115/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 11.9,
+  "peak_rss_gb": 2.1,
+  "peak_commit_gb": 4.29,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s116/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 11.2,
+  "peak_rss_gb": 2.09,
+  "peak_commit_gb": 4.28,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s117/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 11.4,
+  "peak_rss_gb": 2.15,
+  "peak_commit_gb": 4.34,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s118/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 10.8,
+  "peak_rss_gb": 2.1,
+  "peak_commit_gb": 4.29,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/A-u3-s119/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 10.5,
+  "peak_rss_gb": 2.11,
+  "peak_commit_gb": 4.31,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/B-u5-s103/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 27.7,
+  "peak_rss_gb": 2.15,
+  "peak_commit_gb": 4.35,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/B-u5-s106/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 34.6,
+  "peak_rss_gb": 2.19,
+  "peak_commit_gb": 4.39,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/B-u5-s108/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 10.9,
+  "peak_rss_gb": 1.97,
+  "peak_commit_gb": 4.18,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/B-u5-s113/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 23.3,
+  "peak_rss_gb": 2.13,
+  "peak_commit_gb": 4.33,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/B-u5-s117/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 24.6,
+  "peak_rss_gb": 2.12,
+  "peak_commit_gb": 4.31,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/B-u5-s118/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 17.9,
+  "peak_rss_gb": 2.09,
+  "peak_commit_gb": 4.3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/B-u5-s125/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 11.4,
+  "peak_rss_gb": 2.13,
+  "peak_commit_gb": 4.32,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/B-u5-s126/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 34.9,
+  "peak_rss_gb": 2.18,
+  "peak_commit_gb": 4.38,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/B-u5-s129/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 24.2,
+  "peak_rss_gb": 2.15,
+  "peak_commit_gb": 4.35,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/B-u5-s131/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 11.3,
+  "peak_rss_gb": 2.13,
+  "peak_commit_gb": 4.32,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/B-u5-s133/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 11.3,
+  "peak_rss_gb": 2.1,
+  "peak_commit_gb": 4.29,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/B-u5-s134/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 24.5,
+  "peak_rss_gb": 2.12,
+  "peak_commit_gb": 4.31,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/B-u5-s136/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 20.4,
+  "peak_rss_gb": 2.18,
+  "peak_commit_gb": 4.38,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/B-u5-s137/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 10.9,
+  "peak_rss_gb": 2.14,
+  "peak_commit_gb": 4.33,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/B-u5-s139/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 11.1,
+  "peak_rss_gb": 2.08,
+  "peak_commit_gb": 4.27,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/Bc02-u5-s205/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 11.0,
+  "peak_rss_gb": 2.01,
+  "peak_commit_gb": 4.2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/Bw16-u5-s201/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 75.9,
+  "peak_rss_gb": 2.65,
+  "peak_commit_gb": 4.85,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/Bw16-u5-s209/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 16.9,
+  "peak_rss_gb": 2.87,
+  "peak_commit_gb": 5.07,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/ctl-i-radius16/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 11.0,
+  "peak_rss_gb": 2.09,
+  "peak_commit_gb": 4.28,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/ctl-ii-radius4/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 10.5,
+  "peak_rss_gb": 2.09,
+  "peak_commit_gb": 4.28,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/ctl-iii-taskA/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 10.9,
+  "peak_rss_gb": 2.09,
+  "peak_commit_gb": 4.28,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/ctl-iv-swap/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 12.0,
+  "peak_rss_gb": 2.09,
+  "peak_commit_gb": 4.28,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/ctl-v-negout/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 12.0,
+  "peak_rss_gb": 2.09,
+  "peak_commit_gb": 4.28,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/ctl-vi-s100/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 12.0,
+  "peak_rss_gb": 2.0,
+  "peak_commit_gb": 4.2,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r7-nets/ctl-vii-wrongcert/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 10.7,
+  "peak_rss_gb": 1.77,
+  "peak_commit_gb": 3.97,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s140/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 27.5,
+  "peak_rss_gb": 2.2,
+  "peak_commit_gb": 4.43,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s141/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 86.5,
+  "peak_rss_gb": 2.29,
+  "peak_commit_gb": 4.52,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s142/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 97.2,
+  "peak_rss_gb": 2.34,
+  "peak_commit_gb": 4.56,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s143/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 26.7,
+  "peak_rss_gb": 2.19,
+  "peak_commit_gb": 4.41,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s144/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 89.4,
+  "peak_rss_gb": 2.27,
+  "peak_commit_gb": 4.5,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s145/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 98.9,
+  "peak_rss_gb": 2.3,
+  "peak_commit_gb": 4.54,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s146/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 99.9,
+  "peak_rss_gb": 2.3,
+  "peak_commit_gb": 4.54,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s147/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 96.4,
+  "peak_rss_gb": 2.29,
+  "peak_commit_gb": 4.52,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s148/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 95.3,
+  "peak_rss_gb": 2.33,
+  "peak_commit_gb": 4.57,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s149/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 502.0,
+  "peak_rss_gb": 2.59,
+  "peak_commit_gb": 4.88,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s150/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 88.9,
+  "peak_rss_gb": 2.32,
+  "peak_commit_gb": 4.55,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s151/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 23.8,
+  "peak_rss_gb": 2.18,
+  "peak_commit_gb": 4.4,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s152/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 88.7,
+  "peak_rss_gb": 2.3,
+  "peak_commit_gb": 4.53,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s153/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 16.3,
+  "peak_rss_gb": 2.89,
+  "peak_commit_gb": 5.09,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s154/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 84.6,
+  "peak_rss_gb": 2.28,
+  "peak_commit_gb": 4.5,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s155/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 96.2,
+  "peak_rss_gb": 2.34,
+  "peak_commit_gb": 4.56,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s156/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 83.5,
+  "peak_rss_gb": 2.3,
+  "peak_commit_gb": 4.52,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s157/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 91.0,
+  "peak_rss_gb": 2.29,
+  "peak_commit_gb": 4.52,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s158/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 95.7,
+  "peak_rss_gb": 2.33,
+  "peak_commit_gb": 4.56,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/A-u3-s159/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 93.8,
+  "peak_rss_gb": 2.33,
+  "peak_commit_gb": 4.56,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/B-u5-s141-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 27.5,
+  "peak_rss_gb": 2.12,
+  "peak_commit_gb": 4.33,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/B-u5-s141/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 27.7,
+  "peak_rss_gb": 2.11,
+  "peak_commit_gb": 4.33,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/B-u5-s143-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 26.6,
+  "peak_rss_gb": 2.11,
+  "peak_commit_gb": 4.33,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/B-u5-s143/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 27.0,
+  "peak_rss_gb": 2.09,
+  "peak_commit_gb": 4.31,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/B-u5-s148-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 30.9,
+  "peak_rss_gb": 2.1,
+  "peak_commit_gb": 4.31,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/B-u5-s148/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 30.3,
+  "peak_rss_gb": 2.1,
+  "peak_commit_gb": 4.31,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/B-u5-s152-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 55.4,
+  "peak_rss_gb": 2.18,
+  "peak_commit_gb": 4.4,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/B-u5-s152/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 53.3,
+  "peak_rss_gb": 2.18,
+  "peak_commit_gb": 4.4,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/B-u5-s154-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 34.5,
+  "peak_rss_gb": 2.12,
+  "peak_commit_gb": 4.33,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/B-u5-s154/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 33.8,
+  "peak_rss_gb": 2.12,
+  "peak_commit_gb": 4.34,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/B-u5-s157-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 63.6,
+  "peak_rss_gb": 2.24,
+  "peak_commit_gb": 4.46,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/B-u5-s157/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 58.5,
+  "peak_rss_gb": 2.24,
+  "peak_commit_gb": 4.47,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl1-asB/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 13.3,
+  "peak_rss_gb": 2.36,
+  "peak_commit_gb": 4.55,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl2-swap12/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 13.1,
+  "peak_rss_gb": 2.36,
+  "peak_commit_gb": 4.55,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl3-negout/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 13.3,
+  "peak_rss_gb": 2.42,
+  "peak_commit_gb": 4.61,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl4-bias/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 12.5,
+  "peak_rss_gb": 2.35,
+  "peak_commit_gb": 4.54,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl5-r1024/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 13.8,
+  "peak_rss_gb": 2.36,
+  "peak_commit_gb": 4.56,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl6-r256/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 13.2,
+  "peak_rss_gb": 2.36,
+  "peak_commit_gb": 4.55,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s140-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 14.0,
+  "peak_rss_gb": 2.34,
+  "peak_commit_gb": 4.53,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s140/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 13.7,
+  "peak_rss_gb": 2.47,
+  "peak_commit_gb": 4.67,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s142-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 12.1,
+  "peak_rss_gb": 2.11,
+  "peak_commit_gb": 4.3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s142/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 15.3,
+  "peak_rss_gb": 2.56,
+  "peak_commit_gb": 4.76,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s144-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 14.8,
+  "peak_rss_gb": 2.56,
+  "peak_commit_gb": 4.76,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s144/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 14.9,
+  "peak_rss_gb": 2.62,
+  "peak_commit_gb": 4.82,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s145-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 15.0,
+  "peak_rss_gb": 2.67,
+  "peak_commit_gb": 4.87,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s145/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 15.1,
+  "peak_rss_gb": 2.72,
+  "peak_commit_gb": 4.92,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s146-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 14.9,
+  "peak_rss_gb": 2.66,
+  "peak_commit_gb": 4.86,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s146/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 15.2,
+  "peak_rss_gb": 2.7,
+  "peak_commit_gb": 4.89,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s147-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 15.2,
+  "peak_rss_gb": 2.78,
+  "peak_commit_gb": 4.98,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s147/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 17.0,
+  "peak_rss_gb": 2.88,
+  "peak_commit_gb": 5.08,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s149-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 15.0,
+  "peak_rss_gb": 2.63,
+  "peak_commit_gb": 4.83,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s149/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 14.9,
+  "peak_rss_gb": 2.69,
+  "peak_commit_gb": 4.89,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s150-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 15.5,
+  "peak_rss_gb": 2.63,
+  "peak_commit_gb": 4.82,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s150/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 15.6,
+  "peak_rss_gb": 2.67,
+  "peak_commit_gb": 4.86,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s151-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 11.3,
+  "peak_rss_gb": 2.11,
+  "peak_commit_gb": 4.3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s151/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 11.6,
+  "peak_rss_gb": 2.14,
+  "peak_commit_gb": 4.33,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s153-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 16.7,
+  "peak_rss_gb": 2.73,
+  "peak_commit_gb": 4.93,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s153/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 17.7,
+  "peak_rss_gb": 2.77,
+  "peak_commit_gb": 4.97,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s155-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 18.8,
+  "peak_rss_gb": 2.93,
+  "peak_commit_gb": 5.13,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s155/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 20.0,
+  "peak_rss_gb": 2.98,
+  "peak_commit_gb": 5.18,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s156-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 17.9,
+  "peak_rss_gb": 2.74,
+  "peak_commit_gb": 4.94,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s156/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 18.1,
+  "peak_rss_gb": 2.84,
+  "peak_commit_gb": 5.04,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s158-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 18.0,
+  "peak_rss_gb": 2.64,
+  "peak_commit_gb": 4.84,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s158/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 17.9,
+  "peak_rss_gb": 2.7,
+  "peak_commit_gb": 4.9,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s159-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 13.9,
+  "peak_rss_gb": 2.1,
+  "peak_commit_gb": 4.3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl7-B-u5-s159/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 14.1,
+  "peak_rss_gb": 2.13,
+  "peak_commit_gb": 4.33,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl8-B-u5-s100-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 13.6,
+  "peak_rss_gb": 2.11,
+  "peak_commit_gb": 4.3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl8-B-u5-s100/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 13.3,
+  "peak_rss_gb": 2.13,
+  "peak_commit_gb": 4.33,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl8-B-u5-s101-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 17.0,
+  "peak_rss_gb": 2.69,
+  "peak_commit_gb": 4.89,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl8-B-u5-s101/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 17.1,
+  "peak_rss_gb": 2.74,
+  "peak_commit_gb": 4.94,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl8-B-u5-s102-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 13.2,
+  "peak_rss_gb": 2.1,
+  "peak_commit_gb": 4.3,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl8-B-u5-s102/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 19.4,
+  "peak_rss_gb": 2.84,
+  "peak_commit_gb": 5.04,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl8-B-u5-s104-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 16.5,
+  "peak_rss_gb": 2.61,
+  "peak_commit_gb": 4.8,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl8-B-u5-s104/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 20.9,
+  "peak_rss_gb": 2.66,
+  "peak_commit_gb": 4.86,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl8-B-u5-s105-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 18.7,
+  "peak_rss_gb": 2.36,
+  "peak_commit_gb": 4.56,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ctl8-B-u5-s105/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 18.1,
+  "peak_rss_gb": 2.42,
+  "peak_commit_gb": 4.62,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/dev-A-u3-s110/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 31.5,
+  "peak_rss_gb": 2.19,
+  "peak_commit_gb": 4.41,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/k2-A-u3-s116/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 621.1,
+  "peak_rss_gb": 2.57,
+  "peak_commit_gb": 4.83,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ka-A-u3-s110/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 32.5,
+  "peak_rss_gb": 2.03,
+  "peak_commit_gb": 4.25,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/ka-A-u3-s116/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": null,
+  "secs": 648.4,
+  "peak_rss_gb": 2.89,
+  "peak_commit_gb": 5.45,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/pre-B-u5-s103-W-r1000/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 32.9,
+  "peak_rss_gb": 2.14,
+  "peak_commit_gb": 4.36,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/pre-B-u5-s103-r1000/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 31.8,
+  "peak_rss_gb": 2.15,
+  "peak_commit_gb": 4.36,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/pre-B-u5-s103/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 29.8,
+  "peak_rss_gb": 2.15,
+  "peak_commit_gb": 4.36,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/pre-ctl-A-u3-s110-asB/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 14.3,
+  "peak_rss_gb": 2.36,
+  "peak_commit_gb": 4.56,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/pre-ctl-A-u3-s110-r1000/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 15.1,
+  "peak_rss_gb": 2.36,
+  "peak_commit_gb": 4.55,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/pre-ctl-A-u3-s110-swap12/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 14.0,
+  "peak_rss_gb": 2.35,
+  "peak_commit_gb": 4.55,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/pre-ctl-B-u5-s100/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 13.4,
+  "peak_rss_gb": 2.13,
+  "peak_commit_gb": 4.32,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r8-nets/probe116/Net.lean",
+  "pass": false,
+  "verdict": "unknown",
+  "recorded_verdict": null,
+  "secs": 26.9,
+  "peak_rss_gb": 2.37,
+  "peak_commit_gb": 4.57,
+  "axioms": [],
+  "tail": ".0693ms\n\tinstantiate metavars 0.0647ms\n\tlet-to-have transformation 0.0612ms\n\tlinting 25.1ms\n\toverlappingInstancesLinter 1.18ms\n\tparsing 1.48ms\n\tprocess pre-definitions 0.748ms\n\tshare common exprs 0.247ms\n\ttactic execution 11.8ms\n\ttacticAnalysis 13.5ms\n\ttype checking 49.4s\n\ttypeclass inference 6.5ms\n"
+ },
+ {
+  "kind": "audit",
+  "files": 478,
+  "token_counts": {
+   "native_decide": 0,
+   "ofReduceBool": 0,
+   "sorry": 0,
+   "axiom": 0
+  },
+  "token_counts_attempts": {
+   "native_decide": 0,
+   "ofReduceBool": 0,
+   "sorry": 0,
+   "axiom": 0
+  }
+ }
+]

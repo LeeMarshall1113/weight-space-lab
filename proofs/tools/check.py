@@ -94,7 +94,18 @@ def run_lean(args, timeout, cwd):
 # framework modules and what each imports
 DEPS = {"Basic": [], "Seq": ["Basic"], "Robust": ["Basic"], "RSeq": ["Seq"], "RSoft": ["RSeq"],
         "RSoftKit": ["RSoft"], "Bin32": ["RSoft"], "RSoftAll": ["RSoftKit", "Bin32"],
-        "QRSeq": ["RSeq"]}
+        "QRSeq": ["RSeq"], "AGate": ["RSoftKit"], "AGateKit": ["AGate"], "AGateKitW": ["AGateKit"],
+        "AGateAll": ["AGateKitW", "RSoftAll"],
+        # rung 7: certificate checker and its kit modules
+        "R7Cert": ["AGateAll"], "R7K1": ["RSoftKit"], "R7KT": ["AGateAll"],
+        "R7K2": ["R7Cert"], "R7Defs": ["R7Cert"], "R7B3": ["R7K2", "R7K1", "R7Defs"],
+        "R7K3": ["R7B3"], "R7K4": ["R7Defs"], "R7B5": ["R7K3", "R7K4"],
+        "R7K5": ["R7B5"], "R7All": ["R7K5", "R7KT"], "R7Glue": ["R7All"],
+        # rung 8
+        "R8Cert": ["R7All"], "R8Glue": ["R8Cert", "R7Glue"], "R8Defs": ["R8Cert"], "R8Soft": ["RSoftKit"],
+        "R8KA": ["R8Defs"], "R8KB": ["R8Soft"], "R8KC": ["R8Cert"], "R8KD": ["R8Soft"], "R8KE": ["R8Defs"], "R8KF": ["R8Defs"],
+        "R8B2": ["R8KA", "R8KB", "R8KC", "R8KD", "R8KE"], "R8KG": ["R8B2"], "R8B3": ["R8KG", "R8KF"], "R8K": ["R8B3"],
+        "R8All": ["R8K", "R8Glue"], "MechBisim": ["R7Cert"]}
 
 
 def ensure_basic(timeout=1800, name="Basic"):

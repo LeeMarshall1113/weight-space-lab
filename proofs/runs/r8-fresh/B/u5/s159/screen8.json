@@ -1,0 +1,15 @@
+{
+ "task": "B",
+ "recipe": "u5",
+ "seed": 159,
+ "grid": "2^-14",
+ "radius": "2^-14",
+ "delta_T": 3.0506838811561465e-05,
+ "nonzero_W14": 505,
+ "weights": 545,
+ "max_abs_W14": 24.0,
+ "s1_ok": false,
+ "T_f32_dev": 1.9408196210861206,
+ "rung7_screen_pass": false,
+ "pass": false
+}

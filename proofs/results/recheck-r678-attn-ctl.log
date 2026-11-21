@@ -1,0 +1,25 @@
+PASS framework R8All
+PASS  runs/mech-kit/ma 11.1s Classical.choice,Quot.sound,propext
+FAIL runs/mech/fresh-A-u3-s140/Attn.lean attn 28.2 commit=4.44
+FAIL runs/mech/fresh-A-u3-s141/Attn.lean attn 97.2 commit=4.56
+FAIL runs/mech/fresh-A-u3-s142/Attn.lean attn 105.3 commit=4.6
+FAIL runs/mech/fresh-A-u3-s143/Attn.lean attn 29.1 commit=4.45
+FAIL runs/mech/fresh-A-u3-s144/Attn.lean attn 101.0 commit=4.53
+FAIL runs/mech/fresh-A-u3-s145/Attn.lean attn 102.1 commit=4.57
+FAIL runs/mech/fresh-A-u3-s146/Attn.lean attn 104.8 commit=4.57
+FAIL runs/mech/fresh-A-u3-s147/Attn.lean attn 107.6 commit=4.54
+FAIL runs/mech/fresh-A-u3-s148/Attn.lean attn 126.6 commit=4.6
+FAIL runs/mech/fresh-A-u3-s149/Attn.lean attn 658.9 commit=4.89
+FAIL runs/mech/fresh-A-u3-s150/Attn.lean attn 108.5 commit=4.59
+FAIL runs/mech/fresh-A-u3-s151/Attn.lean attn 29.2 commit=4.44
+FAIL runs/mech/fresh-A-u3-s152/Attn.lean attn 107.3 commit=4.59
+FAIL runs/mech/fresh-A-u3-s154/Attn.lean attn 100.5 commit=4.56
+FAIL runs/mech/fresh-A-u3-s155/Attn.lean attn 121.0 commit=4.6
+FAIL runs/mech/fresh-A-u3-s156/Attn.lean attn 127.6 commit=4.56
+FAIL runs/mech/fresh-A-u3-s157/Attn.lean attn 118.4 commit=4.56
+FAIL runs/mech/fresh-A-u3-s158/Attn.lean attn 113.6 commit=4.62
+FAIL runs/mech/fresh-A-u3-s159/Attn.lean attn 115.8 commit=4.61
+FAIL runs/mech/tune-A-u3-s110/Attn.lean attn 29.8 commit=4.42
+total wall seconds: 2446; passed 2 of 22; failed: ['runs/mech/fresh-A-u3-s140/Attn.lean', 'runs/mech/fresh-A-u3-s141/Attn.lean', 'runs/mech/fresh-A-u3-s142/Attn.lean', 'runs/mech/fresh-A-u3-s143/Attn.lean', 'runs/mech/fresh-A-u3-s144/Attn.lean', 'runs/mech/fresh-A-u3-s145/Attn.lean', 'runs/mech/fresh-A-u3-s146/Attn.lean', 'runs/mech/fresh-A-u3-s147/Attn.lean', 'runs/mech/fresh-A-u3-s148/Attn.lean', 'runs/mech/fresh-A-u3-s149/Attn.lean', 'runs/mech/fresh-A-u3-s150/Attn.lean', 'runs/mech/fresh-A-u3-s151/Attn.lean', 'runs/mech/fresh-A-u3-s152/Attn.lean', 'runs/mech/fresh-A-u3-s154/Attn.lean', 'runs/mech/fresh-A-u3-s155/Attn.lean', 'runs/mech/fresh-A-u3-s156/Attn.lean', 'runs/mech/fresh-A-u3-s157/Attn.lean', 'runs/mech/fresh-A-u3-s158/Attn.lean', 'runs/mech/fresh-A-u3-s159/Attn.lean', 'runs/mech/tune-A-u3-s110/Attn.lean']; audit {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0} attempts {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0} files 522
+PASS runs/mech/ctl-s110-swap12/Net.lean accept 28.1 commit=4.4
+total wall seconds: 29; passed 1 of 1; failed: []; audit {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0} attempts {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0} files 522

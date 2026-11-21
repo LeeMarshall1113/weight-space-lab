@@ -1,0 +1,622 @@
+[
+ {
+  "tag": "fresh-A-u3-s140",
+  "window_L": [
+   1,
+   1
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 28.7,
+  "peak_commit_gb": 4.44,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s141",
+  "window_L": [
+   1,
+   2
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 88.6,
+  "peak_commit_gb": 4.56,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s142",
+  "window_L": [
+   1,
+   2
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 121.2,
+  "peak_commit_gb": 4.6,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s143",
+  "window_L": [
+   1,
+   1
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 30.6,
+  "peak_commit_gb": 4.44,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s144",
+  "window_L": [
+   1,
+   2
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 91.2,
+  "peak_commit_gb": 4.54,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s145",
+  "window_L": [
+   1,
+   2
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 98.6,
+  "peak_commit_gb": 4.57,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s146",
+  "window_L": [
+   1,
+   2
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 92.0,
+  "peak_commit_gb": 4.57,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s147",
+  "window_L": [
+   1,
+   2
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 88.0,
+  "peak_commit_gb": 4.57,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s148",
+  "window_L": [
+   1,
+   2
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 95.8,
+  "peak_commit_gb": 4.61,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s149",
+  "window_L": [
+   1,
+   3
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 499.7,
+  "peak_commit_gb": 4.89,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s150",
+  "window_L": [
+   1,
+   2
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 89.1,
+  "peak_commit_gb": 4.59,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s151",
+  "window_L": [
+   1,
+   1
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 27.2,
+  "peak_commit_gb": 4.43,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s152",
+  "window_L": [
+   1,
+   2
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 88.8,
+  "peak_commit_gb": 4.57,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s154",
+  "window_L": [
+   1,
+   2
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 83.9,
+  "peak_commit_gb": 4.56,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s155",
+  "window_L": [
+   1,
+   2
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 95.4,
+  "peak_commit_gb": 4.6,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s156",
+  "window_L": [
+   1,
+   2
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 84.4,
+  "peak_commit_gb": 4.57,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s157",
+  "window_L": [
+   1,
+   2
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 84.3,
+  "peak_commit_gb": 4.56,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s158",
+  "window_L": [
+   1,
+   2
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 88.4,
+  "peak_commit_gb": 4.6,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s159",
+  "window_L": [
+   1,
+   2
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 89.1,
+  "peak_commit_gb": 4.6,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "tune-A-u3-s110",
+  "window_L": [
+   1,
+   1
+  ],
+  "eps_bound": "2^-21",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task",
+   "head_tail8",
+   "attn_window8",
+   "attn_window",
+   "attn_eps0",
+   "attn_eps1"
+  ],
+  "attn_theorems_ok": true,
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "rc": 0,
+  "secs": 28.9,
+  "peak_commit_gb": 4.43,
+  "within_limits": true,
+  "native_decide": 0
+ }
+]

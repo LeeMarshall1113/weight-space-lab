@@ -1,0 +1,24 @@
+namespace Lane4.Export6
+open Lane4.AGate
+open Lane4.Seq (Mask)
+
+def showQ (q : ℚ) : String := "\"" ++ toString q.num ++ "/" ++ toString q.den ++ "\""
+def showV (v : List ℚ) : String := "[" ++ ", ".intercalate (v.map showQ) ++ "]"
+def showM (m : List (List ℚ)) : String := "[" ++ ", ".intercalate (m.map showV) ++ "]"
+def showMask : Mask → String
+  | Mask.all => "\"all\""
+  | Mask.causal => "\"causal\""
+  | Mask.strict => "\"strict\""
+def showH (h : AHead) : String :=
+  "{\"A\": " ++ showM h.A ++ ", \"V\": " ++ showM h.V ++ ", \"mask\": " ++ showMask h.mask ++
+  ", \"m\": " ++ showQ h.m ++ ", \"g\": " ++ showV h.g ++ ", \"gb\": " ++ showQ h.gb ++ "}"
+def showB (b : ABlock) : String :=
+  "{\"heads\": [" ++ ", ".intercalate (b.heads.map showH) ++ "], \"W1\": " ++ showM b.W1 ++
+  ", \"b1\": " ++ showV b.b1 ++ ", \"W2\": " ++ showM b.W2 ++ ", \"b2\": " ++ showV b.b2 ++ "}"
+def showN (n : ANet) : String :=
+  "{\"embed\": " ++ showM n.embed ++ ", \"blocks\": [" ++ ", ".intercalate (n.blocks.map showB) ++
+  "], \"outW\": " ++ showV n.outW ++ ", \"outB\": " ++ showQ n.outB ++ "}"
+
+end Lane4.Export6
+
+#eval IO.println ("NETJSON " ++ Lane4.Export6.showN Lane4.Case.net)

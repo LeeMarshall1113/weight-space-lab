@@ -1,0 +1,316 @@
+{
+ "control8_mirror_only": [
+  {
+   "seed": 107,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 1, keys ((3, 4), (1, 0)), task state 0: output 1.6482 +- 0.0085 against target 2"
+  },
+  {
+   "seed": 107,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 1, keys ((3, 4), (1, 0)), task state 0: output 1.6491 +- 0.0554 against target 2"
+  },
+  {
+   "seed": 109,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "head 1: content score spread 101.12 too large for a window of 3 at slope 24"
+  },
+  {
+   "seed": 109,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "head 1: content score spread 102.04 too large for a window of 3 at slope 24"
+  },
+  {
+   "seed": 110,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 1, keys ((3,), (1, 3)), task state 0: output 1.6179 +- 0.0084 against target 2"
+  },
+  {
+   "seed": 110,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 1, keys ((3,), (1, 3)), task state 0: output 1.6181 +- 0.0504 against target 2"
+  },
+  {
+   "seed": 111,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 3, keys ((3, 4), (3, 3, 4)), task state 0: output 1.6766 +- 0.0104 against target 2"
+  },
+  {
+   "seed": 111,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 3, keys ((3, 4), (3, 3, 4)), task state 0: output 1.6744 +- 0.0724 against target 2"
+  },
+  {
+   "seed": 112,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 1, keys ((3,), (1, 3)), task state 1: output 1.6345 +- 0.0114 against target 0"
+  },
+  {
+   "seed": 112,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 1, keys ((3,), (1, 3)), task state 1: output 1.6345 +- 0.0752 against target 0"
+  },
+  {
+   "seed": 114,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "head 0: content score spread 96.94 too large for a window of 3 at slope 24"
+  },
+  {
+   "seed": 114,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "head 0: content score spread 97.81 too large for a window of 3 at slope 24"
+  },
+  {
+   "seed": 115,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 1, keys ((2,), (1, 1)), task state 1: output 1.1526 +- 0.0141 against target 0"
+  },
+  {
+   "seed": 115,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 1, keys ((2,), (1, 1)), task state 1: output 1.1534 +- 0.1011 against target 0"
+  },
+  {
+   "seed": 116,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 2, keys ((3, 5, 5), (5,)): head 0: a key outscores the reference by more than e^6"
+  },
+  {
+   "seed": 116,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 1, keys ((3, 5, 5), (5,)), task state 0: output 1.7803 +- 0.0511 against target 2"
+  },
+  {
+   "seed": 119,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "head 0: content score spread 123.18 too large for a window of 3 at slope 24"
+  },
+  {
+   "seed": 119,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "head 0: content score spread 124.52 too large for a window of 3 at slope 24"
+  },
+  {
+   "seed": 120,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 1, keys ((2,), (4,)), task state 1: output 0.8517 +- 0.0069 against target 0"
+  },
+  {
+   "seed": 120,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 1, keys ((2,), (4,)), task state 1: output 0.8513 +- 0.0433 against target 0"
+  },
+  {
+   "seed": 121,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 3, keys ((2,), (3, 2)), task state 1: output 0.3442 +- 0.0119 against target 0"
+  },
+  {
+   "seed": 121,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 3, keys ((2,), (3, 2)), task state 1: output 0.3472 +- 0.0746 against target 0"
+  },
+  {
+   "seed": 122,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 3, keys ((3, 5, 2), (3, 3, 4)), task state 0: output 1.8652 +- 0.1601 against target 2 (mixed attention)"
+  },
+  {
+   "seed": 122,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 3, keys ((3, 5, 2), (3, 3, 4)), task state 0: output 1.8596 +- 0.2553 against target 2 (mixed attention)"
+  },
+  {
+   "seed": 123,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 1, keys ((2, 5), (1, 2, 3)), task state 1: output 0.3832 +- 0.0155 against target 0"
+  },
+  {
+   "seed": 123,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 1, keys ((2, 5), (1, 2, 3)), task state 1: output 0.3831 +- 0.1130 against target 0"
+  },
+  {
+   "seed": 124,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 1, keys ((2,), (1, 2)), task state 1: output 0.3906 +- 0.0100 against target 0"
+  },
+  {
+   "seed": 124,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 1, keys ((2,), (1, 2)), task state 1: output 0.3894 +- 0.0718 against target 0"
+  },
+  {
+   "seed": 127,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "head 0: content score spread 77.25 too large for a window of 3 at slope 24"
+  },
+  {
+   "seed": 127,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "head 0: content score spread 77.88 too large for a window of 3 at slope 24"
+  },
+  {
+   "seed": 128,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 2, keys ((3, 5), (2, 5, 5)), task state 0: output 0.2623 +- 0.0105 against target 0"
+  },
+  {
+   "seed": 128,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 2, keys ((3, 5), (2, 5, 5)), task state 0: output 0.2608 +- 0.0657 against target 0"
+  },
+  {
+   "seed": 130,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 1, keys ((3, 4), (1, 3)), task state 0: output 1.6519 +- 0.0085 against target 2"
+  },
+  {
+   "seed": 130,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 1, keys ((3, 4), (1, 3)), task state 0: output 1.6475 +- 0.0595 against target 2"
+  },
+  {
+   "seed": 132,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 1, keys ((3, 4), (3,)), task state 0: output 1.7087 +- 0.0078 against target 2"
+  },
+  {
+   "seed": 132,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 1, keys ((3, 4), (3,)), task state 0: output 1.7055 +- 0.0545 against target 2"
+  },
+  {
+   "seed": 135,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 1, keys ((2,), (4,)), task state 1: output 1.0028 +- 0.0069 against target 0"
+  },
+  {
+   "seed": 135,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 1, keys ((2,), (4,)), task state 1: output 1.0000 +- 0.0472 against target 0"
+  },
+  {
+   "seed": 138,
+   "skeleton": "W14.json",
+   "radius": "1/16384",
+   "ok": false,
+   "reason": "case token 1, keys ((3,), (1, 5)), task state 0: output 1.6343 +- 0.0169 against target 2"
+  },
+  {
+   "seed": 138,
+   "skeleton": "W.json",
+   "radius": "1/1000",
+   "ok": false,
+   "reason": "case token 1, keys ((3,), (1, 5)), task state 0: output 1.6316 +- 0.1074 against target 2"
+  }
+ ],
+ "rung7_checker_fresh_B": [
+  {
+   "seed": 141,
+   "ok": true,
+   "reason": "ok"
+  },
+  {
+   "seed": 143,
+   "ok": true,
+   "reason": "ok"
+  },
+  {
+   "seed": 148,
+   "ok": true,
+   "reason": "ok"
+  },
+  {
+   "seed": 152,
+   "ok": true,
+   "reason": "ok"
+  },
+  {
+   "seed": 154,
+   "ok": true,
+   "reason": "ok"
+  },
+  {
+   "seed": 157,
+   "ok": true,
+   "reason": "ok"
+  }
+ ]
+}

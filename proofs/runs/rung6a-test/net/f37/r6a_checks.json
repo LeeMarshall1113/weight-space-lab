@@ -1,0 +1,39 @@
+{
+ "delta": 0.001,
+ "blocks": 2,
+ "heads": [
+  1,
+  1
+ ],
+ "width": 6,
+ "mlp_hidden": [
+  0,
+  2
+ ],
+ "written_exact_max_dev": 0.0,
+ "inside_ball_max_dev": {
+  "uniform": 0.0100006210899235,
+  "sign": 0.014507474476491557
+ },
+ "inside_ball_ok": true,
+ "outside": {
+  "2": 0.025904063742975998,
+  "4": 0.06158381916057587,
+  "8": 0.11202366668799968,
+  "16": 0.29397153216921595
+ },
+ "smallest_violating_multiple": 16,
+ "float32_max_dev": {
+  "1000": 0.010001957416534424,
+  "16000": 0.012015700340270996,
+  "65534": 0.010001957416534424
+ },
+ "float32_ok_in_range": true,
+ "relative_1_200_max_dev": 0.024949501246874707,
+ "additive_1_1000_breaks_of_50": {
+  "100": 0,
+  "1000": 0
+ },
+ "id": "f37",
+ "family": "first"
+}

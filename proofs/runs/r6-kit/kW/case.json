@@ -1,0 +1,11 @@
+{
+ "id": "kW",
+ "arm": "kit",
+ "rung": 6,
+ "import": "AGateAll",
+ "final_theorems": [
+  "Lane4Final.final"
+ ],
+ "max_attempts": 30,
+ "lean_timeout": 600
+}

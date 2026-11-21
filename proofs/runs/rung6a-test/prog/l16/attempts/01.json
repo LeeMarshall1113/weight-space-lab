@@ -1,0 +1,17 @@
+{
+ "case": "l16",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-18 09:25:05",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.0,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.89,
+ "lean_output": "runs\\rung6a-test\\prog\\l16\\_Full.lean:66:2: error: Type mismatch: After simplification, term\n  this\n has type\n  @Eq ℕ ((List.foldl step (0, []) w).2[i - 1]?.getD 0) (List.foldl g 0 (List.take i w))\nbut is expected to have type\n  @Eq ℕ ((List.foldl step (0, []) w).2[i - 1]?.getD 0)\n    (List.foldl (fun s t => if val t = 0 then s else val t) 0 (List.take i w))\n'Lane4Final.final' depends on axioms: [propext, sorryAx]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

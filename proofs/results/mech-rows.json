@@ -1,0 +1,2680 @@
+[
+ {
+  "tag": "ctl-s110-bias_half",
+  "dir": "runs/r7-stage0/A/u3/s110",
+  "net": "bias_half.json",
+  "seed": 110,
+  "extract_ok": false,
+  "extract_reason": "row windows ((0,), (0,)), token 1: read-out 0.5307 +- 0.0415 is not within 1/4 of an integer",
+  "window": [
+   1,
+   1
+  ],
+  "program_states": null,
+  "program_rows": null,
+  "cert_states": null,
+  "cert_rows": null,
+  "mirror_ok": null,
+  "mirror_reason": null,
+  "is_task_A": null,
+  "five_state_program": null,
+  "program": null
+ },
+ {
+  "tag": "ctl-s110-negout",
+  "dir": "runs/r7-stage0/A/u3/s110",
+  "net": "negout.json",
+  "seed": 110,
+  "extract_ok": false,
+  "extract_reason": "row windows ((0,), (0,)), token 2: nearest integer -1 is negative",
+  "window": [
+   1,
+   1
+  ],
+  "program_states": null,
+  "program_rows": null,
+  "cert_states": null,
+  "cert_rows": null,
+  "mirror_ok": null,
+  "mirror_reason": null,
+  "is_task_A": null,
+  "five_state_program": null,
+  "program": null
+ },
+ {
+  "tag": "ctl-s110-swap12",
+  "dir": "runs/r7-stage0/A/u3/s110",
+  "net": "swap12.json",
+  "seed": 110,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   1
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 6,
+  "cert_rows": 30,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": false,
+  "five_state_program": false,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     1,
+     3,
+     4,
+     0
+    ],
+    [
+     3,
+     2,
+     4,
+     0,
+     1
+    ],
+    [
+     4,
+     3,
+     0,
+     1,
+     2
+    ],
+    [
+     0,
+     4,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 25.8,
+  "peak_commit_gb": 4.39,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s140",
+  "dir": "runs/r8-fresh/A/u3/s140",
+  "net": "W14.json",
+  "seed": 140,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   1
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 6,
+  "cert_rows": 30,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 23.6,
+  "peak_commit_gb": 4.43,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s141",
+  "dir": "runs/r8-fresh/A/u3/s141",
+  "net": "W14.json",
+  "seed": 141,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 31,
+  "cert_rows": 155,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 79.5,
+  "peak_commit_gb": 4.53,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s142",
+  "dir": "runs/r8-fresh/A/u3/s142",
+  "net": "W14.json",
+  "seed": 142,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 31,
+  "cert_rows": 155,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 85.9,
+  "peak_commit_gb": 4.58,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s143",
+  "dir": "runs/r8-fresh/A/u3/s143",
+  "net": "W14.json",
+  "seed": 143,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   1
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 6,
+  "cert_rows": 30,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 22.8,
+  "peak_commit_gb": 4.43,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s144",
+  "dir": "runs/r8-fresh/A/u3/s144",
+  "net": "W14.json",
+  "seed": 144,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 31,
+  "cert_rows": 155,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 75.9,
+  "peak_commit_gb": 4.5,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s145",
+  "dir": "runs/r8-fresh/A/u3/s145",
+  "net": "W14.json",
+  "seed": 145,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 31,
+  "cert_rows": 155,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 80.2,
+  "peak_commit_gb": 4.53,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s146",
+  "dir": "runs/r8-fresh/A/u3/s146",
+  "net": "W14.json",
+  "seed": 146,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 31,
+  "cert_rows": 155,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 79.2,
+  "peak_commit_gb": 4.53,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s147",
+  "dir": "runs/r8-fresh/A/u3/s147",
+  "net": "W14.json",
+  "seed": 147,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 31,
+  "cert_rows": 155,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 77.9,
+  "peak_commit_gb": 4.54,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s148",
+  "dir": "runs/r8-fresh/A/u3/s148",
+  "net": "W14.json",
+  "seed": 148,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 31,
+  "cert_rows": 155,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 85.3,
+  "peak_commit_gb": 4.56,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s149",
+  "dir": "runs/r8-fresh/A/u3/s149",
+  "net": "W14.json",
+  "seed": 149,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   3
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 156,
+  "cert_rows": 780,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 470.3,
+  "peak_commit_gb": 4.89,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s150",
+  "dir": "runs/r8-fresh/A/u3/s150",
+  "net": "W14.json",
+  "seed": 150,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 31,
+  "cert_rows": 155,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 82.2,
+  "peak_commit_gb": 4.55,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s151",
+  "dir": "runs/r8-fresh/A/u3/s151",
+  "net": "W14.json",
+  "seed": 151,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   1
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 6,
+  "cert_rows": 30,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 21.9,
+  "peak_commit_gb": 4.4,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s152",
+  "dir": "runs/r8-fresh/A/u3/s152",
+  "net": "W14.json",
+  "seed": 152,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 31,
+  "cert_rows": 155,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 86.3,
+  "peak_commit_gb": 4.55,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s153",
+  "dir": "runs/r8-fresh/A/u3/s153",
+  "net": "W14.json",
+  "seed": 153,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   2,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 15,
+  "cert_rows": null,
+  "mirror_ok": false,
+  "mirror_reason": "case token 5, keys ((4, 5), (5, 4, 5)), task state 3: output 2.0300 +- 0.2201 against target 2 (mixed attention)",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "reject",
+  "theorems": [
+   "reject"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 15.4,
+  "peak_commit_gb": 5.1,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s154",
+  "dir": "runs/r8-fresh/A/u3/s154",
+  "net": "W14.json",
+  "seed": 154,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 31,
+  "cert_rows": 155,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 76.8,
+  "peak_commit_gb": 4.52,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s155",
+  "dir": "runs/r8-fresh/A/u3/s155",
+  "net": "W14.json",
+  "seed": 155,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 31,
+  "cert_rows": 155,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 94.4,
+  "peak_commit_gb": 4.58,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s156",
+  "dir": "runs/r8-fresh/A/u3/s156",
+  "net": "W14.json",
+  "seed": 156,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 31,
+  "cert_rows": 155,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 75.9,
+  "peak_commit_gb": 4.52,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s157",
+  "dir": "runs/r8-fresh/A/u3/s157",
+  "net": "W14.json",
+  "seed": 157,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 31,
+  "cert_rows": 155,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 83.3,
+  "peak_commit_gb": 4.54,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s158",
+  "dir": "runs/r8-fresh/A/u3/s158",
+  "net": "W14.json",
+  "seed": 158,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 31,
+  "cert_rows": 155,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 81.8,
+  "peak_commit_gb": 4.56,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "fresh-A-u3-s159",
+  "dir": "runs/r8-fresh/A/u3/s159",
+  "net": "W14.json",
+  "seed": 159,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   2
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 31,
+  "cert_rows": 155,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 88.8,
+  "peak_commit_gb": 4.57,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "tune-A-u3-s110",
+  "dir": "runs/r7-stage0/A/u3/s110",
+  "net": "W14.json",
+  "seed": 110,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   1
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 6,
+  "cert_rows": 30,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 23.3,
+  "peak_commit_gb": 4.41,
+  "within_limits": true,
+  "native_decide": 0
+ },
+ {
+  "tag": "tune-A-u3-s116",
+  "dir": "runs/r7-stage0/A/u3/s116",
+  "net": "W14.json",
+  "seed": 116,
+  "extract_ok": true,
+  "extract_reason": "ok",
+  "window": [
+   1,
+   3
+  ],
+  "program_states": 5,
+  "program_rows": 25,
+  "cert_states": 156,
+  "cert_rows": 780,
+  "mirror_ok": true,
+  "mirror_reason": "ok",
+  "is_task_A": true,
+  "five_state_program": true,
+  "program": {
+   "ntok": 5,
+   "init": 0,
+   "step": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "out": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3
+    ]
+   ]
+  },
+  "kernel": "accept",
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "exact_all_lengths",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32",
+   "prog_is_task"
+  ],
+  "standard_axioms_only": true,
+  "sorry": 0,
+  "errors": 0,
+  "secs": 557.1,
+  "peak_commit_gb": 4.86,
+  "within_limits": true,
+  "native_decide": 0
+ }
+]

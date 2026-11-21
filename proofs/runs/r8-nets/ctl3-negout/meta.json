@@ -1,0 +1,16 @@
+{
+ "tag": "ctl3-negout",
+ "dir": "runs/r7-stage0/A/u3/s110",
+ "net": "negout.json",
+ "task": "A",
+ "recipe": "u3",
+ "seed": 110,
+ "task_as": "A",
+ "radius": "1/16384",
+ "mirror_ok": false,
+ "mirror_reason": "case token 2, keys ((0,), (2, 0)), task state 0: output -1.0303 +- 0.0612 against target 1",
+ "states": 2,
+ "info": {
+  "worst": 2.09146438614712
+ }
+}

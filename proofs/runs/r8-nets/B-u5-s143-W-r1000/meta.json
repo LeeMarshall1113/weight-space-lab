@@ -1,0 +1,32 @@
+{
+ "tag": "B-u5-s143-W-r1000",
+ "dir": "runs/r8-fresh/B/u5/s143",
+ "net": "W.json",
+ "task": "B",
+ "recipe": "u5",
+ "seed": 143,
+ "task_as": "B",
+ "radius": "1/1000",
+ "mirror_ok": true,
+ "mirror_reason": "ok",
+ "states": 9,
+ "info": {
+  "worst": 0.14076478922679833,
+  "states": 9,
+  "table_rows": 45,
+  "cases": 45,
+  "window": [
+   1,
+   1
+  ],
+  "spread": [
+   6.59,
+   1.33
+  ],
+  "dense": [
+   false,
+   false
+  ],
+  "mixed_rows": 0
+ }
+}

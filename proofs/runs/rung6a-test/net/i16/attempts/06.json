@@ -1,0 +1,17 @@
+{
+ "case": "i16",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 09:14:32",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.2,
+ "peak_rss_gb": 1.88,
+ "peak_commit_gb": 4.07,
+ "lean_output": "runs\\rung6a-test\\net\\i16\\_Full.lean:80:37: warning: Unused tactic linter: `simp [net, z7]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\i16\\_Full.lean:80:37: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\i16\\_Full.lean:875:66: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)\n  a = -1 ∨ a = 0\n\ncase «1».inr\nu η M : ℝ\nfl ex : ℝ → ℝ\np : APert\nw : List ℕ\nev : Ctx u η M fl ex p w\nhh : AHead\nt : ℕ\nhgb : hh.gb = 1 / 2\nk : ℕ\nhk : k ≤ w.length\ndg : ℕ → ℝ\ndgb : ℝ\nhdg : ∀ (c : ℕ), |dg c| ≤ 1 / 1000\nhdgb : |dgb| ≤ 1 / 1000\na : ℚ\nht1 : 1 ≤ 1\nht3 : 1 ≤ 3\nhg : hh.g = grow 1\nhr7 : (grow 1).length = 7\nh✝ : a = -1 ∨ a = 0\n⊢ |↑a| ≤ 1\nruns\\rung6a-test\\net\\i16\\_Full.lean:875:66: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)\n  a = -1 ∨ a = 0\n\ncase «2».inr\nu η M : ℝ\nfl ex : ℝ → ℝ\np : APert\nw : List ℕ\nev : Ctx u η M fl ex p w\nhh : AHead\nt : ℕ\nhgb : hh.gb = 1 / 2\nk : ℕ\nhk : k ≤ w.length\ndg : ℕ → ℝ\ndgb : ℝ\nhdg : ∀ (c : ℕ), |dg c| ≤ 1 / 1000\nhdgb : |dgb| ≤ 1 / 1000\na : ℚ\nht1 : 1 ≤ 2\nht3 : 2 ≤ 3\nhg : hh.g = grow 2\nhr7 : (grow 2).length = 7\nh✝ : a = -1 ∨ a = 0\n⊢ |↑a| ≤ 1\nruns\\rung6a-test\\net\\i16\\_Full.lean:875:66: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)\n  a = -1 ∨ a = 0\n\ncase «3».inr\nu η M : ℝ\nfl ex : ℝ → ℝ\np : APert\nw : List ℕ\nev : Ctx u η M fl ex p w\nhh : AHead\nt : ℕ\nhgb : hh.gb = 1 / 2\nk : ℕ\nhk : k ≤ w.length\ndg : ℕ → ℝ\ndgb : ℝ\nhdg : ∀ (c : ℕ), |dg c| ≤ 1 / 1000\nhdgb : |dgb| ≤ 1 / 1000\na : ℚ\nht1 : 1 ≤ 3\nht3 : 3 ≤ 3\nhg : hh.g = grow 3\nhr7 : (grow 3).length = 7\nh✝ : a = -1 ∨ a = 0\n⊢ |↑a| ≤ 1\nruns\\rung6a-test\\net\\i16\\_Full.lean:1027:66: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)\n  a = 2 / 5 ∨ a = 0\n\ncase inr.inr\nu η M : ℝ\nfl ex : ℝ → ℝ\np : APert\nw : List ℕ\nev : Ctx u η M fl ex p w\nhh : AHead\nkk t : ℕ\nht1 : 1 ≤ t\nht3 : t ≤ 3\nhA : hh.A = A7\nhm : ↑hh.m = 32\nhmask : hh.mask = Mask.causal\nhg : hh.g = grow t\nhgb : hh.gb = 1 / 2\nc i : ℕ\nhi : i ≤ w.length\na : ℚ\nh✝ : a = 2 / 5 ∨ a = 0\n⊢ |↑a| ≤ 1\nruns\\rung6a-test\\net\\i16\\_Full.lean:1056:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 6,
+ "attempts_left": 6
+}

@@ -1,0 +1,32 @@
+{
+ "tag": "pre-B-u5-s103-W-r1000",
+ "dir": "runs/r7-stage0/B/u5/s103",
+ "net": "W.json",
+ "task": "B",
+ "recipe": "u5",
+ "seed": 103,
+ "task_as": "B",
+ "radius": "1/1000",
+ "mirror_ok": true,
+ "mirror_reason": "ok",
+ "states": 10,
+ "info": {
+  "worst": 0.11303867948105958,
+  "states": 10,
+  "table_rows": 50,
+  "cases": 50,
+  "window": [
+   1,
+   1
+  ],
+  "spread": [
+   4.94,
+   0.09
+  ],
+  "dense": [
+   false,
+   false
+  ],
+  "mixed_rows": 0
+ }
+}

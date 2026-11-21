@@ -1,0 +1,17 @@
+{
+ "case": "kg",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-20 15:50:15",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 9.3,
+ "peak_rss_gb": 1.78,
+ "peak_commit_gb": 3.98,
+ "lean_output": "runs\\r8-kit\\kg\\_Full.lean:210:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r8-kit\\kg\\_Full.lean:219:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r8-kit\\kg\\_Full.lean:222:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r8-kit\\kg\\_Full.lean:270:8: error: No goals to be solved\nruns\\r8-kit\\kg\\_Full.lean:292:56: error: unexpected token ':='; expected ')', ',' or ':'\nruns\\r8-kit\\kg\\_Full.lean:488:31: error: Function expected at\n  List.filter_sublist\nbut this term has type\n  (List.filter ?m.15 ?m.16).Sublist ?m.16\n\nNote: Expected a function because this term is being applied to the argument\n  _\nruns\\r8-kit\\kg\\_Full.lean:504:10: error(lean.unknownIdentifier): Unknown constant `Real.exp_one_lt_d9`\nruns\\r8-kit\\kg\\_Full.lean:503:45: error: unsolved goals\n⊢ Real.exp 1 ≤ 3\nruns\\r8-kit\\kg\\_Full.lean:510:12: error(lean.unknownIdentifier): Unknown constant `Real.exp_one_gt_d9`\nruns\\r8-kit\\kg\\_Full.lean:595:2: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.head_sound8`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 29
+}

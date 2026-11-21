@@ -1,0 +1,10 @@
+{
+ "tag": "fresh-A-u3-s154",
+ "radius": "1/16384",
+ "heads": 2,
+ "window_L": [
+  1,
+  2
+ ],
+ "eps_bound": "2^-21"
+}

@@ -1,0 +1,22 @@
+{
+ "case": "kX2",
+ "arm": "kit",
+ "pass": true,
+ "time": "2026-11-14 14:18:32",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.6,
+ "peak_rss_gb": 1.83,
+ "peak_commit_gb": 4.02,
+ "lean_output": "runs\\r6-kit\\kX2\\_Full.lean:115:37: warning: Unused tactic linter: `simp [net]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r6-kit\\kX2\\_Full.lean:115:37: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r6-kit\\kX2\\_Full.lean:166:30: warning: Unused tactic linter: `(simp only [List.getD_cons_zero, List.getD_cons_succ]; exact ⟨ha, ha'⟩)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r6-kit\\kX2\\_Full.lean:167:30: warning: Unused tactic linter: `(simp only [List.getD_cons_zero, List.getD_cons_succ]; exact ⟨hb, hb'⟩)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r6-kit\\kX2\\_Full.lean:168:30: warning: Unused tactic linter: `(simp only [List.getD_cons_zero, List.getD_cons_succ]; exact ⟨hc, hc'⟩)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r6-kit\\kX2\\_Full.lean:166:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r6-kit\\kX2\\_Full.lean:167:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r6-kit\\kX2\\_Full.lean:168:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 1,
+ "attempts_left": 29
+}

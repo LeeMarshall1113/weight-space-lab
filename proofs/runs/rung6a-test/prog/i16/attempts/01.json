@@ -1,0 +1,17 @@
+{
+ "case": "i16",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-18 09:40:10",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.0,
+ "peak_rss_gb": 1.71,
+ "peak_commit_gb": 3.89,
+ "lean_output": "runs\\rung6a-test\\prog\\i16\\_Full.lean:65:12: warning: `List.take_succ` has been deprecated: Use `List.take_add_one` instead\n\nHint: Replace the deprecated name:\n  List.take_s̵u̵c̵c̵a̲d̲d̲_̲o̲n̲e̲\nruns\\rung6a-test\\prog\\i16\\_Full.lean:65:6: error: Tactic `simp` failed with a nested error:\nmaximum recursion depth has been reached\nuse `set_option maxRecDepth <num>` to increase limit\nuse `set_option diagnostics true` to get diagnostic information\nruns\\rung6a-test\\prog\\i16\\_Full.lean:83:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\rung6a-test\\prog\\i16\\_Full.lean:83:25: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\rung6a-test\\prog\\i16\\_Full.lean:83:47: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  tokAt w (m + 1)\nin the target expression\n  h w[m] = (some m).elim 0 fun j => h (tokAt w (j + 1))\n\ncase pos\nw : List ℕ\nhw : ∀ t ∈ w, 1 ≤ t ∧ t ≤ 3\ntgt :\n  ∀ (i : ℕ),\n    target w i =\n      (List.find? (fun j => decide (1 ≤ j) && tokAt w j == tokAt w i) (List.range i).reverse).elim 0 fun j =>\n        h (tokAt w (j + 1))\nhfind :\n  ∀ (m : ℕ) (p : ℕ → Bool),\n    List.find? p (List.range (m + 1)).reverse = if p m = true then some m else List.find? p (List.range m).reverse\nm : ℕ\nih :\n  m ≤ w.length →\n    ∃ a,\n      List.foldl step (0, fun x => 0, []) (List.take m w) =\n          (tokAt w m, a, List.map (fun i => target w (i + 1)) (List.range m)) ∧\n        ∀ (t : ℕ),\n          a t =\n            (List.find? (fun j => decide (1 ≤ j) && tokAt w j == t) (List.range m).reverse).elim 0 fun j =>\n              h (tokAt w (j + 1))\nhm : m + 1 ≤ w.length\na : ℕ → ℕ\nhfold :\n  List.foldl step (0, fun x => 0, []) (List.take m w) =\n    (tokAt w m, a, List.map (fun i => target w (i + 1)) (List.range m))\nha :\n  ∀ (t : ℕ),\n    a t =\n      (List.find? (fun j => decide (1 ≤ j) && tokAt w j == t) (List.range m).reverse).elim 0 fun j =>\n        h (tokAt w (j + 1))\nhlt : m < w.length\nhx : List.take (m + 1) w = List.take m w ++ [w[m]]\nhtok : tokAt w (m + 1) = w[m]\nhne : 1 ≤ m → tokAt w m ≠ 0\nt : ℕ\nh1 : 1 ≤ m\nh2 : tokAt w m = t\nhn : tokAt w m ≠ 0\nthis : (decide (1 ≤ m) && tokAt w m == t) = true\n⊢ h w[m] = (some m).elim 0 fun j => h (tokAt w (j + 1))\nruns\\rung6a-test\\prog\\i16\\_Full.lean:90:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\rung6a-test\\prog\\i16\\_Full.lean:90:33: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\rung6a-test\\prog\\i16\\_Full.lean:47:70: warning: This simp argument is unused:\n  hf\n\nHint: Omit it from the simp argument list.\n  [apply] simp\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

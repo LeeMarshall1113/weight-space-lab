@@ -1,0 +1,11 @@
+{
+ "id": "k2",
+ "arm": "kit",
+ "rung": 7,
+ "import": "R7Cert",
+ "final_theorems": [
+  "Lane4Final.final"
+ ],
+ "max_attempts": 30,
+ "lean_timeout": 600
+}

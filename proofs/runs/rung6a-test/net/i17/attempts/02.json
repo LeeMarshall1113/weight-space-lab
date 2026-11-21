@@ -1,0 +1,17 @@
+{
+ "case": "i17",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 07:27:52",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.5,
+ "peak_rss_gb": 1.78,
+ "peak_commit_gb": 3.97,
+ "lean_output": "runs\\rung6a-test\\net\\i17\\_Full.lean:241:8: error(lean.unknownIdentifier): Unknown identifier `rsum`\nruns\\rung6a-test\\net\\i17\\_Full.lean:238:28: error: unsolved goals\nu η M : ℝ\nfl ex : ℝ → ℝ\nhr : Rnd u η M fl\ns f : ℕ → ℝ\n⊢ fl (RSeq.rsum fl [] 0 / RSeq.rsum fl [] 0) = 0\nruns\\rung6a-test\\net\\i17\\_Full.lean:418:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

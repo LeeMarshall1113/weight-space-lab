@@ -1,0 +1,17 @@
+{
+ "case": "c08",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 04:45:35",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.9,
+ "peak_rss_gb": 1.89,
+ "peak_commit_gb": 4.07,
+ "lean_output": "runs\\rung6a-test\\net\\c08\\_Full.lean:103:44: error: omega could not prove the goal:\nNo usable constraints found. You may need to unfold definitions so `omega` can see linear arithmetic facts about `Nat` and `Int`, which may also involve multiplication, division, and modular remainder by constants.\nruns\\rung6a-test\\net\\c08\\_Full.lean:103:44: error: omega could not prove the goal:\nNo usable constraints found. You may need to unfold definitions so `omega` can see linear arithmetic facts about `Nat` and `Int`, which may also involve multiplication, division, and modular remainder by constants.\nruns\\rung6a-test\\net\\c08\\_Full.lean:103:44: error: omega could not prove the goal:\nNo usable constraints found. You may need to unfold definitions so `omega` can see linear arithmetic facts about `Nat` and `Int`, which may also involve multiplication, division, and modular remainder by constants.\nruns\\rung6a-test\\net\\c08\\_Full.lean:182:25: error: unsolved goals\nD C : ℕ\nhD : 2 ≤ 2\nhC : 1 ≤ 1\n⊢ False\nruns\\rung6a-test\\net\\c08\\_Full.lean:179:74: error: unsolved goals\ncase «2».«1»\nD C : ℕ\nhD : 2 ≤ 2\nhC : 1 ≤ 1\n⊢ False\nruns\\rung6a-test\\net\\c08\\_Full.lean:534:16: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\nruns\\rung6a-test\\net\\c08\\_Full.lean:539:16: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

@@ -1,0 +1,16 @@
+rc 0 secs 88.0 rss 2.34 commit 4.57 timed_out False mem_killed False
+'Lane4.Mech.bisim_sound' depends on axioms: [propext, Quot.sound]
+'Lane4.Net.accept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.skeleton_ok' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.exact_all_lengths' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.binary32' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.trained_exact_all_lengths' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.trained_binary32' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.prog_is_task' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Case.head_tail8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Case.attn_window8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.attn_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.attn_eps0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.attn_eps1' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+WITHIN_LIMITS True

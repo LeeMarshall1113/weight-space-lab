@@ -1,0 +1,17 @@
+{
+ "id": "c08",
+ "arm": "net",
+ "rung": "6a",
+ "split": "test",
+ "family": "carry",
+ "import": "AGateAll",
+ "delta": "1/1000",
+ "final_theorems": [
+  "Lane4Final.final",
+  "Lane4Final.shape",
+  "Lane4Final.exact_all_lengths",
+  "Lane4Final.binary32"
+ ],
+ "max_attempts": 12,
+ "lean_timeout": 600
+}

@@ -1,0 +1,14 @@
+{
+ "tag": "pre-ctl-B-u5-s100",
+ "dir": "runs/r7-stage0/B/u5/s100",
+ "net": "W14.json",
+ "task": "B",
+ "recipe": "u5",
+ "seed": 100,
+ "task_as": "B",
+ "radius": "1/16384",
+ "mirror_ok": false,
+ "mirror_reason": "head 0: content score spread 74.02 too large for a window of 3 at slope 24",
+ "states": 1,
+ "info": {}
+}

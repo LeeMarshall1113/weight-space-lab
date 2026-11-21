@@ -1,0 +1,22 @@
+{
+ "case": "l39",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-18 01:17:58",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.5,
+ "peak_rss_gb": 1.84,
+ "peak_commit_gb": 4.03,
+ "lean_output": "runs\\rung6a-dev\\net\\l39\\_Full.lean:83:6: warning: Unused tactic linter: `(simp [net, fq, vq, val]; done)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-dev\\net\\l39\\_Full.lean:84:6: warning: Unused tactic linter: `(norm_num [net, fq, vq, val]; done)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-dev\\net\\l39\\_Full.lean:83:6: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-dev\\net\\l39\\_Full.lean:84:6: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-dev\\net\\l39\\_Full.lean:91:37: warning: Unused tactic linter: `simp` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-dev\\net\\l39\\_Full.lean:91:37: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-dev\\net\\l39\\_Full.lean:120:20: warning: Unused tactic linter: `simp` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-dev\\net\\l39\\_Full.lean:120:20: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-dev\\net\\l39\\_Full.lean:204:30: warning: Unused tactic linter: `(simp only [List.getD_cons_zero, List.getD_cons_succ]; exact ⟨ha, ha'⟩)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-dev\\net\\l39\\_Full.lean:205:30: warning: Unused tactic linter: `(simp only [List.getD_cons_zero, List.getD_cons_succ]; exact ⟨hb, hb'⟩)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-dev\\net\\l39\\_Full.lean:206:30: warning: Unused tactic linter: `(simp only [List.getD_cons_zero, List.getD_cons_succ]; exact ⟨hc, hc'⟩)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-dev\\net\\l39\\_Full.lean:204:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-dev\\net\\l39\\_Full.lean:205:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-dev\\net\\l39\\_Full.lean:206:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-dev\\net\\l39\\_Full.lean:320:31: warning: Unused tactic linter: `simp [head1]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-dev\\net\\l39\\_Full.lean:320:31: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 2,
+ "attempts_left": 10
+}

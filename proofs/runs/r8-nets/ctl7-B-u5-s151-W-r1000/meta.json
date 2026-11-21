@@ -1,0 +1,14 @@
+{
+ "tag": "ctl7-B-u5-s151-W-r1000",
+ "dir": "runs/r8-fresh/B/u5/s151",
+ "net": "W.json",
+ "task": "B",
+ "recipe": "u5",
+ "seed": 151,
+ "task_as": "B",
+ "radius": "1/1000",
+ "mirror_ok": false,
+ "mirror_reason": "head 0: content score spread 73.67 too large for a window of 3 at slope 24",
+ "states": 1,
+ "info": {}
+}

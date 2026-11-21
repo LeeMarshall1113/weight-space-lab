@@ -1,0 +1,68 @@
+rc 1 secs 21.5 rss 2.18 commit 4.41 timed_out False mem_killed False
+runs\mech\tune-A-u3-s110\Net.lean:315:9: error(lean.invalidField): Invalid field `ptarget`: The environment does not contain `Lane4.Cert.Task.ptarget`, so it is not possible to project the field `ptarget` from an expression
+  task
+of type `Cert.Task`
+runs\mech\tune-A-u3-s110\Net.lean:315:23: error: Function expected at
+  pptarget
+but this term has type
+  ?m.1
+
+Note: Expected a function because this term is being applied to the argument
+  w
+
+Hint: The identifier `pptarget` is unknown, and Lean's `autoImplicit` option causes an unknown identifier to be treated as an implicitly bound variable with an unknown type. However, the unknown type cannot be a function, and a function is what Lean expects here. This is often the result of a typo or a missing `import` or `open` statement.
+runs\mech\tune-A-u3-s110\Net.lean:327:6: error(lean.unknownIdentifier): Unknown identifier `target_eq`
+runs\mech\tune-A-u3-s110\Net.lean:321:39: error: unsolved goals
+s :
+  ∀ (δ : ℚ) (N : ANet) (T : Cert.Task) (c : Cert8),
+    check8 δ N T c = true →
+      ∀ (u η M : ℝ) (fl ex : ℝ → ℝ),
+        Rnd u η M fl →
+          ExpM u η ex →
+            0 ≤ u →
+              u ≤ 1 / 2 ^ 24 →
+                0 ≤ η →
+                  η ≤ 1 / 2 ^ 149 →
+                    ∀ (p : APert),
+                      APert.Within (↑δ) p →
+                        ∀ (w : List ℕ),
+                          (∀ t ∈ w, 1 ≤ t ∧ t ≤ T.ntok) →
+                            u * ↑(w.length + 1) ≤ 1 / 256 →
+                              η * ↑(w.length + 1) ≤ 1 / 2 ^ 100 →
+                                2 ^ 40 * ↑(w.length + 1) ^ 2 ≤ M →
+                                  ∀ (i : ℕ), 1 ≤ i → i ≤ w.length → |N.out fl ex p w i - ↑(T.target w i)| ≤ 1 / 4
+u η M : ℝ
+fl ex : ℝ → ℝ
+hr : Rnd u η M fl
+he : ExpM u η ex
+hu0 : 0 ≤ u
+hu : u ≤ 1 / 2 ^ 24
+hη0 : 0 ≤ η
+hη : η ≤ 1 / 2 ^ 149
+p : APert
+hp : APert.Within (1 / 16384) p
+w : List ℕ
+hw : ∀ t ∈ w, 1 ≤ t ∧ t ≤ 5
+h1 : u * ↑(w.length + 1) ≤ 1 / 256
+h2 : η * ↑(w.length + 1) ≤ 1 / 2 ^ 100
+h3 : 2 ^ 40 * ↑(w.length + 1) ^ 2 ≤ M
+i : ℕ
+hi1 : 1 ≤ i
+hi2 : i ≤ w.length
+hp' : APert.Within (↑(1 / 16384)) p
+h : |net.out fl ex p w i - ↑(task.target w i)| ≤ 1 / 4
+⊢ |net.out fl ex p w i - ↑(ptarget w i)| ≤ 1 / 4
+runs\mech\tune-A-u3-s110\Net.lean:404:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+'Lane4.Mech.bisim_sound' depends on axioms: [propext, Quot.sound]
+'Lane4.Net.accept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.skeleton_ok' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Lane4.Net.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Lane4.Net.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Lane4.Net.trained_exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Lane4.Net.trained_binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Lane4.Net.prog_is_task' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+WITHIN_LIMITS False

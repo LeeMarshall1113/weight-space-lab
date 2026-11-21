@@ -1,0 +1,32 @@
+{
+ "tag": "A-u3-s140",
+ "dir": "runs/r8-fresh/A/u3/s140",
+ "net": "W14.json",
+ "task": "A",
+ "recipe": "u3",
+ "seed": 140,
+ "task_as": "A",
+ "radius": "1/16384",
+ "mirror_ok": true,
+ "mirror_reason": "ok",
+ "states": 6,
+ "info": {
+  "worst": 0.09497317338225042,
+  "states": 6,
+  "table_rows": 30,
+  "cases": 30,
+  "window": [
+   1,
+   1
+  ],
+  "spread": [
+   0.13,
+   0.49
+  ],
+  "dense": [
+   true,
+   true
+  ],
+  "mixed_rows": 0
+ }
+}

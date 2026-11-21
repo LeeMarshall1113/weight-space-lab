@@ -1,0 +1,22 @@
+{
+ "case": "l27",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-18 05:09:49",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.4,
+ "peak_rss_gb": 1.85,
+ "peak_commit_gb": 4.03,
+ "lean_output": "runs\\rung6a-test\\net\\l27\\_Full.lean:104:10: warning: Unused tactic linter: `(rw [List.take_succ, List.getElem?_eq_getElem hlt]; rfl)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:105:10: warning: Unused tactic linter: `simp [List.take_succ, hlt]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:104:10: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:105:10: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:161:8: warning: Unused tactic linter: `(simp [net, val, flg])` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:162:8: warning: Unused tactic linter: `(norm_num [net, val, flg])` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:163:8: warning: Unused tactic linter: `decide` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:161:8: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:162:8: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:163:8: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:209:30: warning: Unused tactic linter: `(simp only [List.getD_cons_zero, List.getD_cons_succ]; exact ⟨ha, ha'⟩)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:210:30: warning: Unused tactic linter: `(simp only [List.getD_cons_zero, List.getD_cons_succ]; exact ⟨hb, hb'⟩)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:211:30: warning: Unused tactic linter: `(simp only [List.getD_cons_zero, List.getD_cons_succ]; exact ⟨hc, hc'⟩)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:209:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:210:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:211:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:359:31: warning: Unused tactic linter: `simp [head1]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\l27\\_Full.lean:359:31: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 2,
+ "attempts_left": 10
+}

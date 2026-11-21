@@ -1,0 +1,22 @@
+{
+ "case": "kh",
+ "arm": "kit",
+ "pass": true,
+ "time": "2026-11-20 17:24:15",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.1,
+ "peak_rss_gb": 1.78,
+ "peak_commit_gb": 3.99,
+ "lean_output": "runs\\r8-kit\\kh\\_Full.lean:21:4: warning: Unused tactic linter: `exact List.elem_iff.mp h` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r8-kit\\kh\\_Full.lean:22:4: warning: Unused tactic linter: `exact List.mem_of_elem_eq_true h` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r8-kit\\kh\\_Full.lean:23:4: warning: Unused tactic linter: `simpa using h` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r8-kit\\kh\\_Full.lean:21:4: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r8-kit\\kh\\_Full.lean:22:4: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r8-kit\\kh\\_Full.lean:23:4: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r8-kit\\kh\\_Full.lean:147:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r8-kit\\kh\\_Full.lean:149:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r8-kit\\kh\\_Full.lean:152:14: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r8-kit\\kh\\_Full.lean:156:16: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r8-kit\\kh\\_Full.lean:160:16: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r8-kit\\kh\\_Full.lean:161:14: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r8-kit\\kh\\_Full.lean:162:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r8-kit\\kh\\_Full.lean:163:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r8-kit\\kh\\_Full.lean:243:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r8-kit\\kh\\_Full.lean:265:42: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r8-kit\\kh\\_Full.lean:270:40: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r8-kit\\kh\\_Full.lean:304:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 1,
+ "attempts_left": 29
+}

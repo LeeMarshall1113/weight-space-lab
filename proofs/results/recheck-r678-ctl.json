@@ -1,0 +1,34 @@
+[
+ {
+  "kind": "net",
+  "unit": "runs/mech/ctl-s110-swap12/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 28.1,
+  "peak_rss_gb": 2.17,
+  "peak_commit_gb": 4.4,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "audit",
+  "files": 522,
+  "token_counts": {
+   "native_decide": 0,
+   "ofReduceBool": 0,
+   "sorry": 0,
+   "axiom": 0
+  },
+  "token_counts_attempts": {
+   "native_decide": 0,
+   "ofReduceBool": 0,
+   "sorry": 0,
+   "axiom": 0
+  }
+ }
+]

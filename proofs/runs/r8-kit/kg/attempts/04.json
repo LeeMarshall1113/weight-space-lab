@@ -1,0 +1,17 @@
+{
+ "case": "kg",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-20 15:59:23",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.4,
+ "peak_rss_gb": 1.83,
+ "peak_commit_gb": 4.02,
+ "lean_output": "runs\\r8-kit\\kg\\_Full.lean:1182:2: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.head_sound8`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 4,
+ "attempts_left": 26
+}

@@ -1,0 +1,17 @@
+{
+ "case": "kg",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-20 15:54:24",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.2,
+ "peak_rss_gb": 1.81,
+ "peak_commit_gb": 4.0,
+ "lean_output": "runs\\r8-kit\\kg\\_Full.lean:268:68: error: unsolved goals\ne : ℕ → ℝ\na : ℚ\nl : List ℚ\nih :\n  ∀ (e' : ℕ → ℝ) (k : ℕ),\n    (∀ j < l.length, e (k + j) = e' j) →\n      linVal l e k = (List.map (fun j => ↑(l.getD j 0) * e' j) (List.range l.length)).sum\ne' : ℕ → ℝ\nk : ℕ\nhk : ∀ j < (a :: l).length, e (k + j) = e' j\nh0 : e k = e' 0\nh1 : linVal l e (k + 1) = (List.map (fun j => ↑(l.getD j 0) * e' (j + 1)) (List.range l.length)).sum\nhz : ↑a * e' 0 = ↑((a :: l).getD 0 0) * e' 0\n⊢ ↑((a :: l).getD 0 0) * e' 0 + (List.map (fun j => ↑(l.getD j 0) * e' (j + 1)) (List.range l.length)).sum =\n    ↑((a :: l).getD 0 0) * e' 0 +\n      (List.map ((fun j => ↑((a :: l).getD j 0) * e' j) ∘ Nat.succ) (List.range l.length)).sum\nruns\\r8-kit\\kg\\_Full.lean:881:2: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.head_sound8`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 3,
+ "attempts_left": 27
+}

@@ -1,0 +1,22 @@
+{
+ "case": "kT",
+ "arm": "kit",
+ "pass": true,
+ "time": "2026-11-20 00:50:58",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.7,
+ "peak_rss_gb": 1.76,
+ "peak_commit_gb": 3.94,
+ "lean_output": "runs\\r7-kit\\kT\\_Full.lean:248:55: warning: Unused tactic linter: `simp [ardot]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r7-kit\\kT\\_Full.lean:251:68: warning: Unused tactic linter: `simp [ardot]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r7-kit\\kT\\_Full.lean:248:55: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r7-kit\\kT\\_Full.lean:251:68: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r7-kit\\kT\\_Full.lean:283:27: warning: Unused tactic linter: `simp [araffine]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r7-kit\\kT\\_Full.lean:293:31: warning: Unused tactic linter: `simp [araffine]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r7-kit\\kT\\_Full.lean:283:27: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r7-kit\\kT\\_Full.lean:293:31: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r7-kit\\kT\\_Full.lean:507:50: warning: Unused tactic linter: `simp [nearL]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r7-kit\\kT\\_Full.lean:507:50: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r7-kit\\kT\\_Full.lean:529:16: warning: Unused tactic linter: `simp [nearBlock, nearM, nearL, nilBlock]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r7-kit\\kT\\_Full.lean:529:16: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 1,
+ "attempts_left": 29
+}

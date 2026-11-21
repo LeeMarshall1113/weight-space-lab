@@ -1,0 +1,17 @@
+{
+ "case": "i16",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 09:10:58",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.8,
+ "peak_rss_gb": 1.85,
+ "peak_commit_gb": 4.05,
+ "lean_output": "runs\\rung6a-test\\net\\i16\\_Full.lean:80:37: warning: Unused tactic linter: `simp [net, z7]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\i16\\_Full.lean:80:37: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\i16\\_Full.lean:698:7: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'ABlock.apply', which is 'noncomputable'\nruns\\rung6a-test\\net\\i16\\_Full.lean:798:8: error(lean.unknownIdentifier): Unknown constant `List.getD_eq_default`\nruns\\rung6a-test\\net\\i16\\_Full.lean:824:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 5,
+ "attempts_left": 7
+}

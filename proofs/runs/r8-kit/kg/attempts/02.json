@@ -1,0 +1,17 @@
+{
+ "case": "kg",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-20 15:51:34",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 9.5,
+ "peak_rss_gb": 1.79,
+ "peak_commit_gb": 3.99,
+ "lean_output": "runs\\r8-kit\\kg\\_Full.lean:273:8: error: No goals to be solved\nruns\\r8-kit\\kg\\_Full.lean:597:2: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.head_sound8`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 28
+}

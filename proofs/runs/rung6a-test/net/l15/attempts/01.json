@@ -1,0 +1,17 @@
+{
+ "case": "l15",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 05:01:21",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.5,
+ "peak_rss_gb": 1.85,
+ "peak_commit_gb": 4.04,
+ "lean_output": "runs\\rung6a-test\\net\\l15\\_Full.lean:112:37: warning: Unused tactic linter: `simp [net, cvQ, cgQ, val]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\l15\\_Full.lean:112:65: warning: Unused tactic linter: `decide` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\l15\\_Full.lean:112:37: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\l15\\_Full.lean:112:65: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\l15\\_Full.lean:156:30: warning: Unused tactic linter: `(simp only [List.getD_cons_zero, List.getD_cons_succ]; exact ⟨ha, ha'⟩)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\l15\\_Full.lean:157:30: warning: Unused tactic linter: `(simp only [List.getD_cons_zero, List.getD_cons_succ]; exact ⟨hb, hb'⟩)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\l15\\_Full.lean:158:30: warning: Unused tactic linter: `(simp only [List.getD_cons_zero, List.getD_cons_succ]; exact ⟨hc, hc'⟩)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\l15\\_Full.lean:156:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\l15\\_Full.lean:157:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\l15\\_Full.lean:158:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\l15\\_Full.lean:167:72: error: unsolved goals\nw : List ℕ\ni : ℕ\nhi : i < w.length\n⊢ lastv (List.take (i + 1) w) = if val w[i] = 0 then lastv (List.take i w) else val w[i]\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

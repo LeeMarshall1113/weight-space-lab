@@ -1,0 +1,14 @@
+{
+ "tag": "ctl8-B-u5-s100-W-r1000",
+ "dir": "runs/r7-stage0/B/u5/s100",
+ "net": "W.json",
+ "task": "B",
+ "recipe": "u5",
+ "seed": 100,
+ "task_as": "B",
+ "radius": "1/1000",
+ "mirror_ok": false,
+ "mirror_reason": "head 0: content score spread 74.94 too large for a window of 3 at slope 24",
+ "states": 1,
+ "info": {}
+}

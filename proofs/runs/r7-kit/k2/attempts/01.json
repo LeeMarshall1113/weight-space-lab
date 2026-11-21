@@ -1,0 +1,17 @@
+{
+ "case": "k2",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-20 01:38:21",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 56.1,
+ "peak_rss_gb": 1.8,
+ "peak_commit_gb": 3.99,
+ "lean_output": "runs\\r7-kit\\k2\\_Full.lean:122:6: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r7-kit\\k2\\_Full.lean:473:35: error: mod_cast has type\n  δ ≤ 1 / 2\nbut is expected to have type\n  ↑δ ≤ 1 / 2\nruns\\r7-kit\\k2\\_Full.lean:542:36: error: mod_cast has type\n  δ ≤ 1 / 2\nbut is expected to have type\n  ↑δ ≤ 1 / 2\nruns\\r7-kit\\k2\\_Full.lean:678:8: error: (deterministic) timeout at `isDefEq`, maximum number of heartbeats (1000000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.\nruns\\r7-kit\\k2\\_Full.lean:746:12: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (1000000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.\nruns\\r7-kit\\k2\\_Full.lean:839:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r7-kit\\k2\\_Full.lean:842:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r7-kit\\k2\\_Full.lean:844:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r7-kit\\k2\\_Full.lean:846:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r7-kit\\k2\\_Full.lean:848:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r7-kit\\k2\\_Full.lean:850:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r7-kit\\k2\\_Full.lean:919:30: warning: Unused tactic linter: `push_cast` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r7-kit\\k2\\_Full.lean:919:42: warning: Unused tactic linter: `simp` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r7-kit\\k2\\_Full.lean:919:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r7-kit\\k2\\_Full.lean:919:42: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r7-kit\\k2\\_Full.lean:977:21: warning: Unused tactic linter: `linarith [k1]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r7-kit\\k2\\_Full.lean:977:21: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 29
+}

@@ -1,0 +1,17 @@
+{
+ "case": "k4",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-20 01:55:05",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.7,
+ "peak_rss_gb": 1.72,
+ "peak_commit_gb": 3.92,
+ "lean_output": "runs\\r7-kit\\k4\\_Full.lean:139:21: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\nruns\\r7-kit\\k4\\_Full.lean:144:21: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\nruns\\r7-kit\\k4\\_Full.lean:155:10: warning: `List.take_succ` has been deprecated: Use `List.take_add_one` instead\n\nHint: Replace the deprecated name:\n  List.take_s̵u̵c̵c̵a̲d̲d̲_̲o̲n̲e̲\nruns\\r7-kit\\k4\\_Full.lean:156:42: error(lean.unknownIdentifier): Unknown constant `List.getD_eq_getElem`\nruns\\r7-kit\\k4\\_Full.lean:165:21: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\nruns\\r7-kit\\k4\\_Full.lean:170:21: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\nruns\\r7-kit\\k4\\_Full.lean:196:21: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\nruns\\r7-kit\\k4\\_Full.lean:204:21: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\nruns\\r7-kit\\k4\\_Full.lean:220:31: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 29
+}

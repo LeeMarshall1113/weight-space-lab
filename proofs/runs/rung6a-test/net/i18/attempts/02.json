@@ -1,0 +1,17 @@
+{
+ "case": "i18",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 08:23:03",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.4,
+ "peak_rss_gb": 1.88,
+ "peak_commit_gb": 4.08,
+ "lean_output": "runs\\rung6a-test\\net\\i18\\_Full.lean:965:18: error: Application type mismatch: The argument\n  head1.A\nhas type\n  List (List ℚ)\nbut is expected to have type\n  AHead\nin the application\n  content_zero ev head1.A\nruns\\rung6a-test\\net\\i18\\_Full.lean:1001:5: error: unsolved goals\nu η M : ℝ\nfl ex : ℝ → ℝ\np : APert\nw : List ℕ\nev : Ctx u η M fl ex p w\nj c : ℕ\nhc : c < 3\nd : ℕ → ℝ\nhd : ∀ (k : ℕ), |d k| ≤ 1 / 1000\nhl : List.length (net.init fl p w j) = 10\nhent : ∀ k < 10, |List.getD (net.init fl p w j) k 0 - id0 w j k| ≤ 1 / 990\nk : ℕ\nhk : k < 10\n⊢ |↑(if k = c then 1 else 0)| ≤ 1\nruns\\rung6a-test\\net\\i18\\_Full.lean:1182:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

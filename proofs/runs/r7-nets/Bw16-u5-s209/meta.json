@@ -1,0 +1,29 @@
+{
+ "tag": "Bw16-u5-s209",
+ "task": "Bw16",
+ "recipe": "u5",
+ "seed": 209,
+ "task_as": "Bw16",
+ "radius": "1/1000",
+ "prototype_ok": false,
+ "prototype_reason": "case token 5, picks (0, 5), task state 0: output 0.0273 +- 0.2299 against target 0",
+ "states": 9,
+ "cands": [
+  [
+   true,
+   true,
+   true,
+   false,
+   true,
+   true
+  ],
+  [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true
+  ]
+ ]
+}

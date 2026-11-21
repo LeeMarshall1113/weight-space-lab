@@ -1,0 +1,17 @@
+{
+ "case": "f37",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 07:01:43",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 15.3,
+ "peak_rss_gb": 1.97,
+ "peak_commit_gb": 4.16,
+ "lean_output": "runs\\rung6a-test\\net\\f37\\_Full.lean:804:30: warning: Unused tactic linter: `(exfalso; omega)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\f37\\_Full.lean:804:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\f37\\_Full.lean:952:2: error: Type mismatch\n  hr.idem (f j) hf\nhas type\n  fl (fl (f j)) = fl (f j)\nbut is expected to have type\n  fl (fl (fl (f j))) = fl (f j)\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 9,
+ "attempts_left": 3
+}

@@ -1,0 +1,11 @@
+rc 0 secs 87.2 rss 2.3 commit 4.53 timed_out False mem_killed False
+runs\r8-nets\A-u3-s141\Net.lean:312:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+'Lane4.Net.accept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.skeleton_ok' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.trained_exact_all_lengths' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.trained_binary32' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+WITHIN_LIMITS True

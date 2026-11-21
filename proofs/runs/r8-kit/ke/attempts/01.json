@@ -1,0 +1,17 @@
+{
+ "case": "ke",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-20 14:57:18",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 9.4,
+ "peak_rss_gb": 1.76,
+ "peak_commit_gb": 3.96,
+ "lean_output": "runs\\r8-kit\\ke\\_Full.lean:423:62: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.aff_af`\nruns\\r8-kit\\ke\\_Full.lean:423:81: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.add_af`\nruns\\r8-kit\\ke\\_Full.lean:423:100: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.relu_af`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 29
+}

@@ -1,0 +1,17 @@
+{
+ "case": "f12",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 06:15:39",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.3,
+ "peak_rss_gb": 1.83,
+ "peak_commit_gb": 4.01,
+ "lean_output": "runs\\rung6a-test\\net\\f12\\_Full.lean:492:36: error: unsolved goals\nu η M : ℝ\nfl ex : ℝ → ℝ\np : APert\nw : List ℕ\nev : Ctx u η M fl ex p w\nh : AHead\nx xh : ℕ → List ℝ\ne : ℝ\nsg : SG h x xh e\ndA : ℕ → ℕ → ℝ\nhdA : ∀ (r c : ℕ), |dA r c| ≤ 1 / 1000\ni k r : ℕ\nt1 : |ardot fl z6 (x k) (dA r) 0 0 - dotQ z6 (xh k)| ≤ absSum z6 * e + 6 / 1000 * (1 + e) + 1 / 1000\n⊢ (List.zipWith (fun a v => ↑a * v) [0, 0, 0, 0, 0, 0] (xh k)).sum = 0\nruns\\rung6a-test\\net\\f12\\_Full.lean:683:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 4,
+ "attempts_left": 8
+}

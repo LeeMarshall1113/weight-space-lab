@@ -1,0 +1,22 @@
+{
+ "case": "kW",
+ "arm": "kit",
+ "pass": true,
+ "time": "2026-11-18 02:27:55",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 26.3,
+ "peak_rss_gb": 1.79,
+ "peak_commit_gb": 3.98,
+ "lean_output": "runs\\r6-kit\\kW\\_Full.lean:208:28: warning: Unused tactic linter: `simp [ardot]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r6-kit\\kW\\_Full.lean:208:28: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 1,
+ "attempts_left": 29
+}

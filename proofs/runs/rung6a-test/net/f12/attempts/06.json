@@ -1,0 +1,17 @@
+{
+ "case": "f12",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 06:19:41",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.8,
+ "peak_rss_gb": 1.86,
+ "peak_commit_gb": 4.06,
+ "lean_output": "runs\\rung6a-test\\net\\f12\\_Full.lean:921:22: error: unsolved goals\nu η M : ℝ\nfl ex : ℝ → ℝ\np : APert\nw : List ℕ\nev : Ctx u η M fl ex p w\ni : ℕ\nhi : i ≤ w.length\na0 a1 a2 a3 a4 a5 : ℝ\nhx : net.init fl p w i = [a0, a1, a2, a3, a4, a5]\nh0 : |a0 - mkR w i| ≤ 1 / 500\nh1 : |a1 - cR w i| ≤ 1 / 500\nh2 : |a2 - aR w i| ≤ 1 / 500\nh3 : |a3 - 0| ≤ 1 / 500\nh4 : |a4 - 0| ≤ 1 / 500\nh5 : |a5 - 0| ≤ 1 / 500\nh :\n  |fl (fl (a3 + att1 fl ex p w i [1, 0, 0, 0, 0, 0] 3) + fl (asw fl 0 (p.b2 0 3))) - (0 + fR w i)| ≤\n    1 / 500 + 1 / 50 + 12 / 10000 + 2 / 50000\n⊢ ?m.567 ≤ 1 / 40\nruns\\rung6a-test\\net\\f12\\_Full.lean:921:19: error: Application type mismatch: The argument\n  h\nhas type\n  |fl (fl (a3 + att1 fl ex p w i [1, 0, 0, 0, 0, 0] 3) + fl (asw fl 0 (p.b2 0 3))) - (0 + fR w i)| ≤\n    1 / 500 + 1 / 50 + 12 / 10000 + 2 / 50000\nbut is expected to have type\n  |fl (fl (a3 + att1 fl ex p w i [1, 0, 0, 0, 0, 0] 3) + fl (0 + asw fl 0 (p.b2 0 3))) - fR w i| ≤ ?m.567\nin the application\n  le_trans h\nruns\\rung6a-test\\net\\f12\\_Full.lean:951:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 6,
+ "attempts_left": 6
+}

@@ -1,0 +1,376 @@
+[
+ {
+  "kind": "framework",
+  "unit": "Lane4/R8All.lean and Lane4/MechBisim.lean (and all modules they import)",
+  "pass": true,
+  "secs": 11.4
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s140/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 34.3,
+  "peak_rss_gb": 2.21,
+  "peak_commit_gb": 4.43,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s141/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 111.5,
+  "peak_rss_gb": 2.3,
+  "peak_commit_gb": 4.52,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s142/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 109.3,
+  "peak_rss_gb": 2.35,
+  "peak_commit_gb": 4.57,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s143/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 30.1,
+  "peak_rss_gb": 2.21,
+  "peak_commit_gb": 4.43,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s144/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 95.2,
+  "peak_rss_gb": 2.28,
+  "peak_commit_gb": 4.51,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s145/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 96.6,
+  "peak_rss_gb": 2.31,
+  "peak_commit_gb": 4.53,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s146/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 99.5,
+  "peak_rss_gb": 2.3,
+  "peak_commit_gb": 4.52,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s147/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 93.9,
+  "peak_rss_gb": 2.3,
+  "peak_commit_gb": 4.53,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s148/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 97.8,
+  "peak_rss_gb": 2.34,
+  "peak_commit_gb": 4.56,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s149/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 532.4,
+  "peak_rss_gb": 2.6,
+  "peak_commit_gb": 4.88,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s150/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 97.7,
+  "peak_rss_gb": 2.35,
+  "peak_commit_gb": 4.58,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s151/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 26.3,
+  "peak_rss_gb": 2.21,
+  "peak_commit_gb": 4.43,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s152/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 96.6,
+  "peak_rss_gb": 2.31,
+  "peak_commit_gb": 4.54,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s153/Net.lean",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "secs": 16.4,
+  "peak_rss_gb": 2.91,
+  "peak_commit_gb": 5.1,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s154/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 87.1,
+  "peak_rss_gb": 2.28,
+  "peak_commit_gb": 4.52,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s155/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 98.4,
+  "peak_rss_gb": 2.34,
+  "peak_commit_gb": 4.56,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s156/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 84.4,
+  "peak_rss_gb": 2.3,
+  "peak_commit_gb": 4.52,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s157/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 86.2,
+  "peak_rss_gb": 2.3,
+  "peak_commit_gb": 4.53,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s158/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 94.5,
+  "peak_rss_gb": 2.34,
+  "peak_commit_gb": 4.57,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s159/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 96.4,
+  "peak_rss_gb": 2.34,
+  "peak_commit_gb": 4.56,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/tune-A-u3-s110/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 24.3,
+  "peak_rss_gb": 2.18,
+  "peak_commit_gb": 4.39,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/tune-A-u3-s116/Net.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 541.6,
+  "peak_rss_gb": 2.58,
+  "peak_commit_gb": 4.86,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "audit",
+  "files": 501,
+  "token_counts": {
+   "native_decide": 0,
+   "ofReduceBool": 0,
+   "sorry": 0,
+   "axiom": 0
+  },
+  "token_counts_attempts": {
+   "native_decide": 0,
+   "ofReduceBool": 0,
+   "sorry": 0,
+   "axiom": 0
+  }
+ }
+]

@@ -1,0 +1,17 @@
+{
+ "case": "i17",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 07:32:39",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.9,
+ "peak_rss_gb": 1.85,
+ "peak_commit_gb": 4.05,
+ "lean_output": "runs\\rung6a-test\\net\\i17\\_Full.lean:691:23: error: No goals to be solved\nruns\\rung6a-test\\net\\i17\\_Full.lean:778:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 4,
+ "attempts_left": 8
+}

@@ -1,0 +1,17 @@
+{
+ "case": "f37",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-18 09:30:36",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.2,
+ "peak_rss_gb": 1.71,
+ "peak_commit_gb": 3.89,
+ "lean_output": "runs\\rung6a-test\\prog\\f37\\_Full.lean:60:13: error: unsolved goals\ncase cons.succ\nb : ℕ\nt : List ℕ\nih :\n  ∀ (s : ℕ) (acc : List ℕ),\n    ∀ j < t.length,\n      (List.foldl step (s, acc) t).2.getD (acc.length + j) 0 =\n        ((if List.foldl g s (List.take (j + 1) t) = 2 then 1 else 0) + cbit (t.getD j 0)) % 2\ns : ℕ\nacc : List ℕ\nj : ℕ\nhj : j + 1 < (b :: t).length\nhj' : j < t.length\nthis :\n  (List.foldl step ((step (s, acc) b).1, (step (s, acc) b).2) t).2.getD ((step (s, acc) b).2.length + j) 0 =\n    ((if List.foldl g (step (s, acc) b).1 (List.take (j + 1) t) = 2 then 1 else 0) + cbit (t.getD j 0)) % 2\ne : acc.length + (j + 1) = (step (s, acc) b).2.length + j\n⊢ ((if List.foldl g (g s b) (List.take (j + 1) t) = 2 then 1 else 0) + cbit (t[j]?.getD 0)) % 2 =\n    ((if List.foldl g (g s b) (List.take (j + 1) t) = 2 then 1 else 0) + cbit (t[j]?.getD 0)) % 2\nruns\\rung6a-test\\prog\\f37\\_Full.lean:59:46: warning: This simp argument is unused:\n  h1\n\nHint: Omit it from the simp argument list.\n  [apply] simp [step, List.getD_eq_getElem?_getD]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\nruns\\rung6a-test\\prog\\f37\\_Full.lean:75:2: error: Type mismatch: After simplification, term\n  h\n has type\n  @Eq ℕ ((List.foldl step (0, []) w).2[i - 1]?.getD 0)\n    (((if List.foldl g 0 (List.take i w) = 2 then 1 else 0) + cbit (w[i - 1]?.getD 0)) % 2)\nbut is expected to have type\n  @Eq ℕ ((List.foldl step (0, []) w).2[i - 1]?.getD 0)\n    (((if List.foldl (fun s t => if s = 0 then code t else s) 0 (List.take i w) = 2 then 1 else 0) +\n        cbit (w[i - 1]?.getD 0)) %\n      2)\n'Lane4Final.final' depends on axioms: [propext, sorryAx]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

@@ -1,0 +1,17 @@
+{
+ "case": "f22",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 05:32:40",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 83.5,
+ "peak_rss_gb": 1.78,
+ "peak_commit_gb": 3.97,
+ "lean_output": "runs\\rung6a-test\\net\\f22\\_Full.lean:351:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 11
+}

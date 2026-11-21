@@ -1,0 +1,344 @@
+[
+ {
+  "kind": "framework",
+  "unit": "Lane4/R8All.lean and Lane4/MechBisim.lean (and all modules they import)",
+  "pass": true,
+  "secs": 0.0
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s140/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 33.5,
+  "peak_rss_gb": 2.22,
+  "peak_commit_gb": 4.43,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s141/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 107.5,
+  "peak_rss_gb": 2.32,
+  "peak_commit_gb": 4.55,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s142/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 119.8,
+  "peak_rss_gb": 2.38,
+  "peak_commit_gb": 4.6,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s143/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 31.4,
+  "peak_rss_gb": 2.23,
+  "peak_commit_gb": 4.43,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s144/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 107.5,
+  "peak_rss_gb": 2.31,
+  "peak_commit_gb": 4.54,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s145/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 108.3,
+  "peak_rss_gb": 2.34,
+  "peak_commit_gb": 4.57,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s146/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 107.0,
+  "peak_rss_gb": 2.33,
+  "peak_commit_gb": 4.56,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s147/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 103.1,
+  "peak_rss_gb": 2.34,
+  "peak_commit_gb": 4.57,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s148/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 110.2,
+  "peak_rss_gb": 2.37,
+  "peak_commit_gb": 4.6,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s149/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 590.8,
+  "peak_rss_gb": 2.62,
+  "peak_commit_gb": 4.89,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s150/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 107.4,
+  "peak_rss_gb": 2.36,
+  "peak_commit_gb": 4.59,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s151/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 28.4,
+  "peak_rss_gb": 2.24,
+  "peak_commit_gb": 4.44,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s152/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 107.7,
+  "peak_rss_gb": 2.35,
+  "peak_commit_gb": 4.59,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s154/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 107.4,
+  "peak_rss_gb": 2.32,
+  "peak_commit_gb": 4.56,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s155/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 115.9,
+  "peak_rss_gb": 2.37,
+  "peak_commit_gb": 4.6,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s156/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 107.7,
+  "peak_rss_gb": 2.32,
+  "peak_commit_gb": 4.54,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s157/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 113.4,
+  "peak_rss_gb": 2.34,
+  "peak_commit_gb": 4.57,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s158/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 116.5,
+  "peak_rss_gb": 2.37,
+  "peak_commit_gb": 4.59,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/fresh-A-u3-s159/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 115.0,
+  "peak_rss_gb": 2.37,
+  "peak_commit_gb": 4.6,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/mech/tune-A-u3-s110/Attn.lean",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "secs": 30.6,
+  "peak_rss_gb": 2.23,
+  "peak_commit_gb": 4.44,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "tail": ""
+ },
+ {
+  "kind": "audit",
+  "files": 522,
+  "token_counts": {
+   "native_decide": 0,
+   "ofReduceBool": 0,
+   "sorry": 0,
+   "axiom": 0
+  },
+  "token_counts_attempts": {
+   "native_decide": 0,
+   "ofReduceBool": 0,
+   "sorry": 0,
+   "axiom": 0
+  }
+ }
+]

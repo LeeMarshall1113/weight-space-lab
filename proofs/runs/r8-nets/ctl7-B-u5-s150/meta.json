@@ -1,0 +1,16 @@
+{
+ "tag": "ctl7-B-u5-s150",
+ "dir": "runs/r8-fresh/B/u5/s150",
+ "net": "W14.json",
+ "task": "B",
+ "recipe": "u5",
+ "seed": 150,
+ "task_as": "B",
+ "radius": "1/16384",
+ "mirror_ok": false,
+ "mirror_reason": "case token 4, keys ((3, 5), (4, 4, 4)), task state 0: output 1.7102 +- 0.0181 against target 2",
+ "states": 23,
+ "info": {
+  "worst": 0.30786255794444134
+ }
+}

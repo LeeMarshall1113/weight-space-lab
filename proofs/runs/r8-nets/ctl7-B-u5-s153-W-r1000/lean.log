@@ -1,0 +1,4 @@
+rc 0 secs 16.9 rss 2.73 commit 4.93 timed_out False mem_killed False
+'Lane4.Net.reject' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+WITHIN_LIMITS True

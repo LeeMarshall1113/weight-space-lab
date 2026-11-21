@@ -1,0 +1,17 @@
+{
+ "case": "kg",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-20 16:00:57",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.0,
+ "peak_rss_gb": 1.9,
+ "peak_commit_gb": 4.1,
+ "lean_output": "runs\\r8-kit\\kg\\_Full.lean:1278:27: error: Application type mismatch: The argument\n  Nat.cast_nonneg ref\nhas type\n  0 ≤ ↑ref\nbut is expected to have type\n  0 ≤\n    h.score fl dA dm x i (P.getD 0 0) - h.score fl dA dm x i (P.getD ref 0) -\n      (↑h.m * ↑ref + ↑((sAt hc (tok i) (tok (P.getD 0 0))).1 - (sAt hc (tok i) (tok (P.getD ref 0))).1))\nin the application\n  abs_of_nonneg (Nat.cast_nonneg ref)\nruns\\r8-kit\\kg\\_Full.lean:1355:58: error: unsolved goals\nu η M : ℝ\nfl ex : ℝ → ℝ\nδ : ℚ\nh : AHead\nE : List (List IV)\nhc : HCert\ndd : ℕ\ndA dV : ℕ → ℕ → ℝ\ndm : ℝ\ndg : ℕ → ℝ\ndgb : ℝ\nn : ℕ\nx : ℕ → Vec\ntok : ℕ → ℕ\nenv : Env8 u η M fl δ h E hc dd dA dV dm dg dgb n x tok\nhex : ExpM u η ex\ni : ℕ\nhi : i < n\nhti : 1 ≤ tok i\npre : ℕ\nhfull : [].length < fullLen h hc (tok i) → ∀ k ∈ cand h.mask n i, hc.cands.getD (tok k) false = true → k ∈ []\ne : ℕ → ℝ\na✝ : ∀ k < [].length - 1, e (pre + k) = (fun x => 0) k\nhlenfull : 0 < fullLen h hc (tok i)\nhc0 : h.cands fl dg dgb n x i = []\nhh :\n  some (List.map (fun x => { c := 0, t := [], r := 0 }) (List.range dd)) =\n    some (List.map (fun x => { c := 0, t := [], r := 0 }) (List.range dd))\nhlenV : List.length (h.attn fl ex dA dV dm dg dgb n x i) = dd\nk : ℕ\nhk : k < dd\nhattn : h.attn fl ex dA dV dm dg dgb n x i = aattnRows fl ex h.V dV [] (fun j => h.score fl dA dm x i j) x 0\n⊢ linVal [] e 0 = 0\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 5,
+ "attempts_left": 25
+}

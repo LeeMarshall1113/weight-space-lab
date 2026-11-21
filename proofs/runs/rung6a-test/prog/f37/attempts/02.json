@@ -1,0 +1,17 @@
+{
+ "case": "f37",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-18 09:30:58",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.0,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.89,
+ "lean_output": "runs\\rung6a-test\\prog\\f37\\_Full.lean:59:46: warning: This simp argument is unused:\n  h1\n\nHint: Omit it from the simp argument list.\n  [apply] simp [step, List.getD_eq_getElem?_getD]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\nruns\\rung6a-test\\prog\\f37\\_Full.lean:76:2: error: `simp` made no progress\n'Lane4Final.final' depends on axioms: [propext, sorryAx]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

@@ -1,0 +1,17 @@
+{
+ "case": "kX",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-14 14:06:04",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.9,
+ "peak_rss_gb": 1.83,
+ "peak_commit_gb": 4.03,
+ "lean_output": "runs\\r6-kit\\kX\\_Full.lean:115:37: warning: Unused tactic linter: `simp [net]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r6-kit\\kX\\_Full.lean:115:37: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r6-kit\\kX\\_Full.lean:166:30: warning: Unused tactic linter: `(simp only [List.getD_cons_zero, List.getD_cons_succ]; exact ⟨ha, ha'⟩)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r6-kit\\kX\\_Full.lean:167:30: warning: Unused tactic linter: `(simp only [List.getD_cons_zero, List.getD_cons_succ]; exact ⟨hb, hb'⟩)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r6-kit\\kX\\_Full.lean:168:30: warning: Unused tactic linter: `(simp only [List.getD_cons_zero, List.getD_cons_succ]; exact ⟨hc, hc'⟩)` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r6-kit\\kX\\_Full.lean:166:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r6-kit\\kX\\_Full.lean:167:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r6-kit\\kX\\_Full.lean:168:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r6-kit\\kX\\_Full.lean:359:73: error: linarith failed to find a contradiction\nu η M : ℝ\nfl ex : ℝ → ℝ\np : APert\nw : List ℕ\nev : Ctx u η M fl ex p w\ni t : ℕ\nhi : i ≤ w.length + 1\nht : t ≤ w.length + 1\nhm : ↑head1.m = 24\nhabs : |↑head1.m| = 24\nhn1 : 1 ≤ ↑(w.length + 1)\nhM4 : 4 ≤ M\na✝ : M < 24 + 1 / 1000\n⊢ False\nfailed\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 29
+}

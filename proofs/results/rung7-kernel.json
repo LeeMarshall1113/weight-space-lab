@@ -1,0 +1,949 @@
+[
+ {
+  "tag": "A-u3-s100",
+  "task": "A",
+  "seed": 100,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 14.447 for query token 2 (keys 0,5) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.0,
+  "commit_gb": 4.28,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.0315934419631958,
+   "W_inside_ball": 0.07826651171436194,
+   "breaks_at": 8,
+   "nonzero_W": 253
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s101",
+  "task": "A",
+  "seed": 101,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 11.002 for query token 1 (keys 0,2) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.4,
+  "commit_gb": 4.31,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03253936767578125,
+   "W_inside_ball": 0.09885721882743592,
+   "breaks_at": 4,
+   "nonzero_W": 305
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s102",
+  "task": "A",
+  "seed": 102,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 15.232 for query token 1 (keys 0,4) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.4,
+  "commit_gb": 4.33,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03128504753112793,
+   "W_inside_ball": 0.0742168164548906,
+   "breaks_at": 8,
+   "nonzero_W": 301
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s103",
+  "task": "A",
+  "seed": 103,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 24.528 for query token 2 (keys 2,0) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.1,
+  "commit_gb": 4.32,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.031193166971206665,
+   "W_inside_ball": 0.060311897995763974,
+   "breaks_at": 4,
+   "nonzero_W": 294
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s104",
+  "task": "A",
+  "seed": 104,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 11.709 for query token 1 (keys 0,2) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.3,
+  "commit_gb": 4.31,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.031011581420898438,
+   "W_inside_ball": 0.07028638803891019,
+   "breaks_at": 8,
+   "nonzero_W": 283
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s105",
+  "task": "A",
+  "seed": 105,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 12.357 for query token 2 (keys 0,5) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.1,
+  "commit_gb": 4.26,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03168773651123047,
+   "W_inside_ball": 0.07155050168534366,
+   "breaks_at": 4,
+   "nonzero_W": 256
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s106",
+  "task": "A",
+  "seed": 106,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 27.043 for query token 1 (keys 1,0) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.3,
+  "commit_gb": 4.28,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03247234225273132,
+   "W_inside_ball": 0.07610179727803082,
+   "breaks_at": 8,
+   "nonzero_W": 292
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s108",
+  "task": "A",
+  "seed": 108,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 17.422 for query token 5 (keys 5,0) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.1,
+  "commit_gb": 4.3,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.031547367572784424,
+   "W_inside_ball": 0.06340187054982435,
+   "breaks_at": 8,
+   "nonzero_W": 275
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s109",
+  "task": "A",
+  "seed": 109,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 13.778 for query token 3 (keys 0,4) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.5,
+  "commit_gb": 4.35,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.031121253967285156,
+   "W_inside_ball": 0.062048665711099904,
+   "breaks_at": 16,
+   "nonzero_W": 308
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s110",
+  "task": "A",
+  "seed": 110,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "case token 1, picks (0, 1), task state 0: output 0.0813 +- 0.4593 against target 0",
+  "rc": 0,
+  "secs": 10.3,
+  "commit_gb": 4.36,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03230184689164162,
+   "W_inside_ball": 0.08314892480808378,
+   "breaks_at": 8,
+   "nonzero_W": 229
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s111",
+  "task": "A",
+  "seed": 111,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 12.482 for query token 1 (keys 0,2) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.5,
+  "commit_gb": 4.29,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03230118751525879,
+   "W_inside_ball": 0.09105448072420197,
+   "breaks_at": 8,
+   "nonzero_W": 296
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s113",
+  "task": "A",
+  "seed": 113,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "case token 1, picks (0, 1), task state 0: output 0.0345 +- 0.5376 against target 0",
+  "rc": 0,
+  "secs": 10.4,
+  "commit_gb": 4.36,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.031635284423828125,
+   "W_inside_ball": 0.08457538807522802,
+   "breaks_at": 8,
+   "nonzero_W": 254
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s114",
+  "task": "A",
+  "seed": 114,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 0: content score spread 15.309 for query token 5 (keys 0,2) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 9.4,
+  "commit_gb": 4.18,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03222036361694336,
+   "W_inside_ball": 0.06465813442874016,
+   "breaks_at": 8,
+   "nonzero_W": 290
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s115",
+  "task": "A",
+  "seed": 115,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 25.554 for query token 2 (keys 2,0) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 9.8,
+  "commit_gb": 4.29,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03227585554122925,
+   "W_inside_ball": 0.07131504318729931,
+   "breaks_at": 8,
+   "nonzero_W": 267
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s116",
+  "task": "A",
+  "seed": 116,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 12.094 for query token 1 (keys 0,2) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.1,
+  "commit_gb": 4.29,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.031212806701660156,
+   "W_inside_ball": 0.08218459591654881,
+   "breaks_at": 8,
+   "nonzero_W": 279
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s117",
+  "task": "A",
+  "seed": 117,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 12.451 for query token 2 (keys 0,4) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.7,
+  "commit_gb": 4.34,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.031528688967227936,
+   "W_inside_ball": 0.0871181775184312,
+   "breaks_at": 8,
+   "nonzero_W": 306
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s118",
+  "task": "A",
+  "seed": 118,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 23.775 for query token 2 (keys 0,3) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.2,
+  "commit_gb": 4.29,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03155851364135742,
+   "W_inside_ball": 0.06989330888877765,
+   "breaks_at": 8,
+   "nonzero_W": 276
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "A-u3-s119",
+  "task": "A",
+  "seed": 119,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 15.922 for query token 1 (keys 0,2) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.5,
+  "commit_gb": 4.31,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03191441297531128,
+   "W_inside_ball": 0.06983896161473924,
+   "breaks_at": 8,
+   "nonzero_W": 271
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "B-u5-s103",
+  "task": "B",
+  "seed": 103,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": true,
+  "reason": "ok",
+  "rc": 0,
+  "secs": 27.1,
+  "commit_gb": 4.35,
+  "theorems": {
+   "accept": "propext, Classical.choice, Quot.sound",
+   "skeleton_ok": "propext, Classical.choice, Quot.sound",
+   "trained_binary32": "propext, Classical.choice, Quot.sound",
+   "trained_exact_all_lengths": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03268970921635628,
+   "W_inside_ball": 0.043582999395720856,
+   "breaks_at": 32,
+   "nonzero_W": 223
+  },
+  "kernel": "accept"
+ },
+ {
+  "tag": "B-u5-s106",
+  "task": "B",
+  "seed": 106,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": true,
+  "reason": "ok",
+  "rc": 0,
+  "secs": 32.8,
+  "commit_gb": 4.38,
+  "theorems": {
+   "accept": "propext, Classical.choice, Quot.sound",
+   "skeleton_ok": "propext, Classical.choice, Quot.sound",
+   "trained_binary32": "propext, Classical.choice, Quot.sound",
+   "trained_exact_all_lengths": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.037223804742097855,
+   "W_inside_ball": 0.04550435666963515,
+   "breaks_at": 16,
+   "nonzero_W": 300
+  },
+  "kernel": "accept"
+ },
+ {
+  "tag": "B-u5-s108",
+  "task": "B",
+  "seed": 108,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 0: content score spread 11.817 for query token 1 (keys 2,4) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 9.9,
+  "commit_gb": 4.17,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03967684507369995,
+   "W_inside_ball": 0.05818305188997419,
+   "breaks_at": 16,
+   "nonzero_W": 377
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "B-u5-s113",
+  "task": "B",
+  "seed": 113,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": true,
+  "reason": "ok",
+  "rc": 0,
+  "secs": 21.4,
+  "commit_gb": 4.32,
+  "theorems": {
+   "accept": "propext, Classical.choice, Quot.sound",
+   "skeleton_ok": "propext, Classical.choice, Quot.sound",
+   "trained_binary32": "propext, Classical.choice, Quot.sound",
+   "trained_exact_all_lengths": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03154901787638664,
+   "W_inside_ball": 0.039600896436976486,
+   "breaks_at": 16,
+   "nonzero_W": 289
+  },
+  "kernel": "accept"
+ },
+ {
+  "tag": "B-u5-s117",
+  "task": "B",
+  "seed": 117,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": true,
+  "reason": "ok",
+  "rc": 0,
+  "secs": 22.3,
+  "commit_gb": 4.31,
+  "theorems": {
+   "accept": "propext, Classical.choice, Quot.sound",
+   "skeleton_ok": "propext, Classical.choice, Quot.sound",
+   "trained_binary32": "propext, Classical.choice, Quot.sound",
+   "trained_exact_all_lengths": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03163118660449982,
+   "W_inside_ball": 0.04556388100361586,
+   "breaks_at": 16,
+   "nonzero_W": 311
+  },
+  "kernel": "accept"
+ },
+ {
+  "tag": "B-u5-s118",
+  "task": "B",
+  "seed": 118,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": true,
+  "reason": "ok",
+  "rc": 0,
+  "secs": 17.7,
+  "commit_gb": 4.29,
+  "theorems": {
+   "accept": "propext, Classical.choice, Quot.sound",
+   "skeleton_ok": "propext, Classical.choice, Quot.sound",
+   "trained_binary32": "propext, Classical.choice, Quot.sound",
+   "trained_exact_all_lengths": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03165078163146973,
+   "W_inside_ball": 0.04277465460015861,
+   "breaks_at": 16,
+   "nonzero_W": 272
+  },
+  "kernel": "accept"
+ },
+ {
+  "tag": "B-u5-s125",
+  "task": "B",
+  "seed": 125,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 15.851 for query token 3 (keys 0,3) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 9.8,
+  "commit_gb": 4.32,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03630450367927551,
+   "W_inside_ball": 0.04923637214736898,
+   "breaks_at": 16,
+   "nonzero_W": 271
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "B-u5-s126",
+  "task": "B",
+  "seed": 126,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": true,
+  "reason": "ok",
+  "rc": 0,
+  "secs": 31.7,
+  "commit_gb": 4.38,
+  "theorems": {
+   "accept": "propext, Classical.choice, Quot.sound",
+   "skeleton_ok": "propext, Classical.choice, Quot.sound",
+   "trained_binary32": "propext, Classical.choice, Quot.sound",
+   "trained_exact_all_lengths": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.035440489649772644,
+   "W_inside_ball": 0.045401945874179006,
+   "breaks_at": 16,
+   "nonzero_W": 339
+  },
+  "kernel": "accept"
+ },
+ {
+  "tag": "B-u5-s129",
+  "task": "B",
+  "seed": 129,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": true,
+  "reason": "ok",
+  "rc": 0,
+  "secs": 22.4,
+  "commit_gb": 4.35,
+  "theorems": {
+   "accept": "propext, Classical.choice, Quot.sound",
+   "skeleton_ok": "propext, Classical.choice, Quot.sound",
+   "trained_binary32": "propext, Classical.choice, Quot.sound",
+   "trained_exact_all_lengths": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03223216533660889,
+   "W_inside_ball": 0.050006368033667314,
+   "breaks_at": 32,
+   "nonzero_W": 295
+  },
+  "kernel": "accept"
+ },
+ {
+  "tag": "B-u5-s131",
+  "task": "B",
+  "seed": 131,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 11.053 for query token 1 (keys 3,1) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.0,
+  "commit_gb": 4.32,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.030890464782714844,
+   "W_inside_ball": 0.041184978934083016,
+   "breaks_at": 32,
+   "nonzero_W": 332
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "B-u5-s133",
+  "task": "B",
+  "seed": 133,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 11.031 for query token 3 (keys 5,1) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.0,
+  "commit_gb": 4.29,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03333723545074463,
+   "W_inside_ball": 0.041679779639114845,
+   "breaks_at": 32,
+   "nonzero_W": 307
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "B-u5-s134",
+  "task": "B",
+  "seed": 134,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": true,
+  "reason": "ok",
+  "rc": 0,
+  "secs": 21.3,
+  "commit_gb": 4.32,
+  "theorems": {
+   "accept": "propext, Classical.choice, Quot.sound",
+   "skeleton_ok": "propext, Classical.choice, Quot.sound",
+   "trained_binary32": "propext, Classical.choice, Quot.sound",
+   "trained_exact_all_lengths": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.031038403511047363,
+   "W_inside_ball": 0.041538752965988746,
+   "breaks_at": 16,
+   "nonzero_W": 255
+  },
+  "kernel": "accept"
+ },
+ {
+  "tag": "B-u5-s136",
+  "task": "B",
+  "seed": 136,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": true,
+  "reason": "ok",
+  "rc": 0,
+  "secs": 19.1,
+  "commit_gb": 4.38,
+  "theorems": {
+   "accept": "propext, Classical.choice, Quot.sound",
+   "skeleton_ok": "propext, Classical.choice, Quot.sound",
+   "trained_binary32": "propext, Classical.choice, Quot.sound",
+   "trained_exact_all_lengths": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.031763553619384766,
+   "W_inside_ball": 0.04738655193353214,
+   "breaks_at": 16,
+   "nonzero_W": 299
+  },
+  "kernel": "accept"
+ },
+ {
+  "tag": "B-u5-s137",
+  "task": "B",
+  "seed": 137,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 15.515 for query token 2 (keys 0,2) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.1,
+  "commit_gb": 4.33,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.04535841941833496,
+   "W_inside_ball": 0.047099992119406964,
+   "breaks_at": 16,
+   "nonzero_W": 307
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "B-u5-s139",
+  "task": "B",
+  "seed": 139,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 1: content score spread 10.739 for query token 1 (keys 0,4) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 9.8,
+  "commit_gb": 4.27,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03574931621551514,
+   "W_inside_ball": 0.04944114738734706,
+   "breaks_at": 32,
+   "nonzero_W": 334
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "ctl-i-radius16",
+  "task": "B",
+  "seed": 103,
+  "task_as": "B",
+  "radius": "2/125",
+  "prototype_ok": false,
+  "reason": "case token 1, picks (0, 1), task state 0: output 1.9009 +- 1.1372 against target 2",
+  "rc": 0,
+  "secs": 10.1,
+  "commit_gb": 4.28,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03268970921635628,
+   "W_inside_ball": 0.043582999395720856,
+   "breaks_at": 32,
+   "nonzero_W": 223
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "ctl-ii-radius4",
+  "task": "B",
+  "seed": 103,
+  "task_as": "B",
+  "radius": "1/250",
+  "prototype_ok": false,
+  "reason": "case token 1, picks (0, 1), task state 0: output 1.9605 +- 0.2901 against target 2",
+  "rc": 0,
+  "secs": 10.3,
+  "commit_gb": 4.28,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03268970921635628,
+   "W_inside_ball": 0.043582999395720856,
+   "breaks_at": 32,
+   "nonzero_W": 223
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "ctl-iii-taskA",
+  "task": "B",
+  "seed": 103,
+  "task_as": "A",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "case token 1, picks (0, 1), task state 0: output 1.9693 +- 0.1081 against target 0",
+  "rc": 0,
+  "secs": 10.2,
+  "commit_gb": 4.28,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03268970921635628,
+   "W_inside_ball": 0.043582999395720856,
+   "breaks_at": 32,
+   "nonzero_W": 223
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "ctl-iv-swap",
+  "task": "B",
+  "seed": 103,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "case token 1, picks (0, 1), task state 0: output 0.0288 +- 0.0888 against target 2",
+  "rc": 0,
+  "secs": 10.0,
+  "commit_gb": 4.28,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03268970921635628,
+   "W_inside_ball": 0.043582999395720856,
+   "breaks_at": 32,
+   "nonzero_W": 223
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "ctl-v-negout",
+  "task": "B",
+  "seed": 103,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "case token 1, picks (0, 1), task state 0: output -1.9693 +- 0.1081 against target 2",
+  "rc": 0,
+  "secs": 10.1,
+  "commit_gb": 4.28,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03268970921635628,
+   "W_inside_ball": 0.043582999395720856,
+   "breaks_at": 32,
+   "nonzero_W": 223
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "ctl-vi-s100",
+  "task": "B",
+  "seed": 100,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "head 0: content score spread 15.692 for query token 1 (keys 2,0) leaves no gap of 12 per position (allowed 10.780)",
+  "rc": 0,
+  "secs": 10.2,
+  "commit_gb": 4.2,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": false,
+   "T_f32_dev_to_65534": null,
+   "W_inside_ball": null,
+   "breaks_at": null,
+   "nonzero_W": 364
+  },
+  "kernel": "reject"
+ },
+ {
+  "tag": "ctl-vii-wrongcert",
+  "task": "B",
+  "seed": 103,
+  "task_as": "B",
+  "radius": "1/1000",
+  "prototype_ok": false,
+  "reason": "wrong certificate (control): candidate sets of another network's head",
+  "rc": 0,
+  "secs": 8.8,
+  "commit_gb": 3.96,
+  "theorems": {
+   "reject": "propext, Classical.choice, Quot.sound"
+  },
+  "screen": {
+   "screen_pass": true,
+   "T_f32_dev_to_65534": 0.03268970921635628,
+   "W_inside_ball": 0.043582999395720856,
+   "breaks_at": 32,
+   "nonzero_W": 223
+  },
+  "kernel": "reject"
+ }
+]

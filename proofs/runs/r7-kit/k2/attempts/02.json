@@ -1,0 +1,22 @@
+{
+ "case": "k2",
+ "arm": "kit",
+ "pass": true,
+ "time": "2026-11-20 01:40:12",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.9,
+ "peak_rss_gb": 1.81,
+ "peak_commit_gb": 4.0,
+ "lean_output": "runs\\r7-kit\\k2\\_Full.lean:122:6: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r7-kit\\k2\\_Full.lean:612:21: warning: Unused tactic linter: `linarith [k1]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r7-kit\\k2\\_Full.lean:612:21: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r7-kit\\k2\\_Full.lean:846:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r7-kit\\k2\\_Full.lean:849:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r7-kit\\k2\\_Full.lean:851:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r7-kit\\k2\\_Full.lean:853:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r7-kit\\k2\\_Full.lean:855:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r7-kit\\k2\\_Full.lean:857:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r7-kit\\k2\\_Full.lean:926:30: warning: Unused tactic linter: `push_cast` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r7-kit\\k2\\_Full.lean:926:42: warning: Unused tactic linter: `simp` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r7-kit\\k2\\_Full.lean:926:30: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r7-kit\\k2\\_Full.lean:926:42: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r7-kit\\k2\\_Full.lean:984:21: warning: Unused tactic linter: `linarith [k1]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r7-kit\\k2\\_Full.lean:984:21: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 2,
+ "attempts_left": 28
+}

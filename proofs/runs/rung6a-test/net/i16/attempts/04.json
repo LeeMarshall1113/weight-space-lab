@@ -1,0 +1,17 @@
+{
+ "case": "i16",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 09:09:41",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.7,
+ "peak_rss_gb": 1.83,
+ "peak_commit_gb": 4.03,
+ "lean_output": "runs\\rung6a-test\\net\\i16\\_Full.lean:80:37: warning: Unused tactic linter: `simp [net, z7]` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\rung6a-test\\net\\i16\\_Full.lean:80:37: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\rung6a-test\\net\\i16\\_Full.lean:428:28: error: Application type mismatch: The argument\n  le_refl ?m.246\nhas type\n  ?m.246 ≤ ?m.246\nbut is expected to have type\n  50 ≤ 100\nin the application\n  Ctx.rnd_near ev hab hs2 (le_refl ?m.246)\nruns\\rung6a-test\\net\\i16\\_Full.lean:696:55: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.net_ok`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 4,
+ "attempts_left": 8
+}

@@ -1,0 +1,24 @@
+PASS framework R8All
+PASS runs/mech/fresh-A-u3-s140/Net.lean accept 34.3 commit=4.43
+PASS runs/mech/fresh-A-u3-s141/Net.lean accept 111.5 commit=4.52
+PASS runs/mech/fresh-A-u3-s142/Net.lean accept 109.3 commit=4.57
+PASS runs/mech/fresh-A-u3-s143/Net.lean accept 30.1 commit=4.43
+PASS runs/mech/fresh-A-u3-s144/Net.lean accept 95.2 commit=4.51
+PASS runs/mech/fresh-A-u3-s145/Net.lean accept 96.6 commit=4.53
+PASS runs/mech/fresh-A-u3-s146/Net.lean accept 99.5 commit=4.52
+PASS runs/mech/fresh-A-u3-s147/Net.lean accept 93.9 commit=4.53
+PASS runs/mech/fresh-A-u3-s148/Net.lean accept 97.8 commit=4.56
+PASS runs/mech/fresh-A-u3-s149/Net.lean accept 532.4 commit=4.88
+PASS runs/mech/fresh-A-u3-s150/Net.lean accept 97.7 commit=4.58
+PASS runs/mech/fresh-A-u3-s151/Net.lean accept 26.3 commit=4.43
+PASS runs/mech/fresh-A-u3-s152/Net.lean accept 96.6 commit=4.54
+PASS runs/mech/fresh-A-u3-s153/Net.lean reject 16.4 commit=5.1
+PASS runs/mech/fresh-A-u3-s154/Net.lean accept 87.1 commit=4.52
+PASS runs/mech/fresh-A-u3-s155/Net.lean accept 98.4 commit=4.56
+PASS runs/mech/fresh-A-u3-s156/Net.lean accept 84.4 commit=4.52
+PASS runs/mech/fresh-A-u3-s157/Net.lean accept 86.2 commit=4.53
+PASS runs/mech/fresh-A-u3-s158/Net.lean accept 94.5 commit=4.57
+PASS runs/mech/fresh-A-u3-s159/Net.lean accept 96.4 commit=4.56
+PASS runs/mech/tune-A-u3-s110/Net.lean accept 24.3 commit=4.39
+PASS runs/mech/tune-A-u3-s116/Net.lean accept 541.6 commit=4.86
+total wall seconds: 2664; passed 23 of 23; failed: []; audit {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0} attempts {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0} files 501

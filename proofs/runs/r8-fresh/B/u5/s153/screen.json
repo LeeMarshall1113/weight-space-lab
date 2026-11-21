@@ -1,0 +1,15 @@
+{
+ "task": "B",
+ "recipe": "u5",
+ "seed": 153,
+ "delta_T": 0.000484321266412735,
+ "nonzero_W": 382,
+ "weights": 545,
+ "max_abs_W": 24.0,
+ "T_f32_dev_to_300": 1.9166263341903687,
+ "s2_delta_ok": true,
+ "s1_ok": false,
+ "pass": false,
+ "stopped_early": true,
+ "W_f64_dev_to_300": 1.9152382808567334
+}

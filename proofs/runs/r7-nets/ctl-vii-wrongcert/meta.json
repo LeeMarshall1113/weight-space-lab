@@ -1,0 +1,29 @@
+{
+ "tag": "ctl-vii-wrongcert",
+ "task": "B",
+ "recipe": "u5",
+ "seed": 103,
+ "task_as": "B",
+ "radius": "1/1000",
+ "prototype_ok": false,
+ "prototype_reason": "wrong certificate (control): candidate sets of another network's head",
+ "states": 2,
+ "cands": [
+  [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ ]
+}

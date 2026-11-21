@@ -1,0 +1,23 @@
+rc 0 secs 29.1 rss 2.37 commit 4.57 timed_out False mem_killed False
+type checking took 1.11s
+type checking took 4.94s
+type checking took 8.87s
+type checking took 9.99s
+type checking took 13.7s
+type checking took 17.3s
+cumulative profiling times:
+	attribute application 0.05ms
+	elaboration 13.7ms
+	fix level params 0.0492ms
+	instantiate metavars 0.0662ms
+	let-to-have transformation 0.0638ms
+	linting 23.9ms
+	overlappingInstancesLinter 1.24ms
+	parsing 1.57ms
+	process pre-definitions 0.766ms
+	share common exprs 0.261ms
+	tactic execution 2.26ms
+	tacticAnalysis 13.6ms
+	type checking 55.9s
+	typeclass inference 6.37ms
+

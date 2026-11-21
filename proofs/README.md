@@ -2,11 +2,11 @@
 
 Personal work. Views are my own.
 
-Status: flagship folder of the weight-space lab repository (version 0.2, unreleased). Nothing here has been peer reviewed. The full technical report is `REPORT.md` (living, with a claims table, a changelog and a "how to correct us" section); this README is the short version. All commands below run inside this folder (`proofs/`).
+Status: flagship folder of the weight-space lab repository (version 0.4 draft, unreleased). Nothing here has been peer reviewed. The full technical report is `REPORT.md` (living, with a claims table, a changelog and a "how to correct us" section); this README is the short version. All commands below run inside this folder (`proofs/`).
 
 This repository holds the Lean 4 proofs, the checker, the specification pools, the
 pre-registrations and the per-case results behind a study of LLM-written networks with
-Lean-kernel-checked correctness proofs ("rungs" 2 to 6c below; rung 1 is background).
+Lean-kernel-checked correctness proofs ("rungs" 2 to 8 below; rung 1 is background).
 Every claim below is copied from the results files in `docs/` (`RESULTS*.md`) and the claims
 table of `REPORT.md`, which state the same limits.
 
@@ -55,6 +55,36 @@ rank (rung 6c). The general phenomenon is known (Hahn and Rofin); the classes ar
 whether it holds for the whole architecture is open (`Lane4/Conjectures.lean`, statements
 type-check, nothing proved). `docs/RESULTS_R6B.md`, `docs/RESULTS_R6C.md`.
 
+**Rung 6a (an additive ball, with a non-standard gate).** 12 of 12 written gated softmax
+transformers (softmax attention with a relative-position slope and one gate neuron per head,
+`Lane4/AGate.lean`) kernel-checked within 1/4 of the target for every additive change of every
+weight by at most 1/1000, at every length in exact arithmetic and up to 65,535 tokens in the
+binary32 model; non-counting tasks only. The kit was amended once after the development pilot
+(7 of the 12 proofs use the added lemma). `docs/RESULTS_R6A.md`.
+
+**Rung 7 (a checker with one soundness theorem, trained networks).** One Lean theorem
+(`Lane4.R7K5.sound`) for a computable checker; a generated file per network, with no proof work.
+For gradient-trained gated one-block width-8 networks: 4 of 9 screened reserve networks
+(4 of 20 seeds) are accepted; 0 of 18 on the standard ungated architecture. The held-out
+figure is the one to quote. `docs/RESULTS_R7.md`.
+
+**Rung 8 (the same method on standard softmax attention, at a small ball).** One Lean theorem
+(`Lane4.R8K.sound8`); for 19 of 20 fresh seeds of gradient-trained one-block width-8 softmax
+networks without a gate, a generated file proves the task at every length for the weights as
+trained, and for every additive weight change of at most 2^-14 around those weights rounded to
+multiples of 2^-14 (exact arithmetic at every length; binary32 model up to 65,535 tokens). The
+radius was chosen on the tuning set, the checker was fitted to earlier networks of the same
+recipe, the task is local and the position slope is fixed. `docs/RESULTS_R8.md`;
+`../writeup/NOVELTY_R8.md` (what is and is not new).
+
+**Mechanism row (b) for rung 8.** For the 19 accepted fresh networks, a finder that is never given the
+task reads a 5-state, 25-row program off the weights and the kernel checks the network equals it
+at every length over the same ball; the program is proved equal to the task. The outcome was
+fixed in advance and the program is trivial because the task is. `docs/RESULTS_MECH.md`,
+`runs/mech/`, `REPORT.md` Section 6.11. **Row (a):** on the same 19 networks, each head puts all but
+2^-21 of its softmax weight on a short window of its latest positions (head 0: the previous position
+alone), kernel-checked; head 1's weight can be shared inside its window.
+
 **Perturbation 2x2 and witnesses.** Additive versus relative perturbation for rung-2 and
 rung-4 networks, as finite searches, with three Lean-checked witnesses in `runs/witness/`.
 The earlier "fragile versus robust" framing is withdrawn. `REPORT.md`, Section 3.
@@ -90,12 +120,15 @@ The earlier "fragile versus robust" framing is withdrawn. `REPORT.md`, Section 3
 
 ```
 lean-toolchain, lakefile.toml, lake-manifest.json   Lean 4 + Mathlib pin
-Lane4/                 frameworks: Basic, Seq (rung 2), Robust (rung 3), RSeq (rung 4); Export*.lean.txt templates
+Lane4/                 frameworks: Basic, Seq (rung 2), Robust (rung 3), RSeq (rung 4), RSoft* and Bin32 (rung 5), AGate* (rung 6a), R7* (rung 7), R8* (rung 8); Export*.lean.txt templates
 tools/check.py         the checker (one command checks one case)
 tools/recheck_all.py   re-check every case folder under runs/
 tools/*                case builders, pools, draws, export and numeric-check scripts, result collectors
 pool/                  specification pools and the seeded draws
 examples/, prompts/    worked examples and the agent prompt files
+runs/r7-nets, r8-nets/<tag>/Net.lean   generated per-network files of rungs 7 and 8 (and their controls), with a recorded Lean log
+runs/r8-fresh/{A,B}/<recipe>/s<seed>/   the trained networks of rung 8 (T.json, W.json, W14.json, screens)
+runs/r6-kit, r7-kit, r8-kit/<id>/   framework lemmas proved by agents (kit cases)
 runs/rungN-test|dev/{net,prog,twin}/<id>/
                        case.json, Spec.lean, Final.lean, Solution.lean, TASK.md,
                        attempts/NN.json + NN.lean (every submission with the checker's verdict),
@@ -112,7 +145,7 @@ VERIFY.md              what was re-run from this folder, with times
 `runs/rung4-test/net/i03` has no `Solution.lean` (no submission); `runs/rung4-test/net-rerun/i03`
 is the untouched rerun (also no submission). Rung 1 is included only as
 `runs/rung1-test/{net,prog}`; its trained-twin arm is summarised in `results/twins-test.json`
-but its model files are not included. Rung 0 and rung 6a (registered, parked, unfinished) are not part of this release.
+but its model files are not included. Rung 0 is not part of this release. The per-network files of rungs 7 and 8 are `runs/r7-nets/*/Net.lean` and `runs/r8-nets/*/Net.lean` (with the trained and rounded weights in `runs/r8-fresh/`); they are checked with `tools/build_net.py` or `tools/recheck_r678.py`, not through `check.py`.
 
 ## Setup
 
@@ -157,7 +190,9 @@ Re-check everything (every case folder with a `Solution.lean`; see `VERIFY.md` f
 
 ```bash
 python tools/recheck_all.py --out results/recheck.json          # rungs 2 to 4 (the original 67)
-python tools/recheck_release.py                                  # every Lean file in this folder: frameworks, all cases, standalone files, token audit
+python tools/recheck_release.py                                  # every Lean file of rungs 2 to 6c: frameworks, all cases, standalone files, token audit
+python tools/recheck_r678.py --set frameworks,kits,r6a           # rungs 6a to 8: frameworks, kit cases, rung-6a cases (add nets-r7,nets-r8 for the generated per-network files; hours, about 5 GB per Lean process)
+python tools/build_net.py runs/r8-nets/A-u3-s140/Net.lean        # one per-network file of rung 8 (about 5 GB of memory)
 ```
 
 The case-local `Spec.lean`/`Final.lean`/`Solution.lean` of rungs 5, 6b and 6c are checked the
@@ -178,7 +213,7 @@ it; run them on a copy. Their memory needs are not measured.
 
 ## What was changed for release
 
-- Local absolute paths and the machine's user name were replaced by `<repo>` and `<home>`
+- Local absolute paths and the machine's user name were replaced by `<repo>`, `<home>` or `<path>`
   in `attempts/*.json` (the checker's recorded `lean_output`), `TASK.md` and the text
   results. Only text in the recorded Lean output changed, not any `pass` verdict.
 - `tools/check.py` was edited: the two hard-coded machine paths became the environment

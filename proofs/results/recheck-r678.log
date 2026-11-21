@@ -1,0 +1,180 @@
+PASS framework R8All
+PASS  runs/r6-kit/kG2 14.0s Classical.choice,Quot.sound,propext
+PASS  runs/r6-kit/kG 14.1s Classical.choice,Quot.sound,propext
+PASS  runs/r6-kit/kW 25.4s Classical.choice,Quot.sound,propext
+PASS  runs/r6-kit/kX2 13.5s Classical.choice,Quot.sound,propext
+PASS  runs/r6-kit/kX 13.3s Classical.choice,Quot.sound,propext
+PASS  runs/r7-kit/k1 21.4s Classical.choice,Quot.sound,propext
+PASS  runs/r7-kit/k2 12.7s Classical.choice,Quot.sound,propext
+PASS  runs/r7-kit/k3 15.0s Classical.choice,Quot.sound,propext
+PASS  runs/r7-kit/k4 11.8s Classical.choice,Quot.sound,propext
+PASS  runs/r7-kit/k5 12.3s Classical.choice,Quot.sound,propext
+PASS  runs/r7-kit/kT 11.9s Classical.choice,Quot.sound,propext
+PASS  runs/r8-kit/ka 14.0s Classical.choice,Quot.sound,propext
+PASS  runs/r8-kit/kb 20.6s Classical.choice,Quot.sound,propext
+PASS  runs/r8-kit/kc 13.5s Classical.choice,Quot.sound,propext
+PASS  runs/r8-kit/kd 21.5s Classical.choice,Quot.sound,propext
+PASS  runs/r8-kit/ke 12.5s Classical.choice,Quot.sound,propext
+PASS  runs/r8-kit/kf 11.1s Classical.choice,Quot.sound,propext
+PASS  runs/r8-kit/kg 15.2s Classical.choice,Quot.sound,propext
+PASS  runs/r8-kit/kh 13.5s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-dev/net/c03 12.7s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-dev/net/f36 15.4s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-dev/net/i06 20.4s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-dev/net/l39 13.3s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/net/c01 18.1s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/net/c08 14.0s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/net/c19 14.4s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/net/f12 14.3s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/net/f22 14.0s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/net/f37 15.5s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/net/i16 14.8s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/net/i17 13.5s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/net/i18 14.3s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/net/l15 13.7s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/net/l16 13.5s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/net/l27 13.7s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/prog/c01 10.8s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/prog/c08 11.2s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/prog/c19 10.9s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/prog/f12 10.7s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/prog/f22 10.9s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/prog/f37 10.9s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/prog/i16 11.3s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/prog/i17 11.7s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/prog/i18 11.5s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/prog/l15 10.8s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/prog/l16 10.8s Classical.choice,Quot.sound,propext
+PASS  runs/rung6a-test/prog/l27 10.9s Classical.choice,Quot.sound,propext
+PASS runs/r7-nets/A-u3-s100/Net.lean reject 13.6 commit=4.28
+PASS runs/r7-nets/A-u3-s101/Net.lean reject 13.9 commit=4.3
+PASS runs/r7-nets/A-u3-s102/Net.lean reject 13.7 commit=4.33
+PASS runs/r7-nets/A-u3-s103/Net.lean reject 12.6 commit=4.31
+PASS runs/r7-nets/A-u3-s104/Net.lean reject 12.1 commit=4.3
+PASS runs/r7-nets/A-u3-s105/Net.lean reject 12.0 commit=4.26
+PASS runs/r7-nets/A-u3-s106/Net.lean reject 11.7 commit=4.29
+PASS runs/r7-nets/A-u3-s108/Net.lean reject 11.5 commit=4.3
+PASS runs/r7-nets/A-u3-s109/Net.lean reject 10.9 commit=4.34
+PASS runs/r7-nets/A-u3-s110/Net.lean reject 11.4 commit=4.36
+PASS runs/r7-nets/A-u3-s111/Net.lean reject 12.4 commit=4.3
+PASS runs/r7-nets/A-u3-s113/Net.lean reject 12.2 commit=4.36
+PASS runs/r7-nets/A-u3-s114/Net.lean reject 11.4 commit=4.19
+PASS runs/r7-nets/A-u3-s115/Net.lean reject 11.9 commit=4.29
+PASS runs/r7-nets/A-u3-s116/Net.lean reject 11.2 commit=4.28
+PASS runs/r7-nets/A-u3-s117/Net.lean reject 11.4 commit=4.34
+PASS runs/r7-nets/A-u3-s118/Net.lean reject 10.8 commit=4.29
+PASS runs/r7-nets/A-u3-s119/Net.lean reject 10.5 commit=4.31
+PASS runs/r7-nets/B-u5-s103/Net.lean accept 27.7 commit=4.35
+PASS runs/r7-nets/B-u5-s106/Net.lean accept 34.6 commit=4.39
+PASS runs/r7-nets/B-u5-s108/Net.lean reject 10.9 commit=4.18
+PASS runs/r7-nets/B-u5-s113/Net.lean accept 23.3 commit=4.33
+PASS runs/r7-nets/B-u5-s117/Net.lean accept 24.6 commit=4.31
+PASS runs/r7-nets/B-u5-s118/Net.lean accept 17.9 commit=4.3
+PASS runs/r7-nets/B-u5-s125/Net.lean reject 11.4 commit=4.32
+PASS runs/r7-nets/B-u5-s126/Net.lean accept 34.9 commit=4.38
+PASS runs/r7-nets/B-u5-s129/Net.lean accept 24.2 commit=4.35
+PASS runs/r7-nets/B-u5-s131/Net.lean reject 11.3 commit=4.32
+PASS runs/r7-nets/B-u5-s133/Net.lean reject 11.3 commit=4.29
+PASS runs/r7-nets/B-u5-s134/Net.lean accept 24.5 commit=4.31
+PASS runs/r7-nets/B-u5-s136/Net.lean accept 20.4 commit=4.38
+PASS runs/r7-nets/B-u5-s137/Net.lean reject 10.9 commit=4.33
+PASS runs/r7-nets/B-u5-s139/Net.lean reject 11.1 commit=4.27
+PASS runs/r7-nets/Bc02-u5-s205/Net.lean reject 11.0 commit=4.2
+PASS runs/r7-nets/Bw16-u5-s201/Net.lean accept 75.9 commit=4.85
+PASS runs/r7-nets/Bw16-u5-s209/Net.lean reject 16.9 commit=5.07
+PASS runs/r7-nets/ctl-i-radius16/Net.lean reject 11.0 commit=4.28
+PASS runs/r7-nets/ctl-ii-radius4/Net.lean reject 10.5 commit=4.28
+PASS runs/r7-nets/ctl-iii-taskA/Net.lean reject 10.9 commit=4.28
+PASS runs/r7-nets/ctl-iv-swap/Net.lean reject 12.0 commit=4.28
+PASS runs/r7-nets/ctl-v-negout/Net.lean reject 12.0 commit=4.28
+PASS runs/r7-nets/ctl-vi-s100/Net.lean reject 12.0 commit=4.2
+PASS runs/r7-nets/ctl-vii-wrongcert/Net.lean reject 10.7 commit=3.97
+PASS runs/r8-nets/A-u3-s140/Net.lean accept 27.5 commit=4.43
+PASS runs/r8-nets/A-u3-s141/Net.lean accept 86.5 commit=4.52
+PASS runs/r8-nets/A-u3-s142/Net.lean accept 97.2 commit=4.56
+PASS runs/r8-nets/A-u3-s143/Net.lean accept 26.7 commit=4.41
+PASS runs/r8-nets/A-u3-s144/Net.lean accept 89.4 commit=4.5
+PASS runs/r8-nets/A-u3-s145/Net.lean accept 98.9 commit=4.54
+PASS runs/r8-nets/A-u3-s146/Net.lean accept 99.9 commit=4.54
+PASS runs/r8-nets/A-u3-s147/Net.lean accept 96.4 commit=4.52
+PASS runs/r8-nets/A-u3-s148/Net.lean accept 95.3 commit=4.57
+PASS runs/r8-nets/A-u3-s149/Net.lean accept 502.0 commit=4.88
+PASS runs/r8-nets/A-u3-s150/Net.lean accept 88.9 commit=4.55
+PASS runs/r8-nets/A-u3-s151/Net.lean accept 23.8 commit=4.4
+PASS runs/r8-nets/A-u3-s152/Net.lean accept 88.7 commit=4.53
+PASS runs/r8-nets/A-u3-s153/Net.lean reject 16.3 commit=5.09
+PASS runs/r8-nets/A-u3-s154/Net.lean accept 84.6 commit=4.5
+PASS runs/r8-nets/A-u3-s155/Net.lean accept 96.2 commit=4.56
+PASS runs/r8-nets/A-u3-s156/Net.lean accept 83.5 commit=4.52
+PASS runs/r8-nets/A-u3-s157/Net.lean accept 91.0 commit=4.52
+PASS runs/r8-nets/A-u3-s158/Net.lean accept 95.7 commit=4.56
+PASS runs/r8-nets/A-u3-s159/Net.lean accept 93.8 commit=4.56
+PASS runs/r8-nets/B-u5-s141-W-r1000/Net.lean accept 27.5 commit=4.33
+PASS runs/r8-nets/B-u5-s141/Net.lean accept 27.7 commit=4.33
+PASS runs/r8-nets/B-u5-s143-W-r1000/Net.lean accept 26.6 commit=4.33
+PASS runs/r8-nets/B-u5-s143/Net.lean accept 27.0 commit=4.31
+PASS runs/r8-nets/B-u5-s148-W-r1000/Net.lean accept 30.9 commit=4.31
+PASS runs/r8-nets/B-u5-s148/Net.lean accept 30.3 commit=4.31
+PASS runs/r8-nets/B-u5-s152-W-r1000/Net.lean accept 55.4 commit=4.4
+PASS runs/r8-nets/B-u5-s152/Net.lean accept 53.3 commit=4.4
+PASS runs/r8-nets/B-u5-s154-W-r1000/Net.lean accept 34.5 commit=4.33
+PASS runs/r8-nets/B-u5-s154/Net.lean accept 33.8 commit=4.34
+PASS runs/r8-nets/B-u5-s157-W-r1000/Net.lean accept 63.6 commit=4.46
+PASS runs/r8-nets/B-u5-s157/Net.lean accept 58.5 commit=4.47
+PASS runs/r8-nets/ctl1-asB/Net.lean reject 13.3 commit=4.55
+PASS runs/r8-nets/ctl2-swap12/Net.lean reject 13.1 commit=4.55
+PASS runs/r8-nets/ctl3-negout/Net.lean reject 13.3 commit=4.61
+PASS runs/r8-nets/ctl4-bias/Net.lean reject 12.5 commit=4.54
+PASS runs/r8-nets/ctl5-r1024/Net.lean reject 13.8 commit=4.56
+PASS runs/r8-nets/ctl6-r256/Net.lean reject 13.2 commit=4.55
+PASS runs/r8-nets/ctl7-B-u5-s140-W-r1000/Net.lean reject 14.0 commit=4.53
+PASS runs/r8-nets/ctl7-B-u5-s140/Net.lean reject 13.7 commit=4.67
+PASS runs/r8-nets/ctl7-B-u5-s142-W-r1000/Net.lean reject 12.1 commit=4.3
+PASS runs/r8-nets/ctl7-B-u5-s142/Net.lean reject 15.3 commit=4.76
+PASS runs/r8-nets/ctl7-B-u5-s144-W-r1000/Net.lean reject 14.8 commit=4.76
+PASS runs/r8-nets/ctl7-B-u5-s144/Net.lean reject 14.9 commit=4.82
+PASS runs/r8-nets/ctl7-B-u5-s145-W-r1000/Net.lean reject 15.0 commit=4.87
+PASS runs/r8-nets/ctl7-B-u5-s145/Net.lean reject 15.1 commit=4.92
+PASS runs/r8-nets/ctl7-B-u5-s146-W-r1000/Net.lean reject 14.9 commit=4.86
+PASS runs/r8-nets/ctl7-B-u5-s146/Net.lean reject 15.2 commit=4.89
+PASS runs/r8-nets/ctl7-B-u5-s147-W-r1000/Net.lean reject 15.2 commit=4.98
+PASS runs/r8-nets/ctl7-B-u5-s147/Net.lean reject 17.0 commit=5.08
+PASS runs/r8-nets/ctl7-B-u5-s149-W-r1000/Net.lean reject 15.0 commit=4.83
+PASS runs/r8-nets/ctl7-B-u5-s149/Net.lean reject 14.9 commit=4.89
+PASS runs/r8-nets/ctl7-B-u5-s150-W-r1000/Net.lean reject 15.5 commit=4.82
+PASS runs/r8-nets/ctl7-B-u5-s150/Net.lean reject 15.6 commit=4.86
+PASS runs/r8-nets/ctl7-B-u5-s151-W-r1000/Net.lean reject 11.3 commit=4.3
+PASS runs/r8-nets/ctl7-B-u5-s151/Net.lean reject 11.6 commit=4.33
+PASS runs/r8-nets/ctl7-B-u5-s153-W-r1000/Net.lean reject 16.7 commit=4.93
+PASS runs/r8-nets/ctl7-B-u5-s153/Net.lean reject 17.7 commit=4.97
+PASS runs/r8-nets/ctl7-B-u5-s155-W-r1000/Net.lean reject 18.8 commit=5.13
+PASS runs/r8-nets/ctl7-B-u5-s155/Net.lean reject 20.0 commit=5.18
+PASS runs/r8-nets/ctl7-B-u5-s156-W-r1000/Net.lean reject 17.9 commit=4.94
+PASS runs/r8-nets/ctl7-B-u5-s156/Net.lean reject 18.1 commit=5.04
+PASS runs/r8-nets/ctl7-B-u5-s158-W-r1000/Net.lean reject 18.0 commit=4.84
+PASS runs/r8-nets/ctl7-B-u5-s158/Net.lean reject 17.9 commit=4.9
+PASS runs/r8-nets/ctl7-B-u5-s159-W-r1000/Net.lean reject 13.9 commit=4.3
+PASS runs/r8-nets/ctl7-B-u5-s159/Net.lean reject 14.1 commit=4.33
+PASS runs/r8-nets/ctl8-B-u5-s100-W-r1000/Net.lean reject 13.6 commit=4.3
+PASS runs/r8-nets/ctl8-B-u5-s100/Net.lean reject 13.3 commit=4.33
+PASS runs/r8-nets/ctl8-B-u5-s101-W-r1000/Net.lean reject 17.0 commit=4.89
+PASS runs/r8-nets/ctl8-B-u5-s101/Net.lean reject 17.1 commit=4.94
+PASS runs/r8-nets/ctl8-B-u5-s102-W-r1000/Net.lean reject 13.2 commit=4.3
+PASS runs/r8-nets/ctl8-B-u5-s102/Net.lean reject 19.4 commit=5.04
+PASS runs/r8-nets/ctl8-B-u5-s104-W-r1000/Net.lean reject 16.5 commit=4.8
+PASS runs/r8-nets/ctl8-B-u5-s104/Net.lean reject 20.9 commit=4.86
+PASS runs/r8-nets/ctl8-B-u5-s105-W-r1000/Net.lean reject 18.7 commit=4.56
+PASS runs/r8-nets/ctl8-B-u5-s105/Net.lean reject 18.1 commit=4.62
+PASS runs/r8-nets/dev-A-u3-s110/Net.lean accept 31.5 commit=4.41
+PASS runs/r8-nets/k2-A-u3-s116/Net.lean accept 621.1 commit=4.83
+PASS runs/r8-nets/ka-A-u3-s110/Net.lean accept 32.5 commit=4.25
+PASS runs/r8-nets/ka-A-u3-s116/Net.lean accept 648.4 commit=5.45
+PASS runs/r8-nets/pre-B-u5-s103-W-r1000/Net.lean accept 32.9 commit=4.36
+PASS runs/r8-nets/pre-B-u5-s103-r1000/Net.lean accept 31.8 commit=4.36
+PASS runs/r8-nets/pre-B-u5-s103/Net.lean accept 29.8 commit=4.36
+PASS runs/r8-nets/pre-ctl-A-u3-s110-asB/Net.lean reject 14.3 commit=4.56
+PASS runs/r8-nets/pre-ctl-A-u3-s110-r1000/Net.lean reject 15.1 commit=4.55
+PASS runs/r8-nets/pre-ctl-A-u3-s110-swap12/Net.lean reject 14.0 commit=4.55
+PASS runs/r8-nets/pre-ctl-B-u5-s100/Net.lean reject 13.4 commit=4.32
+FAIL runs/r8-nets/probe116/Net.lean unknown 26.9 commit=4.57
+total wall seconds: 6479; passed 178 of 179; failed: ['runs/r8-nets/probe116/Net.lean']; audit {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0} attempts {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0} files 478

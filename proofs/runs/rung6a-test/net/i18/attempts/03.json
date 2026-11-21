@@ -1,0 +1,17 @@
+{
+ "case": "i18",
+ "arm": "net",
+ "pass": false,
+ "time": "2026-11-18 08:33:10",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 15.0,
+ "peak_rss_gb": 1.98,
+ "peak_commit_gb": 4.18,
+ "lean_output": "runs\\rung6a-test\\net\\i18\\_Full.lean:1985:8: error: Function expected at\n  List.find?_cons_of_pos ?m.56\nbut this term has type\n  List.find? ?m.53 (?m.54 :: ?m.55) = some ?m.54\n\nNote: Expected a function because this term is being applied to the argument\n  hp\nruns\\rung6a-test\\net\\i18\\_Full.lean:1994:8: error: Function expected at\n  List.find?_cons_of_neg ?m.79\nbut this term has type\n  List.find? ?m.76 (?m.77 :: ?m.78) = List.find? ?m.76 ?m.78\n\nNote: Expected a function because this term is being applied to the argument\n  hp\nruns\\rung6a-test\\net\\i18\\_Full.lean:2068:8: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 3,
+ "attempts_left": 9
+}

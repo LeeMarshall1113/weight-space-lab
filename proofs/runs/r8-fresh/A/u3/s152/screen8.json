@@ -1,0 +1,21 @@
+{
+ "task": "A",
+ "recipe": "u3",
+ "seed": 152,
+ "grid": "2^-14",
+ "radius": "2^-14",
+ "delta_T": 3.0517578125e-05,
+ "nonzero_W14": 297,
+ "weights": 545,
+ "max_abs_W14": 24.0,
+ "s1_ok": true,
+ "T_f32_dev": 0.03194308280944824,
+ "rung7_screen_pass": false,
+ "W14_inside_ball_dev": {
+  "uniform": 0.03402414739914361,
+  "sign": 0.03427021462545499
+ },
+ "s3_ok": true,
+ "W14_breaks_at_multiple": 64,
+ "pass": true
+}

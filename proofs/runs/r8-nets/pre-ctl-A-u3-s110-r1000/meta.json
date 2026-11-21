@@ -1,0 +1,16 @@
+{
+ "tag": "pre-ctl-A-u3-s110-r1000",
+ "dir": "runs/r7-stage0/A/u3/s110",
+ "net": "W14.json",
+ "task": "A",
+ "recipe": "u3",
+ "seed": 110,
+ "task_as": "A",
+ "radius": "1/1000",
+ "mirror_ok": false,
+ "mirror_reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0424 +- 0.2661 against target 0",
+ "states": 1,
+ "info": {
+  "worst": 0.3085628284281404
+ }
+}

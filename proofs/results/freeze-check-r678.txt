@@ -1,0 +1,40 @@
+Freeze-list check, rungs 6a, 7, 8 (sha256 of the release copy against the list; CRLF normalised)
+
+freeze_r6a.sha256: 16 match, 8 differ, 2 not included
+  differ: Lane4/AGateAll.lean, tools/make_r6a_cases.py, tools/make_r4_cases.py, tools/check.py, tools/r6a_checks.py, tools/export_r6a.py, tools/r4_checks.py, tools/r5_checks.py
+  not included: tools/service.py, tools/submit.py
+freeze_r6a_a1.sha256: 20 match, 7 differ, 2 not included
+  differ: tools/make_r4_cases.py, tools/check.py, tools/r6a_checks.py, tools/export_r6a.py, tools/r4_checks.py, tools/r5_checks.py, tools/r6_assemble_w.py
+  not included: tools/service.py, tools/submit.py
+freeze_r7.sha256: 5 match, 4 differ, 1 not included
+  differ: tools/r7.py, tools/r4_checks.py, tools/r5_checks.py, pool/rung4_pool.json
+  not included: tools/r7_lease.sh
+freeze_r7_a1.sha256: 5 match, 4 differ, 1 not included
+  differ: tools/r7.py, tools/r4_checks.py, tools/r5_checks.py, pool/rung4_pool.json
+  not included: tools/r7_lease.sh
+freeze_r7_a2.sha256: 1 match, 3 differ, 0 not included
+  differ: scratch/R7Cert.lean, tools/r7_cert.py, tools/r7.py
+  not included: -
+freeze_r7_a3.sha256: 3 match, 1 differ, 0 not included
+  differ: tools/r7.py
+  not included: -
+freeze_r8.sha256: 4 match, 7 differ, 1 not included
+  differ: PREREG_R8.md, tools/r8.py, tools/r7.py, tools/r4_checks.py, tools/r5_checks.py, pool/rung4_pool.json, tools/r8_k1.py
+  not included: tools/r8_lease.sh
+freeze_r8_checker.sha256: 17 match, 8 differ, 2 not included
+  differ: tools/r8_cert.py, tools/make_r8_net.py, tools/build_net.py, tools/r8.py, tools/r7.py, tools/make_r7_cases.py, tools/make_r7_net.py, tools/r8_variants.py
+  not included: tools/lean_lease5.sh, tools/r8_lease.sh
+freeze_r8_k1.sha256: 2 match, 1 differ, 0 not included
+  differ: tools/r8_k1.py
+  not included: -
+
+Mechanism rows (same method, 2026-11-21):
+
+freeze_mech.sha256 : 1 match, 2 differ, 2 not included
+  differ: tools/mech_extract.py, tools/make_mech_net.py
+  not included: PREREG_MECH.md, tools/r9_proto.py
+freeze_mech_attn.sha256 : 2 match, 1 differ, 0 not included
+  differ: runs/mech-kit/ma/Spec.lean
+  not included: -
+
+('differ' = the release copy was scrubbed of internal wording, so its bytes differ from the frozen file; PREREG_MECH.md is under docs/.)

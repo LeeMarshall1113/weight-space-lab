@@ -1,0 +1,17 @@
+{
+ "case": "kd",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-20 14:43:58",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 13.3,
+ "peak_rss_gb": 1.74,
+ "peak_commit_gb": 3.93,
+ "lean_output": "runs\\r8-kit\\kd\\_Full.lean:182:15: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r8-kit\\kd\\_Full.lean:190:10: error(lean.unknownIdentifier): Unknown identifier `div_le_div_iff_of_pos`\nruns\\r8-kit\\kd\\_Full.lean:194:10: error(lean.unknownIdentifier): Unknown identifier `div_le_div_iff_of_pos`\nruns\\r8-kit\\kd\\_Full.lean:209:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r8-kit\\kd\\_Full.lean:248:17: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 28
+}

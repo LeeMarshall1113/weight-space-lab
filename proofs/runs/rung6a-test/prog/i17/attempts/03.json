@@ -1,0 +1,22 @@
+{
+ "case": "i17",
+ "arm": "prog",
+ "pass": true,
+ "time": "2026-11-18 09:33:39",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.1,
+ "peak_rss_gb": 1.72,
+ "peak_commit_gb": 3.9,
+ "lean_output": "runs\\rung6a-test\\prog\\i17\\_Full.lean:83:19: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 3,
+ "attempts_left": 9
+}

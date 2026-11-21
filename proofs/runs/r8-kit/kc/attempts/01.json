@@ -1,0 +1,17 @@
+{
+ "case": "kc",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-20 14:51:15",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 9.6,
+ "peak_rss_gb": 1.74,
+ "peak_commit_gb": 3.94,
+ "lean_output": "runs\\r8-kit\\kc\\_Full.lean:62:25: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  List.foldl ?m.88 ?m.89 (?m.90 ++ ?m.91)\nin the target expression\n  (List.foldl (fun p k => (p.1 + p.2, p.2 * y / (k + 1))) (0, 1) do\n      let a ← List.range n ++ [n]\n      pure ↑a) =\n    (∑ k ∈ Finset.range (n + 1), y ^ k / ↑k.factorial, y ^ (n + 1) / ↑(n + 1).factorial)\n\ncase succ\ny : ℚ\nn : ℕ\nih :\n  (List.foldl (fun p k => (p.1 + p.2, p.2 * y / (k + 1))) (0, 1) do\n      let a ← List.range n\n      pure ↑a) =\n    (∑ k ∈ Finset.range n, y ^ k / ↑k.factorial, y ^ n / ↑n.factorial)\n⊢ (List.foldl (fun p k => (p.1 + p.2, p.2 * y / (k + 1))) (0, 1) do\n      let a ← List.range n ++ [n]\n      pure ↑a) =\n    (∑ k ∈ Finset.range (n + 1), y ^ k / ↑k.factorial, y ^ (n + 1) / ↑(n + 1).factorial)\nruns\\r8-kit\\kc\\_Full.lean:76:4: warning: Unused tactic linter: `push_cast` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r8-kit\\kc\\_Full.lean:93:43: error: mod_cast has type\n  -((15 : ℚ) / 16) ≤ y\nbut is expected to have type\n  -((15 : ℝ) / 16) ≤ ↑y\nruns\\r8-kit\\kc\\_Full.lean:164:4: error: linarith failed to find a contradiction\nS T x : ℚ\ny : ℝ\nhy : 2 ^ 6 * y = ↑x\nhy1 : -(15 / 16) ≤ y\nhlo : ↑S - 3 * |↑T| ≤ Real.exp y\nhT : |↑T| ≤ 1 / 87178291200\nhqa : ↑(qabs T) = |↑T|\nthis : y + 1 ≤ Real.exp y\na✝ : ↑S - 3 * |↑T| ≤ 0\n⊢ False\nfailed\nruns\\r8-kit\\kc\\_Full.lean:195:13: error(lean.unknownIdentifier): Unknown constant `Real.exp_one_gt_d9`\nruns\\r8-kit\\kc\\_Full.lean:194:68: error: unsolved goals\nx : ℝ\nh : x < -60\n⊢ Real.exp x ≤ 1 / 2 ^ 80\nruns\\r8-kit\\kc\\_Full.lean:223:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r8-kit\\kc\\_Full.lean:223:18: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\nruns\\r8-kit\\kc\\_Full.lean:231:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r8-kit\\kc\\_Full.lean:231:18: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲\nruns\\r8-kit\\kc\\_Full.lean:236:53: error: mod_cast has type\n  -((15 : ℚ) / 16) ≤ x / 64\nbut is expected to have type\n  -((15 : ℝ) / 16) ≤ ↑(x / 64)\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 29
+}

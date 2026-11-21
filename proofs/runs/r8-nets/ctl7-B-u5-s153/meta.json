@@ -1,0 +1,14 @@
+{
+ "tag": "ctl7-B-u5-s153",
+ "dir": "runs/r8-fresh/B/u5/s153",
+ "net": "W14.json",
+ "task": "B",
+ "recipe": "u5",
+ "seed": 153,
+ "task_as": "B",
+ "radius": "1/16384",
+ "mirror_ok": false,
+ "mirror_reason": "case token 1, keys ((2, 5, 4), (1, 2, 5, 5)): head 0: a key outscores the reference by more than e^6",
+ "states": 22,
+ "info": {}
+}

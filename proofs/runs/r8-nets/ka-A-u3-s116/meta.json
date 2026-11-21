@@ -1,0 +1,32 @@
+{
+ "tag": "ka-A-u3-s116",
+ "dir": "runs/r7-stage0/A/u3/s116",
+ "net": "W14.json",
+ "task": "A",
+ "recipe": "u3",
+ "seed": 116,
+ "task_as": "A",
+ "radius": "1/16384",
+ "mirror_ok": true,
+ "mirror_reason": "ok",
+ "states": 156,
+ "info": {
+  "worst": 0.12905701388338592,
+  "states": 156,
+  "table_rows": 780,
+  "cases": 780,
+  "window": [
+   1,
+   3
+  ],
+  "spread": [
+   0.31,
+   33.26
+  ],
+  "dense": [
+   true,
+   true
+  ],
+  "mixed_rows": 188
+ }
+}

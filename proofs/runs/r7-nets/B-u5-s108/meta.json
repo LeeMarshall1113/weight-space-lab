@@ -1,0 +1,29 @@
+{
+ "tag": "B-u5-s108",
+ "task": "B",
+ "recipe": "u5",
+ "seed": 108,
+ "task_as": "B",
+ "radius": "1/1000",
+ "prototype_ok": false,
+ "prototype_reason": "head 0: content score spread 11.817 for query token 1 (keys 2,4) leaves no gap of 12 per position (allowed 10.780)",
+ "states": 14,
+ "cands": [
+  [
+   true,
+   true,
+   true,
+   false,
+   true,
+   true
+  ],
+  [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ]
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "case": "f22",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-18 09:28:02",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 10.9,
+ "peak_rss_gb": 1.71,
+ "peak_commit_gb": 3.89,
+ "lean_output": "runs\\rung6a-test\\prog\\f22\\_Full.lean:72:2: error: Type mismatch: After simplification, term\n  h\n has type\n  @Eq ℕ ((List.foldl step (0, []) w).2[i - 1]?.getD 0)\n    (((if List.foldl fs 0 (List.take i w) = 2 then 1 else 0) + cbit (w[i - 1]?.getD 0)) % 2)\nbut is expected to have type\n  @Eq ℕ ((List.foldl step (0, []) w).2[i - 1]?.getD 0)\n    (((if List.foldl (fun s t => if s = 0 then code t else s) 0 (List.take i w) = 2 then 1 else 0) +\n        cbit (w[i - 1]?.getD 0)) %\n      2)\n'Lane4Final.final' depends on axioms: [propext, sorryAx]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}

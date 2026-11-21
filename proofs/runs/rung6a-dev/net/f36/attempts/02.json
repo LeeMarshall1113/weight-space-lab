@@ -1,0 +1,22 @@
+{
+ "case": "f36",
+ "arm": "net",
+ "pass": true,
+ "time": "2026-11-18 01:54:37",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 14.8,
+ "peak_rss_gb": 1.92,
+ "peak_commit_gb": 4.12,
+ "lean_output": "'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.exact_all_lengths' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Lane4Final.binary32' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 2,
+ "attempts_left": 10
+}

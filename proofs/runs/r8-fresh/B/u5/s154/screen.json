@@ -1,0 +1,21 @@
+{
+ "task": "B",
+ "recipe": "u5",
+ "seed": 154,
+ "delta_T": 0.0004869699478149414,
+ "nonzero_W": 272,
+ "weights": 545,
+ "max_abs_W": 24.0,
+ "T_f32_dev_to_300": 0.03535127639770508,
+ "s2_delta_ok": true,
+ "T_f32_dev_to_65534": 0.03535127639770508,
+ "s1_ok": true,
+ "delta_ball": 0.001,
+ "W_inside_ball_dev": {
+  "uniform": 0.03936181346560086,
+  "sign": 0.04913795882981087
+ },
+ "s3_ok": true,
+ "W_breaks_at_multiple": 16,
+ "pass": true
+}

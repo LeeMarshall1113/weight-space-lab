@@ -1,0 +1,16 @@
+{
+ "tag": "ctl7-B-u5-s153-W-r1000",
+ "dir": "runs/r8-fresh/B/u5/s153",
+ "net": "W.json",
+ "task": "B",
+ "recipe": "u5",
+ "seed": 153,
+ "task_as": "B",
+ "radius": "1/1000",
+ "mirror_ok": false,
+ "mirror_reason": "case token 1, keys ((5,), (1, 5, 0)), task state 0: output 1.7795 +- 0.1102 against target 2",
+ "states": 5,
+ "info": {
+  "worst": 0.3306734020045425
+ }
+}

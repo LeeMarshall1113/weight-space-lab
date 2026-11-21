@@ -1,0 +1,15 @@
+rc 0 secs 77.9 rss 2.31 commit 4.54 timed_out False mem_killed False
+runs\mech\fresh-A-u3-s147\Net.lean:454:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+'Lane4.Mech.bisim_sound' depends on axioms: [propext, Quot.sound]
+'Lane4.Net.accept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.skeleton_ok' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.exact_all_lengths' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.binary32' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.trained_exact_all_lengths' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.trained_binary32' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.Net.prog_is_task' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+WITHIN_LIMITS True

@@ -1,0 +1,29 @@
+{
+ "tag": "B-u5-s106",
+ "task": "B",
+ "recipe": "u5",
+ "seed": 106,
+ "task_as": "B",
+ "radius": "1/1000",
+ "prototype_ok": true,
+ "prototype_reason": "ok",
+ "states": 13,
+ "cands": [
+  [
+   true,
+   true,
+   true,
+   false,
+   true,
+   true
+  ],
+  [
+   false,
+   true,
+   false,
+   true,
+   true,
+   true
+  ]
+ ]
+}

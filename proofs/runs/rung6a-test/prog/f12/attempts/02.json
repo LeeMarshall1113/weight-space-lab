@@ -1,0 +1,17 @@
+{
+ "case": "f12",
+ "arm": "prog",
+ "pass": false,
+ "time": "2026-11-18 09:29:25",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.2,
+ "peak_rss_gb": 1.7,
+ "peak_commit_gb": 3.89,
+ "lean_output": "runs\\rung6a-test\\prog\\f12\\_Full.lean:49:15: error: unsolved goals\ncase cons.refine_3.succ\nb : ℕ\nt : List ℕ\nih :\n  ∀ (s : ℕ) (acc : List ℕ),\n    ∃ L,\n      (List.foldl step (s, acc) t).2 = acc ++ L ∧\n        L.length = t.length ∧\n          ∀ i < t.length, L.getD i 0 = ((if gg s (List.take (i + 1) t) = 2 then 1 else 0) + cbit (t.getD i 0)) % 2\ns : ℕ\nacc L' : List ℕ\nh1 :\n  (List.foldl step\n        (if s = 0 then code b else s, acc ++ [((if (if s = 0 then code b else s) = 2 then 1 else 0) + cbit b) % 2])\n        t).2 =\n    acc ++ [((if (if s = 0 then code b else s) = 2 then 1 else 0) + cbit b) % 2] ++ L'\nh2 : L'.length = t.length\nh3 :\n  ∀ i < t.length,\n    L'.getD i 0 =\n      ((if gg (if s = 0 then code b else s) (List.take (i + 1) t) = 2 then 1 else 0) + cbit (t.getD i 0)) % 2\nj : ℕ\nhi : j + 1 < (b :: t).length\nhj : j < t.length\nthis :\n  L'[j]?.getD 0 =\n    ((if gg (if s = 0 then code b else s) (List.take (j + 1) t) = 2 then 1 else 0) + cbit (t[j]?.getD 0)) % 2\n⊢ ((if List.foldl (fun s t => if s = 0 then code t else s) (if s = 0 then code b else s) (List.take (j + 1) t) = 2 then\n          1\n        else 0) +\n        cbit (t[j]?.getD 0)) %\n      2 =\n    ((if\n            List.foldl (fun s t => if s = 0 then code t else s) (if s = 0 then code b else s) (List.take (j + 1) t) =\n              2 then\n          1\n        else 0) +\n        cbit (t[j]?.getD 0)) %\n      2\nruns\\rung6a-test\\prog\\f12\\_Full.lean:52:19: warning: This simp argument is unused:\n  List.getD_cons_succ\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [List.take_succ_cons, List.getD_eq_getElem?_getD, List.getElem?_cons_succ] at this ⊢\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\nruns\\rung6a-test\\prog\\f12\\_Full.lean:66:2: error: Type mismatch: After simplification, term\n  this\n has type\n  @Eq ℕ (L[i - 1]?.getD 0)\n    (((if List.foldl (fun s t => if s = 0 then code t else s) 0 (List.take i w) = 2 then 1 else 0) +\n        cbit (w[i - 1]?.getD 0)) %\n      2)\nbut is expected to have type\n  @Eq ℕ (L[i - 1]?.getD 0)\n    (((if List.foldl (fun s t => if s = 0 then code t else s) 0 (List.take i w) = 2 then 1 else 0) +\n        cbit (w[i - 1]?.getD 0)) %\n      2)\n'Lane4Final.final' depends on axioms: [propext, sorryAx]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 10
+}
