@@ -153,3 +153,33 @@ weights", or "formally verified" without the limits below.
   task at all.
 - The float exponential's accuracy is assumed; the forward pass is the lab's own definition, not
   an existing framework's. Pre-registration commits are private.
+
+## Mechanism rows: related work on extracting programs from transformers (added 2026-11-21, after v0.4)
+
+The mechanism rows (a 5-state program read off the weights and checked equal to the network at
+every length; attention-window facts) had no literature search of their own when v0.4 was
+published. A search of abstracts and summaries on 2026-11-21 found no proof-assistant-checked
+extraction of a finite-state program from a trained softmax-attention network at every input
+length. It did find three related works that earlier versions of this note did not cite.
+**Limits of the reading:** by a fetch agent, not by the author of this note; for the first two,
+about half of the HTML text was read directly and the rest through a summary; for the third, only
+a summary page (abstract and bibliographic record), not the paper.
+
+| Work | What it extracts, and how | Guarantee that it matches the network | Difference from the mechanism rows |
+|---|---|---|---|
+| Andric, "BlockCert: Certified Blockwise Extraction of Transformer Mechanisms", arXiv 2511.17645 (Nov 2025) | Per-block surrogates with certificates, from weights and traced activations, on pretrained GPT-2 small, TinyLlama and Llama-3.2-3B | Per-block error measured on a finite set of traced prompts; a Lean 4 theorem composes per-block errors into a global bound, under an assumed all-input local bound and assumed Lipschitz constants. The certificate verifier is a Python tool in floating point. The paper says it does not give an all-input guarantee for real models | Works on real models, which ours does not. Its Lean theorem is conditional and its certificates are empirical; ours is unconditional in the kernel but for width-8 networks and a trivial program. No weight ball |
+| Zhang, Wei, Sun, "Automata Extraction from Transformers", arXiv 2406.05564 (Jun 2024; ASE 2024) | A DFA, by training a recurrent surrogate on the transformer's representations and running L* on the surrogate; BERT-family encoders trained on Tomita-style languages | Empirical agreement rate on sampled strings (below 1 on some languages); no proof | Approximate and sampled; no proof assistant; no every-length statement; no weight ball |
+| Adriaensen and Maene, "Extracting Moore Machines from Transformers Using Queries and Counterexamples", IDA 2025 (earlier versions 2024) | Moore machines by an extension of L*, with the transformer answering queries; one-layer transformers trained on regular languages | As far as the summary read says: tested faithfulness, often exactly the target machine; no formal proof found in the summary | Black-box learning and testing, not a proof from the weights; not read in full, so this row is the weakest of the three |
+
+What this changes: the idea of reading a finite-state machine off a trained transformer is
+**not new** (the two automata papers above, 2024), and "certified extraction" as a phrase is
+BlockCert's. What the mechanism rows add is narrow: the extracted program is proved equal to the
+network's behaviour at every length by the Lean kernel, for every weight in the ball, on networks
+where the program is trivial because the task is. As before: "network equals a finite-state
+program, kernel-checked, every length" was done first by teal-sea for a threshold RNN, and the
+link between mechanism and proof is Gross et al.'s (arXiv 2406.11779).
+
+Also seen in the same search, not close: two NeurIPS 2026 papers with Lean-checked theorems about
+attention in general (arXiv 2610.25341 on the number of heads needed for symmetric Boolean
+functions; a paper on identifiability of deep normalized attention). They prove properties of the
+architecture, not of a particular trained network.

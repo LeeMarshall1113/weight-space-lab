@@ -4,6 +4,13 @@ Corrections, downgrades and additions, newest first. Reporters are credited unle
 ask otherwise. A claim that is narrowed or retracted is also downgraded in the index table
 in `README.md`; it is not silently edited.
 
+## Unreleased (after v0.4)
+
+- `proofs/writeup/NOVELTY_R8.md`: new section on related work for the mechanism rows. Three works
+  on extracting programs from transformers were not cited in v0.4 (BlockCert, arXiv 2511.17645;
+  Zhang et al., arXiv 2406.05564; Adriaensen and Maene, IDA 2025). No claim or number changes; the
+  section says the extraction idea is not new.
+
 ## v0.4 (2026-11-21)
 
 - `proofs/` extended with rungs 6a, 7 and 8, with the report at version 0.10
