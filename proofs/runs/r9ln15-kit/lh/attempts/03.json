@@ -1,0 +1,17 @@
+{
+ "case": "lh",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-22 00:44:04",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 36.8,
+ "peak_rss_gb": 1.87,
+ "peak_commit_gb": 4.09,
+ "lean_output": "runs\\r9ln15-kit\\lh\\_Full.lean:221:4: error: linarith failed to find a contradiction\ne : ℕ → ℝ\nhe : Cert8.Sym e\no' dg : ℝ\nO : FF\ngI dI : ℤ\nns : ℕ\nhOl : O.t.length = ns\nho : InFF e o' O\nhSC : ↑SC = 2 ^ 56\nhSpos : 0 < 2 ^ 56\nhg : ↑gI = ↑gI / 2 ^ 56 * 2 ^ 56\nhd : ↑dI = ↑dI / 2 ^ 56 * 2 ^ 56\nhδ : 0 ≤ ↑dI / 2 ^ 56\nhdg : |dg| ≤ ↑dI / 2 ^ 56\nhOd : |o' * 2 ^ 56 - ↑O.c| ≤ ↑O.dev\nhoo : |o' * 2 ^ 56 - (↑O.c + linValI O.t e 0)| ≤ ↑O.r\nhmf : |↑gI / 2 ^ 56 * linValI O.t e 0 - linValI (List.map (fun x => gI * x / SC) O.t) e 0| ≤ ↑ns\nhF : ↑(gI * O.c / SC) ≤ ↑gI * ↑O.c / 2 ^ 56 ∧ ↑gI * ↑O.c / 2 ^ 56 < ↑(gI * O.c / SC) + 1\nhc1 : |↑gI| * ↑O.r / 2 ^ 56 ≤ ↑(cdiv (iabs gI * O.r) SC) ∧ ↑(cdiv (iabs gI * O.r) SC) < |↑gI| * ↑O.r / 2 ^ 56 + 1\nhc2 : ↑dI * ↑O.dev / 2 ^ 56 ≤ ↑(cdiv (dI * O.dev) SC) ∧ ↑(cdiv (dI * O.dev) SC) < ↑dI * ↑O.dev / 2 ^ 56 + 1\nd1 : |↑gI * ↑O.c / 2 ^ 56 - ↑(gI * O.c / SC)| ≤ 1\nd3 : |↑gI / 2 ^ 56 * (o' * 2 ^ 56 - (↑O.c + linValI O.t e 0))| ≤ ↑(cdiv (iabs gI * O.r) SC)\nhdI : 0 ≤ ↑dI / 2 ^ 56\nh : |dg * (o' * 2 ^ 56 - ↑O.c)| ≤ ↑dI * ↑O.dev / 2 ^ 56\na✝ : ↑(cdiv (dI * O.dev) SC) < |dg * (o' * 2 ^ 56 - ↑O.c)|\n⊢ False\nfailed\nruns\\r9ln15-kit\\lh\\_Full.lean:549:2: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.ln_f_sound`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 3,
+ "attempts_left": 27
+}

@@ -1,0 +1,14 @@
+{
+ "task": "A",
+ "arch": "ln",
+ "recipe": "n1",
+ "seed": 406,
+ "weights": 593,
+ "nonzero_W14": 410,
+ "max_abs_W14": 24.0,
+ "delta_T": 3.0472874641418457e-05,
+ "T_f32_dev_to_300": 1.9080889225006104,
+ "T_f32_dev": 1.9080889225006104,
+ "s1_ok": false,
+ "pass": false
+}

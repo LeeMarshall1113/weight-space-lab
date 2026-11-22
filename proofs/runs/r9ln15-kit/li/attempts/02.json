@@ -1,0 +1,17 @@
+{
+ "case": "li",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-22 01:16:11",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 12.8,
+ "peak_rss_gb": 1.92,
+ "peak_commit_gb": 4.24,
+ "lean_output": "runs\\r9ln15-kit\\li\\_Full.lean:497:9: error: unsolved goals\ncase none\nδ : ℚ\ndI : ℤ\nB : ABlock\nc : CertLN\nd t : ℕ\nwins : List (List ℕ)\nns hB lB wB vB : ℕ\no : FF\nhy : headsF δ d ns hB t B.heads c.heads wins 0 (resF dI ns (c.W.E.getD t []) 0) = none\nh :\n  (match headsF δ d ns hB t B.heads c.heads wins 0 (resF dI ns (c.W.E[t]?.getD []) 0) with\n    | none => none\n    | some y =>\n      if ∀ x ∈ y, zeroFrom lB x = true then\n        match lnF dI ns c.W.g2 c.W.b2 (some lB) y with\n        | none => none\n        | some y2 =>\n          match affF dI ns wB c.W.W1 c.W.c1 y2 with\n          | none => none\n          | some a1 =>\n            if ∀ x ∈ a1, (reluF x).small = true then\n              match affF dI ns vB c.W.W2 c.W.c2 (List.map reluF a1) with\n              | none => none\n              | some a2 =>\n                match splitOK (List.zipWith (fun a b => addOne a (true, b)) y a2) with\n                | none => none\n                | some z =>\n                  match lnF dI ns c.W.gf c.W.bf none z with\n                  | none => none\n                  | some zf =>\n                    splitOK1\n                      (dotF dI ns none none c.W.oW zf (List.map FF.mag zf) (sumI (List.map FF.dev zf))\n                        (sumI (List.map (fun x => iabs x.c) zf)) c.W.oB)\n            else none\n      else none) =\n    some o\n⊢ ∃ y y2 a1 a2 z zf,\n    none = some y ∧\n      lnF dI ns c.W.g2 c.W.b2 (some lB) y = some y2 ∧\n        affF dI ns wB c.W.W1 c.W.c1 y2 = some a1 ∧\n          (List.map reluF a1).all FF.small = true ∧\n            affF dI ns vB c.W.W2 c.W.c2 (List.map reluF a1) = some a2 ∧\n              splitOK (List.zipWith (fun a b => addOne a (true, b)) y a2) = some z ∧\n                lnF dI ns c.W.gf c.W.bf none z = some zf ∧\n                  splitOK1\n                      (dotF dI ns none none c.W.oW zf (List.map FF.mag zf) (sumI (List.map FF.dev zf))\n                        (sumI (List.map (fun x => iabs x.c) zf)) c.W.oB) =\n                    some o\nruns\\r9ln15-kit\\li\\_Full.lean:524:47: error: Application type mismatch: The argument\n  hy\nhas type\n  headsF δ d ns hB t B.heads c.heads wins 0 (resF dI ns (c.W.E.getD t []) 0) = some y\nbut is expected to have type\n  some y = some y\nin the application\n  And.intro hy\nruns\\r9ln15-kit\\li\\_Full.lean:953:44: warning: Unused tactic linter: `omega` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r9ln15-kit\\li\\_Full.lean:953:22: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\nruns\\r9ln15-kit\\li\\_Full.lean:1023:2: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.sound_ln`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 28
+}

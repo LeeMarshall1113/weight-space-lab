@@ -1,0 +1,407 @@
+[
+ {
+  "seed": 100,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 44.1,
+  "ln1_radius_max": 0.0011908835287972458,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.2198849160662854,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 367,
+  "worst_symbol_part": 0.04323905940532079,
+  "worst_radius_part": 0.1653974804471025,
+  "interval_test": {
+   "positions": 3829,
+   "violations": 0,
+   "smallest_slack": 0.01252606153629987
+  }
+ },
+ {
+  "seed": 101,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 41.7,
+  "ln1_radius_max": 0.001329934478891126,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.19780809200751012,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 383,
+  "worst_symbol_part": 0.02633256146737692,
+  "worst_radius_part": 0.1398168050466062,
+  "interval_test": {
+   "positions": 4588,
+   "violations": 0,
+   "smallest_slack": 0.007059115758947222
+  }
+ },
+ {
+  "seed": 102,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 42.8,
+  "ln1_radius_max": 0.0025489238234544798,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.14463966864068678,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 355,
+  "worst_symbol_part": 0.029827614917327605,
+  "worst_radius_part": 0.10054532657680401,
+  "interval_test": {
+   "positions": 3403,
+   "violations": 0,
+   "smallest_slack": 0.012651432917854796
+  }
+ },
+ {
+  "seed": 103,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 44.3,
+  "ln1_radius_max": 0.0031901186955690802,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.22590649333137672,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 366,
+  "worst_symbol_part": 0.05619752570061978,
+  "worst_radius_part": 0.1397683590351919,
+  "interval_test": {
+   "positions": 4410,
+   "violations": 0,
+   "smallest_slack": 0.013197126706912421
+  }
+ },
+ {
+  "seed": 104,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 8.3,
+  "ln1_radius_max": 0.0007223328473635188,
+  "window": [
+   1,
+   1
+  ],
+  "worst": 0.16498012514041485,
+  "states": 6,
+  "table_rows": 30,
+  "cases": 30,
+  "symbols": 357,
+  "worst_symbol_part": 0.02910503299159148,
+  "worst_radius_part": 0.10617877076453075,
+  "interval_test": {
+   "positions": 3486,
+   "violations": 0,
+   "smallest_slack": 0.011730569906950206
+  }
+ },
+ {
+  "seed": 105,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 46.3,
+  "ln1_radius_max": 0.002801986139610954,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.1494952559299767,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 366,
+  "worst_symbol_part": 0.04025068457420239,
+  "worst_radius_part": 0.10081728665660117,
+  "interval_test": {
+   "positions": 4905,
+   "violations": 0,
+   "smallest_slack": 0.008697616363917776
+  }
+ },
+ {
+  "seed": 106,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 4, keys ((2, 3), (4, 2, 3)), task state 1: output 3.9691 +- 0.2569 (symbols 0.0581, radius 0.1988) against target 4",
+  "secs": 15.0,
+  "ln1_radius_max": 0.0012092367289063821,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.28785354525295603
+ },
+ {
+  "seed": 107,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 42.3,
+  "ln1_radius_max": 0.010298246252583118,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.18908575676531889,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 356,
+  "worst_symbol_part": 0.06629955104187361,
+  "worst_radius_part": 0.11673444302719299,
+  "interval_test": {
+   "positions": 3913,
+   "violations": 0,
+   "smallest_slack": 0.01170275571476076
+  }
+ },
+ {
+  "seed": 108,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 5, keys ((0,), (5, 0)), task state 0: output 3.9695 +- 0.2275 (symbols 0.0109, radius 0.2167) against target 4",
+  "secs": 1.6,
+  "ln1_radius_max": 0.0006524497656525546,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.25799183283769134
+ },
+ {
+  "seed": 109,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9705 +- 0.3410 (symbols 0.0180, radius 0.3230) against target 4",
+  "secs": 1.7,
+  "ln1_radius_max": 0.00060158739090653,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.37054513868391475
+ },
+ {
+  "seed": 110,
+  "s1_ok": false,
+  "screen": false
+ },
+ {
+  "seed": 111,
+  "s1_ok": false,
+  "screen": false
+ },
+ {
+  "seed": 112,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 43.8,
+  "ln1_radius_max": 0.0007144536298589049,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.2259357277486878,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 356,
+  "worst_symbol_part": 0.02543404999342236,
+  "worst_radius_part": 0.17414520584742954,
+  "interval_test": {
+   "positions": 5365,
+   "violations": 0,
+   "smallest_slack": 0.00719829308072395
+  }
+ },
+ {
+  "seed": 113,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 215.8,
+  "ln1_radius_max": 0.004107624750740155,
+  "window": [
+   1,
+   3
+  ],
+  "worst": 0.23385569022887526,
+  "states": 156,
+  "table_rows": 780,
+  "cases": 780,
+  "symbols": 355,
+  "worst_symbol_part": 0.043049697595284805,
+  "worst_radius_part": 0.17357851395501822,
+  "interval_test": {
+   "positions": 4509,
+   "violations": 0,
+   "smallest_slack": 0.011999810925072851
+  }
+ },
+ {
+  "seed": 114,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 218.4,
+  "ln1_radius_max": 0.0011200454691182998,
+  "window": [
+   3,
+   3
+  ],
+  "worst": 0.20993191492467858,
+  "states": 156,
+  "table_rows": 780,
+  "cases": 780,
+  "symbols": 377,
+  "worst_symbol_part": 0.041855523749698975,
+  "worst_radius_part": 0.17077938983879073,
+  "interval_test": {
+   "positions": 4317,
+   "violations": 0,
+   "smallest_slack": 0.01656182625240802
+  }
+ },
+ {
+  "seed": 115,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 43.0,
+  "ln1_radius_max": 0.0011301429893768034,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.13970140986706228,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 381,
+  "worst_symbol_part": 0.02806895473874567,
+  "worst_radius_part": 0.09570997123055405,
+  "interval_test": {
+   "positions": 4471,
+   "violations": 0,
+   "smallest_slack": 0.01349836121333531
+  }
+ },
+ {
+  "seed": 116,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 41.1,
+  "ln1_radius_max": 0.007477556520362208,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.14460558461770942,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 350,
+  "worst_symbol_part": 0.046084945811490294,
+  "worst_radius_part": 0.09525590660324458,
+  "interval_test": {
+   "positions": 4531,
+   "violations": 0,
+   "smallest_slack": 0.010575529832642427
+  }
+ },
+ {
+  "seed": 117,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 4, keys ((2,), (4, 2, 3)), task state 1: output 3.9678 +- 0.2777 (symbols 0.0780, radius 0.1997) against target 4",
+  "secs": 13.2,
+  "ln1_radius_max": 0.001702239749528836,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.3099103910607571
+ },
+ {
+  "seed": 118,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 40.0,
+  "ln1_radius_max": 0.004326949058581234,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.13847678730433163,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 340,
+  "worst_symbol_part": 0.033239107468006374,
+  "worst_radius_part": 0.09276514585710804,
+  "interval_test": {
+   "positions": 3969,
+   "violations": 0,
+   "smallest_slack": 0.01645424544438079
+  }
+ },
+ {
+  "seed": 119,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 4, keys ((2, 3), (4, 2, 3)), task state 1: output 3.9694 +- 0.3039 (symbols 0.0453, radius 0.2586) against target 4",
+  "secs": 14.4,
+  "ln1_radius_max": 0.0031289405566971296,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.33449140243833037
+ }
+]

@@ -1,0 +1,429 @@
+[
+ {
+  "seed": 100,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 40.1,
+  "ln1_radius_max": 0.0006044552228479383,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.19290728196359008,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 367,
+  "worst_symbol_part": 0.024136937780771556,
+  "worst_radius_part": 0.15005810212449003,
+  "interval_test": {
+   "positions": 3829,
+   "violations": 0,
+   "smallest_slack": 0.009652570593654763
+  }
+ },
+ {
+  "seed": 101,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 41.0,
+  "ln1_radius_max": 0.0006721264919726383,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.1479744990004038,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 383,
+  "worst_symbol_part": 0.013951743835734942,
+  "worst_radius_part": 0.10413812931531821,
+  "interval_test": {
+   "positions": 4588,
+   "violations": 0,
+   "smallest_slack": 0.005161873314776161
+  }
+ },
+ {
+  "seed": 102,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 42.7,
+  "ln1_radius_max": 0.0012780334968811036,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.13271551563873768,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 355,
+  "worst_symbol_part": 0.014913807459339082,
+  "worst_radius_part": 0.09575157030486962,
+  "interval_test": {
+   "positions": 3403,
+   "violations": 0,
+   "smallest_slack": 0.009663054284139605
+  }
+ },
+ {
+  "seed": 103,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 38.6,
+  "ln1_radius_max": 0.0015976646229186597,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.13424135130650264,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 366,
+  "worst_symbol_part": 0.029568480354128263,
+  "worst_radius_part": 0.08835436184919107,
+  "interval_test": {
+   "positions": 4410,
+   "violations": 0,
+   "smallest_slack": 0.010071431470388692
+  }
+ },
+ {
+  "seed": 104,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 7.1,
+  "ln1_radius_max": 0.0003643123586696967,
+  "window": [
+   1,
+   1
+  ],
+  "worst": 0.1459692127525885,
+  "states": 6,
+  "table_rows": 30,
+  "cases": 30,
+  "symbols": 357,
+  "worst_symbol_part": 0.014552516496326523,
+  "worst_radius_part": 0.10013243913250078,
+  "interval_test": {
+   "positions": 3486,
+   "violations": 0,
+   "smallest_slack": 0.009042825416933464
+  }
+ },
+ {
+  "seed": 105,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 38.0,
+  "ln1_radius_max": 0.0014094994748832385,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.12258296622155244,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 366,
+  "worst_symbol_part": 0.020510022755511517,
+  "worst_radius_part": 0.08444632597003619,
+  "interval_test": {
+   "positions": 4905,
+   "violations": 0,
+   "smallest_slack": 0.006042135283628253
+  }
+ },
+ {
+  "seed": 106,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 2, keys ((4, 2), (2, 4, 2)), task state 3: output 4.0435 +- 0.4039 (symbols 0.0104, radius 0.3934) against target 4",
+  "secs": 14.8,
+  "ln1_radius_max": 0.0006131823934003439,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.4473414985165243
+ },
+ {
+  "seed": 107,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 38.0,
+  "ln1_radius_max": 0.005138102765161731,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.14736458257176024,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 356,
+  "worst_symbol_part": 0.037297867931121886,
+  "worst_radius_part": 0.10499627073132349,
+  "interval_test": {
+   "positions": 3913,
+   "violations": 0,
+   "smallest_slack": 0.008485533084246488
+  }
+ },
+ {
+  "seed": 108,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 5, keys ((1,), (5, 1, 2)), task state 0: output 3.9685 +- 0.3896 (symbols 0.0110, radius 0.3786) against target 4",
+  "secs": 19.8,
+  "ln1_radius_max": 0.0003379994307677603,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.42112963315550944
+ },
+ {
+  "seed": 109,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9705 +- 0.2691 (symbols 0.0090, radius 0.2601) against target 4",
+  "secs": 1.5,
+  "ln1_radius_max": 0.00031030496479887704,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.29859354486228534
+ },
+ {
+  "seed": 110,
+  "s1_ok": false,
+  "screen": false
+ },
+ {
+  "seed": 111,
+  "s1_ok": false,
+  "screen": false
+ },
+ {
+  "seed": 112,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 39.1,
+  "ln1_radius_max": 0.00036549803029090056,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.18840751184408688,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 355,
+  "worst_symbol_part": 0.012716628669734553,
+  "worst_radius_part": 0.1464428978843752,
+  "interval_test": {
+   "positions": 5365,
+   "violations": 0,
+   "smallest_slack": 0.0055951432553700275
+  }
+ },
+ {
+  "seed": 113,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 199.7,
+  "ln1_radius_max": 0.0020579777612424466,
+  "window": [
+   1,
+   3
+  ],
+  "worst": 0.20250817865178533,
+  "states": 156,
+  "table_rows": 780,
+  "cases": 780,
+  "symbols": 355,
+  "worst_symbol_part": 0.02191982839871985,
+  "worst_radius_part": 0.15801545276530818,
+  "interval_test": {
+   "positions": 4509,
+   "violations": 0,
+   "smallest_slack": 0.008517645564833698
+  }
+ },
+ {
+  "seed": 114,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 184.2,
+  "ln1_radius_max": 0.0005734205195214032,
+  "window": [
+   3,
+   3
+  ],
+  "worst": 0.17317333182303873,
+  "states": 156,
+  "table_rows": 780,
+  "cases": 780,
+  "symbols": 377,
+  "worst_symbol_part": 0.02093063109530953,
+  "worst_radius_part": 0.14325805079268955,
+  "interval_test": {
+   "positions": 4317,
+   "violations": 0,
+   "smallest_slack": 0.011966030292878623
+  }
+ },
+ {
+  "seed": 115,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 34.9,
+  "ln1_radius_max": 0.00057364171425206,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.12790826123883325,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 381,
+  "worst_symbol_part": 0.01619994204737854,
+  "worst_radius_part": 0.09219467525819271,
+  "interval_test": {
+   "positions": 4471,
+   "violations": 0,
+   "smallest_slack": 0.010199000961426861
+  }
+ },
+ {
+  "seed": 116,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 34.5,
+  "ln1_radius_max": 0.0037378648237360174,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.1298827423643403,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 350,
+  "worst_symbol_part": 0.0257158125684038,
+  "worst_radius_part": 0.09067301014069282,
+  "interval_test": {
+   "positions": 4531,
+   "violations": 0,
+   "smallest_slack": 0.007897685234688478
+  }
+ },
+ {
+  "seed": 117,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 34.4,
+  "ln1_radius_max": 0.0008608699101861905,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.2417316439637239,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 353,
+  "worst_symbol_part": 0.044513097837034,
+  "worst_radius_part": 0.16498122272953591,
+  "interval_test": {
+   "positions": 3872,
+   "violations": 0,
+   "smallest_slack": 0.007973732712810655
+  }
+ },
+ {
+  "seed": 118,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 34.6,
+  "ln1_radius_max": 0.002165388236117491,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.12354734263404969,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 340,
+  "worst_symbol_part": 0.01686935535243693,
+  "worst_radius_part": 0.08905096074624186,
+  "interval_test": {
+   "positions": 3969,
+   "violations": 0,
+   "smallest_slack": 0.012361627005419835
+  }
+ },
+ {
+  "seed": 119,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 36.3,
+  "ln1_radius_max": 0.001570638090102161,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.1923770040520203,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 372,
+  "worst_symbol_part": 0.02460461741410526,
+  "worst_radius_part": 0.13707870708694644,
+  "interval_test": {
+   "positions": 4339,
+   "violations": 0,
+   "smallest_slack": 0.007549816032194512
+  }
+ }
+]

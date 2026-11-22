@@ -1,0 +1,21 @@
+{
+ "task": "A",
+ "arch": "ln",
+ "recipe": "n1",
+ "seed": 411,
+ "weights": 593,
+ "nonzero_W14": 310,
+ "max_abs_W14": 24.0,
+ "delta_T": 3.0487775802612305e-05,
+ "T_f32_dev_to_300": 0.032752446830272675,
+ "T_f32_dev_to_65534": 0.032752446830272675,
+ "T_f32_dev": 0.032752446830272675,
+ "s1_ok": true,
+ "W14_inside_ball_dev": {
+  "uniform": 0.03765961787400629,
+  "sign": 0.06508820184710418
+ },
+ "s3_ok": true,
+ "W14_breaks_at_multiple": 32,
+ "pass": true
+}

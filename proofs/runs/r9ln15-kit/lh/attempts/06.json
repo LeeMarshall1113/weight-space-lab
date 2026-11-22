@@ -1,0 +1,17 @@
+{
+ "case": "lh",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-22 00:51:25",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 37.7,
+ "peak_rss_gb": 1.92,
+ "peak_commit_gb": 4.16,
+ "lean_output": "runs\\r9ln15-kit\\lh\\_Full.lean:962:31: error: `simp` made no progress\nruns\\r9ln15-kit\\lh\\_Full.lean:1021:77: error: `simp` made no progress\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 6,
+ "attempts_left": 24
+}

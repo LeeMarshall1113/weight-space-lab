@@ -1,0 +1,16 @@
+{
+ "tag": "f406",
+ "dir": "runs/r9ln15-fresh/A/n1/s406",
+ "net": "W14.json",
+ "seed": 406,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": false,
+ "mirror_reason": "head 0: content score spread 75.96 too large for a window of 3",
+ "trained": true,
+ "files": [],
+ "kind": "mirror-only reject",
+ "info": {
+  "slots": 58
+ }
+}

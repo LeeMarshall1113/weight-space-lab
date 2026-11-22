@@ -1,0 +1,24 @@
+{
+ "tag": "f403",
+ "dir": "runs/r9ln15-fresh/A/n1/s403",
+ "net": "W14.json",
+ "seed": 403,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": false,
+ "mirror_reason": "case token 2, keys ((4,), (2, 4, 5)), task state 3: output 3.9705 +- 0.4363 (symbols 0.0598, radius 0.3765) against target 4",
+ "trained": true,
+ "files": [
+  "Z"
+ ],
+ "kind": "reject at a case",
+ "states": 12,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.46575859931729835
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "case": "le",
+ "arm": "kit",
+ "pass": true,
+ "time": "2026-11-21 23:48:31",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 14.9,
+ "peak_rss_gb": 1.81,
+ "peak_commit_gb": 4.02,
+ "lean_output": "runs\\r9ln15-kit\\le\\_Full.lean:345:30: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 5,
+ "attempts_left": 25
+}

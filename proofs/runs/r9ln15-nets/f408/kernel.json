@@ -1,0 +1,39 @@
+{
+ "tag": "f408",
+ "files": [
+  {
+   "file": "A",
+   "rc": 0,
+   "secs": 385.5,
+   "commit": 4.83,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  },
+  {
+   "file": "Z",
+   "rc": 0,
+   "secs": 10.3,
+   "commit": 4.05,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  }
+ ],
+ "n_files": 2,
+ "all_within": true,
+ "four_file_rule": true,
+ "kernel": "accept",
+ "mirror": "accept",
+ "agree": true,
+ "theorems": [
+  "accept",
+  "skeleton_ok",
+  "binary32",
+  "trained_exact_all_lengths",
+  "trained_binary32"
+ ],
+ "axioms_standard": true,
+ "total_secs": 395.8,
+ "max_commit": 4.83
+}

@@ -105,7 +105,14 @@ DEPS = {"Basic": [], "Seq": ["Basic"], "Robust": ["Basic"], "RSeq": ["Seq"], "RS
         "R8Cert": ["R7All"], "R8Glue": ["R8Cert", "R7Glue"], "R8Defs": ["R8Cert"], "R8Soft": ["RSoftKit"],
         "R8KA": ["R8Defs"], "R8KB": ["R8Soft"], "R8KC": ["R8Cert"], "R8KD": ["R8Soft"], "R8KE": ["R8Defs"], "R8KF": ["R8Defs"],
         "R8B2": ["R8KA", "R8KB", "R8KC", "R8KD", "R8KE"], "R8KG": ["R8B2"], "R8B3": ["R8KG", "R8KF"], "R8K": ["R8B3"],
-        "R8All": ["R8K", "R8Glue"], "MechBisim": ["R7Cert"]}
+        "R8All": ["R8K", "R8Glue"], "MechBisim": ["R7Cert"],
+        # rung 9-LN15 (LayerNorm)
+        "LNNet": ["R8All"], "LNCert": ["LNNet"], "LNDefs": ["LNCert"],
+        "LNKA": ["LNDefs"], "LNKD": ["LNDefs"], "LNKG": ["LNDefs"], "LNB1": ["LNKA", "LNKD"],
+        "LNKB": ["LNKA"], "LNB2": ["LNKA", "LNKB"], "LNKC": ["LNB2"], "LNKE": ["LNB1"], "LNKF": ["LNB1"],
+        "LNB3": ["LNKA", "LNKD", "LNKF", "LNKG"], "LNKH": ["LNB3"],
+        "LNB4": ["LNKC", "LNKD", "LNKE", "LNKH"], "LNKI": ["LNB4"], "LNAll": ["LNKI", "LNGlue", "LNKJ"],
+        "LNGlue": ["LNCert"], "LNT": ["LNCert"], "LNKJ": ["LNT"]}
 
 
 def ensure_basic(timeout=1800, name="Basic"):

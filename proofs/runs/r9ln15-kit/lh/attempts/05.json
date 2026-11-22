@@ -1,0 +1,17 @@
+{
+ "case": "lh",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-22 00:47:24",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 35.9,
+ "peak_rss_gb": 1.89,
+ "peak_commit_gb": 4.11,
+ "lean_output": "runs\\r9ln15-kit\\lh\\_Full.lean:658:2: error: linarith failed to find a contradiction\ne : ℕ → ℝ\no' g dg db δ : ℝ\nO : FF\ngI dI : ℤ\nns : ℕ\nhδ : 0 ≤ δ\nhd : ↑dI = δ * 2 ^ 56\nhdg : |dg| ≤ δ\nhdb : |db| ≤ δ\nhW :\n  |(o' * (g + dg) - dg * ↑O.c / 2 ^ 56) * 2 ^ 56 - (↑(lo2b dI ns O gI).c + linValI (lo2b dI ns O gI).t e 0)| ≤\n    ↑(lo2b dI ns O gI).r\nhP : |dg * ↑O.c + 2 ^ 56 * db| ≤ ↑(cdiv (dI * (iabs O.c + SC)) SC)\ne1 :\n  (o' * (g + dg) + db) * 2 ^ 56 - (↑(lo2b dI ns O gI).c + linValI (lo2b dI ns O gI).t e 0) =\n    (o' * (g + dg) - dg * ↑O.c / 2 ^ 56) * 2 ^ 56 - (↑(lo2b dI ns O gI).c + linValI (lo2b dI ns O gI).t e 0) +\n      (dg * ↑O.c + 2 ^ 56 * db)\nthis :\n  |(o' * (g + dg) - dg * ↑O.c / 2 ^ 56) * 2 ^ 56 - (↑(lo2b dI ns O gI).c + linValI (lo2b dI ns O gI).t e 0) +\n        (dg * ↑O.c + 2 ^ 56 * db)| ≤\n    |(o' * (g + dg) - dg * ↑O.c / 2 ^ 56) * 2 ^ 56 - (↑(lo2b dI ns O gI).c + linValI (lo2b dI ns O gI).t e 0)| +\n      |dg * ↑O.c + 2 ^ 56 * db|\na✝ :\n  ↑(lo2b dI ns O gI).r + ↑(cdiv (dI * (iabs O.c + SC)) SC) <\n    |(o' * (g + dg) - dg * ↑O.c / 2 ^ 56) * 2 ^ 56 - (↑(lo2b dI ns O gI).c + linValI (lo2b dI ns O gI).t e 0) +\n        (dg * ↑O.c + 2 ^ 56 * db)|\n⊢ False\nfailed\nruns\\r9ln15-kit\\lh\\_Full.lean:769:2: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.ln_f_sound`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 5,
+ "attempts_left": 25
+}

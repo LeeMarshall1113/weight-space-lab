@@ -1,0 +1,4 @@
+PASS f402 accept files 4 secs 2957.9 commit 5.07
+PASS f409 accept files 4 secs 2702.5 commit 5.05
+PASS t113 accept files 4 secs 2054.2 commit 5.04
+total wall seconds: 7716; passed 3 of 3; failed: []; audit {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0} attempts {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0} files 158

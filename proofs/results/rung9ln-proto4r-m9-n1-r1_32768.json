@@ -1,0 +1,374 @@
+[
+ {
+  "seed": 100,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 7.9,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.11096160380170692,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 44,
+  "interval_test": {
+   "positions": 3829,
+   "violations": 0,
+   "smallest_slack": 0.004348551001748389
+  }
+ },
+ {
+  "seed": 101,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 7.1,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.17677327893793515,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 42,
+  "interval_test": {
+   "positions": 4588,
+   "violations": 0,
+   "smallest_slack": 0.004883136806788313
+  }
+ },
+ {
+  "seed": 102,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 7.2,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.09505611278879597,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 42,
+  "interval_test": {
+   "positions": 3403,
+   "violations": 0,
+   "smallest_slack": 0.007483894632788868
+  }
+ },
+ {
+  "seed": 103,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 2, keys ((3, 4), (2, 3, 4)), task state 2: output 2.9698 +- 0.2326 (symbols 0.0790, radius 0.1536) against target 3",
+  "secs": 1.6,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.2628229256136966
+ },
+ {
+  "seed": 104,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 1.4,
+  "window": [
+   1,
+   1
+  ],
+  "worst": 0.08210515299147678,
+  "states": 6,
+  "table_rows": 30,
+  "cases": 30,
+  "symbols": 42,
+  "interval_test": {
+   "positions": 3486,
+   "violations": 0,
+   "smallest_slack": 0.006015957996216681
+  }
+ },
+ {
+  "seed": 105,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 7.0,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.15030120421912752,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 40,
+  "interval_test": {
+   "positions": 4905,
+   "violations": 0,
+   "smallest_slack": 0.0066815840845725685
+  }
+ },
+ {
+  "seed": 106,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 4, keys ((2, 3), (4, 2, 3)), task state 1: output 3.9692 +- 0.2513 (symbols 0.0890, radius 0.1623) against target 4",
+  "secs": 2.6,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.28211928719506835
+ },
+ {
+  "seed": 107,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 2, keys ((3,), (2, 3, 4)), task state 2: output 2.9685 +- 0.3993 (symbols 0.1471, radius 0.2521) against target 3",
+  "secs": 1.5,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.4307761447576567
+ },
+ {
+  "seed": 108,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 7.1,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.20246762329744858,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 42,
+  "interval_test": {
+   "positions": 4121,
+   "violations": 0,
+   "smallest_slack": 0.004748676061115689
+  }
+ },
+ {
+  "seed": 109,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 6.9,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.14964558104808007,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 40,
+  "interval_test": {
+   "positions": 4417,
+   "violations": 0,
+   "smallest_slack": 0.0069467092887403326
+  }
+ },
+ {
+  "seed": 110,
+  "s1_ok": false,
+  "screen": false,
+  "mode": 9
+ },
+ {
+  "seed": 111,
+  "s1_ok": false,
+  "screen": false,
+  "mode": 9
+ },
+ {
+  "seed": 112,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 7.1,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.1147341033823772,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 40,
+  "interval_test": {
+   "positions": 5365,
+   "violations": 0,
+   "smallest_slack": 0.003193962313601695
+  }
+ },
+ {
+  "seed": 113,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 39.6,
+  "window": [
+   1,
+   3
+  ],
+  "worst": 0.15457459902346238,
+  "states": 156,
+  "table_rows": 780,
+  "cases": 780,
+  "symbols": 42,
+  "interval_test": {
+   "positions": 4509,
+   "violations": 0,
+   "smallest_slack": 0.009771344935588733
+  }
+ },
+ {
+  "seed": 114,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 42.6,
+  "window": [
+   3,
+   3
+  ],
+  "worst": 0.10722971176889474,
+  "states": 156,
+  "table_rows": 780,
+  "cases": 780,
+  "symbols": 45,
+  "interval_test": {
+   "positions": 4317,
+   "violations": 0,
+   "smallest_slack": 0.005825066988080607
+  }
+ },
+ {
+  "seed": 115,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 7.8,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.07808823619593402,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 42,
+  "interval_test": {
+   "positions": 4471,
+   "violations": 0,
+   "smallest_slack": 0.006989808700259559
+  }
+ },
+ {
+  "seed": 116,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 4, keys ((5, 0), (4, 5, 0)), task state 4: output 2.0271 +- 0.3034 (symbols 0.1891, radius 0.1143) against target 2",
+  "secs": 0.5,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.33041427247826655
+ },
+ {
+  "seed": 117,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 4, keys ((2,), (4, 2, 3)), task state 1: output 3.9677 +- 0.2485 (symbols 0.1477, radius 0.1008) against target 4",
+  "secs": 2.7,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.28075813821129925
+ },
+ {
+  "seed": 118,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 7.7,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.11850107265851847,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 40,
+  "interval_test": {
+   "positions": 3969,
+   "violations": 0,
+   "smallest_slack": 0.007211254079452889
+  }
+ },
+ {
+  "seed": 119,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 4, keys ((2, 3), (4, 2, 3)), task state 1: output 3.9695 +- 0.4319 (symbols 0.0691, radius 0.3628) against target 4",
+  "secs": 2.8,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.4623440321321026
+ }
+]

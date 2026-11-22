@@ -1,0 +1,12 @@
+Freeze-list check, rung 9-LN and 9-LN15 (sha256 of the release copy against the list, as filtered of two reservation-wrapper scripts; CRLF normalised)
+
+freeze_r9ln.sha256: 1 match, 5 differ, 0 not included
+  differ: PREREG_R9LN.md, tools/r9ln.py, tools/r7.py, tools/r4_checks.py, tools/r5_checks.py
+freeze_r9ln15.sha256: 0 match, 2 differ, 0 not included
+  differ: PREREG_R9LN15.md, tools/r9ln.py
+freeze_r9ln15_a1.sha256: 3 match, 2 differ, 0 not included
+  differ: PREREG_R9LN15.md, tools/r9ln15_cert.py
+freeze_r9ln15_s3.sha256: 20 match, 6 differ, 0 not included
+  differ: PREREG_R9LN15.md, tools/r9ln15_cert.py, tools/make_r9ln15_net.py, tools/build_ln_net.py, tools/r9ln.py, tools/check.py
+
+All 20 `Lane4/LN*.lean` modules match the hashes in freeze_r9ln15_s3.sha256. The files that differ were changed by the release scrub (internal wording, run-environment instructions, local paths; `tools/build_ln_net.py` also lost its machine-scheduler gate) or are shared tools edited later (`tools/check.py` is the release's parameterised copy; `tools/r7.py`, `r4_checks.py`, `r5_checks.py`).

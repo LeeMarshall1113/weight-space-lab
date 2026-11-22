@@ -1,0 +1,171 @@
+[
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f402",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 961.2,
+    "commit": 5.07,
+    "within": true
+   },
+   {
+    "file": "B",
+    "rc": 0,
+    "secs": 1014.4,
+    "commit": 4.99,
+    "within": true
+   },
+   {
+    "file": "C",
+    "rc": 0,
+    "secs": 968.0,
+    "commit": 4.98,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 14.3,
+    "commit": 4.11,
+    "within": true
+   }
+  ],
+  "total_secs": 2957.9,
+  "limit_secs": 1500,
+  "max_commit": 5.07,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 2018.1,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f409",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 910.9,
+    "commit": 5.05,
+    "within": true
+   },
+   {
+    "file": "B",
+    "rc": 0,
+    "secs": 872.6,
+    "commit": 4.97,
+    "within": true
+   },
+   {
+    "file": "C",
+    "rc": 0,
+    "secs": 908.0,
+    "commit": 4.97,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 11.0,
+    "commit": 4.09,
+    "within": true
+   }
+  ],
+  "total_secs": 2702.5,
+  "limit_secs": 1500,
+  "max_commit": 5.05,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 2030.0,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/t113",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 708.3,
+    "commit": 5.04,
+    "within": true
+   },
+   {
+    "file": "B",
+    "rc": 0,
+    "secs": 666.6,
+    "commit": 4.96,
+    "within": true
+   },
+   {
+    "file": "C",
+    "rc": 0,
+    "secs": 668.2,
+    "commit": 4.96,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 11.1,
+    "commit": 4.08,
+    "within": true
+   }
+  ],
+  "total_secs": 2054.2,
+  "limit_secs": 1500,
+  "max_commit": 5.04,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 1946.3,
+  "tail": ""
+ },
+ {
+  "kind": "audit",
+  "files": 158,
+  "token_counts": {
+   "native_decide": 0,
+   "ofReduceBool": 0,
+   "sorry": 0,
+   "axiom": 0
+  },
+  "token_counts_attempts": {
+   "native_decide": 0,
+   "ofReduceBool": 0,
+   "sorry": 0,
+   "axiom": 0
+  }
+ }
+]

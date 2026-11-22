@@ -1,0 +1,22 @@
+{
+ "case": "ld",
+ "arm": "kit",
+ "pass": true,
+ "time": "2026-11-21 23:20:45",
+ "native_decide_attempted": false,
+ "rc": 0,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 11.6,
+ "peak_rss_gb": 1.85,
+ "peak_commit_gb": 4.05,
+ "lean_output": "runs\\r9ln15-kit\\ld\\_Full.lean:588:66: warning: Unused tactic linter: `simp` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r9ln15-kit\\ld\\_Full.lean:588:66: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\n'Lane4Final.final' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "reason": "kernel-checked",
+ "attempt": 3,
+ "attempts_left": 27
+}

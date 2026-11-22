@@ -1,0 +1,17 @@
+{
+ "case": "lf",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-22 00:18:35",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 92.9,
+ "peak_rss_gb": 1.92,
+ "peak_commit_gb": 4.14,
+ "lean_output": "runs\\r9ln15-kit\\lf\\_Full.lean:823:27: warning: Unused tactic linter: `ring` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r9ln15-kit\\lf\\_Full.lean:967:17: error: Application type mismatch: The argument\n  add_le_add_right (mul_le_mul_of_nonneg_right hu (abs_nonneg ?m.2477)) η\nhas type\n  η + u * |?m.2477| ≤ η + 1 / 2 ^ 24 * |?m.2477|\nbut is expected to have type\n  u * |r / N| + η ≤ 1 / 2 ^ 24 * |r / N| + η\nin the application\n  le_trans hf1 (add_le_add_right (mul_le_mul_of_nonneg_right hu (abs_nonneg ?m.2477)) η)\nruns\\r9ln15-kit\\lf\\_Full.lean:972:66: error: unsolved goals\nu η : ℝ\nfl : ℝ → ℝ\nN A r : ℝ\nhu0 : 0 ≤ u\nhu : u ≤ 1 / 2 ^ 24\nhη0 : 0 ≤ η\nhη : η ≤ 1 / 2 ^ 149\nhN1 : 1 ≤ N\nhN32 : N ≤ 32\nhA : 0 ≤ A\nhA4 : A ≤ 4096\nhFL : ∀ (x : ℝ), |x| ≤ 2 ^ 20 → |fl x - x| ≤ u * |x| + η\nhr : |r - A * N| ≤ u * (A * N) + N * η + 2 * N * u * ((1 + u) * (A * N) + N * η) + 2 * N * η\nhNpos : 0 < N\nhS : 0 < 2 ^ 56\nhT1 : 0 ≤ A * N\nhNη : 0 ≤ N * η\ns1 : |r - A * N| ≤ N * ((2 * N + 1) * (1 / 2 ^ 24) * (1 + 1 / 2 ^ 24) * A + 6 * η)\nhb' : (2 * N + 1) * (1 / 2 ^ 24) * (1 + 1 / 2 ^ 24) ≤ 1 / 2 ^ 17\nhb0 : 0 ≤ (2 * N + 1) * (1 / 2 ^ 24) * (1 + 1 / 2 ^ 24)\ns2 : |r / N - A| ≤ (2 * N + 1) * (1 / 2 ^ 24) * (1 + 1 / 2 ^ 24) * A + 6 * η\nhbA : (2 * N + 1) * (1 / 2 ^ 24) * (1 + 1 / 2 ^ 24) * A ≤ 1 / 2 ^ 17 * 4096\ns3 : |r / N| ≤ A + ((2 * N + 1) * (1 / 2 ^ 24) * (1 + 1 / 2 ^ 24) * A + 6 * η)\nhq20 : |r / N| ≤ 2 ^ 20\nhf1 : |fl (r / N) - r / N| ≤ u * |r / N| + η\nhf1' : |fl (r / N) - r / N| ≤ 1 / 2 ^ 24 * |r / N| + η\nhg : |fl (1 / 100000) - 1 / 100000| ≤ u * (1 / 100000) + η\n⊢ 0 ≤ ?m.2608\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 3,
+ "attempts_left": 27
+}

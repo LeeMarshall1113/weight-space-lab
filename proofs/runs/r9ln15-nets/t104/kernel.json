@@ -1,0 +1,39 @@
+{
+ "tag": "t104",
+ "files": [
+  {
+   "file": "A",
+   "rc": 0,
+   "secs": 84.8,
+   "commit": 4.65,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  },
+  {
+   "file": "Z",
+   "rc": 0,
+   "secs": 9.5,
+   "commit": 4.05,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  }
+ ],
+ "n_files": 2,
+ "all_within": true,
+ "four_file_rule": true,
+ "kernel": "accept",
+ "mirror": "accept",
+ "agree": true,
+ "theorems": [
+  "accept",
+  "skeleton_ok",
+  "binary32",
+  "trained_exact_all_lengths",
+  "trained_binary32"
+ ],
+ "axioms_standard": true,
+ "total_secs": 94.3,
+ "max_commit": 4.65
+}

@@ -1,0 +1,24 @@
+{
+ "tag": "t107",
+ "dir": "runs/r9ln-tune/A/n1/s107",
+ "net": "W14.json",
+ "seed": 107,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": false,
+ "mirror_reason": "case token 2, keys ((3,), (2, 3, 4)), task state 2: output 2.9685 +- 0.3993 (symbols 0.1471, radius 0.2521) against target 3",
+ "trained": true,
+ "files": [
+  "Z"
+ ],
+ "kind": "reject at a case",
+ "states": 17,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.4307809898251689
+ }
+}

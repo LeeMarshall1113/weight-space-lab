@@ -1,0 +1,48 @@
+PASS framework LNAll
+PASS  runs/r9ln15-kit/la 11.7s Classical.choice,Quot.sound,propext
+PASS  runs/r9ln15-kit/lb 11.6s Classical.choice,Quot.sound,propext
+PASS  runs/r9ln15-kit/lc 12.8s Classical.choice,Quot.sound,propext
+PASS  runs/r9ln15-kit/ld 13.4s Classical.choice,Quot.sound,propext
+PASS  runs/r9ln15-kit/le 17.0s Classical.choice,Quot.sound,propext
+PASS  runs/r9ln15-kit/lf 18.9s Classical.choice,Quot.sound,propext
+PASS  runs/r9ln15-kit/lg 33.1s Classical.choice,Quot.sound,propext
+PASS  runs/r9ln15-kit/lh 39.1s Classical.choice,Quot.sound,propext
+PASS  runs/r9ln15-kit/li 16.1s Classical.choice,Quot.sound,propext
+PASS  runs/r9ln15-kit/lj 9.1s Classical.choice,Quot.sound,propext
+PASS c_bias_half reject files 1 secs 12.5 commit 4.57
+PASS c_ln2neg reject files 1 secs 12.5 commit 4.58
+PASS c_negout reject files 1 secs 12.5 commit 4.57
+PASS c_rad16 reject files 1 secs 12.8 commit 4.58
+PASS c_rad64 reject files 1 secs 12.3 commit 4.53
+PASS c_swap12 reject files 1 secs 12.5 commit 4.57
+PASS f400 accept files 2 secs 442.4 commit 4.86
+PASS f401 accept files 2 secs 444.3 commit 4.85
+FAIL f402 None files 3 secs 2550.2 commit 5.06
+PASS f403 reject files 1 secs 17.2 commit 4.58
+PASS f404 accept files 2 secs 519.0 commit 4.82
+PASS f405 accept files 2 secs 543.5 commit 4.82
+PASS f407 accept files 2 secs 545.3 commit 4.84
+PASS f408 accept files 2 secs 657.3 commit 4.83
+FAIL f409 None files 1 secs 900.6 commit 5.04
+PASS f410 accept files 2 secs 527.4 commit 4.85
+PASS f411 reject files 1 secs 16.8 commit 4.61
+PASS f412 accept files 2 secs 612.1 commit 4.84
+PASS f413 reject files 1 secs 18.4 commit 4.62
+PASS f414 accept files 2 secs 507.0 commit 4.83
+PASS f415 reject files 1 secs 15.4 commit 4.57
+PASS f416 reject files 1 secs 16.7 commit 4.6
+PASS f417 accept files 2 secs 543.1 commit 4.86
+PASS f418 reject files 1 secs 16.1 commit 4.56
+PASS f419 accept files 2 secs 527.2 commit 4.83
+PASS t100 accept files 2 secs 563.2 commit 4.86
+PASS t101 accept files 2 secs 517.6 commit 4.84
+PASS t102 accept files 2 secs 517.2 commit 4.84
+PASS t103 accept files 2 secs 530.7 commit 4.89
+PASS t104 accept files 2 secs 119.7 commit 4.65
+PASS t104B reject files 1 secs 15.3 commit 4.57
+PASS t105 accept files 2 secs 503.0 commit 4.83
+PASS t107 reject files 1 secs 17.5 commit 4.6
+PASS t108 accept files 2 secs 539.4 commit 4.83
+PASS t109 accept files 2 secs 555.4 commit 4.84
+FAIL t113 None files 1 secs 900.7 commit 5.04
+total wall seconds: 15227; passed 44 of 47; failed: ['runs/r9ln15-nets/f402', 'runs/r9ln15-nets/f409', 'runs/r9ln15-nets/t113']; audit {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0} attempts {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0} files 158

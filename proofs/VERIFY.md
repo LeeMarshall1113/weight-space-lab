@@ -149,6 +149,49 @@ rebuilt. No external checker (nanoda, lean4lean, `lake comparator`) has been run
 `writeup/LEAN_VERSION.md` for the version check and why that is the natural next
 step. The toolchain is a release candidate.
 
+### 7. Rung 9-LN15 (LayerNorm; version 0.5; run 2026-11-22)
+
+Same toolchain (Lean `v4.35.0-rc3`, Mathlib `v4.35.0-rc3`, not rebuilt), a copy of the draft tree, one Lean
+process at a time, with `tools/recheck_ln15.py`. A network's file set passes when every file compiles (exit 0, no
+error, no `sorry`, within 900 s and 6 GB commit), every `#print axioms` is within `propext`, `Classical.choice`,
+`Quot.sound`, the kernel's decision (accept or reject) equals the one recorded in the folder's `kernel.json`, and an
+accepted network proves all five theorems (`accept`, `skeleton_ok`, `binary32`, `trained_exact_all_lengths`,
+`trained_binary32`). Kit cases go through `tools/check.py`. Rows and logs are in `results/`.
+
+| Run | Rows | Passed | Notes |
+|---|---|---|---|
+| Run 1: framework `LNAll` (20 LN modules), ten kit cases (`runs/r9ln15-kit`), 36 network file sets (`recheck-ln15.json`, `.log`; 15,227 s) | 47 | **44** | 1 framework build, 10 kit cases (10 pass), 36 file sets: 19 fresh (13 accept, 6 reject), 11 tuning (9 accept, 2 reject), 6 controls (6 reject). **The 3 non-passes are timeouts, below.** |
+| Run 2: the three non-passes of run 1, with a per-file limit of 1500 s (`recheck-ln15-rerun.json`, `.log`; 7,716 s) | 3 | **3** | `f402`, `f409`, `t113`: all five theorems, standard axioms, four files each, at most 5.07 GB commit. |
+
+**The three non-passes of run 1 were timeouts, not wrong results.** The three networks are the 780-case ones
+(fresh seeds 402 and 409, tuning seed 113). In run 1 `f402` file C took 904.1 s, `f409` file A 900.6 s and
+`t113` file A 900.7 s, against the registered 900 s per file (`PREREG_R9LN15.md`, rule KK); each file finished with
+exit 0 and no error, and the runner stopped the network at that file, so those three have no verdict in run 1. They
+were re-run with `--limit 1500`. **The registered 900 s per-file limit was not met on this machine for two of
+them in run 2**: `f402` files took 961, 1,014, 968 and 14 s, `f409` 911, 873, 908 and 11 s; `t113` stayed under it
+(708, 667, 668, 11 s). The lab's own runs of the same files took 674, 666, 667 and 11 s (`f402`); this machine was
+shared with other jobs and was slower. Read the counts as "all 36 file sets pass at 1500 s per file; 33 of 36 passed
+at the registered 900 s on the first run on this machine". The lab's own runs (`kernel.json` in each folder) recorded
+every file within 900 s, so rule KK is met in those runs and not reproduced to the second here. Memory stayed at or under 5.07 GB
+commit throughout.
+
+**Largest files that passed in run 1:** 642 s and 5.0 GB (a 155-case network's file); the 155-case networks take 380
+to 545 s here in two files.
+
+**Token audit** over the 158 new Lean files (the 20 LN modules, the kit and every network file; `Final`/`Solution`
+and attempt files counted separately): `native_decide` 0, `ofReduceBool` 0, `sorry` 0, `axiom` 0 in the final files and
+in every recorded attempt.
+
+**Freeze lists** (`results/freeze-check-ln15.txt`): all 20 `Lane4/LN*.lean` modules match the hashes listed before any
+fresh seed was trained; the Python tools and documents that differ were changed by the release scrub or are shared
+tools edited later.
+
+**What this does not show.** Not re-run: the Python mirror, the generator, the training and screen of the networks
+and the sampled numeric checks (`tools/ln15_checks.py`); the pre-check files of the tuning stage (`A-n1-s*`, `h-A-n1-s*`) and the text-model experiment (E3) are not in this release. The kit cases' attempt records are verdicts, not transcripts. Mathlib was
+not rebuilt, no external checker has been run on these files (see `writeup/LEAN_VERSION.md`), and the toolchain is a
+release candidate. The model, its relative rounding form and the square-root and exponential assumptions are part of
+the statement (`Lane4/LNNet.lean`) and the kernel does not check that they describe IEEE binary32.
+
 ## What this does not show
 
 - It re-checks that the recorded solutions are accepted by the Lean kernel against the

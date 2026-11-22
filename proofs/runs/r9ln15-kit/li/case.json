@@ -1,0 +1,11 @@
+{
+ "id": "li",
+ "arm": "kit",
+ "rung": 9,
+ "import": "LNB4",
+ "final_theorems": [
+  "Lane4Final.final"
+ ],
+ "max_attempts": 30,
+ "lean_timeout": 600
+}

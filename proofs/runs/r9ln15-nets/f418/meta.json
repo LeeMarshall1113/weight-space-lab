@@ -1,0 +1,23 @@
+{
+ "tag": "f418",
+ "dir": "runs/r9ln15-fresh/A/n1/s418",
+ "net": "W14.json",
+ "seed": 418,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": false,
+ "mirror_reason": "LNf: variance not bounded away from zero",
+ "trained": true,
+ "files": [
+  "Z"
+ ],
+ "kind": "reject at a case",
+ "states": 6,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   2
+  ]
+ }
+}

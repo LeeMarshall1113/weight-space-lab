@@ -1,0 +1,17 @@
+{
+ "case": "li",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-22 01:27:13",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 14.1,
+ "peak_rss_gb": 2.37,
+ "peak_commit_gb": 4.63,
+ "lean_output": "runs\\r9ln15-kit\\li\\_Full.lean:524:76: error: Application type mismatch: The argument\n  rfl\nhas type\n  ?m.417 = ?m.417\nbut is expected to have type\n  lnF dI ns c.W.gf c.W.bf none z = some zf\nin the application\n  And.intro rfl\nruns\\r9ln15-kit\\li\\_Full.lean:953:44: warning: Unused tactic linter: `omega` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r9ln15-kit\\li\\_Full.lean:953:22: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\nruns\\r9ln15-kit\\li\\_Full.lean:1072:4: error: linarith failed to find a contradiction\nro : ℝ\nTt : ℕ\no : FF\nhdev : |ro * 2 ^ 56 - ↑o.c| ≤ ↑o.dev\nhb : 4 * (iabs (o.c - ↑Tt * SC) + o.dev) ≤ SC\nhb1 : ↑(4 * (iabs (o.c - ↑Tt * SC) + o.dev)) ≤ ↑SC\nhb2 : 4 * (|↑o.c - ↑Tt * 2 ^ 56| + ↑o.dev) ≤ 2 ^ 56\nh2 : |ro * 2 ^ 56 - ↑Tt * 2 ^ 56| ≤ |ro * 2 ^ 56 - ↑o.c| + |↑o.c - ↑Tt * 2 ^ 56|\nh3 : |ro - ↑Tt| * 2 ^ 56 = |ro * 2 ^ 56 - ↑Tt * 2 ^ 56|\na✝ : 1 / 4 * 2 ^ 56 < |ro * 2 ^ 56 - ↑Tt * 2 ^ 56|\n⊢ False\nfailed\nruns\\r9ln15-kit\\li\\_Full.lean:1287:2: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.sound_ln`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 5,
+ "attempts_left": 25
+}

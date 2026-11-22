@@ -1,0 +1,28 @@
+{
+ "tag": "t104",
+ "dir": "runs/r9ln-tune/A/n1/s104",
+ "net": "W14.json",
+ "seed": 104,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": true,
+ "mirror_reason": "ok",
+ "trained": true,
+ "files": [
+  "A",
+  "Z"
+ ],
+ "kind": "accept",
+ "states": 6,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   1
+  ],
+  "worst": 0.08210611124711728,
+  "states": 6,
+  "table_rows": 30,
+  "cases": 30
+ }
+}

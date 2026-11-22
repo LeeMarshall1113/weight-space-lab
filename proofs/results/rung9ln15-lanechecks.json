@@ -1,0 +1,171 @@
+{
+ "400": {
+  "seed": 400,
+  "T_f32_dev_to_65534": 0.03483462333679199,
+  "T_f64_dev_to_65534": 0.03483460651958192,
+  "W14_inside_ball_dev": 0.03811849651715469,
+  "breaks_at_multiple": 64,
+  "mirror_ok": true,
+  "interval_test": {
+   "positions": 4324,
+   "violations": 0,
+   "smallest_slack": 0.006805479330796782
+  }
+ },
+ "401": {
+  "seed": 401,
+  "T_f32_dev_to_65534": 0.03303182125091553,
+  "T_f64_dev_to_65534": 0.03303182779117764,
+  "W14_inside_ball_dev": 0.040570459943889414,
+  "breaks_at_multiple": 32,
+  "mirror_ok": true,
+  "interval_test": {
+   "positions": 4708,
+   "violations": 0,
+   "smallest_slack": 0.011287780844935202
+  }
+ },
+ "402": {
+  "seed": 402,
+  "T_f32_dev_to_65534": 0.03880726546049118,
+  "T_f64_dev_to_65534": 0.038807050864009464,
+  "W14_inside_ball_dev": 0.04020035192740844,
+  "breaks_at_multiple": 64,
+  "mirror_ok": true,
+  "interval_test": {
+   "positions": 3757,
+   "violations": 0,
+   "smallest_slack": 0.005313375506819096
+  }
+ },
+ "404": {
+  "seed": 404,
+  "T_f32_dev_to_65534": 0.032019734382629395,
+  "T_f64_dev_to_65534": 0.03201939039970281,
+  "W14_inside_ball_dev": 0.03662386595221834,
+  "breaks_at_multiple": 64,
+  "mirror_ok": true,
+  "interval_test": {
+   "positions": 4215,
+   "violations": 0,
+   "smallest_slack": 0.006914973742507602
+  }
+ },
+ "405": {
+  "seed": 405,
+  "T_f32_dev_to_65534": 0.03189533203840256,
+  "T_f64_dev_to_65534": 0.031895147526510244,
+  "W14_inside_ball_dev": 0.039618542699795034,
+  "breaks_at_multiple": 32,
+  "mirror_ok": true,
+  "interval_test": {
+   "positions": 3945,
+   "violations": 0,
+   "smallest_slack": 0.004572945575603615
+  }
+ },
+ "407": {
+  "seed": 407,
+  "T_f32_dev_to_65534": 0.033917903900146484,
+  "T_f64_dev_to_65534": 0.033917857722121525,
+  "W14_inside_ball_dev": 0.044385644700353666,
+  "breaks_at_multiple": 32,
+  "mirror_ok": true,
+  "interval_test": {
+   "positions": 4565,
+   "violations": 0,
+   "smallest_slack": 0.006160201273663082
+  }
+ },
+ "408": {
+  "seed": 408,
+  "T_f32_dev_to_65534": 0.03192037343978882,
+  "T_f64_dev_to_65534": 0.03192017701701866,
+  "W14_inside_ball_dev": 0.036145335772600706,
+  "breaks_at_multiple": 64,
+  "mirror_ok": true,
+  "interval_test": {
+   "positions": 4922,
+   "violations": 0,
+   "smallest_slack": 0.006272712797454449
+  }
+ },
+ "409": {
+  "seed": 409,
+  "T_f32_dev_to_65534": 0.04403030872344971,
+  "T_f64_dev_to_65534": 0.0440312541612331,
+  "W14_inside_ball_dev": 0.04501328220485701,
+  "breaks_at_multiple": 64,
+  "mirror_ok": true,
+  "interval_test": {
+   "positions": 4556,
+   "violations": 0,
+   "smallest_slack": 0.00460370952286171
+  }
+ },
+ "410": {
+  "seed": 410,
+  "T_f32_dev_to_65534": 0.03393542766571045,
+  "T_f64_dev_to_65534": 0.03393552639835895,
+  "W14_inside_ball_dev": 0.03606497476209736,
+  "breaks_at_multiple": 64,
+  "mirror_ok": true,
+  "interval_test": {
+   "positions": 4157,
+   "violations": 0,
+   "smallest_slack": 0.004722810057224525
+  }
+ },
+ "412": {
+  "seed": 412,
+  "T_f32_dev_to_65534": 0.031464576721191406,
+  "T_f64_dev_to_65534": 0.03146300760810128,
+  "W14_inside_ball_dev": 0.03850375059306588,
+  "breaks_at_multiple": 32,
+  "mirror_ok": true,
+  "interval_test": {
+   "positions": 4078,
+   "violations": 0,
+   "smallest_slack": 0.008496880072993651
+  }
+ },
+ "414": {
+  "seed": 414,
+  "T_f32_dev_to_65534": 0.03189074993133545,
+  "T_f64_dev_to_65534": 0.031890583171781395,
+  "W14_inside_ball_dev": 0.03813614654922537,
+  "breaks_at_multiple": 64,
+  "mirror_ok": true,
+  "interval_test": {
+   "positions": 5200,
+   "violations": 0,
+   "smallest_slack": 0.007378941878282141
+  }
+ },
+ "417": {
+  "seed": 417,
+  "T_f32_dev_to_65534": 0.035387516021728516,
+  "T_f64_dev_to_65534": 0.035387458432857066,
+  "W14_inside_ball_dev": 0.03665630781473661,
+  "breaks_at_multiple": 64,
+  "mirror_ok": true,
+  "interval_test": {
+   "positions": 3780,
+   "violations": 0,
+   "smallest_slack": 0.006752359673213526
+  }
+ },
+ "419": {
+  "seed": 419,
+  "T_f32_dev_to_65534": 0.03269171714782715,
+  "T_f64_dev_to_65534": 0.032691359957348176,
+  "W14_inside_ball_dev": 0.04327591305174405,
+  "breaks_at_multiple": 64,
+  "mirror_ok": true,
+  "interval_test": {
+   "positions": 4536,
+   "violations": 0,
+   "smallest_slack": 0.006789303485669418
+  }
+ }
+}

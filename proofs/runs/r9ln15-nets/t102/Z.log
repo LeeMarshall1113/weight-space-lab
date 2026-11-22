@@ -1,0 +1,9 @@
+runs\r9ln15-nets\t102\Z.lean:91:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+'Lane4.LNNetFile.accept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.LNNetFile.skeleton_ok' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.LNNetFile.binary32' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.LNNetFile.trained_exact_all_lengths' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.LNNetFile.trained_binary32' depends on axioms: [propext, Classical.choice, Quot.sound]

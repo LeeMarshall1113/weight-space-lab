@@ -1,0 +1,17 @@
+{
+ "case": "li",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-22 01:08:30",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 9.8,
+ "peak_rss_gb": 1.76,
+ "peak_commit_gb": 3.99,
+ "lean_output": "runs\\r9ln15-kit\\li\\_Full.lean:377:4: error: omega could not prove the goal:\na possible counterexample may satisfy the constraints\n  f ≥ 0\n  e ≥ 0\n  e - f ≥ 0\n  c ≥ 0\n  c - f ≤ -1\n  b ≥ 0\n  b - c ≤ 0\n  a ≥ 0\n  a - c ≤ 0\nwhere\n a := ↑(refRank h hc q keys)\n b := ↑(otherRanks keys.length (refRank h hc q keys)).length\n c := ↑(keys.length - 1)\n e := ↑(List.map (fun k => (vAt hc (keys.getD k 0) r).1 - (vAt hc (keys.getD (refRank h hc q keys) 0) r).1)\n      (otherRanks keys.length (refRank h hc q keys))).length\n f := ↑rs.length\nruns\\r9ln15-kit\\li\\_Full.lean:384:2: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.sound_ln`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 1,
+ "attempts_left": 29
+}

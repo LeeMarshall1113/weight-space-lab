@@ -1,0 +1,24 @@
+{
+ "tag": "c_negout",
+ "dir": "runs/r9ln15-ctl/negout",
+ "net": "W14.json",
+ "seed": 104,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": false,
+ "mirror_reason": "case token 2, keys ((0,), (2, 0)), task state 0: output -0.9681 +- 0.0098 (symbols 0.0090, radius 0.0007) against target 1",
+ "trained": false,
+ "files": [
+  "Z"
+ ],
+ "kind": "reject at a case",
+ "states": 2,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   1
+  ],
+  "worst": 1.977885709106619
+ }
+}

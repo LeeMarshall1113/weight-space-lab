@@ -1,0 +1,57 @@
+{
+ "tag": "t113",
+ "files": [
+  {
+   "file": "A",
+   "rc": 0,
+   "secs": 653.3,
+   "commit": 5.04,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  },
+  {
+   "file": "B",
+   "rc": 0,
+   "secs": 641.2,
+   "commit": 4.97,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  },
+  {
+   "file": "C",
+   "rc": 0,
+   "secs": 641.6,
+   "commit": 4.96,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  },
+  {
+   "file": "Z",
+   "rc": 0,
+   "secs": 10.2,
+   "commit": 4.07,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  }
+ ],
+ "n_files": 4,
+ "all_within": true,
+ "four_file_rule": true,
+ "kernel": "accept",
+ "mirror": "accept",
+ "agree": true,
+ "theorems": [
+  "accept",
+  "skeleton_ok",
+  "binary32",
+  "trained_exact_all_lengths",
+  "trained_binary32"
+ ],
+ "axioms_standard": true,
+ "total_secs": 1946.3,
+ "max_commit": 5.04
+}

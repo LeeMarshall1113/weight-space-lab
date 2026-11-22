@@ -1,0 +1,17 @@
+{
+ "case": "li",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-22 01:30:41",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": true,
+ "secs": 19.2,
+ "peak_rss_gb": 4.69,
+ "peak_commit_gb": 6.98,
+ "lean_output": "",
+ "reason": "lean passed the memory limit (4.5 GB); make the proof smaller",
+ "attempt": 10,
+ "attempts_left": 20
+}

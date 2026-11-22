@@ -1,0 +1,17 @@
+{
+ "case": "li",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-22 01:30:17",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 15.5,
+ "peak_rss_gb": 2.97,
+ "peak_commit_gb": 5.24,
+ "lean_output": "runs\\r9ln15-kit\\li\\_Full.lean:524:100: warning: Unused tactic linter: `rfl` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r9ln15-kit\\li\\_Full.lean:524:130: warning: Unused tactic linter: `rfl` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r9ln15-kit\\li\\_Full.lean:524:164: warning: Unused tactic linter: `rfl` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r9ln15-kit\\li\\_Full.lean:524:193: warning: Unused tactic linter: `rfl` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r9ln15-kit\\li\\_Full.lean:524:223: warning: Unused tactic linter: `rfl` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r9ln15-kit\\li\\_Full.lean:524:100: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r9ln15-kit\\li\\_Full.lean:524:130: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r9ln15-kit\\li\\_Full.lean:524:164: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r9ln15-kit\\li\\_Full.lean:524:193: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r9ln15-kit\\li\\_Full.lean:524:223: warning: this tactic is never executed\n\nNote: This linter can be disabled with `set_option linter.unreachableTactic false`\nruns\\r9ln15-kit\\li\\_Full.lean:953:44: warning: Unused tactic linter: `omega` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\nruns\\r9ln15-kit\\li\\_Full.lean:953:22: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\nruns\\r9ln15-kit\\li\\_Full.lean:1440:2: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.sound_ln`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 9,
+ "attempts_left": 21
+}

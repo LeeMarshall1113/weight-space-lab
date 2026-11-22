@@ -1,0 +1,311 @@
+[
+ {
+  "seed": 100,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 8.5,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.1930871779228694,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 44,
+  "interval_test": {
+   "positions": 3829,
+   "violations": 0,
+   "smallest_slack": 0.008892277050877879
+  }
+ },
+ {
+  "seed": 101,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9606 +- 0.3947 (symbols 0.0761, radius 0.3187) against target 4",
+  "secs": 0.4,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.43415301932422856
+ },
+ {
+  "seed": 102,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9949 +- 0.2727 (symbols 0.0270, radius 0.2457) against target 4",
+  "secs": 0.4,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.2777824918315603
+ },
+ {
+  "seed": 103,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 2, keys ((3, 4), (2, 3, 4)), task state 2: output 2.9685 +- 0.8418 (symbols 0.1426, radius 0.6992) against target 3",
+  "secs": 1.7,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.8732898363300547
+ },
+ {
+  "seed": 104,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 1.6,
+  "window": [
+   1,
+   1
+  ],
+  "worst": 0.1449586195190155,
+  "states": 6,
+  "table_rows": 30,
+  "cases": 30,
+  "symbols": 42,
+  "interval_test": {
+   "positions": 3486,
+   "violations": 0,
+   "smallest_slack": 0.011559746481641486
+  }
+ },
+ {
+  "seed": 105,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9689 +- 0.4220 (symbols 0.0531, radius 0.3690) against target 4",
+  "secs": 0.4,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.4531717698714627
+ },
+ {
+  "seed": 106,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 2, keys ((4, 5), (2, 4, 5)), task state 3: output 3.9699 +- 0.3002 (symbols 0.0180, radius 0.2822) against target 4",
+  "secs": 1.0,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.33028193307289416
+ },
+ {
+  "seed": 107,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 4, keys ((0,), (4, 0)), task state 0: output 2.9771 +- 0.2759 (symbols 0.1101, radius 0.1657) against target 3",
+  "secs": 0.3,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.2987664410093726
+ },
+ {
+  "seed": 108,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 2, keys ((4,), (2, 4, 5)), task state 3: output 3.9696 +- 0.3904 (symbols 0.1591, radius 0.2313) against target 4",
+  "secs": 0.9,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.4207524780315053
+ },
+ {
+  "seed": 109,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9705 +- 0.4574 (symbols 0.0451, radius 0.4123) against target 4",
+  "secs": 0.4,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.4869327639225865
+ },
+ {
+  "seed": 110,
+  "s1_ok": false,
+  "screen": false,
+  "mode": 9
+ },
+ {
+  "seed": 111,
+  "s1_ok": false,
+  "screen": false,
+  "mode": 9
+ },
+ {
+  "seed": 112,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 7.7,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.24461422264181581,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 40,
+  "interval_test": {
+   "positions": 5365,
+   "violations": 0,
+   "smallest_slack": 0.006264328609308478
+  }
+ },
+ {
+  "seed": 113,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 2, keys ((4,), (2, 4, 5, 5)), task state 3: output 3.9718 +- 0.4128 (symbols 0.1254, radius 0.2874) against target 4",
+  "secs": 1.2,
+  "window": [
+   1,
+   3
+  ],
+  "worst": 0.4409515781839586
+ },
+ {
+  "seed": 114,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 41.6,
+  "window": [
+   3,
+   3
+  ],
+  "worst": 0.22259797245472238,
+  "states": 156,
+  "table_rows": 780,
+  "cases": 780,
+  "symbols": 45,
+  "interval_test": {
+   "positions": 4317,
+   "violations": 0,
+   "smallest_slack": 0.013045820980954304
+  }
+ },
+ {
+  "seed": 115,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": true,
+  "reason": "ok",
+  "secs": 7.7,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.13270543168266502,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 42,
+  "interval_test": {
+   "positions": 4471,
+   "violations": 0,
+   "smallest_slack": 0.013267994042682307
+  }
+ },
+ {
+  "seed": 116,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 2, keys ((5, 0), (2, 5, 0)), task state 4: output -0.0304 +- 0.3520 (symbols 0.2728, radius 0.0792) against target 0",
+  "secs": 0.4,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.3823964508303944
+ },
+ {
+  "seed": 117,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 4, keys ((2,), (4, 2, 3)), task state 1: output 3.9676 +- 0.5835 (symbols 0.2354, radius 0.3480) against target 4",
+  "secs": 2.7,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.615827566949032
+ },
+ {
+  "seed": 118,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 2, keys ((4,), (2, 4, 1)), task state 3: output 3.9705 +- 0.2474 (symbols 0.0585, radius 0.1889) against target 4",
+  "secs": 4.3,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.2769067337809949
+ },
+ {
+  "seed": 119,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 9,
+  "ok": false,
+  "reason": "case token 4, keys ((2, 3), (4, 2, 3)), task state 1: output 3.9700 +- 2.8366 (symbols 0.1182, radius 2.7184) against target 4",
+  "secs": 2.8,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 2.8666438228813917
+ }
+]

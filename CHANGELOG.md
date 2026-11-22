@@ -4,12 +4,28 @@ Corrections, downgrades and additions, newest first. Reporters are credited unle
 ask otherwise. A claim that is narrowed or retracted is also downgraded in the index table
 in `README.md`; it is not silently edited.
 
-## Unreleased (after v0.4)
+## v0.5 (2026-11-22)
 
+- `proofs/` extended with rung 9-LN15 (LayerNorm), with the report at version 0.11
+  (`proofs/REPORT.md`, Sections 6.12 and 6.13, claims rows 38 to 41, a new list of caveats after the
+  rung 6a to 8 caveats). **It is a post-hoc rung.**
+  - Rung 9-LN, registered at ball 2^-14, **failed its kill rule** (5 of 18 tuning networks accepted by the
+    exact-rational prototype, the line was 6). It is published as a failure with its own documents
+    (`proofs/docs/PREREG_R9LN.md`, `RESULTS_R9LN.md`) and no Lean was written for it.
+  - Rung 9-LN15: radius 2^-15, the enclosure design, the symbol layout and fixed-point arithmetic were
+    chosen after the failure on the same 18 tuning networks (five checker variants tried). One soundness
+    theorem `Lane4.LNC.SoundLN` (20 new modules `Lane4/LN*.lean`, ten kit cases proved by agents or by
+    text-substitution ports of rung 8), then a generated Lean file set per network. Fresh seeds 400 to 419:
+    20 trained, 19 compute the task and pass the screen, **13 of 19 proved**, 6 screened networks compute the
+    task and are not proved; bar 3 of 3; 7 of 7 controls rejected. The method did not carry to real text.
+  - New tools: `tools/recheck_ln15.py`, `build_ln_net.py`, `make_r9ln15_net.py`, `r9ln15_cert.py` and the
+    prototype and diagnostic scripts of the failed rung. `tools/check.py`: module table extended.
+  - `proofs/VERIFY.md` Section 7: the re-check of all new Lean files. 44 of 47 passed in the first run; the other three (the 780-case file sets `f402`, `f409`, `t113`) each had one file exceed the registered 900 s limit by under 5 s on a shared machine, and passed on a re-run at a 1500 s limit (two of them again exceeded 900 s per file, up to 1,014 s). The lab's own runs were inside 900 s.
+  - README: a new "Latest" bullet, a claims row and caveat 12.
 - `proofs/writeup/NOVELTY_R8.md`: new section on related work for the mechanism rows. Three works
   on extracting programs from transformers were not cited in v0.4 (BlockCert, arXiv 2511.17645;
   Zhang et al., arXiv 2406.05564; Adriaensen and Maene, IDA 2025). No claim or number changes; the
-  section says the extraction idea is not new.
+  section says the extraction idea is not new. (Committed after v0.4.)
 
 ## v0.4 (2026-11-21)
 

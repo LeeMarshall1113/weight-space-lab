@@ -1,0 +1,24 @@
+{
+ "tag": "c_bias_half",
+ "dir": "runs/r9ln15-ctl/bias_half",
+ "net": "W14.json",
+ "seed": 104,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": false,
+ "mirror_reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.5307 +- 0.0123 (symbols 0.0113, radius 0.0010) against target 0",
+ "trained": false,
+ "files": [
+  "Z"
+ ],
+ "kind": "reject at a case",
+ "states": 1,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   1
+  ],
+  "worst": 0.5430040725068329
+ }
+}

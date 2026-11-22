@@ -1,0 +1,440 @@
+[
+ {
+  "seed": 100,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 37.1,
+  "ln1_radius_max": 0.000164801583801083,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.17677425408023098,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 367,
+  "worst_symbol_part": 0.009815110765406004,
+  "worst_radius_part": 0.1426537661291086,
+  "interval_test": {
+   "positions": 3829,
+   "violations": 0,
+   "smallest_slack": 0.007537104278629192
+  }
+ },
+ {
+  "seed": 101,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 35.5,
+  "ln1_radius_max": 0.00017908483523394747,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.13214182790639276,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 366,
+  "worst_symbol_part": 0.005349056955980314,
+  "worst_radius_part": 0.0995959149975504,
+  "interval_test": {
+   "positions": 4588,
+   "violations": 0,
+   "smallest_slack": 0.0037536956713543554
+  }
+ },
+ {
+  "seed": 102,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 36.7,
+  "ln1_radius_max": 0.0003257658282338066,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.1250078484223361,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 355,
+  "worst_symbol_part": 0.0037284518659209814,
+  "worst_radius_part": 0.09339170063593658,
+  "interval_test": {
+   "positions": 3403,
+   "violations": 0,
+   "smallest_slack": 0.007444354313197163
+  }
+ },
+ {
+  "seed": 103,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 37.7,
+  "ln1_radius_max": 0.00040426594310613573,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.11820397459328276,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 366,
+  "worst_symbol_part": 0.009631524450040535,
+  "worst_radius_part": 0.08673796386031164,
+  "interval_test": {
+   "positions": 4410,
+   "violations": 0,
+   "smallest_slack": 0.007813621227632295
+  }
+ },
+ {
+  "seed": 104,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 6.8,
+  "ln1_radius_max": 9.586049718264544e-05,
+  "window": [
+   1,
+   1
+  ],
+  "worst": 0.13329563610036868,
+  "states": 6,
+  "table_rows": 30,
+  "cases": 30,
+  "symbols": 357,
+  "worst_symbol_part": 0.0036381291248741288,
+  "worst_radius_part": 0.09718229804715764,
+  "interval_test": {
+   "positions": 3486,
+   "violations": 0,
+   "smallest_slack": 0.007053867824287519
+  }
+ },
+ {
+  "seed": 105,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 35.5,
+  "ln1_radius_max": 0.0003677782580573663,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.11135502756733025,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 364,
+  "worst_symbol_part": 0.005151844688199847,
+  "worst_radius_part": 0.08018090690532473,
+  "interval_test": {
+   "positions": 4905,
+   "violations": 0,
+   "smallest_slack": 0.0033834215000804434
+  }
+ },
+ {
+  "seed": 106,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 36.1,
+  "ln1_radius_max": 0.00016644654487610322,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.231516516508477,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 380,
+  "worst_symbol_part": 0.018360883877330897,
+  "worst_radius_part": 0.18865983466223152,
+  "interval_test": {
+   "positions": 4309,
+   "violations": 0,
+   "smallest_slack": 0.006474430084263738
+  }
+ },
+ {
+  "seed": 107,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 34.9,
+  "ln1_radius_max": 0.0012908772505838134,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.134191071190737,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 356,
+  "worst_symbol_part": 0.015564566270036828,
+  "worst_radius_part": 0.10117593252640802,
+  "interval_test": {
+   "positions": 3913,
+   "violations": 0,
+   "smallest_slack": 0.006135461145045928
+  }
+ },
+ {
+  "seed": 108,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 5, keys ((1,), (5, 1, 2)), task state 0: output 3.9685 +- 0.3650 (symbols 0.0028, radius 0.3623) against target 4",
+  "secs": 18.2,
+  "ln1_radius_max": 0.00010228624264142783,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.396550762326688
+ },
+ {
+  "seed": 109,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9705 +- 0.2356 (symbols 0.0023, radius 0.2333) against target 4",
+  "secs": 1.3,
+  "ln1_radius_max": 9.191620253044819e-05,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.2651157686121511
+ },
+ {
+  "seed": 110,
+  "s1_ok": false,
+  "screen": false
+ },
+ {
+  "seed": 111,
+  "s1_ok": false,
+  "screen": false
+ },
+ {
+  "seed": 112,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 35.0,
+  "ln1_radius_max": 0.00010388501163161035,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.17203846929911618,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 354,
+  "worst_symbol_part": 0.004590852422907368,
+  "worst_radius_part": 0.13699513248058937,
+  "interval_test": {
+   "positions": 5365,
+   "violations": 0,
+   "smallest_slack": 0.004404474904998956
+  }
+ },
+ {
+  "seed": 113,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 177.2,
+  "ln1_radius_max": 0.0005285088303081387,
+  "window": [
+   1,
+   3
+  ],
+  "worst": 0.18328332852739748,
+  "states": 156,
+  "table_rows": 780,
+  "cases": 780,
+  "symbols": 355,
+  "worst_symbol_part": 0.006128776755877072,
+  "worst_radius_part": 0.15065883737550037,
+  "interval_test": {
+   "positions": 4509,
+   "violations": 0,
+   "smallest_slack": 0.0059612786660665495
+  }
+ },
+ {
+  "seed": 114,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 186.4,
+  "ln1_radius_max": 0.000163732774864922,
+  "window": [
+   3,
+   3
+  ],
+  "worst": 0.1516174887834857,
+  "states": 156,
+  "table_rows": 780,
+  "cases": 780,
+  "symbols": 377,
+  "worst_symbol_part": 0.005236975649642414,
+  "worst_radius_part": 0.12871822506517697,
+  "interval_test": {
+   "positions": 4317,
+   "violations": 0,
+   "smallest_slack": 0.008579985842534752
+  }
+ },
+ {
+  "seed": 115,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 34.7,
+  "ln1_radius_max": 0.0001564902375087579,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.12195067845786853,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 381,
+  "worst_symbol_part": 0.007299450115205053,
+  "worst_radius_part": 0.09038302622791972,
+  "interval_test": {
+   "positions": 4471,
+   "violations": 0,
+   "smallest_slack": 0.00774881480729803
+  }
+ },
+ {
+  "seed": 116,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 34.0,
+  "ln1_radius_max": 0.0009410696345645425,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.12002268349588449,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 350,
+  "worst_symbol_part": 0.011932520274990505,
+  "worst_radius_part": 0.0884179106162947,
+  "interval_test": {
+   "positions": 4531,
+   "violations": 0,
+   "smallest_slack": 0.005568780968760345
+  }
+ },
+ {
+  "seed": 117,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 36.2,
+  "ln1_radius_max": 0.00023566378673864352,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.20100090814296187,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 353,
+  "worst_symbol_part": 0.019407742436856834,
+  "worst_radius_part": 0.14936076729040254,
+  "interval_test": {
+   "positions": 3872,
+   "violations": 0,
+   "smallest_slack": 0.005940102423656501
+  }
+ },
+ {
+  "seed": 118,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 34.4,
+  "ln1_radius_max": 0.0005471705747950723,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.11836514437294123,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 340,
+  "worst_symbol_part": 0.004630389096575177,
+  "worst_radius_part": 0.08712266014305574,
+  "interval_test": {
+   "positions": 3969,
+   "violations": 0,
+   "smallest_slack": 0.009412882002327913
+  }
+ },
+ {
+  "seed": 119,
+  "s1_ok": true,
+  "screen": true,
+  "ok": true,
+  "reason": "ok",
+  "secs": 36.9,
+  "ln1_radius_max": 0.00040309914910990896,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.13664647610685812,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 372,
+  "worst_symbol_part": 0.009060773307133993,
+  "worst_radius_part": 0.09685592246862708,
+  "interval_test": {
+   "positions": 4339,
+   "violations": 0,
+   "smallest_slack": 0.005375488703838749
+  }
+ }
+]

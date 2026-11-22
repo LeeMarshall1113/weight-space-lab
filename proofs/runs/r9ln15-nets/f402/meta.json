@@ -1,0 +1,30 @@
+{
+ "tag": "f402",
+ "dir": "runs/r9ln15-fresh/A/n1/s402",
+ "net": "W14.json",
+ "seed": 402,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": true,
+ "mirror_reason": "ok",
+ "trained": true,
+ "files": [
+  "A",
+  "B",
+  "C",
+  "Z"
+ ],
+ "kind": "accept",
+ "states": 156,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   3
+  ],
+  "worst": 0.08378608541787586,
+  "states": 156,
+  "table_rows": 780,
+  "cases": 780
+ }
+}

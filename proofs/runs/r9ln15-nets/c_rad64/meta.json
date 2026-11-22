@@ -1,0 +1,23 @@
+{
+ "tag": "c_rad64",
+ "dir": "runs/r9ln15-ctl/rad64",
+ "net": "W14.json",
+ "seed": 104,
+ "radius": "1/512",
+ "task_as": "A",
+ "mirror_ok": false,
+ "mirror_reason": "LNf: variance not bounded away from zero",
+ "trained": false,
+ "files": [
+  "Z"
+ ],
+ "kind": "reject at a case",
+ "states": 1,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   1
+  ]
+ }
+}

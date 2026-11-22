@@ -1,0 +1,329 @@
+[
+ {
+  "seed": 100,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": true,
+  "reason": "ok",
+  "secs": 8.5,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.193086291643611,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 44,
+  "interval_test": {
+   "positions": 3829,
+   "violations": 0,
+   "smallest_slack": 0.008892275945441636
+  }
+ },
+ {
+  "seed": 101,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": false,
+  "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9622 +- 0.3035 (symbols 0.0656, radius 0.2380) against target 4",
+  "secs": 0.3,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.34132230740445235
+ },
+ {
+  "seed": 102,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": true,
+  "reason": "ok",
+  "secs": 7.8,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.24406031169036682,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 42,
+  "interval_test": {
+   "positions": 3403,
+   "violations": 0,
+   "smallest_slack": 0.014592575859014176
+  }
+ },
+ {
+  "seed": 103,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": false,
+  "reason": "case token 2, keys ((3, 4), (2, 3, 4)), task state 2: output 2.9690 +- 0.6478 (symbols 0.1306, radius 0.5172) against target 3",
+  "secs": 1.5,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.6788537301192616
+ },
+ {
+  "seed": 104,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": true,
+  "reason": "ok",
+  "secs": 1.4,
+  "window": [
+   1,
+   1
+  ],
+  "worst": 0.14495861929859422,
+  "states": 6,
+  "table_rows": 30,
+  "cases": 30,
+  "symbols": 42,
+  "interval_test": {
+   "positions": 3486,
+   "violations": 0,
+   "smallest_slack": 0.01155974646026614
+  }
+ },
+ {
+  "seed": 105,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": false,
+  "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9688 +- 0.3456 (symbols 0.0495, radius 0.2961) against target 4",
+  "secs": 0.3,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.3768373085069181
+ },
+ {
+  "seed": 106,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": false,
+  "reason": "case token 4, keys ((2, 3), (4, 2, 3)), task state 1: output 3.9692 +- 0.5156 (symbols 0.1223, radius 0.3932) against target 4",
+  "secs": 2.6,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.5463161704015412
+ },
+ {
+  "seed": 107,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": false,
+  "reason": "case token 1, keys ((4,), (1, 4, 5)), task state 3: output 3.0264 +- 0.3047 (symbols 0.1438, radius 0.1609) against target 3",
+  "secs": 0.8,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.33113467315044537
+ },
+ {
+  "seed": 108,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": false,
+  "reason": "case token 2, keys ((4,), (2, 4, 5)), task state 3: output 3.9698 +- 0.2922 (symbols 0.1329, radius 0.1593) against target 4",
+  "secs": 0.8,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.3224258904405565
+ },
+ {
+  "seed": 109,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": false,
+  "reason": "case token 1, keys ((5,), (1, 5, 0)), task state 4: output 3.9705 +- 0.4537 (symbols 0.0451, radius 0.4086) against target 4",
+  "secs": 0.3,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.4831881452845169
+ },
+ {
+  "seed": 110,
+  "s1_ok": false,
+  "screen": false,
+  "mode": 8
+ },
+ {
+  "seed": 111,
+  "s1_ok": false,
+  "screen": false,
+  "mode": 8
+ },
+ {
+  "seed": 112,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": true,
+  "reason": "ok",
+  "secs": 7.2,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.2107846872104248,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 40,
+  "interval_test": {
+   "positions": 5365,
+   "violations": 0,
+   "smallest_slack": 0.0062643157541426575
+  }
+ },
+ {
+  "seed": 113,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": false,
+  "reason": "case token 2, keys ((4,), (2, 4, 5, 5)), task state 3: output 3.9718 +- 0.4117 (symbols 0.1252, radius 0.2865) against target 4",
+  "secs": 1.1,
+  "window": [
+   1,
+   3
+  ],
+  "worst": 0.4399739759821176
+ },
+ {
+  "seed": 114,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": true,
+  "reason": "ok",
+  "secs": 38.2,
+  "window": [
+   3,
+   3
+  ],
+  "worst": 0.2224819247730452,
+  "states": 156,
+  "table_rows": 780,
+  "cases": 780,
+  "symbols": 45,
+  "interval_test": {
+   "positions": 4317,
+   "violations": 0,
+   "smallest_slack": 0.013045820980760237
+  }
+ },
+ {
+  "seed": 115,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": true,
+  "reason": "ok",
+  "secs": 7.2,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.12037162798488504,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 42,
+  "interval_test": {
+   "positions": 4471,
+   "violations": 0,
+   "smallest_slack": 0.013267979002681063
+  }
+ },
+ {
+  "seed": 116,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": false,
+  "reason": "case token 2, keys ((5, 0), (2, 5, 0)), task state 4: output -0.0304 +- 0.3520 (symbols 0.2728, radius 0.0792) against target 0",
+  "secs": 0.3,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.382396391678508
+ },
+ {
+  "seed": 117,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": false,
+  "reason": "case token 4, keys ((2,), (4, 2, 3)), task state 1: output 3.9677 +- 0.4198 (symbols 0.1912, radius 0.2286) against target 4",
+  "secs": 2.5,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.4520797595222299
+ },
+ {
+  "seed": 118,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": true,
+  "reason": "ok",
+  "secs": 7.1,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.22171597200688203,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155,
+  "symbols": 40,
+  "interval_test": {
+   "positions": 3969,
+   "violations": 0,
+   "smallest_slack": 0.014836289716210871
+  }
+ },
+ {
+  "seed": 119,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 8,
+  "ok": false,
+  "reason": "case token 4, keys ((2, 3), (4, 2, 3)), task state 1: output 3.9698 +- 1.5059 (symbols 0.1038, radius 1.4021) against target 4",
+  "secs": 2.5,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 1.5361558339997574
+ }
+]

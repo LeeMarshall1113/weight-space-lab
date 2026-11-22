@@ -1,0 +1,336 @@
+[
+ {
+  "seed": 100,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0240 +- 0.3283 against target 0",
+  "secs": 0.1,
+  "ln1_radius_max": 0.005703528353722317,
+  "window": [
+   2,
+   2
+  ],
+  "spread": [
+   25.7,
+   28.17
+  ],
+  "worst": 0.35226386045613084
+ },
+ {
+  "seed": 101,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 3, keys ((0,), (3, 0)), task state 0: output 2.0131 +- 0.3691 against target 2",
+  "secs": 0.1,
+  "ln1_radius_max": 0.005884576635716432,
+  "window": [
+   1,
+   2
+  ],
+  "spread": [
+   0.01,
+   25.4
+  ],
+  "worst": 0.38215845904940116
+ },
+ {
+  "seed": 102,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0358 +- 1.6017 against target 0",
+  "secs": 0.1,
+  "ln1_radius_max": 0.017924035030972736,
+  "window": [
+   1,
+   2
+  ],
+  "spread": [
+   0.2,
+   26.04
+  ],
+  "worst": 1.6374608339173304
+ },
+ {
+  "seed": 103,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0289 +- 0.6707 against target 0",
+  "secs": 0.1,
+  "ln1_radius_max": 0.024030139315710214,
+  "window": [
+   2,
+   2
+  ],
+  "spread": [
+   27.19,
+   27.96
+  ],
+  "worst": 0.6995799201012184
+ },
+ {
+  "seed": 104,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0302 +- 0.2865 against target 0",
+  "secs": 0.1,
+  "ln1_radius_max": 0.0032423707569197557,
+  "window": [
+   1,
+   1
+  ],
+  "spread": [
+   0.0,
+   0.0
+  ],
+  "worst": 0.3166272672174781
+ },
+ {
+  "seed": 105,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 3, keys ((0,), (3, 0)), task state 0: output 1.9724 +- 0.2508 against target 2",
+  "secs": 0.1,
+  "ln1_radius_max": 0.014095254622119432,
+  "window": [
+   1,
+   2
+  ],
+  "spread": [
+   0.01,
+   23.82
+  ],
+  "worst": 0.2783924344934776
+ },
+ {
+  "seed": 106,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output -0.0285 +- 0.2438 against target 0",
+  "secs": 0.1,
+  "ln1_radius_max": 0.006375491488595664,
+  "window": [
+   2,
+   2
+  ],
+  "spread": [
+   25.32,
+   27.78
+  ],
+  "worst": 0.27233829509050234
+ },
+ {
+  "seed": 107,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0037 +- 0.4912 against target 0",
+  "secs": 0.1,
+  "ln1_radius_max": 0.04305819069471487,
+  "window": [
+   1,
+   2
+  ],
+  "spread": [
+   5.45,
+   27.34
+  ],
+  "worst": 0.4948883624243059
+ },
+ {
+  "seed": 108,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 4, keys ((0,), (4, 0)), task state 0: output 3.1378 +- 1.5812 against target 3",
+  "secs": 0.1,
+  "ln1_radius_max": 0.003706378290838348,
+  "window": [
+   1,
+   2
+  ],
+  "spread": [
+   0.01,
+   25.54
+  ],
+  "worst": 1.718977168745052
+ },
+ {
+  "seed": 109,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output -0.0331 +- 0.2996 against target 0",
+  "secs": 0.1,
+  "ln1_radius_max": 0.0033961894840530368,
+  "window": [
+   1,
+   2
+  ],
+  "spread": [
+   0.01,
+   23.88
+  ],
+  "worst": 0.3327107779073866
+ },
+ {
+  "seed": 110,
+  "s1_ok": false,
+  "screen": false
+ },
+ {
+  "seed": 111,
+  "s1_ok": false,
+  "screen": false
+ },
+ {
+  "seed": 112,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 2, keys ((0,), (2, 0)), task state 0: output 0.9804 +- 0.7567 against target 1",
+  "secs": 0.1,
+  "ln1_radius_max": 0.004991281659886589,
+  "window": [
+   1,
+   2
+  ],
+  "spread": [
+   0.01,
+   23.38
+  ],
+  "worst": 0.7762891276349619
+ },
+ {
+  "seed": 113,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0454 +- 0.7611 against target 0 (mixed attention)",
+  "secs": 0.1,
+  "ln1_radius_max": 0.024920211397492727,
+  "window": [
+   1,
+   3
+  ],
+  "spread": [
+   0.01,
+   34.91
+  ],
+  "worst": 0.8065316134009671
+ },
+ {
+  "seed": 114,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0133 +- 0.2549 against target 0",
+  "secs": 0.1,
+  "ln1_radius_max": 0.005102798215950649,
+  "window": [
+   3,
+   3
+  ],
+  "spread": [
+   37.01,
+   41.76
+  ],
+  "worst": 0.2681941069025443
+ },
+ {
+  "seed": 115,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0160 +- 0.3082 against target 0 (mixed attention)",
+  "secs": 0.1,
+  "ln1_radius_max": 0.005781801485616157,
+  "window": [
+   1,
+   2
+  ],
+  "spread": [
+   0.01,
+   30.05
+  ],
+  "worst": 0.3242031351190141
+ },
+ {
+  "seed": 116,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0655 +- 0.8766 against target 0",
+  "secs": 0.1,
+  "ln1_radius_max": 0.0320961809794052,
+  "window": [
+   2,
+   2
+  ],
+  "spread": [
+   10.29,
+   29.25
+  ],
+  "worst": 0.9420881481476584
+ },
+ {
+  "seed": 117,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0224 +- 0.6088 against target 0",
+  "secs": 0.1,
+  "ln1_radius_max": 0.00919859517528199,
+  "window": [
+   1,
+   2
+  ],
+  "spread": [
+   3.83,
+   30.6
+  ],
+  "worst": 0.63123914327972
+ },
+ {
+  "seed": 118,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output -0.0449 +- 0.7011 against target 0",
+  "secs": 0.1,
+  "ln1_radius_max": 0.025009743291267914,
+  "window": [
+   1,
+   2
+  ],
+  "spread": [
+   2.95,
+   27.93
+  ],
+  "worst": 0.7459729381157159
+ },
+ {
+  "seed": 119,
+  "s1_ok": true,
+  "screen": true,
+  "ok": false,
+  "reason": "case token 3, keys ((0,), (3, 0)), task state 0: output 2.0431 +- 0.2558 against target 2",
+  "secs": 0.1,
+  "ln1_radius_max": 0.01757970891868137,
+  "window": [
+   2,
+   2
+  ],
+  "spread": [
+   12.31,
+   26.89
+  ],
+  "worst": 0.2988933173084289
+ }
+]

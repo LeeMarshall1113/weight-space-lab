@@ -1,0 +1,264 @@
+[
+ {
+  "seed": 100,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0256 +- 0.4670 (symbols 0.0040, radius 0.4630) against target 0",
+  "secs": 0.1,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.49265075881319176
+ },
+ {
+  "seed": 101,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 3, keys ((0,), (3, 0)), task state 0: output 2.0065 +- 0.4116 (symbols 0.0040, radius 0.4076) against target 2",
+  "secs": 0.1,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.4181517092922058
+ },
+ {
+  "seed": 102,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "LNf: normalised value fails the magnitude guard",
+  "secs": 0.1,
+  "window": [
+   1,
+   2
+  ]
+ },
+ {
+  "seed": 103,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0315 +- 1.0017 (symbols 0.0098, radius 0.9918) against target 0",
+  "secs": 0.1,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 1.0331850237018603
+ },
+ {
+  "seed": 104,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0311 +- 0.5059 (symbols 0.0056, radius 0.5002) against target 0",
+  "secs": 0.1,
+  "window": [
+   1,
+   1
+  ],
+  "worst": 0.5369226344403576
+ },
+ {
+  "seed": 105,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 2, keys ((0,), (2, 0)), task state 0: output 1.0053 +- 0.2501 (symbols 0.0042, radius 0.2459) against target 1",
+  "secs": 0.1,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.25540063088389137
+ },
+ {
+  "seed": 106,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output -0.0241 +- 0.3807 (symbols 0.0044, radius 0.3763) against target 0",
+  "secs": 0.1,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.4048028680972832
+ },
+ {
+  "seed": 107,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0053 +- 0.5934 (symbols 0.0056, radius 0.5878) against target 0",
+  "secs": 0.1,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.5986878331362072
+ },
+ {
+  "seed": 108,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "LNf: normalised value fails the magnitude guard",
+  "secs": 0.2,
+  "window": [
+   1,
+   2
+  ]
+ },
+ {
+  "seed": 109,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output -0.0307 +- 0.4702 (symbols 0.0030, radius 0.4672) against target 0",
+  "secs": 0.1,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.5008907481953236
+ },
+ {
+  "seed": 110,
+  "s1_ok": false,
+  "screen": false,
+  "mode": 5
+ },
+ {
+  "seed": 111,
+  "s1_ok": false,
+  "screen": false,
+  "mode": 5
+ },
+ {
+  "seed": 112,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 2, keys ((0,), (2, 0)), task state 0: output 0.9726 +- 1.7201 (symbols 0.0081, radius 1.7120) against target 1",
+  "secs": 0.1,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 1.7474283166856162
+ },
+ {
+  "seed": 113,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0500 +- 1.1272 (symbols 0.0104, radius 1.1168) against target 0",
+  "secs": 0.1,
+  "window": [
+   1,
+   3
+  ],
+  "worst": 1.1772320625696593
+ },
+ {
+  "seed": 114,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0137 +- 0.4364 (symbols 0.0046, radius 0.4318) against target 0",
+  "secs": 0.1,
+  "window": [
+   3,
+   3
+  ],
+  "worst": 0.4501085108833101
+ },
+ {
+  "seed": 115,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 2, keys ((0,), (2, 0)), task state 0: output 0.9808 +- 0.9321 (symbols 0.0060, radius 0.9261) against target 1",
+  "secs": 0.1,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.9512546347756272
+ },
+ {
+  "seed": 116,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0493 +- 0.5976 (symbols 0.0031, radius 0.5946) against target 0",
+  "secs": 0.1,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.6469133854741053
+ },
+ {
+  "seed": 117,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.0292 +- 1.1564 (symbols 0.0070, radius 1.1494) against target 0",
+  "secs": 0.1,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 1.185613843380827
+ },
+ {
+  "seed": 118,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 1, keys ((0,), (1, 0)), task state 0: output -0.0332 +- 0.6238 (symbols 0.0030, radius 0.6208) against target 0",
+  "secs": 0.1,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.6569660472655892
+ },
+ {
+  "seed": 119,
+  "s1_ok": true,
+  "screen": true,
+  "mode": 5,
+  "ok": false,
+  "reason": "case token 3, keys ((0,), (3, 0)), task state 0: output 2.0401 +- 0.3945 (symbols 0.0047, radius 0.3898) against target 2",
+  "secs": 0.1,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.43458723255782583
+ }
+]

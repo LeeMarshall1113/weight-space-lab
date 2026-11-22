@@ -2,7 +2,7 @@
 
 Personal work. Views are my own.
 
-Status: flagship folder of the weight-space lab repository (version 0.4 draft, unreleased). Nothing here has been peer reviewed. The full technical report is `REPORT.md` (living, with a claims table, a changelog and a "how to correct us" section); this README is the short version. All commands below run inside this folder (`proofs/`).
+Status: flagship folder of the weight-space lab repository (version 0.5). Nothing here has been peer reviewed. The full technical report is `REPORT.md` (living, with a claims table, a changelog and a "how to correct us" section); this README is the short version. All commands below run inside this folder (`proofs/`).
 
 This repository holds the Lean 4 proofs, the checker, the specification pools, the
 pre-registrations and the per-case results behind a study of LLM-written networks with
@@ -85,6 +85,18 @@ fixed in advance and the program is trivial because the task is. `docs/RESULTS_M
 2^-21 of its softmax weight on a short window of its latest positions (head 0: the previous position
 alone), kernel-checked; head 1's weight can be shared inside its window.
 
+**Rung 9-LN15 (LayerNorm; a post-hoc rung).** The registered LayerNorm rung at ball 2^-14 stopped at its
+kill rule (5 of 18 tuning networks accepted; the line was 6) and stays recorded as a failure
+(`docs/PREREG_R9LN.md`, `docs/RESULTS_R9LN.md`). A new rung then chose the radius 2^-15, the enclosure design,
+the symbol layout and fixed-point arithmetic after seeing that table, on the same 18 tuning networks
+(`docs/PREREG_R9LN15.md`, Amendment 1). One soundness theorem `Lane4.LNC.SoundLN` (`Lane4/LNCert.lean`,
+proof modules `Lane4/LNK*.lean`) covers a checker of a one-block width-8 softmax network with three
+LayerNorms; a generated file set per network proves it. On fresh seeds 400 to 419: 20 trained, 19 compute
+the task and pass the screen, **13 of 19 proved**, 6 screened networks computed the task and are not
+proved; bar 3 of 3; 7 of 7 controls rejected. The ball is the smallest around the rounded weights that
+contains the trained network; the exponential and square root are assumed accurate; five tokens, a local
+task. `docs/RESULTS_R9LN15.md`, `runs/r9ln15-nets/`, `REPORT.md` Sections 6.12 and 6.13.
+
 **Perturbation 2x2 and witnesses.** Additive versus relative perturbation for rung-2 and
 rung-4 networks, as finite searches, with three Lean-checked witnesses in `runs/witness/`.
 The earlier "fragile versus robust" framing is withdrawn. `REPORT.md`, Section 3.
@@ -120,7 +132,7 @@ The earlier "fragile versus robust" framing is withdrawn. `REPORT.md`, Section 3
 
 ```
 lean-toolchain, lakefile.toml, lake-manifest.json   Lean 4 + Mathlib pin
-Lane4/                 frameworks: Basic, Seq (rung 2), Robust (rung 3), RSeq (rung 4), RSoft* and Bin32 (rung 5), AGate* (rung 6a), R7* (rung 7), R8* (rung 8); Export*.lean.txt templates
+Lane4/                 frameworks: Basic, Seq (rung 2), Robust (rung 3), RSeq (rung 4), RSoft* and Bin32 (rung 5), AGate* (rung 6a), R7* (rung 7), R8* (rung 8), LN* (rung 9-LN15, 20 modules); Export*.lean.txt templates
 tools/check.py         the checker (one command checks one case)
 tools/recheck_all.py   re-check every case folder under runs/
 tools/*                case builders, pools, draws, export and numeric-check scripts, result collectors
@@ -193,6 +205,8 @@ python tools/recheck_all.py --out results/recheck.json          # rungs 2 to 4 (
 python tools/recheck_release.py                                  # every Lean file of rungs 2 to 6c: frameworks, all cases, standalone files, token audit
 python tools/recheck_r678.py --set frameworks,kits,r6a           # rungs 6a to 8: frameworks, kit cases, rung-6a cases (add nets-r7,nets-r8 for the generated per-network files; hours, about 5 GB per Lean process)
 python tools/build_net.py runs/r8-nets/A-u3-s140/Net.lean        # one per-network file of rung 8 (about 5 GB of memory)
+python tools/recheck_ln15.py --set frameworks,kits                # rung 9-LN15: the LN framework and the ten kit cases (add --set nets for the 36 network file sets, about 4 hours, about 5 GB per Lean process)
+python tools/build_ln_net.py f400                                 # one per-network file set of rung 9-LN15 (two files, about 400 s, about 5 GB)
 ```
 
 The case-local `Spec.lean`/`Final.lean`/`Solution.lean` of rungs 5, 6b and 6c are checked the

@@ -1,0 +1,17 @@
+{
+ "case": "lg",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-21 23:32:58",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 29.2,
+ "peak_rss_gb": 1.88,
+ "peak_commit_gb": 4.1,
+ "lean_output": "runs\\r9ln15-kit\\lg\\_Full.lean:274:15: error: unexpected token 'have'; expected ':='\nruns\\r9ln15-kit\\lg\\_Full.lean:258:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```\nruns\\r9ln15-kit\\lg\\_Full.lean:262:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```\nruns\\r9ln15-kit\\lg\\_Full.lean:274:8: error(lean.unknownIdentifier): Unknown identifier `rw`\nruns\\r9ln15-kit\\lg\\_Full.lean:274:8: error: invalid 'calc' step, left-hand side is\n  true : Bool\nbut previous right-hand side is\n  S * S / a : ℝ\nruns\\r9ln15-kit\\lg\\_Full.lean:273:34: error: unsolved goals\nS c a glo ghi : ℝ\nhS : 0 < S\nha : 1 ≤ a\nh1 : a * a ≤ c * S\nh2 : c * S < (a + 1) * (a + 1)\nhglo : glo ≤ S * S / (a + 1)\nhghi : S * S / a ≤ ghi\nhcS : 0 ≤ c * S\nR : ℝ\nhRsq : R * R = c * S\nhR0 : 0 ≤ R\nhaR : a ≤ R\nhRa : R < a + 1\nhRpos : 0 < R\n⊢ S ^ 2 / R ≤ S * S / a\nruns\\r9ln15-kit\\lg\\_Full.lean:309:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 28
+}

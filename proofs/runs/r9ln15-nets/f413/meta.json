@@ -1,0 +1,24 @@
+{
+ "tag": "f413",
+ "dir": "runs/r9ln15-fresh/A/n1/s413",
+ "net": "W14.json",
+ "seed": 413,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": false,
+ "mirror_reason": "case token 2, keys ((4, 5), (2, 4, 5)), task state 3: output 3.9481 +- 0.4251 (symbols 0.0457, radius 0.3795) against target 4",
+ "trained": true,
+ "files": [
+  "Z"
+ ],
+ "kind": "reject at a case",
+ "states": 12,
+ "info": {
+  "slots": 58,
+  "window": [
+   2,
+   2
+  ],
+  "worst": 0.47702223790335535
+ }
+}

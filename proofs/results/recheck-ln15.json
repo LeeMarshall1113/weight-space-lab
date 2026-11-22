@@ -1,0 +1,1271 @@
+[
+ {
+  "kind": "framework",
+  "unit": "Lane4/LNAll.lean (and the 20 LN modules and all modules they import)",
+  "pass": true,
+  "secs": 767.0
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r9ln15-kit/la",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.7,
+  "peak_rss_gb": 1.87,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r9ln15-kit/lb",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 11.6,
+  "peak_rss_gb": 1.8,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r9ln15-kit/lc",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 12.8,
+  "peak_rss_gb": 1.9,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r9ln15-kit/ld",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 13.4,
+  "peak_rss_gb": 1.85,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r9ln15-kit/le",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 17.0,
+  "peak_rss_gb": 1.81,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r9ln15-kit/lf",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 18.9,
+  "peak_rss_gb": 1.95,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r9ln15-kit/lg",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 33.1,
+  "peak_rss_gb": 1.88,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r9ln15-kit/lh",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 39.1,
+  "peak_rss_gb": 1.93,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r9ln15-kit/li",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 16.1,
+  "peak_rss_gb": 3.37,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "case",
+  "unit": "runs/r9ln15-kit/lj",
+  "pass": true,
+  "reason": "kernel-checked",
+  "secs": 9.1,
+  "peak_rss_gb": 1.72,
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/c_bias_half",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "mirror": "reject",
+  "files": [
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 12.5,
+    "commit": 4.57,
+    "within": true
+   }
+  ],
+  "total_secs": 12.5,
+  "max_commit": 4.57,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 12.3,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/c_ln2neg",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "mirror": "reject",
+  "files": [
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 12.5,
+    "commit": 4.58,
+    "within": true
+   }
+  ],
+  "total_secs": 12.5,
+  "max_commit": 4.58,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 12.5,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/c_negout",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "mirror": "reject",
+  "files": [
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 12.5,
+    "commit": 4.57,
+    "within": true
+   }
+  ],
+  "total_secs": 12.5,
+  "max_commit": 4.57,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 12.3,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/c_rad16",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "mirror": "reject",
+  "files": [
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 12.8,
+    "commit": 4.58,
+    "within": true
+   }
+  ],
+  "total_secs": 12.8,
+  "max_commit": 4.58,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 12.2,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/c_rad64",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "mirror": "reject",
+  "files": [
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 12.3,
+    "commit": 4.53,
+    "within": true
+   }
+  ],
+  "total_secs": 12.3,
+  "max_commit": 4.53,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 12.0,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/c_swap12",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "mirror": "reject",
+  "files": [
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 12.5,
+    "commit": 4.57,
+    "within": true
+   }
+  ],
+  "total_secs": 12.5,
+  "max_commit": 4.57,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 12.4,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f400",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 432.8,
+    "commit": 4.86,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 9.6,
+    "commit": 4.08,
+    "within": true
+   }
+  ],
+  "total_secs": 442.4,
+  "max_commit": 4.86,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 405.2,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f401",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 433.4,
+    "commit": 4.85,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 10.9,
+    "commit": 4.06,
+    "within": true
+   }
+  ],
+  "total_secs": 444.3,
+  "max_commit": 4.85,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 400.4,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f402",
+  "pass": false,
+  "verdict": null,
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 777.7,
+    "commit": 5.06,
+    "within": true
+   },
+   {
+    "file": "B",
+    "rc": 0,
+    "secs": 868.4,
+    "commit": 4.99,
+    "within": true
+   },
+   {
+    "file": "C",
+    "rc": 0,
+    "secs": 904.1,
+    "commit": 4.99,
+    "within": false
+   }
+  ],
+  "total_secs": 2550.2,
+  "max_commit": 5.06,
+  "theorems": [],
+  "axioms_standard": false,
+  "recorded_total_secs": 2018.1,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f403",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "mirror": "reject",
+  "files": [
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 17.2,
+    "commit": 4.58,
+    "within": true
+   }
+  ],
+  "total_secs": 17.2,
+  "max_commit": 4.58,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 13.2,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f404",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 505.8,
+    "commit": 4.82,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 13.2,
+    "commit": 4.05,
+    "within": true
+   }
+  ],
+  "total_secs": 519.0,
+  "max_commit": 4.82,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 448.5,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f405",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 531.2,
+    "commit": 4.82,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 12.3,
+    "commit": 4.05,
+    "within": true
+   }
+  ],
+  "total_secs": 543.5,
+  "max_commit": 4.82,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 380.1,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f407",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 531.9,
+    "commit": 4.84,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 13.4,
+    "commit": 4.05,
+    "within": true
+   }
+  ],
+  "total_secs": 545.3,
+  "max_commit": 4.84,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 388.7,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f408",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 641.7,
+    "commit": 4.83,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 15.6,
+    "commit": 4.05,
+    "within": true
+   }
+  ],
+  "total_secs": 657.3,
+  "max_commit": 4.83,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 395.8,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f409",
+  "pass": false,
+  "verdict": null,
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 1,
+    "secs": 900.6,
+    "commit": 5.04,
+    "within": false
+   }
+  ],
+  "total_secs": 900.6,
+  "max_commit": 5.04,
+  "theorems": [],
+  "axioms_standard": false,
+  "recorded_total_secs": 2030.0,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f410",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 513.3,
+    "commit": 4.85,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 14.1,
+    "commit": 4.06,
+    "within": true
+   }
+  ],
+  "total_secs": 527.4,
+  "max_commit": 4.85,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 395.1,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f411",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "mirror": "reject",
+  "files": [
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 16.8,
+    "commit": 4.61,
+    "within": true
+   }
+  ],
+  "total_secs": 16.8,
+  "max_commit": 4.61,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 12.8,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f412",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 598.5,
+    "commit": 4.84,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 13.6,
+    "commit": 4.05,
+    "within": true
+   }
+  ],
+  "total_secs": 612.1,
+  "max_commit": 4.84,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 401.7,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f413",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "mirror": "reject",
+  "files": [
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 18.4,
+    "commit": 4.62,
+    "within": true
+   }
+  ],
+  "total_secs": 18.4,
+  "max_commit": 4.62,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 13.8,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f414",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 494.8,
+    "commit": 4.83,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 12.2,
+    "commit": 4.05,
+    "within": true
+   }
+  ],
+  "total_secs": 507.0,
+  "max_commit": 4.83,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 394.0,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f415",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "mirror": "reject",
+  "files": [
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 15.4,
+    "commit": 4.57,
+    "within": true
+   }
+  ],
+  "total_secs": 15.4,
+  "max_commit": 4.57,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 15.7,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f416",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "mirror": "reject",
+  "files": [
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 16.7,
+    "commit": 4.6,
+    "within": true
+   }
+  ],
+  "total_secs": 16.7,
+  "max_commit": 4.6,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 12.7,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f417",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 529.4,
+    "commit": 4.86,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 13.7,
+    "commit": 4.07,
+    "within": true
+   }
+  ],
+  "total_secs": 543.1,
+  "max_commit": 4.86,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 406.1,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f418",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "mirror": "reject",
+  "files": [
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 16.1,
+    "commit": 4.56,
+    "within": true
+   }
+  ],
+  "total_secs": 16.1,
+  "max_commit": 4.56,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 12.4,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/f419",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 514.7,
+    "commit": 4.83,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 12.5,
+    "commit": 4.05,
+    "within": true
+   }
+  ],
+  "total_secs": 527.2,
+  "max_commit": 4.83,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 388.4,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/t100",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 550.5,
+    "commit": 4.86,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 12.7,
+    "commit": 4.06,
+    "within": true
+   }
+  ],
+  "total_secs": 563.2,
+  "max_commit": 4.86,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 500.2,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/t101",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 504.7,
+    "commit": 4.84,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 12.9,
+    "commit": 4.06,
+    "within": true
+   }
+  ],
+  "total_secs": 517.6,
+  "max_commit": 4.84,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 562.3,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/t102",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 504.2,
+    "commit": 4.84,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 13.0,
+    "commit": 4.06,
+    "within": true
+   }
+  ],
+  "total_secs": 517.2,
+  "max_commit": 4.84,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 389.0,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/t103",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 518.6,
+    "commit": 4.89,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 12.1,
+    "commit": 4.08,
+    "within": true
+   }
+  ],
+  "total_secs": 530.7,
+  "max_commit": 4.89,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 411.1,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/t104",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 107.7,
+    "commit": 4.65,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 12.0,
+    "commit": 4.05,
+    "within": true
+   }
+  ],
+  "total_secs": 119.7,
+  "max_commit": 4.65,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 94.3,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/t104B",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "mirror": "reject",
+  "files": [
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 15.3,
+    "commit": 4.57,
+    "within": true
+   }
+  ],
+  "total_secs": 15.3,
+  "max_commit": 4.57,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 11.9,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/t105",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 489.2,
+    "commit": 4.83,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 13.8,
+    "commit": 4.05,
+    "within": true
+   }
+  ],
+  "total_secs": 503.0,
+  "max_commit": 4.83,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 382.7,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/t107",
+  "pass": true,
+  "verdict": "reject",
+  "recorded_verdict": "reject",
+  "mirror": "reject",
+  "files": [
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 17.5,
+    "commit": 4.6,
+    "within": true
+   }
+  ],
+  "total_secs": 17.5,
+  "max_commit": 4.6,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 12.8,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/t108",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 525.5,
+    "commit": 4.83,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 13.9,
+    "commit": 4.05,
+    "within": true
+   }
+  ],
+  "total_secs": 539.4,
+  "max_commit": 4.83,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 384.5,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/t109",
+  "pass": true,
+  "verdict": "accept",
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 0,
+    "secs": 542.4,
+    "commit": 4.84,
+    "within": true
+   },
+   {
+    "file": "Z",
+    "rc": 0,
+    "secs": 13.0,
+    "commit": 4.05,
+    "within": true
+   }
+  ],
+  "total_secs": 555.4,
+  "max_commit": 4.84,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "recorded_total_secs": 387.2,
+  "tail": ""
+ },
+ {
+  "kind": "net",
+  "unit": "runs/r9ln15-nets/t113",
+  "pass": false,
+  "verdict": null,
+  "recorded_verdict": "accept",
+  "mirror": "accept",
+  "files": [
+   {
+    "file": "A",
+    "rc": 1,
+    "secs": 900.7,
+    "commit": 5.04,
+    "within": false
+   }
+  ],
+  "total_secs": 900.7,
+  "max_commit": 5.04,
+  "theorems": [],
+  "axioms_standard": false,
+  "recorded_total_secs": 1946.3,
+  "tail": ""
+ },
+ {
+  "kind": "audit",
+  "files": 158,
+  "token_counts": {
+   "native_decide": 0,
+   "ofReduceBool": 0,
+   "sorry": 0,
+   "axiom": 0
+  },
+  "token_counts_attempts": {
+   "native_decide": 0,
+   "ofReduceBool": 0,
+   "sorry": 0,
+   "axiom": 0
+  }
+ }
+]

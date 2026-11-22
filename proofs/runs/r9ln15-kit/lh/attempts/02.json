@@ -1,0 +1,17 @@
+{
+ "case": "lh",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-22 00:43:15",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 23.4,
+ "peak_rss_gb": 1.83,
+ "peak_commit_gb": 4.05,
+ "lean_output": "runs\\r9ln15-kit\\lh\\_Full.lean:220:4: error: linarith failed to find a contradiction\ne : ℕ → ℝ\nhe : Cert8.Sym e\no' dg : ℝ\nO : FF\ngI dI : ℤ\nns : ℕ\nhOl : O.t.length = ns\nho : InFF e o' O\nhSC : ↑SC = 2 ^ 56\nhSpos : 0 < 2 ^ 56\nhg : ↑gI = ↑gI / 2 ^ 56 * 2 ^ 56\nhd : ↑dI = ↑dI / 2 ^ 56 * 2 ^ 56\nhδ : 0 ≤ ↑dI / 2 ^ 56\nhdg : |dg| ≤ ↑dI / 2 ^ 56\nhOd : |o' * 2 ^ 56 - ↑O.c| ≤ ↑O.dev\nhoo : |o' * 2 ^ 56 - (↑O.c + linValI O.t e 0)| ≤ ↑O.r\nhmf : |↑gI / 2 ^ 56 * linValI O.t e 0 - linValI (List.map (fun x => gI * x / SC) O.t) e 0| ≤ ↑ns\nhF : ↑(gI * O.c / SC) ≤ ↑gI * ↑O.c / 2 ^ 56 ∧ ↑gI * ↑O.c / 2 ^ 56 < ↑(gI * O.c / SC) + 1\nhc1 : |↑gI| * ↑O.r / 2 ^ 56 ≤ ↑(cdiv (iabs gI * O.r) SC) ∧ ↑(cdiv (iabs gI * O.r) SC) < |↑gI| * ↑O.r / 2 ^ 56 + 1\nhc2 : ↑dI * ↑O.dev / 2 ^ 56 ≤ ↑(cdiv (dI * O.dev) SC) ∧ ↑(cdiv (dI * O.dev) SC) < ↑dI * ↑O.dev / 2 ^ 56 + 1\nd1 : |↑gI * ↑O.c / 2 ^ 56 - ↑(gI * O.c / SC)| ≤ 1\nd3 : |↑gI / 2 ^ 56 * (o' * 2 ^ 56 - (↑O.c + linValI O.t e 0))| ≤ ↑(cdiv (iabs gI * O.r) SC)\nhdI : 0 ≤ ↑dI / 2 ^ 56\nh : |dg * (o' * 2 ^ 56 - ↑O.c)| ≤ ↑dI / 2 ^ 56 * ↑O.dev\nh2 : ↑dI / 2 ^ 56 * ↑O.dev = ↑dI * ↑O.dev / 2 ^ 56\na✝ : ↑(cdiv (dI * O.dev) SC) < |dg * (o' * 2 ^ 56 - ↑O.c)|\n⊢ False\nfailed\nruns\\r9ln15-kit\\lh\\_Full.lean:330:35: error: maximum recursion depth has been reached\nuse `set_option maxRecDepth <num>` to increase limit\nuse `set_option diagnostics true` to get diagnostic information\nruns\\r9ln15-kit\\lh\\_Full.lean:378:6: error: Application type mismatch: The argument\n  { c := (lo2 dI ns slot O gI).c + bI, t := (lo2 dI ns slot O gI).t, r := (lo2 dI ns slot O gI).r }.wide\nhas type\n  ℤ → FF\nbut is expected to have type\n  FF\nin the application\n  InFF ê (fl (o' * asw fl g dg) + asw fl b db)\n    { c := (lo2 dI ns slot O gI).c + bI, t := (lo2 dI ns slot O gI).t, r := (lo2 dI ns slot O gI).r }.wide\nruns\\r9ln15-kit\\lh\\_Full.lean:484:4: error: linarith failed to find a contradiction\ng δ : ℝ\nhδ : 0 ≤ δ\nO : FF\ngI dI : ℤ\nns : ℕ\nslot : Option ℕ\nhg : ↑gI = g * 2 ^ 56\nhd : ↑dI = δ * 2 ^ 56\nhOl : O.t.length = ns\nhr0 : 0 ≤ O.r\nhz : ∀ (sl : ℕ), slot = some sl → (lo2b dI ns O gI).t.getD sl 0 = 0 ∧ sl < ns\nhSC : ↑SC = 2 ^ 56\nhSpos : 0 < 2 ^ 56\nhK :\n  ↑dI * (|↑O.c| + ↑SC) / 2 ^ 56 ≤ ↑(cdiv (dI * (iabs O.c + SC)) SC) ∧\n    ↑(cdiv (dI * (iabs O.c + SC)) SC) < ↑dI * (|↑O.c| + ↑SC) / 2 ^ 56 + 1\nthis : ↑dI * (|↑O.c| + 2 ^ 56) / 2 ^ 56 = δ * (|↑O.c| + 2 ^ 56)\na✝ : ↑(cdiv (dI * (iabs O.c + SC)) SC) < δ * (|↑O.c| + 2 ^ 56)\n⊢ False\nfailed\nruns\\r9ln15-kit\\lh\\_Full.lean:547:2: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.ln_f_sound`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 2,
+ "attempts_left": 28
+}

@@ -1,0 +1,17 @@
+{
+ "case": "lh",
+ "arm": "kit",
+ "pass": false,
+ "time": "2026-11-22 00:44:50",
+ "native_decide_attempted": false,
+ "rc": 1,
+ "timed_out": false,
+ "mem_killed": false,
+ "secs": 36.2,
+ "peak_rss_gb": 1.86,
+ "peak_commit_gb": 4.08,
+ "lean_output": "runs\\r9ln15-kit\\lh\\_Full.lean:549:2: error(lean.unknownIdentifier): Unknown identifier `Lane4.Case.ln_f_sound`\n'Lane4Final.final' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+ "reason": "lean reported errors",
+ "attempt": 4,
+ "attempts_left": 26
+}
