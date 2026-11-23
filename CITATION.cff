@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite it as below. Fields in [brackets] are placeholders."
+message: "If you use this work, please cite it as below. The DOI is the one for all versions."
 title: "Weight-space lab: kernel-checked proofs and results"
 authors:
   - name: "LeeMarshall1113"
 repository-code: "https://github.com/LeeMarshall1113/weight-space-lab"
-doi: "[DOI: assigned at archiving]"
+doi: "10.5281/zenodo.24461265"
 license: Apache-2.0
 version: "0.6.1"
 date-released: 2026-11-23

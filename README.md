@@ -126,5 +126,5 @@ are not redistributed here; each folder will say what it needs and under what li
 
 ## Status of this copy
 
-Public since 2026-11-15 (v0.2). No DOI yet: one will be assigned when a version is
-archived (placeholder in `CITATION.cff`).
+Public since 2026-11-15 (v0.2). Archived on Zenodo from v0.6.1: DOI
+[10.5281/zenodo.24461265](https://doi.org/10.5281/zenodo.24461265) (all versions; see `CITATION.cff`).
