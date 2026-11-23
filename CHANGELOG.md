@@ -4,6 +4,10 @@ Corrections, downgrades and additions, newest first. Reporters are credited unle
 ask otherwise. A claim that is narrowed or retracted is also downgraded in the index table
 in `README.md`; it is not silently edited.
 
+## v0.6.1 (2026-11-23)
+
+- No change to any claim, proof, count or file under `proofs/`. This release exists so that an archive record with a DOI is created for the v0.6 content.
+
 ## v0.6 (2026-11-23)
 
 - `proofs/` extended with rung 9-LN-M, with the report at version 0.12 (`proofs/REPORT.md`, Section 6.14, claims rows 42
