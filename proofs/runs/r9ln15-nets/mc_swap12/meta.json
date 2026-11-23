@@ -1,0 +1,24 @@
+{
+ "tag": "mc_swap12",
+ "dir": "runs/r9m-ctl/swap12",
+ "net": "W14.json",
+ "seed": 800,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": false,
+ "mirror_reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 1.0297 +- 0.0099 (symbols 0.0094, radius 0.0005) against target 0",
+ "trained": false,
+ "files": [
+  "Z"
+ ],
+ "kind": "reject at a case",
+ "states": 1,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 1.039594755257521
+ }
+}

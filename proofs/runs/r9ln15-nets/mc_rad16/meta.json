@@ -1,0 +1,24 @@
+{
+ "tag": "mc_rad16",
+ "dir": "runs/r9m-ctl/rad16",
+ "net": "W14.json",
+ "seed": 800,
+ "radius": "1/2048",
+ "task_as": "A",
+ "mirror_ok": false,
+ "mirror_reason": "case token 3, keys ((0,), (3, 0)), task state 0: output 2.0266 +- 0.5335 (symbols 0.2326, radius 0.3009) against target 2",
+ "trained": false,
+ "files": [
+  "Z"
+ ],
+ "kind": "reject at a case",
+ "states": 3,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.5601482175000954
+ }
+}

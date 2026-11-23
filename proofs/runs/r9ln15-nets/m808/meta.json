@@ -1,0 +1,28 @@
+{
+ "tag": "m808",
+ "dir": "runs/r9m-fresh/A/n1/s808",
+ "net": "W14.json",
+ "seed": 808,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": true,
+ "mirror_reason": "ok",
+ "trained": true,
+ "files": [
+  "A",
+  "Z"
+ ],
+ "kind": "accept",
+ "states": 31,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.08556270211882674,
+  "states": 31,
+  "table_rows": 155,
+  "cases": 155
+ }
+}

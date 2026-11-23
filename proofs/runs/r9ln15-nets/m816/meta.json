@@ -1,0 +1,30 @@
+{
+ "tag": "m816",
+ "dir": "runs/r9m-fresh/A/n1/s816",
+ "net": "W14.json",
+ "seed": 816,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": true,
+ "mirror_reason": "ok",
+ "trained": true,
+ "files": [
+  "A",
+  "B",
+  "C",
+  "Z"
+ ],
+ "kind": "accept",
+ "states": 156,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   3
+  ],
+  "worst": 0.04863721772012357,
+  "states": 156,
+  "table_rows": 780,
+  "cases": 780
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "tag": "m816",
+ "files": [
+  {
+   "file": "A",
+   "rc": 0,
+   "secs": 670.2,
+   "commit": 5.06,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  },
+  {
+   "file": "B",
+   "rc": 0,
+   "secs": 696.2,
+   "commit": 4.97,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  },
+  {
+   "file": "C",
+   "rc": 0,
+   "secs": 691.1,
+   "commit": 4.97,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  },
+  {
+   "file": "Z",
+   "rc": 0,
+   "secs": 11.5,
+   "commit": 4.09,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  }
+ ],
+ "n_files": 4,
+ "all_within": true,
+ "four_file_rule": true,
+ "kernel": "accept",
+ "mirror": "accept",
+ "agree": true,
+ "theorems": [
+  "accept",
+  "skeleton_ok",
+  "binary32",
+  "trained_exact_all_lengths",
+  "trained_binary32"
+ ],
+ "axioms_standard": true,
+ "total_secs": 2069.0,
+ "max_commit": 5.06
+}

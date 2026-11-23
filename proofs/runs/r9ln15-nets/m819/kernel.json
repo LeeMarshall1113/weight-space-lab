@@ -1,0 +1,39 @@
+{
+ "tag": "m819",
+ "files": [
+  {
+   "file": "A",
+   "rc": 0,
+   "secs": 400.6,
+   "commit": 4.82,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  },
+  {
+   "file": "Z",
+   "rc": 0,
+   "secs": 12.0,
+   "commit": 4.04,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  }
+ ],
+ "n_files": 2,
+ "all_within": true,
+ "four_file_rule": true,
+ "kernel": "accept",
+ "mirror": "accept",
+ "agree": true,
+ "theorems": [
+  "accept",
+  "skeleton_ok",
+  "binary32",
+  "trained_exact_all_lengths",
+  "trained_binary32"
+ ],
+ "axioms_standard": true,
+ "total_secs": 412.6,
+ "max_commit": 4.82
+}

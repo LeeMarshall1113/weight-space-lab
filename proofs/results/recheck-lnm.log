@@ -1,0 +1,29 @@
+PASS framework LNAll
+PASS m800 accept files 2 secs 469.8 commit 4.8
+PASS m801 accept files 2 secs 464.0 commit 4.8
+PASS m802 accept files 2 secs 468.7 commit 4.81
+PASS m803 accept files 4 secs 2280.2 commit 5.04
+PASS m804 accept files 2 secs 437.6 commit 4.83
+PASS m805 reject files 1 secs 15.6 commit 4.58
+PASS m806 accept files 2 secs 432.5 commit 4.81
+PASS m807 accept files 2 secs 427.1 commit 4.8
+PASS m808 accept files 2 secs 438.1 commit 4.82
+PASS m809 accept files 2 secs 417.6 commit 4.79
+PASS m810 accept files 2 secs 446.6 commit 4.83
+PASS m811 accept files 2 secs 105.5 commit 4.63
+PASS m812 accept files 2 secs 448.4 commit 4.85
+PASS m813 accept files 2 secs 417.4 commit 4.81
+PASS m814 accept files 2 secs 418.4 commit 4.81
+PASS m815 accept files 2 secs 443.1 commit 4.85
+PASS m816 accept files 4 secs 2216.8 commit 5.06
+PASS m817 accept files 2 secs 433.8 commit 4.81
+PASS m818 accept files 2 secs 436.3 commit 4.81
+PASS m819 accept files 2 secs 435.5 commit 4.82
+PASS mc_bias_half reject files 1 secs 13.9 commit 4.52
+PASS mc_ln2neg reject files 1 secs 13.9 commit 4.52
+PASS mc_negout reject files 1 secs 14.2 commit 4.52
+PASS mc_rad16 reject files 1 secs 13.6 commit 4.52
+PASS mc_rad64 reject files 1 secs 11.6 commit 4.05
+PASS mc_swap12 reject files 1 secs 13.6 commit 4.51
+PASS mc_taskA reject files 1 secs 13.7 commit 4.54
+total wall seconds: 12724; passed 28 of 28; failed: []; audit {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0} attempts {'native_decide': 0, 'ofReduceBool': 0, 'sorry': 0, 'axiom': 0} files 208

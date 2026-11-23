@@ -1,0 +1,28 @@
+{
+ "tag": "m811",
+ "dir": "runs/r9m-fresh/A/n1/s811",
+ "net": "W14.json",
+ "seed": 811,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": true,
+ "mirror_reason": "ok",
+ "trained": true,
+ "files": [
+  "A",
+  "Z"
+ ],
+ "kind": "accept",
+ "states": 6,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   1
+  ],
+  "worst": 0.0727356179900697,
+  "states": 6,
+  "table_rows": 30,
+  "cases": 30
+ }
+}

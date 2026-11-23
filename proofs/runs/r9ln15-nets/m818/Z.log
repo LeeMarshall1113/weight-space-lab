@@ -1,0 +1,5 @@
+'Lane4.LNNetFile.accept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.LNNetFile.skeleton_ok' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.LNNetFile.binary32' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.LNNetFile.trained_exact_all_lengths' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lane4.LNNetFile.trained_binary32' depends on axioms: [propext, Classical.choice, Quot.sound]

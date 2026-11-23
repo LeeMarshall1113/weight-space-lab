@@ -1,0 +1,30 @@
+{
+ "tag": "m803",
+ "dir": "runs/r9m-fresh/A/n1/s803",
+ "net": "W14.json",
+ "seed": 803,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": true,
+ "mirror_reason": "ok",
+ "trained": true,
+ "files": [
+  "A",
+  "B",
+  "C",
+  "Z"
+ ],
+ "kind": "accept",
+ "states": 156,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   3
+  ],
+  "worst": 0.11611459093350866,
+  "states": 156,
+  "table_rows": 780,
+  "cases": 780
+ }
+}

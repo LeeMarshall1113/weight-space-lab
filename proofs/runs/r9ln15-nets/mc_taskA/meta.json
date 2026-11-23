@@ -1,0 +1,24 @@
+{
+ "tag": "mc_taskA",
+ "dir": "runs/r9m-ctl/taskA",
+ "net": "W14.json",
+ "seed": 800,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": false,
+ "mirror_reason": "case token 2, keys ((5,), (2, 5, 0)), task state 4: output 4.0304 +- 0.0056 (symbols 0.0046, radius 0.0010) against target 0",
+ "trained": false,
+ "files": [
+  "Z"
+ ],
+ "kind": "reject at a case",
+ "states": 7,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 4.036017068392508
+ }
+}

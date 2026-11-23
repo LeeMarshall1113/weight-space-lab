@@ -4,6 +4,22 @@ Corrections, downgrades and additions, newest first. Reporters are credited unle
 ask otherwise. A claim that is narrowed or retracted is also downgraded in the index table
 in `README.md`; it is not silently edited.
 
+## v0.6 (2026-11-23)
+
+- `proofs/` extended with rung 9-LN-M, with the report at version 0.12 (`proofs/REPORT.md`, Section 6.14, claims rows 42
+  and 43, a new list of caveats). **It is a prospective rung; rung 9-LN15 stays post hoc.**
+  - The rung 9-LN15 model, checker, soundness theorem and proof modules, frozen by hash and unchanged, run on a second task
+    (the output is the larger of the digits of the current and the previous token), registered before any network of it was
+    trained. Seeds 800 to 819: 20 trained, 20 pass the screen, **19 proved** (all five theorems), 1 kernel-rejected (805),
+    bar 3 of 3, 7 of 7 controls rejected, kernel equals mirror on all 27 objects. No proof was changed.
+  - Limits stated first: the Lean target is the task automaton (equal to the task's definition by `rfl`), not a closed form;
+    the task is local; the ball is only the distance to the rounding grid; toy scale. The registration's first line carries a
+    wrong time; the copy here carries a note.
+  - `proofs/VERIFY.md` Section 8: the re-check of the new file sets (28 of 28 rows pass; every file within 900 s, largest 759 s). New: `docs/PREREG_R9M.md`, `RESULTS_R9M.md`,
+    `freeze_r9m.sha256`, `tools/r9m.py`, `runs/r9m-*`, `runs/r9ln15-nets/m8*` and `mc_*`, `results/rung9m-kernel.json`;
+    `results/rung9ln15-lanechecks.json` gains the seeds 800 to 819.
+  - README: a new "Latest" bullet, a claims row and caveat 13.
+
 ## v0.5 (2026-11-22)
 
 - `proofs/` extended with rung 9-LN15 (LayerNorm), with the report at version 0.11

@@ -1,0 +1,23 @@
+{
+ "tag": "mc_rad64",
+ "dir": "runs/r9m-ctl/rad64",
+ "net": "W14.json",
+ "seed": 800,
+ "radius": "1/512",
+ "task_as": "A",
+ "mirror_ok": false,
+ "mirror_reason": "block 0 head 1: score radii too large for the reference key",
+ "trained": false,
+ "files": [
+  "Z"
+ ],
+ "kind": "reject at a case",
+ "states": 1,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   2
+  ]
+ }
+}

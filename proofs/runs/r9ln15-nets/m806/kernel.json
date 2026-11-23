@@ -1,0 +1,39 @@
+{
+ "tag": "m806",
+ "files": [
+  {
+   "file": "A",
+   "rc": 0,
+   "secs": 332.1,
+   "commit": 4.81,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  },
+  {
+   "file": "Z",
+   "rc": 0,
+   "secs": 9.6,
+   "commit": 4.04,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  }
+ ],
+ "n_files": 2,
+ "all_within": true,
+ "four_file_rule": true,
+ "kernel": "accept",
+ "mirror": "accept",
+ "agree": true,
+ "theorems": [
+  "accept",
+  "skeleton_ok",
+  "binary32",
+  "trained_exact_all_lengths",
+  "trained_binary32"
+ ],
+ "axioms_standard": true,
+ "total_secs": 341.7,
+ "max_commit": 4.81
+}

@@ -192,6 +192,34 @@ not rebuilt, no external checker has been run on these files (see `writeup/LEAN_
 release candidate. The model, its relative rounding form and the square-root and exponential assumptions are part of
 the statement (`Lane4/LNNet.lean`) and the kernel does not check that they describe IEEE binary32.
 
+### 8. Rung 9-LN-M (LayerNorm, second task; version 0.6; run 2026-11-22 to 2026-11-23)
+
+Same toolchain (Lean `v4.35.0-rc3`, Mathlib `v4.35.0-rc3`, not rebuilt), a copy of the draft tree, one Lean
+process at a time, `tools/recheck_ln15.py --set frameworks,nets --match "^(m8|mc_)"` (the rules of Section 7: every
+file compiles with exit 0, no error, no `sorry`, within 900 s and 6 GB commit; every `#print axioms` within `propext`,
+`Classical.choice`, `Quot.sound`; the kernel's decision equals the one recorded in the folder's `kernel.json`; an
+accepted network proves all five theorems). Rows and log: `results/recheck-lnm.json`, `results/recheck-lnm.log`
+(12,724 s in all).
+
+| Rows | Passed | Notes |
+|---|---|---|
+| 28 | **28** | 1 framework build (`LNAll`, unchanged from Section 7), 20 fresh network file sets (19 accept, 1 reject: seed 805), 7 control file sets (all 7 reject). |
+
+**The registered 900 s per-file limit was met on this machine for every file.** The largest file took 759 s (`m803`,
+file A); the two 780-case networks (803, 816) used all four allowed files (2,280 s and 2,217 s in all); the 155-case
+networks took 418 to 470 s in two files and the 30-case network (811) 106 s; at most 5.06 GB commit. (In rung 9-LN15's
+re-check, Section 7, three files exceeded 900 s on this shared machine; none did here.) Two earlier attempts of this
+re-check stopped within seconds because the Mathlib search path was not set, before any Lean proof ran; they are not
+counted.
+
+**Token audit** over all new Lean files in the tree (208 files: the 20 LN modules, the rung 9-LN15 kit and networks, and
+the 27 new network file sets): `native_decide` 0, `ofReduceBool` 0, `sorry` 0, `axiom` 0.
+
+**What this does not show.** Not re-run: the training and screen of the networks, the Python mirror, the generator
+(`tools/r9m.py`) and the numeric checks (`tools/ln15_checks.py`). The hashes in `docs/freeze_r9m.sha256` are of the
+original files and do not match the scrubbed copies in this release; the 20 `Lane4/LN*.lean` modules are unchanged
+from version 0.5. No external checker has been run on these files.
+
 ## What this does not show
 
 - It re-checks that the recorded solutions are accepted by the Lean kernel against the

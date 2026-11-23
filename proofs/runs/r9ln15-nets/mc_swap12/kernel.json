@@ -1,0 +1,26 @@
+{
+ "tag": "mc_swap12",
+ "files": [
+  {
+   "file": "Z",
+   "rc": 0,
+   "secs": 13.3,
+   "commit": 4.52,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  }
+ ],
+ "n_files": 1,
+ "all_within": true,
+ "four_file_rule": true,
+ "kernel": "reject",
+ "mirror": "reject",
+ "agree": true,
+ "theorems": [
+  "reject"
+ ],
+ "axioms_standard": true,
+ "total_secs": 13.3,
+ "max_commit": 4.52
+}

@@ -1,0 +1,39 @@
+{
+ "tag": "m815",
+ "files": [
+  {
+   "file": "A",
+   "rc": 0,
+   "secs": 345.1,
+   "commit": 4.85,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  },
+  {
+   "file": "Z",
+   "rc": 0,
+   "secs": 10.9,
+   "commit": 4.06,
+   "timed_out": false,
+   "mem_killed": false,
+   "within": true
+  }
+ ],
+ "n_files": 2,
+ "all_within": true,
+ "four_file_rule": true,
+ "kernel": "accept",
+ "mirror": "accept",
+ "agree": true,
+ "theorems": [
+  "accept",
+  "skeleton_ok",
+  "binary32",
+  "trained_exact_all_lengths",
+  "trained_binary32"
+ ],
+ "axioms_standard": true,
+ "total_secs": 356.0,
+ "max_commit": 4.85
+}

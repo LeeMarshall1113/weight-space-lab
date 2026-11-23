@@ -1,0 +1,24 @@
+{
+ "tag": "mc_ln2neg",
+ "dir": "runs/r9m-ctl/ln2neg",
+ "net": "W14.json",
+ "seed": 800,
+ "radius": "1/32768",
+ "task_as": "A",
+ "mirror_ok": false,
+ "mirror_reason": "case token 1, keys ((0,), (1, 0)), task state 0: output 0.2878 +- 0.0093 (symbols 0.0086, radius 0.0007) against target 0",
+ "trained": false,
+ "files": [
+  "Z"
+ ],
+ "kind": "reject at a case",
+ "states": 1,
+ "info": {
+  "slots": 58,
+  "window": [
+   1,
+   2
+  ],
+  "worst": 0.2970944299934603
+ }
+}

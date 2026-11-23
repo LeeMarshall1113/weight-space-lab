@@ -1,0 +1,456 @@
+[
+ {
+  "tag": "m800",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 377.8,
+  "max_commit": 4.79,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m801",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 393.9,
+  "max_commit": 4.8,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m802",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 374.4,
+  "max_commit": 4.81,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m803",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 4,
+  "total_secs": 1732.3,
+  "max_commit": 5.05,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m804",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 339.1,
+  "max_commit": 4.82,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m805",
+  "kernel": "reject",
+  "mirror": "reject",
+  "agree": true,
+  "n_files": 1,
+  "total_secs": 12.0,
+  "max_commit": 4.58,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m806",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 341.7,
+  "max_commit": 4.81,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m807",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 345.6,
+  "max_commit": 4.8,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m808",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 341.1,
+  "max_commit": 4.82,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m809",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 318.8,
+  "max_commit": 4.79,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m810",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 339.8,
+  "max_commit": 4.83,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m811",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 81.8,
+  "max_commit": 4.62,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m812",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 342.4,
+  "max_commit": 4.85,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m813",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 336.0,
+  "max_commit": 4.81,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m814",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 336.4,
+  "max_commit": 4.81,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m815",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 356.0,
+  "max_commit": 4.85,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m816",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 4,
+  "total_secs": 2069.0,
+  "max_commit": 5.06,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m817",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 397.0,
+  "max_commit": 4.81,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m818",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 395.0,
+  "max_commit": 4.81,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "m819",
+  "kernel": "accept",
+  "mirror": "accept",
+  "agree": true,
+  "n_files": 2,
+  "total_secs": 412.6,
+  "max_commit": 4.82,
+  "theorems": [
+   "accept",
+   "skeleton_ok",
+   "binary32",
+   "trained_exact_all_lengths",
+   "trained_binary32"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "mc_bias_half",
+  "kernel": "reject",
+  "mirror": "reject",
+  "agree": true,
+  "n_files": 1,
+  "total_secs": 13.3,
+  "max_commit": 4.52,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "mc_ln2neg",
+  "kernel": "reject",
+  "mirror": "reject",
+  "agree": true,
+  "n_files": 1,
+  "total_secs": 13.7,
+  "max_commit": 4.52,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "mc_negout",
+  "kernel": "reject",
+  "mirror": "reject",
+  "agree": true,
+  "n_files": 1,
+  "total_secs": 13.1,
+  "max_commit": 4.52,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "mc_rad16",
+  "kernel": "reject",
+  "mirror": "reject",
+  "agree": true,
+  "n_files": 1,
+  "total_secs": 14.9,
+  "max_commit": 4.54,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "mc_rad64",
+  "kernel": "reject",
+  "mirror": "reject",
+  "agree": true,
+  "n_files": 1,
+  "total_secs": 16.2,
+  "max_commit": 4.02,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "mc_swap12",
+  "kernel": "reject",
+  "mirror": "reject",
+  "agree": true,
+  "n_files": 1,
+  "total_secs": 13.3,
+  "max_commit": 4.52,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ },
+ {
+  "tag": "mc_taskA",
+  "kernel": "reject",
+  "mirror": "reject",
+  "agree": true,
+  "n_files": 1,
+  "total_secs": 11.1,
+  "max_commit": 4.54,
+  "theorems": [
+   "reject"
+  ],
+  "axioms_standard": true,
+  "four_file_rule": true
+ }
+]

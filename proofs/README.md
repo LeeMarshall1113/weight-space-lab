@@ -2,7 +2,7 @@
 
 Personal work. Views are my own.
 
-Status: flagship folder of the weight-space lab repository (version 0.5). Nothing here has been peer reviewed. The full technical report is `REPORT.md` (living, with a claims table, a changelog and a "how to correct us" section); this README is the short version. All commands below run inside this folder (`proofs/`).
+Status: flagship folder of the weight-space lab repository (version 0.6). Nothing here has been peer reviewed. The full technical report is `REPORT.md` (living, with a claims table, a changelog and a "how to correct us" section); this README is the short version. All commands below run inside this folder (`proofs/`).
 
 This repository holds the Lean 4 proofs, the checker, the specification pools, the
 pre-registrations and the per-case results behind a study of LLM-written networks with
@@ -96,6 +96,14 @@ the task and pass the screen, **13 of 19 proved**, 6 screened networks computed 
 proved; bar 3 of 3; 7 of 7 controls rejected. The ball is the smallest around the rounded weights that
 contains the trained network; the exponential and square root are assumed accurate; five tokens, a local
 task. `docs/RESULTS_R9LN15.md`, `runs/r9ln15-nets/`, `REPORT.md` Sections 6.12 and 6.13.
+
+**Rung 9-LN-M (LayerNorm, a prospective rung on a second task).** The rung 9-LN15 model, checker, soundness theorem `Lane4.LNC.SoundLN` and
+proof modules, frozen by hash and unchanged, run on a task registered before any network of it was trained: the output is the
+larger of the digits of the current and the previous token. Seeds 800 to 819: 20 trained, 20 pass the screen, **19 proved**
+(all five theorems each), 1 (seed 805) kernel-rejected, bar 3 of 3, 7 of 7 controls rejected, kernel equals mirror on all 27
+objects. Limits: the Lean target is the task automaton run on the prefix (equal to the task's definition by `rfl`), not a closed
+form; the task is local; the ball is only the distance to the rounding grid; toy scale. `docs/PREREG_R9M.md`,
+`docs/RESULTS_R9M.md`, `runs/r9m-fresh/`, `runs/r9m-ctl/`, `runs/r9ln15-nets/m8*` and `mc_*`, `REPORT.md` Section 6.14.
 
 **Perturbation 2x2 and witnesses.** Additive versus relative perturbation for rung-2 and
 rung-4 networks, as finite searches, with three Lean-checked witnesses in `runs/witness/`.
@@ -206,6 +214,7 @@ python tools/recheck_release.py                                  # every Lean fi
 python tools/recheck_r678.py --set frameworks,kits,r6a           # rungs 6a to 8: frameworks, kit cases, rung-6a cases (add nets-r7,nets-r8 for the generated per-network files; hours, about 5 GB per Lean process)
 python tools/build_net.py runs/r8-nets/A-u3-s140/Net.lean        # one per-network file of rung 8 (about 5 GB of memory)
 python tools/recheck_ln15.py --set frameworks,kits                # rung 9-LN15: the LN framework and the ten kit cases (add --set nets for the 36 network file sets, about 4 hours, about 5 GB per Lean process)
+python tools/recheck_ln15.py --set nets --match "^(m8|mc_)"        # rung 9-LN-M: the 20 fresh and 7 control network file sets (about 4 hours, about 5 GB per Lean process)
 python tools/build_ln_net.py f400                                 # one per-network file set of rung 9-LN15 (two files, about 400 s, about 5 GB)
 ```
 
